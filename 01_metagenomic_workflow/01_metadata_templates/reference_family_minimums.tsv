@@ -1,0 +1,13 @@
+family	min_for_tree	min_for_calibration	note
+AioA	5	3	Use diverse experimentally supported or strongly curated AioA
+IdrA	3	2	Include IR-12, SCT and ISMEJ high-confidence IdrA where possible
+ArxA	2	1	Near-neighbor DMSOR family
+ArrA	2	1	Near-neighbor DMSOR family
+DmsA	2	1	Outgroup DMSOR family
+DorA	1	1	Outgroup DMSOR family
+NarG	2	1	Outgroup DMSOR family
+NapA	2	1	Outgroup DMSOR family
+PsrA	1	1	Outgroup DMSOR family
+PhsA	1	1	Outgroup DMSOR family
+TtrA	1	1	Outgroup DMSOR family
+SerA	1	1	Outgroup DMSOR family

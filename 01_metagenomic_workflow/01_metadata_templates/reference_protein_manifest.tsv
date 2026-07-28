@@ -1,0 +1,9 @@
+sequence_id	family	accession	evidence_level	source	note
+example_AioA	AioA	NA	experimentally_validated	literature	Replace with curated AioA reference
+example_IdrA	IdrA	NA	experimentally_validated	literature	Include Denitromonas IR-12 and Pseudomonas SCT IdrA
+example_ArxA	ArxA	NA	curated	literature	Negative/near-neighbor DMSOR family
+example_ArrA	ArrA	NA	curated	literature	Negative/near-neighbor DMSOR family
+example_DmsA	DmsA	NA	curated	literature	Outgroup DMSOR family
+example_NarG	NarG	NA	curated	literature	Outgroup DMSOR family
+example_NapA	NapA	NA	curated	literature	Outgroup DMSOR family
+example_PsrA	PsrA	NA	curated	literature	Outgroup DMSOR family

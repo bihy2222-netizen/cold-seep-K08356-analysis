@@ -1,0 +1,14 @@
+sequence_id	family	role	accession	evidence_level	source	fasta_file	include_in_aioa_seed	include_in_idra_seed	include_in_calibration	include_in_tree	note
+example_AioA_exp	AioA	seed	NA	experimentally_validated	literature	/path/to/aioA_refs.faa	yes	no	no	yes	Replace with curated experimentally supported AioA
+example_IdrA_IR12	IdrA	seed	NA	experimentally_validated	literature	/path/to/idrA_refs.faa	no	yes	no	yes	Include Denitromonas sp. IR-12 IdrA
+example_IdrA_SCT	IdrA	calibration_positive	NA	experimentally_validated	literature	/path/to/idrA_refs.faa	no	no	yes	yes	Use independent IdrA validation if not used for seed
+example_ArxA	ArxA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR near-neighbor negative reference
+example_ArrA	ArrA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR near-neighbor negative reference
+example_DmsA	DmsA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup
+example_DorA	DorA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup
+example_NarG	NarG	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup
+example_NapA	NapA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup
+example_PsrA	PsrA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup
+example_PhsA	PhsA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup
+example_TtrA	TtrA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup
+example_SerA	SerA	negative_reference	NA	curated	literature	/path/to/dmsor_outgroups.faa	no	no	yes	yes	DMSOR outgroup

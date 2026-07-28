@@ -1,0 +1,430 @@
+# 宏基因组分析流程全过程代码
+# 一、质控
+conda activate fastqc
+nohup fastqc ./*.gz -o ../fastQC/ -t 56 &
+# [REDACTED_SERVER_ADDRESS]
+# [REDACTED_LOGIN_SECRET]
+# ps1/data/bihongyu/bihy/othersdata/1.rawdatawangluoxiazai/
+# 二、下载NCBI中的宏基因组序列理论指导
+#创建 sratool环境，井激话_sratools__环境
+conde activate sratools
+#_Conda_安装_sratools
+condla install booconda ::sra -tods
+#prefetch +项目编号下载 NCBI 序列数据
+#eg1、 PRJNA1119096何建国死冷泉
+#②下载指定项目所有SRA格式的原始序列数据井创建并进入biodatal
+mkdir biodata && cal biodata
+# prefetch_下载_PRJNA1119096项目SRA， prefetch PRJNA1119096
+#③ 下载完成的每个序列文件都单独放在文件天下
+#④将序利文件从每个单独文件交统一移动至bibdok
+#⑤序列数据格式转换
+#创建存放fastq 格式数据的文件共rawdata
+mkdir rawdedta
+#将SRA格式序列数据拆分转换为（fasta格式原到数据，其中split-3参数同时适用王单端数据和双端数据的拆分转换。如果1企
+#SRA格式序列数据报分出1个fasty格式序列数据，则是单端数据；如果1个SRA 格式
+#序列数据拆分出2个或3个fasty格式序列数据，则是双端数据
+fasta-dump -O$PWD/rawodate--split-3*.sra
+
+#此时查看rowduta 及文件光，长•fastq文件二_格式是常见于用于分析的序列文件格式，其中*-1.fastq_属于正向文件，*2.fastq，属于反向文件，表明___这批测序数据属于双端测序数据。
+
+#下载数据的List方法
+#（3）_prefetch +项目文件列表文件 下载NCBI序列数据
+#使用prefetch+項目文件列表文件（SRR_ACC_List.txt）”命令下载该项目所有SRA格式的原始序列文件
+#①下文件列表文件（SRR-Au-List、txt）；
+#All runs➡Accessionlist
+②下载指定项目所有SRA格式的原始序列数据
+#新建并进入测试数据文件夹testdatad
+mkdir testdata && cd testdata
+#井将文件列表文件（SRR_AccList.tit）放入testdata
+# peleteh_下载PRJNA11119096_项目SRA格式序列指理其下载结果和后货操作都与“第 3一4页一致、
+prefetch--option-file SRR-AccList.txt
+###（4）安装SRAToolkit 也可以、Sra-tools的变生兄弟。
+####download data质控
+conda activate fastqc
+nohup fastqc ./*.gz -o ../fastQC/ -t 56 &
+####### 三、下载数据实操  
+conda activate sratools
+lua
+prefetch SRR19605702
+fasterq-dump SRR19605702 -O data_extracted
+prefetch --min-size=0 --max-size=100G --option-file SRR_Acc_List-5.txt
+#####四、MultiQC----#一条命令质控 56个样品(base) multiqc.
+Search path://home/ps/ps1/data/bihongyu/cold_seep/fastQC
+Report: multiqc.report.htm
+#####五、Megahit要且只能一条一条跑
+conda activate megahit
+megahit -1 NS 0-6 1.fastq -2NS 0-6 2.fastq --k-min 21--k-max 141 --k-step 10 -t 80 -0 NS 0-6 _assembly
+megahit -1 SY457YW-8-12_1.fastq -2  SY457YW-8-12_2.fastq --k-min 21--k-max 141 --k-step 10 -t 100 -o  SY457YW-8-12_assembly
+#####六、metaphlan物种组成分析，基于16s contig 的分析。QIIME2是基于 16s mitag分析
+conda activate metaphlan
+metaphlan NS_0-6_1.fastq,NS_0-6_2.fastq --bowtie2out NS_0-6.bowtie2.bz2 --nproc 60 --input_type fastq -o NS_0-6_metaphlan.txt
+############metaphlan物种组成分析结果提取命令脚本
+merge_metaphlan_tables.py *_metaphlan.txt > merged_abundance_table.txt
+#############七、开始跑metawrap，binning分箱子
+#############conda activate  metawrap
+conda activate  metawrap
+
+nohup metawrap binning -o ./C1_0-6_bins -t 50 -a ./final.contigs.fa --metabat2 --maxbin2 --concoct ../C1_0-6_1.fastq ../C1_0-6_2.fastq & 
+  conda activate metawrap
+nohup metawrap binning -o ./C2_0-6_bins -t 50 -a ./final.contigs.fa --metabat2 --maxbin2 --concoct ../C2_0-6_1.fastq ../C2_0-6_2.fastq &
+  nohup metawrap binning -o ./C3_0-6_bins -t 50 -a ./final.contigs.fa --metabat2 --maxbin2 --concoct ../C3_0-6_1.fastq ../C3_0-6_2.fastq &
+  nohup metawrap binning -o ./SY365BB-0-4_bins -t 50 -a ./final.contigs.fa --metabat2 --maxbin2 --concoct ../SY365BB-0-4_1.fastq ../SY365BB-0-4_2.fastq &
+  nohup metawrap binning -o ./SY365BB-0-4_bins -t 50 -a ./final.contigs.fa --metabat2 --maxbin2 --concoct ../SY365BB-0-4_1.fastq ../SY365BB-0-4_2.fastq &
+  nohup metawrap binning -o ./SY365BB-4-8_bins -t 50 -a ./final.contigs.fa --metabat2 --maxbin2 --concoct ../SY365BB-4-8_1.fastq ../SY365BB-4-8_2.fastq &
+  nohup metawrap binning -o ./SY365BB-8-12_bins -t 50 -a ./final.contigs.fa --metabat2 --maxbin2 --concoct ../SY365BB-8-12_1.fastq ../SY365BB-8-12_2.fastq & 
+  
+#############八、metewrap bin refinement----分装箱子对于bin的质控
+conda activate  metawrap
+metawrap bin_refinement \
+-o Refinement_bins
+-t 4
+-A INITIAL_BINNING/metabat2_bins/ \
+-B INITIAL_BINNING/maxbin2_bins/ \
+-C INITIAL_BINNING/concoct_bins/ \
+-c 70 -x 10  # 可选参数：完整性>70%，污染度<10% 一般是 50 10
+#############九、/home/ps/ps1/data/bihongyu/cold_seep/illu/SY457BB-8-12_assembly路径下的文件里的final.contigs.fa是输入脚本的-i 输入文件，只需要修改名字
+#我需要跑一下补全：
+conda activate prodigal
+prodigal -i /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/SY457BB8-12.fa 
+-d /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/SY457BB8-12_cds.fa 
+-a /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/AA/SSY457BB8-12_AA.faa 
+-p meta -m
+prodigal -i /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/SY457BB8-12.fa -d /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/SY457BB8-12_cds.fa -a /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/AA/SSY457BB8-12_AA.faa -p meta -m
+#############十、cd-hit
+conda activate cd-hit
+cd-hit-est -i *.cds.fa -o *.cdhit.cds.fa -c 0.95 -aS 0.9 -G 0 -M 0 -g 1 -T 100
+#nohup cd-hit-est -i /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/SY457BB-8-12_cds.fa -o /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/SY457BB-8-12_cds.cdhit.cds.fa -c 0.95 -aS 0.9 -G 0 -M 0 -g 1 -T 100 > /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/cd-hit.log 2>&1
+nohup cd-hit-est -i /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/SY457BB-8-12_cds.fa 
+-o /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/SY457BB-8-12_cds.cdhit.cds.fa 
+-c 0.95 -aS 0.9 -G 0 -M 0 -g 1 -T 100 > /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/cd-hit.log 2>&1 &
+#############十一、salmon index
+conda activate salmon
+nohup salmon index -t ./C1_0-6.cdhit.cds.fa -i ./salmon/salmon_index -p 24 &
+  nohup salmon index 
+-t /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/SY457BB-8-12_cds.cdhit.cds.fa 
+-i /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/salmon/SY457BB-8-12_index 
+-p 24 > /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/salmon/SY457BB-8-12_index.log 2>&1 &
+#nohup salmon index -t ./Kermadec_Trench_FDZ147_9231.6_0-2cm_cds.fa -i ./salmon/salmon_index -p 24 &
+#nohup salmon quant -i ./salmon/salmon_index -l A -1 ../Kermadec_Trench_FDZ147_9231.6_0-2cm_1.fastq -2 ../Kermadec_Trench_FDZ147_9231.6_0-2cm_2.fastq -o ./salmon/salmon_quant --validateMappings --meta -p 70 &
+#############十一、salmon quant丰度计算
+conda activate salmon
+nohup salmon quant -i ./salmon/salmon_index -l A -1 /home/ps/ps1/data/bihongyu/cold_seep/illu/SY457BB-8-12_1.fastq  -2 /home/ps/ps1/data/bihongyu/cold_seep/illu/SY457BB-8-12_2.fastq -o ./salmon/salmon_quant --validateMappings --meta -p 70 &
+#############
+nohup salmon quant 
+-i /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/salmon/SY457BB-8-12_index 
+-l A -1 /home/ps/ps1/data/bihongyu/cold_seep/illu/SY457BB-8-12_1.fastq 
+-2 /home/ps/ps1/data/bihongyu/cold_seep/illu/SY457BB-8-12_2.fastq
+-o /home/ps/ps1/data/bihongyu/cold_seep/illu/all_fa/CDS/salmon/salmon_quant_results --validateMappings --meta -p 70 &
+####################
+################20251209师兄给的脚本#######################gtdbtk
+#!/bin/bash
+# 批量运行 kofamscan，每次最多并行 4 个任务
+# 需要根据每个 .cdhit.cds.faa 文件生成独立的输出和 tmp 目录
+
+MAX_JOBS=4
+job_count=0
+
+KOFAM_EXEC="/home/ps/Research/databases/other_database/kofamscan/kofam_scan-1.3.0/exec_annotation"
+PROFILES="/home/ps/Research/databases/other_database/kofamscan/profiles/"
+KO_LIST="/home/ps/Research/databases/other_database/kofamscan/ko_list"
+
+for faa in *.cdhit.cds.faa; do
+prefix=${faa%.cdhit.cds.faa}
+detail="detail-tsv"
+tmpdir="${prefix}_ko_tmp"
+output="${prefix}.cdhit.kofamscan.txt"
+
+# 创建临时目录
+mkdir -p "$tmpdir"
+
+(
+  echo "开始处理: $faa"
+  "$KOFAM_EXEC" --cpu 48 -E 1e-5 \
+  -f "$detail" \
+  --profile "$PROFILES" \
+  --ko-list "$KO_LIST" \
+  --tmp-dir "$tmpdir" \
+  -o "$output" \
+  "$faa"
+  echo "完成: $faa -> $output"
+) &
+  
+  ((job_count++))
+if [ "$job_count" -ge "$MAX_JOBS" ]; then
+wait
+job_count=0
+fi
+done
+
+# 等待剩余任务完成
+wait
+echo "全部 kofamscan 任务完成 ✅"
+#############同样步骤# 假设文件名为: sample1.cdhit.cds.faa
+mkdir -p sample1_ko_tmp
+
+/home/ps/Research/databases/other_database/kofamscan/kofam_scan-1.3.0/exec_annotation \
+--cpu 48 \
+-E 1e-5 \
+-f detail-tsv \
+--profile /home/ps/Research/databases/other_database/kofamscan/profiles/ \
+--ko-list /home/ps/Research/databases/other_database/kofamscan/ko_list \
+--tmp-dir sample1_ko_tmp \
+-o sample1.cdhit.kofamscan.txt \
+sample1.cdhit.cds.faa
+###########################20260113##gtdbtk########
+###############################################
+#####binning 结果整理、dRep 去冗余、GTDB-Tk 标记蛋白树、bin_refine stats 汇总
+# 工作路径：/home/ps/ps1/data/bihongyu/cold_seep/illu
+cd /home/ps/ps1/data/bihongyu/cold_seep/illu
+
+#####删除 work_files，减少无用中间文件占用空间
+find . -type d -path "./*_assembly/*_bins/BIN_REFINEMENT/work_files" -exec rm -rf {} +
+
+#####把各样品 assembly 目录下的 binning 结果挪到一起
+mkdir -p ./binning
+find . -maxdepth 2 -type d -path "./*_assembly/*_bins" -exec mv {} ./binning/ \;
+
+#####重命名 bin 名称
+cd /home/ps/ps1/data/bihongyu/cold_seep/illu/binning
+nohup bash rename_bins.sh &
+
+#####dRep 去冗余
+cd /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/all_50_10_dRep
+nohup dRep dereplicate ./all_50_10_dRep -g ./all_refined_bin/*.fasta -p 150 --ignoreGenomeQuality &
+
+#####检测去冗余后 MAG 的质量和污染度；后边没有使用 checkm2 的结果
+conda activate checkm2
+nohup checkm2 predict -x fasta -i dereplicated_genomes -o checkm2_result -t 64 &
+
+#####GTDB-Tk 输出的 marker MSA 解压、重新对齐、剪切、建树
+cd /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/all_50_10_dRep/classify_wf_out/align
+
+gunzip gtdbtk.ar53.user_msa.fasta.gz
+gunzip gtdbtk.bac120.user_msa.fasta.gz
+
+conda activate mafft
+nohup mafft --quiet --auto gtdbtk.bac120.user_msa.fasta > gtdbtk.bac120.user_msa.mafft.fasta &
+nohup mafft --quiet --auto gtdbtk.ar53.user_msa.fasta > gtdbtk.ar53.user_msa.mafft.fasta &
+
+conda activate trimal
+trimal -in gtdbtk.ar53.user_msa.mafft.fasta -out gtdbtk.ar53.user_msa.trimal.fa -automated1
+trimal -in gtdbtk.bac120.user_msa.mafft.fasta -out gtdbtk.bac120.user_msa.trimal.fa -automated1
+
+conda activate iqtree
+iqtree -s gtdbtk.ar53.user_msa.trimal.fa -m MFP -alrt 1000 -bb 1000 -nt AUTO -pre gtdbtk.ar53
+iqtree -s gtdbtk.bac120.user_msa.trimal.fa -m MFP -alrt 1000 -bb 1000 -nt AUTO -pre gtdbtk.bac120
+
+#####从 bin_refine 结果中提取 dRep 前每个 refined bin 的详细信息
+cd /home/ps/ps1/data/bihongyu/cold_seep/illu/binning
+
+# 创建总表头
+echo -e "bin	completeness	contamination	GC	lineage	N50	size	binner" > all_combined_bins.stats
+
+# 使用更严谨的路径处理逻辑
+for file in */BIN_REFINEMENT/metawrap_50_10_bins.stats; do
+    # 1. 提取路径的第一部分，即 SY459WG-4-8_bins
+    raw_folder=$(echo "$file" | cut -d'/' -f1)
+
+    # 2. 去掉 _bins 后缀，得到真正的样本名，如 SY459WG-4-8
+    sample_name=${raw_folder%_bins}
+
+    # 3. 处理文件内容：将 bin. 替换为 样本名_bin；NR>1 跳过每个文件自带表头
+    awk -v sn="$sample_name" 'NR>1 {
+        sub(/^bin\./, sn"_bin", $1);
+        print $0
+    }' OFS="	" "$file" >> all_combined_bins.stats
+done
+
+#####################################deepseek整理的GTDB脚本
+gtdb-tk classify_wf --genome_dir MAGs/ --out_dir classify_wf_out/ --cpus 48
+# 进入目录
+cd classify_wf_out/align
+
+# 1. 解压（可选，iqtree可以直接读.gz文件）
+gunzip gtdbtk.*.user_msa.fasta.gz
+
+# 2. 修剪比对（trimming） - 这才是必要步骤！
+conda activate trimal
+
+# 细菌（120个标记基因）
+trimal -in gtdbtk.bac120.user_msa.fasta \
+-out gtdbtk.bac120.user_msa.trimal.fasta \
+-gappyout  # 或 -automated1
+
+# 古菌（53个标记基因）
+trimal -in gtdbtk.ar53.user_msa.fasta \
+-out gtdbtk.ar53.user_msa.trimal.fasta \
+-gappyout  # 或 -automated1
+conda activate iqtree
+
+# 细菌树
+iqtree -s gtdbtk.bac120.user_msa.trimal.fasta \
+-m MFP -bb 1000 -alrt 1000 \
+-nt AUTO \
+-pre gtdbtk.bac120.tree
+
+# 古菌树
+iqtree -s gtdbtk.ar53.user_msa.trimal.fasta \
+-m MFP -bb 1000 -alrt 1000 \
+-nt AUTO \
+-pre gtdbtk.ar53.tree
+# GTDB-Tk的主要分类结果在这里：
+cd classify_wf_out
+
+# 主要结果文件：
+ls -la gtdbtk.*.summary.tsv  # 分类汇总表
+# 快速模式（不建新树，只是放到现有树上）
+gtdb-tk infer --msa_file alignments.fasta --tree_file reference.tree
+#!/bin/bash
+# 脚本：combine_bin_stats.sh
+
+# 创建带完整表头的总表
+echo -e "sample\tbin\tcompleteness\tcontamination\tGC\tlineage\tN50\tsize\tbinner" > all_combined_bins.stats
+
+# 处理每个样本的统计文件
+for file in */BIN_REFINEMENT/metawrap_50_10_bins.stats; do
+if [[ -f "$file" ]]; then
+# 提取样本名（去掉_bins后缀）
+sample_dir=$(dirname "$(dirname "$file")")
+sample_name=$(basename "$sample_dir" | sed 's/_bins$//')
+
+echo "处理样本: $sample_name"
+
+# 添加数据，跳过原文件表头
+awk -v sample="$sample_name" 'NR>1 {
+            # 将bin名称改为"样本名_原bin名"
+            gsub(/^bin\./, "", $1);
+            printf "%s\t%s", sample, $1;
+            for(i=2; i<=NF; i++) printf "\t%s", $i;
+            printf "\n";
+        }' OFS="\t" "$file" >> all_combined_bins.stats
+fi
+done
+
+echo "完成！结果保存在: all_combined_bins.stats"
+#################################
+#!/bin/bash
+# 脚本：run_gtdbtk_pipeline.sh
+
+set -e  # 出错即停
+
+echo "=== GTDB-Tk系统发育分析流程 ==="
+
+# 1. 检查GTDB-Tk输出
+if [[ ! -d "classify_wf_out/align" ]]; then
+echo "错误：请先运行 GTDB-Tk classify_wf"
+exit 1
+fi
+
+cd classify_wf_out/align
+
+# 2. 解压比对文件
+echo "解压比对文件..."
+gunzip -f -k gtdbtk.*.user_msa.fasta.gz
+
+# 3. 修剪比对
+echo "修剪比对序列..."
+conda activate trimal
+
+trimal -in gtdbtk.bac120.user_msa.fasta \
+-out gtdbtk.bac120.user_msa.trimal.fasta \
+-gappyout -fasta
+
+trimal -in gtdbtk.ar53.user_msa.fasta \
+-out gtdbtk.ar53.user_msa.trimal.fasta \
+-gappyout -fasta
+
+# 4. 构建系统发育树
+echo "构建系统发育树..."
+conda activate iqtree
+
+iqtree -s gtdbtk.bac120.user_msa.trimal.fasta \
+-m MFP -bb 1000 -alrt 1000 \
+-nt AUTO -mem 80G \
+-pre gtdbtk.bac120.tree \
+-seed 12345 &
+  
+  iqtree -s gtdbtk.ar53.user_msa.trimal.fasta \
+-m MFP -bb 1000 -alrt 1000 \
+-nt AUTO -mem 80G \
+-pre gtdbtk.ar53.tree \
+-seed 12345 &
+  
+  wait  # 等待两个树都建完
+
+echo "=== 完成 ==="
+echo "细菌树: classify_wf_out/align/gtdbtk.bac120.tree.treefile"
+echo "古菌树: classify_wf_out/align/gtdbtk.ar53.tree.treefile"
+echo "分类结果: classify_wf_out/gtdbtk.*.summary.tsv"
+#####################
+#####################构建 MAG 蛋白树
+conda activate mafft
+有几个序列中包含U，不是标准的氨基酸，因此加上—anysymbol，先尝试跑/根据SED改变了一下
+
+nohup mafft --auto --quiet --anysymbol all_proteins.faa > all_proteins.aln.fasta &
+################
+sed -i '/^>/! s/U/X/g; /^>/! s/u/X/g; /^>/! s/*/X/g' all_proteins.aln.fasta 
+###################
+conda activate trimal
+
+
+nohup trimal -in all_proteins.aln.fasta -out all_proteinstrimmed.fasta -automated1 &
+  
+  conda activate iqtree
+nohup iqtree -s all_proteinstrimmed.fasta -m TEST -bb 1000 -alrt 1000 -nt AUTO &
+
+#####################aioA-like contig 水平蛋白树：491条原序列 + ISMEJ aioA/idrA参考序列
+# 超算路径：/home/ps/ps1/data/bihongyu/cold_seep/ASproteintree/aioA-like-contigstree
+# 输入文件：all_tree_plus_ISMEJ_aioA_idrA.faa，共517条序列
+# 有几个序列中包含U，不是标准的氨基酸，因此 MAFFT 加上 --anysymbol，先尝试跑。
+
+cd /home/ps/ps1/data/bihongyu/cold_seep/ASproteintree/aioA-like-contigstree
+
+grep -c "^>" all_tree_plus_ISMEJ_aioA_idrA.faa
+
+conda activate mafft
+nohup mafft --auto --quiet --anysymbol all_tree_plus_ISMEJ_aioA_idrA.faa > all_tree_plus_ISMEJ_aioA_idrA.aln.fasta &
+
+conda activate trimal
+nohup trimal -in all_tree_plus_ISMEJ_aioA_idrA.aln.fasta -out all_tree_plus_ISMEJ_aioA_idrA.trimmed.fasta -automated1 &
+
+conda activate iqtree
+nohup iqtree -s all_tree_plus_ISMEJ_aioA_idrA.trimmed.fasta -m TEST -bb 1000 -alrt 1000 -nt AUTO -pre all_tree_plus_ISMEJ_aioA_idrA &
+
+# 建树完成后导入 iTOL 的树文件：all_tree_plus_ISMEJ_aioA_idrA.treefile
+
+  
+  ############################后面马尔可夫模型预测了序列。#########################
+  grep "NAME" arsenic_gene.hmm
+NAME  aioA
+NAME  aioB
+NAME  aioR
+NAME  aioS
+NAME  aioX
+NAME  ARC3_832
+NAME  arrA
+NAME  arrB
+NAME  arrC1
+NAME  arrC2
+NAME  arrD
+NAME  arrR
+NAME  arrS
+NAME  arsA_2491_345
+NAME  arsB_935
+NAME  arsC_014
+NAME  arsC_2689_2691
+NAME  arsD
+NAME  arsH_2690
+NAME  arsI
+NAME  arsJ
+NAME  arsM
+NAME  arsO
+NAME  arsP
+NAME  arsR
+NAME  arsT
+NAME  arxA
+NAME  arxB2
+NAME  arxB
+NAME  arxC
+NAME  arxD  
+  
