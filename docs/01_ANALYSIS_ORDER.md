@@ -96,9 +96,15 @@ DRY_RUN=0 bash .../metagenome_pipeline_v4.sh k08356-calibrate
 ```bash
 DRY_RUN=0 bash .../metagenome_pipeline_v4.sh k08356-tree
 bash 01_metagenomic_workflow/02_phylogeny/01_run_MopB_AioA_IdrA_phylogeny.sh
+bash 01_metagenomic_workflow/02_phylogeny/03_run_contig_level_K08356_phylogeny.sh
 ```
 
 树中应包含 AioA、IdrA、ArxA、ArrA 以及其他 DMSOR 近缘参考，避免只在 AioA–IdrA 小范围内错误定名。
+
+其中 contig-level K08356/AioA 追溯树使用 `*.cdhit.kofamscan.best.txt`
+中的 K08356 best hit，从对应 `*.cdhit.cds.faa` 抽提蛋白，先生成
+`aio-A_contig_level/*.K08356.faa`，再合并为
+`aio-A_contig_level/tree/all_contig_level_K08356.faa`。
 
 ## 9. 基因邻域与最终证据表
 
@@ -129,4 +135,3 @@ DRY_RUN=0 bash .../metagenome_pipeline_v4.sh stats-template
 - 多重比较使用 BH-FDR；
 - Hedges’ g 与 log2FC 分开解释；
 - 有站位/深度嵌套时优先考虑 mixed-effects model。
-

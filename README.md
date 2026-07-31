@@ -30,6 +30,13 @@ bash 01_metagenomic_workflow/00_master_pipeline/metagenome_pipeline_v4.sh dry-ru
 
 完整推荐顺序见 [docs/01_ANALYSIS_ORDER.md](docs/01_ANALYSIS_ORDER.md)。
 
+Contig-level K08356/AioA 追溯树脚本按顺序保存在：
+
+```text
+01_metagenomic_workflow/02_phylogeny/02_extract_contig_level_K08356_faa.py
+01_metagenomic_workflow/02_phylogeny/03_run_contig_level_K08356_phylogeny.sh
+```
+
 ## 第二部分：画图顺序
 
 画图从采样地图开始，随后是群落组成、α/β 多样性、差异类群、共有/特有类群、宿主分类、环境关联和网络图：
@@ -69,4 +76,3 @@ bash 01_metagenomic_workflow/00_master_pipeline/metagenome_pipeline_v4.sh dry-ru
 - 大型原始 reads、组装结果、数据库和 MAG 文件。
 
 这些文件应通过 Conda、renv 或独立数据存储管理，不应提交到 Git。
-
