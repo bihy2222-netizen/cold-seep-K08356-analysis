@@ -97,6 +97,7 @@ DRY_RUN=0 bash .../metagenome_pipeline_v4.sh k08356-calibrate
 DRY_RUN=0 bash .../metagenome_pipeline_v4.sh k08356-tree
 bash 01_metagenomic_workflow/02_phylogeny/01_run_MopB_AioA_IdrA_phylogeny.sh
 bash 01_metagenomic_workflow/02_phylogeny/03_run_contig_level_K08356_phylogeny.sh
+bash 01_metagenomic_workflow/02_phylogeny/04_extract_group_derep_K08356_from_kofamscan.sh
 ```
 
 树中应包含 AioA、IdrA、ArxA、ArrA 以及其他 DMSOR 近缘参考，避免只在 AioA–IdrA 小范围内错误定名。
@@ -105,6 +106,11 @@ bash 01_metagenomic_workflow/02_phylogeny/03_run_contig_level_K08356_phylogeny.s
 中的 K08356 best hit，从对应 `*.cdhit.cds.faa` 抽提蛋白，先生成
 `aio-A_contig_level/*.K08356.faa`，再合并为
 `aio-A_contig_level/tree/all_contig_level_K08356.faa`。
+
+分组 derep MAG 的严格 K08356 抽提则使用
+`04_extract_group_derep_K08356_from_kofamscan.sh`：先合并每组
+`*.kofamscan.txt`，保留第一列为 `*` 的 KOfam 可靠注释，再筛
+`K08356` 并从对应 `*.cds.faa` 抽蛋白。
 
 ## 9. 基因邻域与最终证据表
 

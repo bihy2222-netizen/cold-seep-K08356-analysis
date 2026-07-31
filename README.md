@@ -35,6 +35,7 @@ Contig-level K08356/AioA 追溯树脚本按顺序保存在：
 ```text
 01_metagenomic_workflow/02_phylogeny/02_extract_contig_level_K08356_faa.py
 01_metagenomic_workflow/02_phylogeny/03_run_contig_level_K08356_phylogeny.sh
+01_metagenomic_workflow/02_phylogeny/04_extract_group_derep_K08356_from_kofamscan.sh
 ```
 
 ## 第二部分：画图顺序
