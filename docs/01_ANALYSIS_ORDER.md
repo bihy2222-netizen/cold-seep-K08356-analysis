@@ -100,9 +100,11 @@ bash 01_metagenomic_workflow/02_phylogeny/01_run_MopB_AioA_IdrA_phylogeny.sh
 bash 01_metagenomic_workflow/02_phylogeny/03_run_contig_level_K08356_phylogeny.sh
 bash 01_metagenomic_workflow/02_phylogeny/04_extract_group_derep_K08356_from_kofamscan.sh
 bash 01_metagenomic_workflow/02_phylogeny/05_extract_MAG_proteins_by_hmmsearch.sh
+bash 01_metagenomic_workflow/02_phylogeny/06_run_standard_K08356_protein_tree_workflow.sh
 ```
 
 树中应包含 AioA、IdrA、ArxA、ArrA 以及其他 DMSOR 近缘参考，避免只在 AioA–IdrA 小范围内错误定名。
+后续 K08356/AioA 蛋白树以 `docs/04_STANDARD_PROTEIN_TREE_WORKFLOW.md` 为主流程说明。
 
 其中 contig-level K08356/AioA 追溯树使用 `*.cdhit.kofamscan.best.txt`
 中的 K08356 best hit，从对应 `*.cdhit.cds.faa` 抽提蛋白，先生成
