@@ -39,6 +39,12 @@ Contig-level K08356/AioA 追溯树脚本按顺序保存在：
 01_metagenomic_workflow/02_phylogeny/05_extract_MAG_proteins_by_hmmsearch.sh
 ```
 
+分组 derep MAG 丰度脚本保存在：
+
+```text
+01_metagenomic_workflow/03_abundance/01_run_group_derep_coverm_tpm.sh
+```
+
 ## 第二部分：画图顺序
 
 画图从采样地图开始，随后是群落组成、α/β 多样性、差异类群、共有/特有类群、宿主分类、环境关联和网络图：

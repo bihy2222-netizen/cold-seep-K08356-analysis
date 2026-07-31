@@ -61,6 +61,7 @@ DRY_RUN=0 bash .../metagenome_pipeline_v4.sh genes
 DRY_RUN=0 bash .../metagenome_pipeline_v4.sh catalog
 DRY_RUN=0 bash .../metagenome_pipeline_v4.sh salmon
 DRY_RUN=0 bash .../metagenome_pipeline_v4.sh coverm
+bash 01_metagenomic_workflow/03_abundance/01_run_group_derep_coverm_tpm.sh
 ```
 
 - Prodigal：contig/MAG 基因预测；
