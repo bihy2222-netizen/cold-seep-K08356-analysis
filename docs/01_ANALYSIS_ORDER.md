@@ -98,6 +98,7 @@ DRY_RUN=0 bash .../metagenome_pipeline_v4.sh k08356-tree
 bash 01_metagenomic_workflow/02_phylogeny/01_run_MopB_AioA_IdrA_phylogeny.sh
 bash 01_metagenomic_workflow/02_phylogeny/03_run_contig_level_K08356_phylogeny.sh
 bash 01_metagenomic_workflow/02_phylogeny/04_extract_group_derep_K08356_from_kofamscan.sh
+bash 01_metagenomic_workflow/02_phylogeny/05_extract_MAG_proteins_by_hmmsearch.sh
 ```
 
 树中应包含 AioA、IdrA、ArxA、ArrA 以及其他 DMSOR 近缘参考，避免只在 AioA–IdrA 小范围内错误定名。
@@ -111,6 +112,11 @@ bash 01_metagenomic_workflow/02_phylogeny/04_extract_group_derep_K08356_from_kof
 `04_extract_group_derep_K08356_from_kofamscan.sh`：先合并每组
 `*.kofamscan.txt`，保留第一列为 `*` 的 KOfam 可靠注释，再筛
 `K08356` 并从对应 `*.cds.faa` 抽蛋白。
+
+如果已有某个功能基因的专用 HMM，也可以用
+`05_extract_MAG_proteins_by_hmmsearch.sh` 直接从 MAG 蛋白全集抽提候选。
+这一路线适合 dmdA、IdrA 这类需要专用模型追踪的基因，但最终仍建议和
+KOfam、系统发育、邻域证据交叉比较。
 
 ## 9. 基因邻域与最终证据表
 
