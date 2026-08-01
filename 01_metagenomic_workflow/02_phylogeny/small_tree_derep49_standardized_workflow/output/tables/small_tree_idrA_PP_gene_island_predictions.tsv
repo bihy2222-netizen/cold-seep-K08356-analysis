@@ -1,0 +1,50 @@
+itol_order_rank	tree_label	candidate_id	habitat	prediction	has_B_or_AioB_related	P_like_arrow_count	strict_QC_pass	strict_neighborhood_class	QC_fail_reasons
+3	AS|S1_9-12_bin1-k141_637215_2	S1_9-12_bin1-k141_637215_2	AS	canonical Aio-like	yes	0	no	Aio-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+8	IS|SY366YW-4-8_bin7-k141_14765_13	SY366YW-4-8_bin7-k141_14765_13	IS	canonical Aio-like	yes	0	no	Aio-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+9	NS|R2111_S300_0-10_bin19-k141_825759_6	R2111_S300_0-10_bin19-k141_825759_6	NS	canonical Aio-like	yes	0	no	Aio-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+12	IS|SY368YW-8-12_bin14-k141_222555_4	SY368YW-8-12_bin14-k141_222555_4	IS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;overlapping_support_gene_coordinates;P_like_length_outside_150_700aa
+13	IS|SY459WG-4-8_bin39-k141_681176_50	SY459WG-4-8_bin39-k141_681176_50	IS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+15	IS|SY368YW-8-12_bin16-k141_314641_4	SY368YW-8-12_bin16-k141_314641_4	IS	canonical Aio-like	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;overlapping_support_gene_coordinates;P_like_length_outside_150_700aa
+16	NS|R2111_N500_0-10_bin13-k141_4404301_3	R2111_N500_0-10_bin13-k141_4404301_3	NS	canonical Aio-like	yes	0	not_available	not_available	
+18	IS|SY459WG-0-4_bin26-k141_460220_2	SY459WG-0-4_bin26-k141_460220_2	IS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;overlapping_support_gene_coordinates;P_like_length_outside_150_700aa
+19	AS|SQ_58_0-4_bin4-k141_1629246_3	SQ_58_0-4_bin4-k141_1629246_3	AS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;overlapping_support_gene_coordinates;P_like_length_outside_150_700aa
+20	IS|SY366YW-0-4_bin2-k141_1353278_2	SY366YW-0-4_bin2-k141_1353278_2	IS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;overlapping_support_gene_coordinates;P_like_length_outside_150_700aa
+23	ES|C2_12-18_bin17-k141_1448372_1	C2_12-18_bin17-k141_1448372_1	ES	IdrA-PP gene island: partial	yes	1	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+27	ES|S13_0-2_bin3-k141_1059512_3	S13_0-2_bin3-k141_1059512_3	ES	IdrA-PP gene island: partial	yes	1	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;overlapping_support_gene_coordinates;P_like_length_outside_150_700aa
+29	IS|SY368YW-4-8_bin24-k141_617455_9	SY368YW-4-8_bin24-k141_617455_9	IS	IdrA-PP gene island: strong	yes	2	no	partial DIRM-like neighborhood	overlapping_support_gene_coordinates
+33	ES|C2_12-18_bin11-k141_1404867_2	C2_12-18_bin11-k141_1404867_2	ES	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+34	ES|S15_8-10_bin20-k141_2063280_11	S15_8-10_bin20-k141_2063280_11	ES	unresolved/truncated	no	0	no	unresolved/truncated neighborhood	missing_B_related_hit;fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa;B_length_outside_50_350aa;support_genes_not_compact_max_gap_gt3
+35	ES|C1_12-18_bin19-k141_2550623_11	C1_12-18_bin19-k141_2550623_11	ES	IdrA-PP gene island: strong	yes	2	no	partial DIRM-like neighborhood	overlapping_support_gene_coordinates
+36	ES|C1_12-18_bin24-k141_2459344_2	C1_12-18_bin24-k141_2459344_2	ES	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+37	IS|SY456YB-4-8_bin24-k141_314185_12	SY456YB-4-8_bin24-k141_314185_12	IS	IdrA-PP gene island: strong	yes	2	no	partial DIRM-like neighborhood	overlapping_support_gene_coordinates
+38	IS|SY459WG-4-8_bin8-k141_320908_36	SY459WG-4-8_bin8-k141_320908_36	IS	IdrA-PP gene island: strong	yes	2	no	partial DIRM-like neighborhood	overlapping_support_gene_coordinates
+39	IS|SY457BB-0-4_bin2-k141_509701_9	SY457BB-0-4_bin2-k141_509701_9	IS	IdrA-PP gene island: strong	yes	2	no	partial DIRM-like neighborhood	overlapping_support_gene_coordinates
+40	AS|S1_9-12_bin1-k141_675749_2	S1_9-12_bin1-k141_675749_2	AS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+41	IS|SY365BB-0-4_bin24-k141_346659_3	SY365BB-0-4_bin24-k141_346659_3	IS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+47	IS|SY365BB-8-12_bin7-k141_1337394_7	SY365BB-8-12_bin7-k141_1337394_7	IS	IdrA-PP gene island: strong	yes	2	no	partial DIRM-like neighborhood	overlapping_support_gene_coordinates
+52	IS|SY457BB-0-4_bin35-k141_455312_8	SY457BB-0-4_bin35-k141_455312_8	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+55	IS|SY366YB-0-4_bin3-k141_281514_2	SY366YB-0-4_bin3-k141_281514_2	IS	unresolved/truncated	no	0	no	unresolved/truncated neighborhood	missing_B_related_hit;fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa;B_length_outside_50_350aa;support_genes_not_compact_max_gap_gt3
+63	IS|SY366YW-0-4_bin34-k141_1276861_15	SY366YW-0-4_bin34-k141_1276861_15	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+64	IS|SY366YW-0-4_bin9-k141_1360848_3	SY366YW-0-4_bin9-k141_1360848_3	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+65	IS|SY457BB-0-4_bin6-k141_196093_82	SY457BB-0-4_bin6-k141_196093_82	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+66	IS|SY457BB-4-8_bin33-k141_110702_26	SY457BB-4-8_bin33-k141_110702_26	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+67	IS|SY456YB-8-12_bin5-k141_222164_2	SY456YB-8-12_bin5-k141_222164_2	IS	IdrA-PP gene island: partial	yes	1	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+68	IS|SY459WG-8-12_bin19-k141_364478_5	SY459WG-8-12_bin19-k141_364478_5	IS	IdrA-PP gene island: partial	yes	1	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+69	IS|SY456YB-8-12_bin4-k141_708485_189	SY456YB-8-12_bin4-k141_708485_189	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+70	IS|SY457BB-8-12_bin10-k141_377897_3	SY457BB-8-12_bin10-k141_377897_3	IS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+71	IS|SY459WG-0-4_bin37-k141_569169_31	SY459WG-0-4_bin37-k141_569169_31	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+72	IS|SY366YB-0-4_bin5-k141_98994_2	SY366YB-0-4_bin5-k141_98994_2	IS	B-linked, P-like missing	yes	0	no	partial DIRM-like neighborhood	fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa
+73	IS|SY365BB-8-12_bin8-k141_832694_5	SY365BB-8-12_bin8-k141_832694_5	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+74	IS|SY368YW-8-12_bin33-k141_1103131_193	SY368YW-8-12_bin33-k141_1103131_193	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+75	IS|SY459WG-8-12_bin2-k141_281775_92	SY459WG-8-12_bin2-k141_281775_92	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+76	IS|SY456YB-8-12_bin34-k141_963697_76	SY456YB-8-12_bin34-k141_963697_76	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+77	IS|SY457BB-8-12_bin25-k141_129537_12	SY457BB-8-12_bin25-k141_129537_12	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+78	IS|SY457BB-8-12_bin4-k141_1432391_5	SY457BB-8-12_bin4-k141_1432391_5	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+79	IS|SY457BB-4-8_bin29-k141_12975_7	SY457BB-4-8_bin29-k141_12975_7	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+80	IS|SY457BB-8-12_bin15-k141_1498167_38	SY457BB-8-12_bin15-k141_1498167_38	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+81	IS|SY457BB-8-12_bin16-k141_1142550_1	SY457BB-8-12_bin16-k141_1142550_1	IS	unresolved/truncated	no	0	no	unresolved/truncated neighborhood	missing_B_related_hit;fewer_than_two_distinct_P_like_genes;P_like_length_outside_150_700aa;B_length_outside_50_350aa;support_genes_not_compact_max_gap_gt3
+82	IS|SY456YB-0-4_bin8-k141_492248_42	SY456YB-0-4_bin8-k141_492248_42	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+83	IS|SY365BB-8-12_bin26-k141_1297159_20	SY365BB-8-12_bin26-k141_1297159_20	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+84	IS|SY365BB-8-12_bin10-k141_688982_32	SY365BB-8-12_bin10-k141_688982_32	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+85	IS|SY456YB-8-12_bin27-k141_1029503_28	SY456YB-8-12_bin27-k141_1029503_28	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	
+86	IS|SY366YW-8-12_bin2-k141_497241_22	SY366YW-8-12_bin2-k141_497241_22	IS	IdrA-PP gene island: strong	yes	2	yes	complete DIRM-like neighborhood	

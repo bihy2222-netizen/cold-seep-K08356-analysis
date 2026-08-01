@@ -1,0 +1,857 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1768" height="1092" viewBox="0 0 1768 1092">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="32" y="32" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#111827">Small AioA/IdrA MAG gene-island arrows</text>
+<text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4B5563">Rows follow the supplied iTOL SVG top-to-bottom order. Only MAG rows with local gene-neighborhood/CD-search evidence are shown.</text>
+<text x="32" y="88" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111827">Sequence</text>
+<text x="610" y="88" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111827">Gene island / neighborhood</text>
+<text x="1438" y="88" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111827">Prediction</text>
+<line x1="1023.6" y1="106" x2="1023.6" y2="1022" stroke="#94A3B8" stroke-width="0.8" stroke-dasharray="3 4"/>
+<rect x="32" y="99" width="12" height="8" fill="#0072B2" stroke="#374151" stroke-width="0.3"/>
+<text x="48" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">IS</text>
+<rect x="108" y="99" width="12" height="8" fill="#E69F00" stroke="#374151" stroke-width="0.3"/>
+<text x="124" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">AS</text>
+<rect x="184" y="99" width="12" height="8" fill="#009E73" stroke="#374151" stroke-width="0.3"/>
+<text x="200" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">ES</text>
+<rect x="260" y="99" width="12" height="8" fill="#D55E00" stroke="#374151" stroke-width="0.3"/>
+<text x="276" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">NS</text>
+<rect x="336" y="99" width="12" height="8" fill="#2166AC" stroke="#374151" stroke-width="0.3"/>
+<text x="352" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">A</text>
+<rect x="412" y="99" width="12" height="8" fill="#F58518" stroke="#374151" stroke-width="0.3"/>
+<text x="428" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">B</text>
+<rect x="488" y="99" width="12" height="8" fill="#2CA25F" stroke="#374151" stroke-width="0.3"/>
+<text x="504" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">P-like</text>
+<rect x="564" y="99" width="12" height="8" fill="#B279A2" stroke="#374151" stroke-width="0.3"/>
+<text x="580" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">AioB</text>
+<rect x="640" y="99" width="12" height="8" fill="#D7DCE2" stroke="#374151" stroke-width="0.3"/>
+<text x="656" y="107" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#374151">other</text>
+<rect x="32" y="114.5" width="26" height="11" rx="1.5" fill="#E69F00"/>
+<text x="76" y="123.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#E69F00">AS|S1_9-12_bin1-k141_637215_2</text>
+<line x1="610" y1="120" x2="1410" y2="120" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="976.2,115.0 984.2,115.0 990.0,120.0 984.2,125.0 976.2,125.0" fill="#B279A2" stroke="#111827" stroke-width="0.45"/>
+<polygon points="990.6,115.0 1046.5,115.0 1056.5,120.0 1046.5,125.0 990.6,125.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1060.8,115.0 1075.7,115.0 1085.7,120.0 1075.7,125.0 1060.8,125.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="123.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#7C3AED">canonical Aio-like</text>
+<rect x="32" y="132.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="141.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY366YW-4-8_bin7-k141_14765_13</text>
+<line x1="610" y1="138" x2="1410" y2="138" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="702.3,138.0 712.3,133.0 746.9,133.0 746.9,143.0 712.3,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="752.4,138.0 759.7,133.0 769.8,133.0 769.8,143.0 759.7,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="771.0,133.0 792.6,133.0 802.6,138.0 792.6,143.0 771.0,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="803.8,138.0 813.8,133.0 834.2,133.0 834.2,143.0 813.8,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="836.3,138.0 846.3,133.0 881.6,133.0 881.6,143.0 846.3,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="882.2,138.0 886.9,133.0 893.2,133.0 893.2,143.0 886.9,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="897.3,133.0 908.7,133.0 916.9,138.0 908.7,143.0 897.3,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="917.3,133.0 936.0,133.0 946.0,138.0 936.0,143.0 917.3,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="946.4,133.0 956.7,133.0 964.1,138.0 956.7,143.0 946.4,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="976.3,133.0 984.3,133.0 990.1,138.0 984.3,143.0 976.3,143.0" fill="#B279A2" stroke="#111827" stroke-width="0.45"/>
+<polygon points="990.5,133.0 1046.6,133.0 1056.6,138.0 1046.6,143.0 990.5,143.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1058.7,138.0 1068.7,133.0 1089.3,133.0 1089.3,143.0 1068.7,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1089.3,138.0 1099.3,133.0 1120.3,133.0 1120.3,143.0 1099.3,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1121.7,138.0 1131.7,133.0 1149.1,133.0 1149.1,143.0 1131.7,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1153.9,138.0 1163.3,133.0 1176.2,133.0 1176.2,143.0 1163.3,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1176.9,138.0 1186.9,133.0 1208.0,133.0 1208.0,143.0 1186.9,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1208.5,138.0 1218.5,133.0 1241.8,133.0 1241.8,143.0 1218.5,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1245.9,138.0 1255.9,133.0 1272.9,133.0 1272.9,143.0 1255.9,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1276.3,138.0 1284.5,133.0 1295.8,133.0 1295.8,143.0 1284.5,143.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1296.9,138.0 1306.9,133.0 1328.6,133.0 1328.6,143.0 1306.9,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1333.4,138.0 1339.2,133.0 1347.2,133.0 1347.2,143.0 1339.2,143.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="141.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#7C3AED">canonical Aio-like</text>
+<rect x="32" y="150.5" width="26" height="11" rx="1.5" fill="#D55E00"/>
+<text x="76" y="159.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#D55E00">NS|R2111_S300_0-10_bin19-k141_825759_6</text>
+<line x1="610" y1="156" x2="1410" y2="156" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="838.4,151.0 849.6,151.0 857.8,156.0 849.6,161.0 838.4,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="869.8,151.0 904.2,151.0 914.2,156.0 904.2,161.0 869.8,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="914.2,156.0 923.6,151.0 936.6,151.0 936.6,161.0 923.6,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="939.8,156.0 949.8,151.0 964.0,151.0 964.0,161.0 949.8,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="964.0,156.0 974.0,151.0 990.5,151.0 990.5,161.0 974.0,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="990.4,156.0 1000.4,151.0 1056.7,151.0 1056.7,161.0 1000.4,161.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1056.8,156.0 1062.5,151.0 1070.3,151.0 1070.3,161.0 1062.5,161.0" fill="#B279A2" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1073.5,156.0 1077.1,151.0 1082.2,151.0 1082.2,161.0 1077.1,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1086.2,156.0 1089.8,151.0 1094.8,151.0 1094.8,161.0 1089.8,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1094.8,156.0 1104.8,151.0 1127.1,151.0 1127.1,161.0 1104.8,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1142.5,156.0 1148.9,151.0 1157.7,151.0 1157.7,161.0 1148.9,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1174.1,151.0 1190.2,151.0 1200.2,156.0 1190.2,161.0 1174.1,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1201.1,151.0 1217.5,151.0 1227.5,156.0 1217.5,161.0 1201.1,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1232.7,151.0 1237.2,151.0 1240.4,156.0 1237.2,161.0 1232.7,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1243.6,151.0 1248.1,151.0 1251.3,156.0 1248.1,161.0 1243.6,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1257.8,151.0 1273.8,151.0 1283.8,156.0 1273.8,161.0 1257.8,161.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="159.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#7C3AED">canonical Aio-like</text>
+<rect x="32" y="168.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="177.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY368YW-8-12_bin14-k141_222555_4</text>
+<line x1="610" y1="174" x2="1410" y2="174" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="835.6,174.0 845.6,169.0 908.0,169.0 908.0,179.0 845.6,179.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="909.1,174.0 919.1,169.0 958.7,169.0 958.7,179.0 919.1,179.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="960.5,174.0 970.5,169.0 987.2,169.0 987.2,179.0 970.5,179.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="990.1,174.0 1000.1,169.0 1057.0,169.0 1057.0,179.0 1000.1,179.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1056.9,174.0 1065.3,169.0 1077.0,169.0 1077.0,179.0 1065.3,179.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="177.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="186.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="195.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY459WG-4-8_bin39-k141_681176_50</text>
+<line x1="610" y1="192" x2="1410" y2="192" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="689.4,187.0 734.7,187.0 744.7,192.0 734.7,197.0 689.4,197.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="744.6,187.0 766.7,187.0 776.7,192.0 766.7,197.0 744.6,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="776.4,192.0 786.4,187.0 804.2,187.0 804.2,197.0 786.4,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="805.5,192.0 807.9,187.0 811.2,187.0 811.2,197.0 807.9,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="814.0,187.0 869.0,187.0 879.0,192.0 869.0,197.0 814.0,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="879.1,192.0 887.8,187.0 899.9,187.0 899.9,197.0 887.8,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="900.6,192.0 905.4,187.0 912.0,187.0 912.0,197.0 905.4,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="914.7,187.0 932.1,187.0 942.1,192.0 932.1,197.0 914.7,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="942.0,192.0 949.8,187.0 960.6,187.0 960.6,197.0 949.8,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="962.9,187.0 980.6,187.0 990.6,192.0 980.6,197.0 962.9,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="990.5,192.0 1000.5,187.0 1056.7,187.0 1056.7,197.0 1000.5,197.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1056.7,192.0 1063.7,187.0 1073.2,187.0 1073.2,197.0 1063.7,197.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1076.6,187.0 1084.6,187.0 1090.4,192.0 1084.6,197.0 1076.6,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1090.6,192.0 1100.6,187.0 1120.6,187.0 1120.6,197.0 1100.6,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.5,192.0 1132.5,187.0 1152.0,187.0 1152.0,197.0 1132.5,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1154.9,187.0 1159.2,187.0 1162.3,192.0 1159.2,197.0 1154.9,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1163.8,187.0 1169.6,187.0 1173.8,192.0 1169.6,197.0 1163.8,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1183.1,187.0 1186.1,187.0 1188.3,192.0 1186.1,197.0 1183.1,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1188.3,187.0 1194.0,187.0 1198.1,192.0 1194.0,197.0 1188.3,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1202.4,187.0 1211.3,187.0 1217.8,192.0 1211.3,197.0 1202.4,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1218.1,187.0 1227.5,187.0 1234.3,192.0 1227.5,197.0 1218.1,197.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="195.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="204.5" width="26" height="11" rx="1.5" fill="#FF9F1C"/>
+<text x="76" y="213.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#FF9F1C">SY368YW-8-12 bin16-k141_314641_4</text>
+<line x1="610" y1="210" x2="1410" y2="210" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="936.2,205.0 948.2,205.0 956.8,210.0 948.2,215.0 936.2,215.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="958.2,210.0 963.5,205.0 970.9,205.0 970.9,215.0 963.5,215.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="974.9,205.0 984.0,205.0 990.6,210.0 984.0,215.0 974.9,215.0" fill="#B279A2" stroke="#111827" stroke-width="0.45"/>
+<polygon points="990.6,205.0 1046.5,205.0 1056.5,210.0 1046.5,215.0 990.6,215.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1057.7,210.0 1065.2,205.0 1075.6,205.0 1075.6,215.0 1065.2,215.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1076.7,205.0 1096.4,205.0 1106.4,210.0 1096.4,215.0 1076.7,215.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1105.8,210.0 1108.1,205.0 1111.2,205.0 1111.2,215.0 1108.1,215.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="213.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#7C3AED">canonical Aio-like</text>
+<text x="474" y="213.3" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#FF9F1C">Sister IS K08356</text>
+<rect x="32" y="222.5" width="26" height="11" rx="1.5" fill="#D62728"/>
+<text x="76" y="231.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#D62728">R2111_N500_0-10 bin13-k141_4404301_3</text>
+<line x1="610" y1="228" x2="1410" y2="228" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="974.9,223.0 984.0,223.0 990.6,228.0 984.0,233.0 974.9,233.0" fill="#B279A2" stroke="#111827" stroke-width="0.45"/>
+<polygon points="990.6,223.0 1046.5,223.0 1056.5,228.0 1046.5,233.0 990.6,233.0" fill="#1F78B4" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="231.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#7C3AED">canonical Aio-like</text>
+<text x="474" y="231.3" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#D62728">New NS K08356</text>
+<rect x="32" y="240.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="249.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY459WG-0-4_bin26-k141_460220_2</text>
+<line x1="610" y1="246" x2="1410" y2="246" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="975.8,241.0 984.2,241.0 990.3,246.0 984.2,251.0 975.8,251.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="990.3,241.0 1046.9,241.0 1056.9,246.0 1046.9,251.0 990.3,251.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1052.8,246.0 1057.6,241.0 1064.2,241.0 1064.2,251.0 1057.6,251.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1065.1,241.0 1073.6,241.0 1079.7,246.0 1073.6,251.0 1065.1,251.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1080.6,241.0 1088.8,241.0 1094.7,246.0 1088.8,251.0 1080.6,251.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1095.5,241.0 1109.5,241.0 1119.5,246.0 1109.5,251.0 1095.5,251.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1119.9,246.0 1129.9,241.0 1152.6,241.0 1152.6,251.0 1129.9,251.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1153.1,246.0 1163.1,241.0 1197.4,241.0 1197.4,251.0 1163.1,251.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1197.5,246.0 1206.8,241.0 1219.8,241.0 1219.8,251.0 1206.8,251.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="249.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="258.5" width="26" height="11" rx="1.5" fill="#E69F00"/>
+<text x="76" y="267.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#E69F00">AS|SQ_58_0-4_bin4-k141_1629246_3</text>
+<line x1="610" y1="264" x2="1410" y2="264" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="960.5,264.0 965.9,259.0 973.3,259.0 973.3,269.0 965.9,269.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="974.9,259.0 983.9,259.0 990.4,264.0 983.9,269.0 974.9,269.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="990.3,259.0 1046.9,259.0 1056.9,264.0 1046.9,269.0 990.3,269.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="267.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="276.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="285.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY366YW-0-4_bin2-k141_1353278_2</text>
+<line x1="610" y1="282" x2="1410" y2="282" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="977.8,277.0 985.1,277.0 990.4,282.0 985.1,287.0 977.8,287.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="990.3,277.0 1046.9,277.0 1056.9,282.0 1046.9,287.0 990.3,287.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1060.3,277.0 1068.1,277.0 1073.7,282.0 1068.1,287.0 1060.3,287.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="285.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="294.5" width="26" height="11" rx="1.5" fill="#009E73"/>
+<text x="76" y="303.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#009E73">ES|C2_12-18_bin17-k141_1448372_1</text>
+<line x1="610" y1="300" x2="1410" y2="300" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="989.7,300.0 999.7,295.0 1057.4,295.0 1057.4,305.0 999.7,305.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.7,300.0 1065.9,295.0 1074.5,295.0 1074.5,305.0 1065.9,305.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1074.5,300.0 1084.5,295.0 1107.4,295.0 1107.4,305.0 1084.5,305.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="303.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">IdrA-PP gene island: partial</text>
+<rect x="32" y="312.5" width="26" height="11" rx="1.5" fill="#009E73"/>
+<text x="76" y="321.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#009E73">ES|S13_0-2_bin3-k141_1059512_3</text>
+<line x1="610" y1="318" x2="1410" y2="318" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="960.6,313.0 972.1,313.0 980.4,318.0 972.1,323.0 960.6,323.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="980.3,313.0 988.7,313.0 994.8,318.0 988.7,323.0 980.3,323.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="995.2,313.0 1041.9,313.0 1051.9,318.0 1041.9,323.0 995.2,323.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="321.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">IdrA-PP gene island: partial</text>
+<rect x="32" y="330.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="339.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY368YW-4-8_bin24-k141_617455_9</text>
+<line x1="610" y1="336" x2="1410" y2="336" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="779.2,331.0 784.6,331.0 788.5,336.0 784.6,341.0 779.2,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="788.1,331.0 798.2,331.0 805.5,336.0 798.2,341.0 788.1,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="815.7,331.0 819.5,331.0 822.2,336.0 819.5,341.0 815.7,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="829.8,336.0 837.8,331.0 848.8,331.0 848.8,341.0 837.8,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="851.5,331.0 900.2,331.0 910.2,336.0 900.2,341.0 851.5,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="913.8,331.0 932.9,331.0 942.9,336.0 932.9,341.0 913.8,341.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="943.2,331.0 963.0,331.0 973.0,336.0 963.0,341.0 943.2,341.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.9,331.0 981.5,331.0 987.6,336.0 981.5,341.0 972.9,341.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="988.1,331.0 1049.1,331.0 1059.1,336.0 1049.1,341.0 988.1,341.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1060.6,331.0 1068.8,331.0 1074.7,336.0 1068.8,341.0 1060.6,341.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1102.0,331.0 1131.1,331.0 1141.1,336.0 1131.1,341.0 1102.0,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1141.6,331.0 1167.9,331.0 1177.9,336.0 1167.9,341.0 1141.6,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1179.2,331.0 1190.1,331.0 1198.0,336.0 1190.1,341.0 1179.2,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1210.7,336.0 1218.3,331.0 1228.8,331.0 1228.8,341.0 1218.3,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1231.1,331.0 1258.6,331.0 1268.6,336.0 1258.6,341.0 1231.1,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1269.5,331.0 1282.2,331.0 1291.5,336.0 1282.2,341.0 1269.5,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1291.4,331.0 1302.7,331.0 1310.9,336.0 1302.7,341.0 1291.4,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1310.1,331.0 1330.4,331.0 1340.4,336.0 1330.4,341.0 1310.1,341.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="339.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="348.5" width="26" height="11" rx="1.5" fill="#009E73"/>
+<text x="76" y="357.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#009E73">ES|C2_12-18_bin11-k141_1404867_2</text>
+<line x1="610" y1="354" x2="1410" y2="354" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="978.3,349.0 983.4,349.0 987.1,354.0 983.4,359.0 978.3,359.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.3,349.0 1049.9,349.0 1059.9,354.0 1049.9,359.0 987.3,359.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.3,349.0 1111.3,349.0 1121.3,354.0 1111.3,359.0 1063.3,359.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.5,349.0 1139.0,349.0 1149.0,354.0 1139.0,359.0 1122.5,359.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="357.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="366.5" width="26" height="11" rx="1.5" fill="#009E73"/>
+<text x="76" y="375.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#009E73">ES|S15_8-10_bin20-k141_2063280_11</text>
+<line x1="610" y1="372" x2="1410" y2="372" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="726.3,372.0 730.9,367.0 737.3,367.0 737.3,377.0 730.9,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="737.1,372.0 747.1,367.0 762.7,367.0 762.7,377.0 747.1,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="769.7,372.0 775.0,367.0 782.2,367.0 782.2,377.0 775.0,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="796.9,367.0 817.5,367.0 827.5,372.0 817.5,377.0 796.9,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="827.5,367.0 838.1,367.0 845.9,372.0 838.1,377.0 827.5,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="845.6,367.0 867.6,367.0 877.6,372.0 867.6,377.0 845.6,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="890.0,367.0 911.9,367.0 921.9,372.0 911.9,377.0 890.0,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="923.9,367.0 927.2,367.0 929.5,372.0 927.2,377.0 923.9,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="932.6,367.0 944.4,367.0 952.9,372.0 944.4,377.0 932.6,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="952.8,367.0 973.9,367.0 983.9,372.0 973.9,377.0 952.8,377.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.7,372.0 997.7,367.0 1059.4,367.0 1059.4,377.0 997.7,377.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="375.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#6B7280">unresolved/truncated</text>
+<rect x="32" y="384.5" width="26" height="11" rx="1.5" fill="#009E73"/>
+<text x="76" y="393.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#009E73">ES|C1_12-18_bin19-k141_2550623_11</text>
+<line x1="610" y1="390" x2="1410" y2="390" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="718.0,385.0 744.0,385.0 754.0,390.0 744.0,395.0 718.0,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="759.4,385.0 763.7,385.0 766.9,390.0 763.7,395.0 759.4,395.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="766.7,385.0 770.9,385.0 774.0,390.0 770.9,395.0 766.7,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="793.5,390.0 798.3,385.0 805.0,385.0 805.0,395.0 798.3,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="805.2,390.0 815.2,385.0 837.0,385.0 837.0,395.0 815.2,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="844.5,385.0 871.0,385.0 881.0,390.0 871.0,395.0 844.5,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="883.5,385.0 892.7,385.0 899.4,390.0 892.7,395.0 883.5,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="909.0,385.0 928.4,385.0 938.4,390.0 928.4,395.0 909.0,395.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="938.8,385.0 962.0,385.0 972.0,390.0 962.0,395.0 938.8,395.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.0,385.0 980.9,385.0 987.3,390.0 980.9,395.0 972.0,395.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.7,385.0 1049.4,385.0 1059.4,390.0 1049.4,395.0 987.7,395.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1064.9,390.0 1074.9,385.0 1089.4,385.0 1089.4,395.0 1074.9,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1090.7,390.0 1094.1,385.0 1098.7,385.0 1098.7,395.0 1094.1,395.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1098.8,390.0 1106.3,385.0 1116.6,385.0 1116.6,395.0 1106.3,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1117.6,390.0 1126.1,385.0 1137.9,385.0 1137.9,395.0 1126.1,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1141.3,385.0 1154.7,385.0 1164.4,390.0 1154.7,395.0 1141.3,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1164.7,385.0 1174.3,385.0 1181.3,390.0 1174.3,395.0 1164.7,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1181.8,385.0 1192.4,385.0 1200.1,390.0 1192.4,395.0 1181.8,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1200.2,385.0 1222.5,385.0 1232.5,390.0 1222.5,395.0 1200.2,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1234.8,385.0 1246.7,385.0 1255.3,390.0 1246.7,395.0 1234.8,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1255.4,385.0 1270.2,385.0 1280.2,390.0 1270.2,395.0 1255.4,395.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="393.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="402.5" width="26" height="11" rx="1.5" fill="#009E73"/>
+<text x="76" y="411.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#009E73">ES|C1_12-18_bin24-k141_2459344_2</text>
+<line x1="610" y1="408" x2="1410" y2="408" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="983.9,403.0 990.4,403.0 995.0,408.0 990.4,413.0 983.9,413.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="995.3,403.0 1041.8,403.0 1051.8,408.0 1041.8,413.0 995.3,413.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="411.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="420.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="429.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY456YB-4-8_bin24-k141_314185_12</text>
+<line x1="610" y1="426" x2="1410" y2="426" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="706.4,426.0 710.6,421.0 716.4,421.0 716.4,431.0 710.6,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="716.5,426.0 720.7,421.0 726.4,421.0 726.4,431.0 720.7,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="727.4,426.0 737.4,421.0 763.1,421.0 763.1,431.0 737.4,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="767.3,426.0 773.3,421.0 781.5,421.0 781.5,431.0 773.3,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="787.9,426.0 797.9,421.0 835.6,421.0 835.6,431.0 797.9,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="838.4,426.0 848.4,421.0 863.1,421.0 863.1,431.0 848.4,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="871.1,426.0 881.1,421.0 898.2,421.0 898.2,431.0 881.1,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="909.2,421.0 928.9,421.0 938.9,426.0 928.9,431.0 909.2,431.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="939.3,421.0 961.2,421.0 971.2,426.0 961.2,431.0 939.3,431.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="971.1,421.0 980.5,421.0 987.4,426.0 980.5,431.0 971.1,431.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.7,421.0 1049.4,421.0 1059.4,426.0 1049.4,431.0 987.7,431.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.9,421.0 1074.1,421.0 1081.6,426.0 1074.1,431.0 1063.9,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1084.1,421.0 1095.3,421.0 1103.4,426.0 1095.3,431.0 1084.1,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1103.4,421.0 1114.0,421.0 1121.6,426.0 1114.0,431.0 1103.4,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1120.6,421.0 1141.1,421.0 1151.1,426.0 1141.1,431.0 1120.6,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1155.8,426.0 1165.8,421.0 1192.4,421.0 1192.4,431.0 1165.8,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1192.3,426.0 1202.3,421.0 1270.6,421.0 1270.6,431.0 1202.3,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1270.5,426.0 1274.6,421.0 1280.2,421.0 1280.2,431.0 1274.6,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1281.2,426.0 1291.2,421.0 1319.0,421.0 1319.0,431.0 1291.2,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1318.9,426.0 1321.0,421.0 1322.6,421.0 1322.6,431.0 1321.0,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1322.6,426.0 1332.6,421.0 1356.3,421.0 1356.3,431.0 1332.6,431.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="429.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="438.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="447.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY459WG-4-8_bin8-k141_320908_36</text>
+<line x1="610" y1="444" x2="1410" y2="444" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="610.0,444.0 612.1,439.0 613.7,439.0 613.7,449.0 612.1,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="630.7,439.0 686.5,439.0 696.5,444.0 686.5,449.0 630.7,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="698.4,439.0 709.8,439.0 718.1,444.0 709.8,449.0 698.4,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="722.9,439.0 770.8,439.0 780.8,444.0 770.8,449.0 722.9,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="780.9,439.0 804.5,439.0 814.5,444.0 804.5,449.0 780.9,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="814.4,439.0 841.8,439.0 851.8,444.0 841.8,449.0 814.4,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="853.4,439.0 858.3,439.0 861.8,444.0 858.3,449.0 853.4,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="861.6,439.0 920.7,439.0 930.7,444.0 920.7,449.0 861.6,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="930.6,439.0 957.1,439.0 967.1,444.0 957.1,449.0 930.6,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="968.3,444.0 975.3,439.0 984.9,439.0 984.9,449.0 975.3,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.4,444.0 997.4,439.0 1059.7,439.0 1059.7,449.0 997.4,449.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1060.0,444.0 1066.9,439.0 1076.4,439.0 1076.4,449.0 1066.9,449.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1076.3,444.0 1086.3,439.0 1108.0,439.0 1108.0,449.0 1086.3,449.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1108.4,444.0 1118.4,439.0 1138.2,439.0 1138.2,449.0 1118.4,449.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1146.1,444.0 1156.1,439.0 1185.4,439.0 1185.4,449.0 1156.1,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1185.2,444.0 1190.0,439.0 1196.6,439.0 1196.6,449.0 1190.0,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1196.6,444.0 1201.6,439.0 1208.6,439.0 1208.6,449.0 1201.6,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1208.8,444.0 1211.7,439.0 1215.6,439.0 1215.6,449.0 1211.7,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1216.3,444.0 1226.3,439.0 1249.4,439.0 1249.4,449.0 1226.3,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1250.5,444.0 1256.4,439.0 1264.7,439.0 1264.7,449.0 1256.4,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1269.0,444.0 1279.0,439.0 1323.9,439.0 1323.9,449.0 1279.0,449.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="447.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="456.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="465.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-0-4_bin2-k141_509701_9</text>
+<line x1="610" y1="462" x2="1410" y2="462" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="808.7,457.0 819.6,457.0 827.4,462.0 819.6,467.0 808.7,467.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="831.1,457.0 835.1,457.0 837.9,462.0 835.1,467.0 831.1,467.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="838.0,457.0 845.0,457.0 850.1,462.0 845.0,467.0 838.0,467.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="850.0,457.0 856.6,457.0 861.4,462.0 856.6,467.0 850.0,467.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="861.2,457.0 890.6,457.0 900.6,462.0 890.6,467.0 861.2,467.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="908.5,457.0 928.3,457.0 938.3,462.0 928.3,467.0 908.5,467.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="938.8,457.0 960.5,457.0 970.5,462.0 960.5,467.0 938.8,467.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="970.4,457.0 980.1,457.0 987.1,462.0 980.1,467.0 970.4,467.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.4,457.0 1049.7,457.0 1059.7,462.0 1049.7,467.0 987.4,467.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="465.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="474.5" width="26" height="11" rx="1.5" fill="#E69F00"/>
+<text x="76" y="483.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#E69F00">AS|S1_9-12_bin1-k141_675749_2</text>
+<line x1="610" y1="480" x2="1410" y2="480" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="977.8,475.0 987.1,475.0 993.8,480.0 987.1,485.0 977.8,485.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="994.1,475.0 1043.0,475.0 1053.0,480.0 1043.0,485.0 994.1,485.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="483.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="492.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="501.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY365BB-0-4_bin24-k141_346659_3</text>
+<line x1="610" y1="498" x2="1410" y2="498" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="967.3,493.0 968.9,493.0 971.0,498.0 968.9,503.0 967.3,503.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="970.9,493.0 980.5,493.0 987.4,498.0 980.5,503.0 970.9,503.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.5,493.0 1049.7,493.0 1059.7,498.0 1049.7,503.0 987.5,503.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1064.1,493.0 1068.6,493.0 1071.9,498.0 1068.6,503.0 1064.1,503.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1077.5,498.0 1080.0,493.0 1083.6,493.0 1083.6,503.0 1080.0,503.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="501.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="510.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="519.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY365BB-8-12_bin7-k141_1337394_7</text>
+<line x1="610" y1="516" x2="1410" y2="516" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="729.2,516.0 739.2,511.0 765.0,511.0 765.0,521.0 739.2,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="764.8,516.0 774.8,511.0 832.1,511.0 832.1,521.0 774.8,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="837.3,516.0 847.3,511.0 899.2,511.0 899.2,521.0 847.3,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="908.4,511.0 927.5,511.0 937.5,516.0 927.5,521.0 908.4,521.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="936.5,511.0 961.1,511.0 971.1,516.0 961.1,521.0 936.5,521.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="971.0,511.0 980.6,511.0 987.6,516.0 980.6,521.0 971.0,521.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.6,511.0 1049.5,511.0 1059.5,516.0 1049.5,521.0 987.6,521.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1066.2,511.0 1074.0,511.0 1079.6,516.0 1074.0,521.0 1066.2,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1080.6,511.0 1090.8,511.0 1098.2,516.0 1090.8,521.0 1080.6,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1104.4,511.0 1116.9,511.0 1126.0,516.0 1116.9,521.0 1104.4,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1127.8,516.0 1129.9,511.0 1132.2,511.0 1132.2,521.0 1129.9,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1134.1,511.0 1145.0,511.0 1152.9,516.0 1145.0,521.0 1134.1,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1155.6,516.0 1159.6,511.0 1165.2,511.0 1165.2,521.0 1159.6,521.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1176.9,511.0 1187.4,511.0 1194.9,516.0 1187.4,521.0 1176.9,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1201.4,511.0 1214.3,511.0 1223.7,516.0 1214.3,521.0 1201.4,521.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="519.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="528.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="537.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-0-4_bin35-k141_455312_8</text>
+<line x1="610" y1="534" x2="1410" y2="534" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="814.1,529.0 818.8,529.0 822.1,534.0 818.8,539.0 814.1,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="823.6,534.0 831.7,529.0 843.0,529.0 843.0,539.0 831.7,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="846.6,529.0 896.6,529.0 906.6,534.0 896.6,539.0 846.6,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="910.3,529.0 930.0,529.0 940.0,534.0 930.0,539.0 910.3,539.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="940.3,529.0 943.1,529.0 945.2,534.0 943.1,539.0 940.3,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="947.5,529.0 961.8,529.0 971.8,534.0 961.8,539.0 947.5,539.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.1,529.0 981.0,529.0 987.4,534.0 981.0,539.0 972.1,539.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,529.0 1049.3,529.0 1059.3,534.0 1049.3,539.0 987.9,539.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1064.2,529.0 1101.6,529.0 1111.6,534.0 1101.6,539.0 1064.2,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1111.6,529.0 1121.5,529.0 1128.6,534.0 1121.5,539.0 1111.6,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1130.3,529.0 1138.8,529.0 1144.9,534.0 1138.8,539.0 1130.3,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1144.7,529.0 1160.9,529.0 1170.9,534.0 1160.9,539.0 1144.7,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1171.1,529.0 1185.4,529.0 1195.4,534.0 1185.4,539.0 1171.1,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1195.7,529.0 1203.6,529.0 1209.3,534.0 1203.6,539.0 1195.7,539.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1210.7,534.0 1215.2,529.0 1221.3,529.0 1221.3,539.0 1215.2,539.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="537.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="546.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="555.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY366YB-0-4_bin3-k141_281514_2</text>
+<line x1="610" y1="552" x2="1410" y2="552" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="971.2,552.0 979.6,547.0 991.3,547.0 991.3,557.0 979.6,557.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="991.2,552.0 1001.2,547.0 1055.9,547.0 1055.9,557.0 1001.2,557.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="555.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#6B7280">unresolved/truncated</text>
+<rect x="32" y="564.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="573.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY366YW-0-4_bin34-k141_1276861_15</text>
+<line x1="610" y1="570" x2="1410" y2="570" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="615.5,570.0 621.4,565.0 629.5,565.0 629.5,575.0 621.4,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="638.4,570.0 648.4,565.0 674.9,565.0 674.9,575.0 648.4,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="675.9,570.0 685.9,565.0 707.1,565.0 707.1,575.0 685.9,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="707.6,570.0 717.6,565.0 744.6,565.0 744.6,575.0 717.6,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="751.6,570.0 758.3,565.0 767.6,565.0 767.6,575.0 758.3,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="768.5,570.0 778.5,565.0 805.7,565.0 805.7,575.0 778.5,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="805.6,570.0 815.6,565.0 839.7,565.0 839.7,575.0 815.6,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="840.0,570.0 850.0,565.0 886.7,565.0 886.7,575.0 850.0,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="894.0,570.0 902.2,565.0 913.6,565.0 913.6,575.0 902.2,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="918.9,570.0 928.9,565.0 983.7,565.0 983.7,575.0 928.9,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,570.0 997.9,565.0 1059.2,565.0 1059.2,575.0 997.9,575.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.5,570.0 1066.0,565.0 1074.9,565.0 1074.9,575.0 1066.0,575.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.3,570.0 1085.3,565.0 1105.6,565.0 1105.6,575.0 1085.3,575.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1105.9,570.0 1115.9,565.0 1136.0,565.0 1136.0,575.0 1115.9,575.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1143.9,570.0 1153.8,565.0 1167.4,565.0 1167.4,575.0 1153.8,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1169.1,570.0 1179.1,565.0 1204.7,565.0 1204.7,575.0 1179.1,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1205.0,570.0 1214.1,565.0 1226.6,565.0 1226.6,575.0 1214.1,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1226.6,570.0 1236.6,565.0 1273.7,565.0 1273.7,575.0 1236.6,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1273.9,570.0 1276.0,565.0 1277.3,565.0 1277.3,575.0 1276.0,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1277.5,570.0 1279.8,565.0 1282.8,565.0 1282.8,575.0 1279.8,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1286.4,570.0 1296.4,565.0 1323.0,565.0 1323.0,575.0 1296.4,575.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="573.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="582.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="591.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY366YW-0-4_bin9-k141_1360848_3</text>
+<line x1="610" y1="588" x2="1410" y2="588" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="912.4,588.0 919.8,583.0 930.0,583.0 930.0,593.0 919.8,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="930.0,588.0 940.0,583.0 987.8,583.0 987.8,593.0 940.0,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,588.0 997.9,583.0 1059.2,583.0 1059.2,593.0 997.9,593.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.5,588.0 1065.7,583.0 1074.3,583.0 1074.3,593.0 1065.7,593.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1074.6,588.0 1084.6,583.0 1105.5,583.0 1105.5,593.0 1084.6,593.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.0,588.0 1116.0,583.0 1135.9,583.0 1135.9,593.0 1116.0,593.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1141.6,588.0 1151.6,583.0 1169.0,583.0 1169.0,593.0 1151.6,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1169.0,588.0 1179.0,583.0 1198.8,583.0 1198.8,593.0 1179.0,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1198.7,588.0 1201.2,583.0 1204.8,583.0 1204.8,593.0 1201.2,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1204.9,588.0 1214.4,583.0 1227.5,583.0 1227.5,593.0 1214.4,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1227.5,588.0 1231.3,583.0 1236.6,583.0 1236.6,593.0 1231.3,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1239.2,588.0 1249.2,583.0 1265.2,583.0 1265.2,593.0 1249.2,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1267.2,588.0 1277.2,583.0 1294.2,583.0 1294.2,593.0 1277.2,593.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="591.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="600.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="609.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-0-4_bin6-k141_196093_82</text>
+<line x1="610" y1="606" x2="1410" y2="606" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="652.4,601.0 664.8,601.0 673.8,606.0 664.8,611.0 652.4,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="673.9,601.0 696.3,601.0 706.3,606.0 696.3,611.0 673.9,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="711.9,606.0 721.9,601.0 749.0,601.0 749.0,611.0 721.9,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="748.9,606.0 758.9,601.0 784.6,601.0 784.6,611.0 758.9,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="784.0,606.0 794.0,601.0 828.5,601.0 828.5,611.0 794.0,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="836.9,601.0 853.7,601.0 863.7,606.0 853.7,611.0 836.9,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="866.5,601.0 888.0,601.0 898.0,606.0 888.0,611.0 866.5,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="909.3,601.0 930.6,601.0 940.6,606.0 930.6,611.0 909.3,611.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="940.9,601.0 961.5,601.0 971.5,606.0 961.5,611.0 940.9,611.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="971.9,601.0 981.0,601.0 987.6,606.0 981.0,611.0 971.9,611.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,601.0 1049.2,601.0 1059.2,606.0 1049.2,611.0 987.9,611.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.1,601.0 1108.7,601.0 1118.7,606.0 1108.7,611.0 1059.1,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1119.8,601.0 1132.2,601.0 1141.1,606.0 1132.2,611.0 1119.8,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1142.2,601.0 1189.5,601.0 1199.5,606.0 1189.5,611.0 1142.2,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1199.7,601.0 1216.2,601.0 1226.2,606.0 1216.2,611.0 1199.7,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1227.5,601.0 1243.2,601.0 1253.2,606.0 1243.2,611.0 1227.5,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1253.1,601.0 1287.4,601.0 1297.4,606.0 1287.4,611.0 1253.1,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1298.5,601.0 1308.9,601.0 1316.4,606.0 1308.9,611.0 1298.5,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1317.0,601.0 1322.7,601.0 1326.8,606.0 1322.7,611.0 1317.0,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1327.1,606.0 1329.2,601.0 1329.9,601.0 1329.9,611.0 1329.2,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1336.4,601.0 1337.5,601.0 1339.6,606.0 1337.5,611.0 1336.4,611.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="609.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="618.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="627.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-4-8_bin33-k141_110702_26</text>
+<line x1="610" y1="624" x2="1410" y2="624" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="707.6,624.0 709.7,619.0 710.8,619.0 710.8,629.0 709.7,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="711.4,624.0 713.5,619.0 714.3,619.0 714.3,629.0 713.5,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="720.3,624.0 724.4,619.0 730.1,619.0 730.1,629.0 724.4,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="730.7,624.0 738.2,619.0 748.5,619.0 748.5,629.0 738.2,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="749.6,624.0 759.6,619.0 793.8,619.0 793.8,629.0 759.6,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="793.8,624.0 803.8,619.0 819.6,619.0 819.6,629.0 803.8,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="821.1,624.0 831.1,619.0 847.5,619.0 847.5,629.0 831.1,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="847.6,624.0 857.6,619.0 904.9,619.0 904.9,629.0 857.6,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="906.1,624.0 915.0,619.0 927.4,619.0 927.4,629.0 915.0,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="928.5,624.0 938.5,619.0 987.7,619.0 987.7,629.0 938.5,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,624.0 997.9,619.0 1059.2,619.0 1059.2,629.0 997.9,629.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.5,624.0 1066.1,619.0 1075.2,619.0 1075.2,629.0 1066.1,629.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.5,624.0 1085.5,619.0 1106.4,619.0 1106.4,629.0 1085.5,629.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.7,624.0 1116.7,619.0 1136.1,619.0 1136.1,629.0 1116.7,629.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1137.9,624.0 1140.5,619.0 1144.1,619.0 1144.1,629.0 1140.5,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1149.3,624.0 1159.3,619.0 1180.8,619.0 1180.8,629.0 1159.3,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1192.3,619.0 1226.8,619.0 1236.8,624.0 1226.8,629.0 1192.3,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1237.5,619.0 1262.1,619.0 1272.1,624.0 1262.1,629.0 1237.5,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1272.1,619.0 1299.0,619.0 1309.0,624.0 1299.0,629.0 1272.1,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1309.5,624.0 1317.5,619.0 1328.6,619.0 1328.6,629.0 1317.5,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1331.3,624.0 1341.3,619.0 1361.0,619.0 1361.0,629.0 1341.3,629.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="627.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="636.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="645.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY456YB-8-12_bin5-k141_222164_2</text>
+<line x1="610" y1="642" x2="1410" y2="642" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="972.5,642.0 979.0,637.0 988.0,637.0 988.0,647.0 979.0,647.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,642.0 997.9,637.0 1059.2,637.0 1059.2,647.0 997.9,647.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.5,642.0 1066.1,637.0 1075.2,637.0 1075.2,647.0 1066.1,647.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.5,642.0 1085.5,637.0 1103.0,637.0 1103.0,647.0 1085.5,647.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="645.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">IdrA-PP gene island: partial</text>
+<rect x="32" y="654.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="663.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY459WG-8-12_bin19-k141_364478_5</text>
+<line x1="610" y1="660" x2="1410" y2="660" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="880.2,660.0 888.0,655.0 898.6,655.0 898.6,665.0 888.0,665.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="898.5,660.0 900.6,655.0 901.5,655.0 901.5,665.0 900.6,665.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="902.2,660.0 910.5,655.0 921.9,655.0 921.9,665.0 910.5,665.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="923.3,660.0 933.3,655.0 982.9,655.0 982.9,665.0 933.3,665.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,660.0 997.9,655.0 1059.2,655.0 1059.2,665.0 997.9,665.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.8,660.0 1066.3,655.0 1075.3,655.0 1075.3,665.0 1066.3,665.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.7,660.0 1081.6,655.0 1089.9,655.0 1089.9,665.0 1081.6,665.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="663.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">IdrA-PP gene island: partial</text>
+<rect x="32" y="672.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="681.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY456YB-8-12_bin4-k141_708485_189</text>
+<line x1="610" y1="678" x2="1410" y2="678" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="719.5,673.0 728.9,673.0 735.7,678.0 728.9,683.0 719.5,683.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="734.8,673.0 744.8,673.0 752.1,678.0 744.8,683.0 734.8,683.0" fill="#6B7280" stroke="#111827" stroke-width="0.45"/>
+<polygon points="753.8,673.0 758.3,673.0 761.5,678.0 758.3,683.0 753.8,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="765.6,673.0 767.3,673.0 769.4,678.0 767.3,683.0 765.6,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="773.7,673.0 810.6,673.0 820.6,678.0 810.6,683.0 773.7,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="820.6,673.0 833.5,673.0 842.8,678.0 833.5,683.0 820.6,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="843.2,673.0 894.0,673.0 904.0,678.0 894.0,683.0 843.2,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="910.4,673.0 930.3,673.0 940.3,678.0 930.3,683.0 910.4,683.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="940.8,673.0 961.5,673.0 971.5,678.0 961.5,683.0 940.8,683.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="971.9,673.0 980.9,673.0 987.5,678.0 980.9,683.0 971.9,683.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,673.0 1049.2,673.0 1059.2,678.0 1049.2,683.0 987.9,683.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1064.3,673.0 1114.0,673.0 1124.0,678.0 1114.0,683.0 1064.3,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1124.9,673.0 1136.3,673.0 1144.6,678.0 1136.3,683.0 1124.9,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1145.6,673.0 1147.2,673.0 1149.3,678.0 1147.2,683.0 1145.6,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1149.2,673.0 1162.9,673.0 1172.9,678.0 1162.9,683.0 1149.2,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1173.4,673.0 1209.4,673.0 1219.4,678.0 1209.4,683.0 1173.4,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1218.5,673.0 1243.8,673.0 1253.8,678.0 1243.8,683.0 1218.5,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1253.7,673.0 1280.6,673.0 1290.6,678.0 1280.6,683.0 1253.7,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1290.2,678.0 1300.2,673.0 1324.8,673.0 1324.8,683.0 1300.2,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1324.3,678.0 1332.2,673.0 1343.1,673.0 1343.1,683.0 1332.2,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1347.1,678.0 1357.1,673.0 1406.4,673.0 1406.4,683.0 1357.1,683.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="681.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="690.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="699.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-8-12_bin10-k141_377897_3</text>
+<line x1="610" y1="696" x2="1410" y2="696" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="965.8,691.0 969.2,691.0 971.6,696.0 969.2,701.0 965.8,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="972.1,691.0 981.1,691.0 987.5,696.0 981.1,701.0 972.1,701.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,691.0 1049.3,691.0 1059.3,696.0 1049.3,701.0 987.9,701.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.4,691.0 1111.3,691.0 1121.3,696.0 1111.3,701.0 1063.4,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.3,691.0 1133.7,691.0 1142.0,696.0 1133.7,701.0 1122.3,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1145.2,691.0 1158.2,691.0 1167.6,696.0 1158.2,701.0 1145.2,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1167.8,691.0 1202.2,691.0 1212.2,696.0 1202.2,701.0 1167.8,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1212.2,691.0 1236.0,691.0 1246.0,696.0 1236.0,701.0 1212.2,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1245.9,691.0 1272.2,691.0 1282.2,696.0 1272.2,701.0 1245.9,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1284.5,696.0 1290.4,691.0 1298.5,691.0 1298.5,701.0 1290.4,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1298.6,696.0 1308.1,691.0 1321.1,691.0 1321.1,701.0 1308.1,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1321.1,696.0 1331.1,691.0 1351.3,691.0 1351.3,701.0 1331.1,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1351.2,696.0 1361.2,691.0 1375.1,691.0 1375.1,701.0 1361.2,701.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="699.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="708.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="717.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY459WG-0-4_bin37-k141_569169_31</text>
+<line x1="610" y1="714" x2="1410" y2="714" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="675.2,714.0 685.2,709.0 700.6,709.0 700.6,719.0 685.2,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="700.6,714.0 710.6,709.0 725.5,709.0 725.5,719.0 710.6,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="727.2,714.0 737.2,709.0 762.3,709.0 762.3,719.0 737.2,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="765.2,714.0 775.2,709.0 801.6,709.0 801.6,719.0 775.2,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="801.5,714.0 811.5,709.0 835.5,709.0 835.5,719.0 811.5,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="835.4,714.0 845.4,709.0 879.6,709.0 879.6,719.0 845.4,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="880.4,714.0 889.9,709.0 902.9,709.0 902.9,719.0 889.9,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="902.8,714.0 904.9,709.0 905.7,709.0 905.7,719.0 904.9,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="906.2,714.0 914.5,709.0 925.9,709.0 925.9,719.0 914.5,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="926.5,714.0 936.5,709.0 984.1,709.0 984.1,719.0 936.5,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,714.0 997.9,709.0 1059.3,709.0 1059.3,719.0 997.9,719.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.7,714.0 1066.2,709.0 1075.1,709.0 1075.1,719.0 1066.2,719.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.7,714.0 1085.7,709.0 1106.0,709.0 1106.0,719.0 1085.7,719.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.4,714.0 1116.4,709.0 1136.2,709.0 1136.2,719.0 1116.4,719.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1140.9,714.0 1150.9,709.0 1201.0,709.0 1201.0,719.0 1150.9,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1201.4,714.0 1210.7,709.0 1223.6,709.0 1223.6,719.0 1210.7,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1223.5,714.0 1233.5,709.0 1271.0,709.0 1271.0,719.0 1233.5,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1270.9,714.0 1273.0,709.0 1274.3,709.0 1274.3,719.0 1273.0,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1275.1,714.0 1277.2,709.0 1278.4,709.0 1278.4,719.0 1277.2,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1281.2,714.0 1284.6,709.0 1289.2,709.0 1289.2,719.0 1284.6,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1292.7,709.0 1304.6,709.0 1313.2,714.0 1304.6,719.0 1292.7,719.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="717.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="726.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="735.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY366YB-0-4_bin5-k141_98994_2</text>
+<line x1="610" y1="732" x2="1410" y2="732" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="967.9,732.0 974.8,727.0 984.1,727.0 984.1,737.0 974.8,737.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,732.0 997.9,727.0 1059.3,727.0 1059.3,737.0 997.9,737.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.6,732.0 1066.1,727.0 1075.1,727.0 1075.1,737.0 1066.1,737.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<text x="1438" y="735.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#B45309">B-linked, P-like missing</text>
+<rect x="32" y="744.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="753.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY365BB-8-12_bin8-k141_832694_5</text>
+<line x1="610" y1="750" x2="1410" y2="750" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="902.2,745.0 903.8,745.0 905.9,750.0 903.8,755.0 902.2,755.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="910.9,745.0 930.7,745.0 940.7,750.0 930.7,755.0 910.9,755.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="941.1,745.0 961.4,745.0 971.4,750.0 961.4,755.0 941.1,755.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.0,745.0 981.0,745.0 987.5,750.0 981.0,755.0 972.0,755.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,745.0 1049.3,745.0 1059.3,750.0 1049.3,755.0 987.9,755.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.0,745.0 1110.9,745.0 1120.9,750.0 1110.9,755.0 1063.0,755.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1121.6,745.0 1133.0,745.0 1141.3,750.0 1133.0,755.0 1121.6,755.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1141.8,745.0 1142.5,745.0 1144.6,750.0 1142.5,755.0 1141.8,755.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1144.5,745.0 1157.5,745.0 1167.0,750.0 1157.5,755.0 1144.5,755.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1167.8,745.0 1202.0,745.0 1212.0,750.0 1202.0,755.0 1167.8,755.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1211.9,745.0 1215.0,745.0 1217.2,750.0 1215.0,755.0 1211.9,755.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="753.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="762.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="771.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY368YW-8-12_bin33-k141_1103131_193</text>
+<line x1="610" y1="768" x2="1410" y2="768" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="627.4,768.0 637.4,763.0 661.0,763.0 661.0,773.0 637.4,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="663.3,768.0 670.2,763.0 679.8,763.0 679.8,773.0 670.2,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="683.1,768.0 693.1,763.0 743.0,763.0 743.0,773.0 693.1,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="743.8,763.0 756.0,763.0 764.8,768.0 756.0,773.0 743.8,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="764.2,768.0 774.2,763.0 800.7,763.0 800.7,773.0 774.2,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="800.4,768.0 810.4,763.0 834.5,763.0 834.5,773.0 810.4,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="834.6,768.0 844.6,763.0 878.4,763.0 878.4,773.0 844.6,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="879.3,768.0 888.2,763.0 900.6,763.0 900.6,773.0 888.2,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="905.0,768.0 913.3,763.0 924.7,763.0 924.7,773.0 913.3,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="925.5,768.0 935.5,763.0 983.6,763.0 983.6,773.0 935.5,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,768.0 997.9,763.0 1059.3,763.0 1059.3,773.0 997.9,773.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.6,768.0 1066.1,763.0 1075.1,763.0 1075.1,773.0 1066.1,773.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.7,768.0 1085.7,763.0 1106.2,763.0 1106.2,773.0 1085.7,773.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.6,768.0 1116.6,763.0 1136.4,763.0 1136.4,773.0 1116.6,773.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1140.8,768.0 1150.8,763.0 1201.4,763.0 1201.4,773.0 1150.8,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1201.7,768.0 1211.7,763.0 1232.1,763.0 1232.1,773.0 1211.7,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1232.1,768.0 1242.1,763.0 1278.9,763.0 1278.9,773.0 1242.1,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1279.1,768.0 1281.2,763.0 1282.6,763.0 1282.6,773.0 1281.2,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1289.9,768.0 1293.3,763.0 1298.0,763.0 1298.0,773.0 1293.3,773.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="771.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="780.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="789.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY459WG-8-12_bin2-k141_281775_92</text>
+<line x1="610" y1="786" x2="1410" y2="786" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="661.0,786.0 668.0,781.0 677.6,781.0 677.6,791.0 668.0,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="680.8,786.0 690.8,781.0 740.7,781.0 740.7,791.0 690.8,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="744.6,781.0 755.7,781.0 763.8,786.0 755.7,791.0 744.6,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="763.7,786.0 773.7,781.0 800.4,781.0 800.4,791.0 773.7,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="800.2,786.0 810.2,781.0 834.1,781.0 834.1,791.0 810.2,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="834.2,786.0 844.2,781.0 877.9,781.0 877.9,791.0 844.2,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="879.0,786.0 888.5,781.0 901.7,781.0 901.7,791.0 888.5,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="901.3,786.0 903.4,781.0 904.1,781.0 904.1,791.0 903.4,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="904.7,786.0 913.0,781.0 924.5,781.0 924.5,791.0 913.0,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="925.3,786.0 935.3,781.0 983.3,781.0 983.3,791.0 935.3,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,786.0 997.9,781.0 1059.3,781.0 1059.3,791.0 997.9,791.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.6,786.0 1066.1,781.0 1075.1,781.0 1075.1,791.0 1066.1,791.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.7,786.0 1085.7,781.0 1106.1,781.0 1106.1,791.0 1085.7,791.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.6,786.0 1116.6,781.0 1135.4,781.0 1135.4,791.0 1116.6,791.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1141.0,786.0 1151.0,781.0 1201.6,781.0 1201.6,791.0 1151.0,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1201.9,786.0 1211.9,781.0 1232.1,781.0 1232.1,791.0 1211.9,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1232.0,786.0 1242.0,781.0 1278.9,781.0 1278.9,791.0 1242.0,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1279.1,786.0 1281.2,781.0 1282.6,781.0 1282.6,791.0 1281.2,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1292.0,786.0 1295.4,781.0 1300.1,781.0 1300.1,791.0 1295.4,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1307.7,781.0 1318.9,781.0 1327.1,786.0 1318.9,791.0 1307.7,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1326.9,781.0 1343.4,781.0 1353.4,786.0 1343.4,791.0 1326.9,791.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="789.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="798.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="807.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY456YB-8-12_bin34-k141_963697_76</text>
+<line x1="610" y1="804" x2="1410" y2="804" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="694.5,804.0 704.5,799.0 721.1,799.0 721.1,809.0 704.5,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="720.9,804.0 729.5,799.0 741.3,799.0 741.3,809.0 729.5,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="747.8,799.0 752.4,799.0 755.8,804.0 752.4,809.0 747.8,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="764.7,799.0 766.0,799.0 768.1,804.0 766.0,809.0 764.7,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="768.4,799.0 805.3,799.0 815.3,804.0 805.3,809.0 768.4,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="815.2,799.0 835.4,799.0 845.4,804.0 835.4,809.0 815.2,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="845.7,799.0 896.3,799.0 906.3,804.0 896.3,809.0 845.7,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="910.7,799.0 930.5,799.0 940.5,804.0 930.5,809.0 910.7,809.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="940.9,799.0 961.4,799.0 971.4,804.0 961.4,809.0 940.9,809.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.0,799.0 981.0,799.0 987.5,804.0 981.0,809.0 972.0,809.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,799.0 1049.3,799.0 1059.3,804.0 1049.3,809.0 987.9,809.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.6,799.0 1111.5,799.0 1121.5,804.0 1111.5,809.0 1063.6,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.3,799.0 1133.7,799.0 1142.0,804.0 1133.7,809.0 1122.3,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1142.7,799.0 1143.4,799.0 1145.5,804.0 1143.4,809.0 1142.7,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1147.8,799.0 1159.4,799.0 1167.8,804.0 1159.4,809.0 1147.8,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1168.9,799.0 1202.7,799.0 1212.7,804.0 1202.7,809.0 1168.9,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1212.8,799.0 1236.7,799.0 1246.7,804.0 1236.7,809.0 1212.8,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1246.5,799.0 1273.1,799.0 1283.1,804.0 1273.1,809.0 1246.5,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1283.1,804.0 1291.1,799.0 1302.2,799.0 1302.2,809.0 1291.1,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1306.2,799.0 1356.0,799.0 1366.0,804.0 1356.0,809.0 1306.2,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1369.2,799.0 1378.8,799.0 1385.7,804.0 1378.8,809.0 1369.2,809.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="807.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="816.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="825.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-8-12_bin25-k141_129537_12</text>
+<line x1="610" y1="822" x2="1410" y2="822" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="718.8,822.0 728.8,817.0 744.5,817.0 744.5,827.0 728.8,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="747.9,817.0 752.6,817.0 756.0,822.0 752.6,827.0 747.9,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="758.8,817.0 759.9,817.0 762.0,822.0 759.9,827.0 758.8,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="762.6,817.0 763.9,817.0 766.0,822.0 763.9,827.0 762.6,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="766.3,817.0 803.0,817.0 813.0,822.0 803.0,827.0 766.3,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="812.9,817.0 833.4,817.0 843.4,822.0 833.4,827.0 812.9,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="843.7,817.0 894.5,817.0 904.5,822.0 894.5,827.0 843.7,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="911.3,817.0 931.2,817.0 941.2,822.0 931.2,827.0 911.3,827.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="941.6,817.0 961.8,817.0 971.8,822.0 961.8,827.0 941.6,827.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.4,817.0 981.2,817.0 987.5,822.0 981.2,827.0 972.4,827.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,817.0 1049.3,817.0 1059.3,822.0 1049.3,827.0 987.9,827.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.7,817.0 1111.8,817.0 1121.8,822.0 1111.8,827.0 1063.7,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.4,817.0 1133.9,817.0 1142.1,822.0 1133.9,827.0 1122.4,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1142.6,817.0 1143.4,817.0 1145.5,822.0 1143.4,827.0 1142.6,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1145.4,817.0 1158.2,817.0 1167.5,822.0 1158.2,827.0 1145.4,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1167.8,817.0 1201.5,817.0 1211.5,822.0 1201.5,827.0 1167.8,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1211.3,817.0 1235.0,817.0 1245.0,822.0 1235.0,827.0 1211.3,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1245.0,817.0 1272.3,817.0 1282.3,822.0 1272.3,827.0 1245.0,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1323.3,822.0 1327.5,817.0 1333.3,817.0 1333.3,827.0 1327.5,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1341.1,822.0 1346.5,817.0 1354.0,817.0 1354.0,827.0 1346.5,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1355.1,822.0 1365.1,817.0 1402.2,817.0 1402.2,827.0 1365.1,827.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="825.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="834.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="843.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-8-12_bin4-k141_1432391_5</text>
+<line x1="610" y1="840" x2="1410" y2="840" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="893.3,835.0 900.9,835.0 906.4,840.0 900.9,845.0 893.3,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="910.8,835.0 930.7,835.0 940.7,840.0 930.7,845.0 910.8,845.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="941.0,835.0 961.4,835.0 971.4,840.0 961.4,845.0 941.0,845.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.0,835.0 981.0,835.0 987.5,840.0 981.0,845.0 972.0,845.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,835.0 1049.3,835.0 1059.3,840.0 1049.3,845.0 987.9,845.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.4,835.0 1111.2,835.0 1121.2,840.0 1111.2,845.0 1063.4,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.0,835.0 1133.5,835.0 1141.8,840.0 1133.5,845.0 1122.0,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1142.3,835.0 1143.0,835.0 1145.1,840.0 1143.0,845.0 1142.3,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1145.0,835.0 1157.9,835.0 1167.2,840.0 1157.9,845.0 1145.0,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1167.3,835.0 1200.8,835.0 1210.8,840.0 1200.8,845.0 1167.3,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1210.8,835.0 1234.8,835.0 1244.8,840.0 1234.8,845.0 1210.8,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1244.6,835.0 1254.1,835.0 1261.0,840.0 1254.1,845.0 1244.6,845.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="843.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="852.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="861.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-4-8_bin29-k141_12975_7</text>
+<line x1="610" y1="858" x2="1410" y2="858" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="788.6,853.0 806.1,853.0 816.1,858.0 806.1,863.0 788.6,863.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="816.0,853.0 836.6,853.0 846.6,858.0 836.6,863.0 816.0,863.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="846.9,853.0 896.8,853.0 906.8,858.0 896.8,863.0 846.9,863.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="911.0,853.0 930.8,853.0 940.8,858.0 930.8,863.0 911.0,863.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="941.2,853.0 961.6,853.0 971.6,858.0 961.6,863.0 941.2,863.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.2,853.0 981.1,853.0 987.5,858.0 981.1,863.0 972.2,863.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,853.0 1049.3,853.0 1059.3,858.0 1049.3,863.0 987.9,863.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.5,853.0 1065.3,853.0 1067.4,858.0 1065.3,863.0 1063.5,863.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="861.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="870.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="879.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-8-12_bin15-k141_1498167_38</text>
+<line x1="610" y1="876" x2="1410" y2="876" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="643.3,871.0 669.0,871.0 679.0,876.0 669.0,881.0 643.3,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="679.9,876.0 688.5,871.0 700.3,871.0 700.3,881.0 688.5,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="701.3,871.0 752.7,871.0 762.7,876.0 752.7,881.0 701.3,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="763.2,876.0 773.2,871.0 799.8,871.0 799.8,881.0 773.2,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="799.5,876.0 809.5,871.0 833.5,871.0 833.5,881.0 809.5,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="833.4,876.0 843.4,871.0 877.9,871.0 877.9,881.0 843.4,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="878.1,876.0 887.3,871.0 900.1,871.0 900.1,881.0 887.3,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="900.7,876.0 902.8,871.0 903.6,871.0 903.6,881.0 902.8,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="904.3,876.0 912.6,871.0 924.0,871.0 924.0,881.0 912.6,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="924.7,876.0 934.7,871.0 983.7,871.0 983.7,881.0 934.7,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,876.0 997.9,871.0 1059.3,871.0 1059.3,881.0 997.9,881.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.6,876.0 1066.1,871.0 1075.1,871.0 1075.1,881.0 1066.1,881.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.6,876.0 1085.6,871.0 1106.1,871.0 1106.1,881.0 1085.6,881.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.5,876.0 1116.5,871.0 1138.3,871.0 1138.3,881.0 1116.5,881.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1140.1,876.0 1142.3,871.0 1145.3,871.0 1145.3,881.0 1142.3,881.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="879.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="888.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="897.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY457BB-8-12_bin16-k141_1142550_1</text>
+<line x1="610" y1="894" x2="1410" y2="894" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="987.8,889.0 1049.3,889.0 1059.3,894.0 1049.3,899.0 987.8,899.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.7,889.0 1112.1,889.0 1122.1,894.0 1112.1,899.0 1063.7,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.7,889.0 1134.2,889.0 1142.5,894.0 1134.2,899.0 1122.7,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1143.1,889.0 1143.8,889.0 1145.9,894.0 1143.8,899.0 1143.1,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1145.9,889.0 1158.9,889.0 1168.4,894.0 1158.9,899.0 1145.9,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1168.6,889.0 1202.5,889.0 1212.5,894.0 1202.5,899.0 1168.6,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1212.5,889.0 1236.6,889.0 1246.6,894.0 1236.6,899.0 1212.5,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1246.3,889.0 1272.9,889.0 1282.9,894.0 1272.9,899.0 1246.3,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1283.0,894.0 1293.0,889.0 1342.6,889.0 1342.6,899.0 1293.0,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1346.5,889.0 1357.6,889.0 1365.7,894.0 1357.6,899.0 1346.5,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1367.7,894.0 1377.7,889.0 1393.2,889.0 1393.2,899.0 1377.7,899.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="897.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#6B7280">unresolved/truncated</text>
+<rect x="32" y="906.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="915.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY456YB-0-4_bin8-k141_492248_42</text>
+<line x1="610" y1="912" x2="1410" y2="912" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="653.0,907.0 668.5,907.0 678.5,912.0 668.5,917.0 653.0,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="680.0,912.0 688.1,907.0 699.3,907.0 699.3,917.0 688.1,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="703.1,907.0 752.8,907.0 762.8,912.0 752.8,917.0 703.1,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="762.9,912.0 772.9,907.0 799.7,907.0 799.7,917.0 772.9,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="799.2,912.0 809.2,907.0 833.5,907.0 833.5,917.0 809.2,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="833.4,912.0 843.4,907.0 877.9,907.0 877.9,917.0 843.4,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="878.1,912.0 886.4,907.0 898.0,907.0 898.0,917.0 886.4,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="900.7,912.0 902.8,907.0 903.6,907.0 903.6,917.0 902.8,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="904.3,912.0 912.5,907.0 924.0,907.0 924.0,917.0 912.5,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="924.6,912.0 934.6,907.0 983.2,907.0 983.2,917.0 934.6,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,912.0 997.9,907.0 1059.3,907.0 1059.3,917.0 997.9,917.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.6,912.0 1066.1,907.0 1075.1,907.0 1075.1,917.0 1066.1,917.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.6,912.0 1085.6,907.0 1106.1,907.0 1106.1,917.0 1085.6,917.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.5,912.0 1116.5,907.0 1136.4,907.0 1136.4,917.0 1116.5,917.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1140.2,912.0 1150.2,907.0 1200.6,907.0 1200.6,917.0 1150.2,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1200.9,912.0 1210.9,907.0 1231.1,907.0 1231.1,917.0 1210.9,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1231.0,912.0 1241.0,907.0 1278.4,907.0 1278.4,917.0 1241.0,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1278.7,912.0 1280.8,907.0 1282.2,907.0 1282.2,917.0 1280.8,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1282.8,912.0 1284.9,907.0 1286.0,907.0 1286.0,917.0 1284.9,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1288.9,912.0 1292.3,907.0 1297.0,907.0 1297.0,917.0 1292.3,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1305.3,907.0 1315.3,907.0 1322.5,912.0 1315.3,917.0 1305.3,917.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="915.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="924.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="933.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY365BB-8-12_bin26-k141_1297159_20</text>
+<line x1="610" y1="930" x2="1410" y2="930" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="724.2,930.0 731.2,925.0 740.9,925.0 740.9,935.0 731.2,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="749.5,925.0 754.2,925.0 757.6,930.0 754.2,935.0 749.5,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="761.7,925.0 762.9,925.0 765.0,930.0 762.9,935.0 761.7,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="765.5,925.0 766.8,925.0 768.9,930.0 766.8,935.0 765.5,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="769.2,925.0 806.1,925.0 816.1,930.0 806.1,935.0 769.2,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="816.0,925.0 836.3,925.0 846.3,930.0 836.3,935.0 816.0,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="846.6,925.0 896.9,925.0 906.9,930.0 896.9,935.0 846.6,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="910.8,925.0 930.6,925.0 940.6,930.0 930.6,935.0 910.8,935.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="941.0,925.0 961.5,925.0 971.5,930.0 961.5,935.0 941.0,935.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.0,925.0 981.0,925.0 987.5,930.0 981.0,935.0 972.0,935.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,925.0 1049.3,925.0 1059.3,930.0 1049.3,935.0 987.9,935.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.4,925.0 1111.8,925.0 1121.8,930.0 1111.8,935.0 1063.4,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.5,925.0 1134.0,925.0 1142.2,930.0 1134.0,935.0 1122.5,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1142.8,925.0 1143.6,925.0 1145.7,930.0 1143.6,935.0 1142.8,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1146.0,925.0 1158.8,925.0 1168.1,930.0 1158.8,935.0 1146.0,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1168.3,925.0 1202.2,925.0 1212.2,930.0 1202.2,935.0 1168.3,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1212.2,925.0 1236.4,925.0 1246.4,930.0 1236.4,935.0 1212.2,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1246.4,925.0 1272.9,925.0 1282.9,930.0 1272.9,935.0 1246.4,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1282.8,930.0 1292.8,925.0 1342.7,925.0 1342.7,935.0 1292.8,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1344.9,925.0 1357.0,925.0 1365.8,930.0 1357.0,935.0 1344.9,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1368.7,925.0 1392.5,925.0 1402.5,930.0 1392.5,935.0 1368.7,935.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="933.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="942.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="951.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY365BB-8-12_bin10-k141_688982_32</text>
+<line x1="610" y1="948" x2="1410" y2="948" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="709.6,943.0 714.2,943.0 717.6,948.0 714.2,953.0 709.6,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="724.3,943.0 725.5,943.0 727.6,948.0 725.5,953.0 724.3,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="728.0,943.0 764.8,943.0 774.8,948.0 764.8,953.0 728.0,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="774.7,943.0 794.9,943.0 804.9,948.0 794.9,953.0 774.7,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="805.2,943.0 855.8,943.0 865.8,948.0 855.8,953.0 805.2,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="867.8,943.0 875.8,943.0 881.5,948.0 875.8,953.0 867.8,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="881.5,943.0 893.2,943.0 901.7,948.0 893.2,953.0 881.5,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="910.6,943.0 930.4,943.0 940.4,948.0 930.4,953.0 910.6,953.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="940.8,943.0 961.5,943.0 971.5,948.0 961.5,953.0 940.8,953.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="972.0,943.0 981.0,943.0 987.5,948.0 981.0,953.0 972.0,953.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="987.9,943.0 1049.3,943.0 1059.3,948.0 1049.3,953.0 987.9,953.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1063.3,943.0 1111.6,943.0 1121.6,948.0 1111.6,953.0 1063.3,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1122.3,943.0 1133.8,943.0 1142.1,948.0 1133.8,953.0 1122.3,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1142.6,943.0 1143.3,943.0 1145.4,948.0 1143.3,953.0 1142.6,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1146.2,943.0 1158.6,943.0 1167.6,948.0 1158.6,953.0 1146.2,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1167.9,943.0 1202.0,943.0 1212.0,948.0 1202.0,953.0 1167.9,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1211.8,943.0 1235.6,943.0 1245.6,948.0 1235.6,953.0 1211.8,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1245.6,943.0 1272.2,943.0 1282.2,948.0 1272.2,953.0 1245.6,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1281.8,948.0 1291.8,943.0 1314.4,943.0 1314.4,953.0 1291.8,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1314.3,948.0 1321.5,943.0 1331.4,943.0 1331.4,953.0 1321.5,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1335.5,948.0 1345.5,943.0 1394.0,943.0 1394.0,953.0 1345.5,953.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="951.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="960.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="969.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY456YB-8-12_bin27-k141_1029503_28</text>
+<line x1="610" y1="966" x2="1410" y2="966" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="662.3,966.0 670.5,961.0 681.8,961.0 681.8,971.0 670.5,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="685.7,961.0 735.6,961.0 745.6,966.0 735.6,971.0 685.7,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="748.4,961.0 757.9,961.0 764.7,966.0 757.9,971.0 748.4,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="763.3,966.0 773.3,961.0 799.9,961.0 799.9,971.0 773.3,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="800.1,966.0 810.1,961.0 834.0,961.0 834.0,971.0 810.1,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="834.1,966.0 844.1,961.0 877.8,961.0 877.8,971.0 844.1,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="878.2,966.0 887.8,961.0 901.1,961.0 901.1,971.0 887.8,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="900.7,966.0 902.8,961.0 903.5,961.0 903.5,971.0 902.8,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="904.7,966.0 913.0,961.0 924.5,961.0 924.5,971.0 913.0,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="925.1,966.0 935.1,961.0 983.4,961.0 983.4,971.0 935.1,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,966.0 997.9,961.0 1059.3,961.0 1059.3,971.0 997.9,971.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.6,966.0 1066.1,961.0 1075.1,961.0 1075.1,971.0 1066.1,971.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.6,966.0 1085.6,961.0 1106.3,961.0 1106.3,971.0 1085.6,971.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.8,966.0 1116.8,961.0 1136.7,961.0 1136.7,971.0 1116.8,971.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1140.6,966.0 1150.6,961.0 1201.0,961.0 1201.0,971.0 1150.6,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1201.3,966.0 1211.3,961.0 1231.7,961.0 1231.7,971.0 1211.3,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1231.6,966.0 1241.6,961.0 1278.7,961.0 1278.7,971.0 1241.6,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1279.0,966.0 1281.1,961.0 1282.4,961.0 1282.4,971.0 1281.1,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1283.2,966.0 1285.3,961.0 1287.0,961.0 1287.0,971.0 1285.3,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1289.1,966.0 1292.5,961.0 1297.1,961.0 1297.1,971.0 1292.5,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1302.3,961.0 1314.1,961.0 1322.7,966.0 1314.1,971.0 1302.3,971.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="969.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<rect x="32" y="978.5" width="26" height="11" rx="1.5" fill="#0072B2"/>
+<text x="76" y="987.3" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#0072B2">IS|SY366YW-8-12_bin2-k141_497241_22</text>
+<line x1="610" y1="984" x2="1410" y2="984" stroke="#E5E7EB" stroke-width="0.4"/>
+<polygon points="665.3,984.0 669.5,979.0 675.4,979.0 675.4,989.0 669.5,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="680.4,984.0 688.5,979.0 699.8,979.0 699.8,989.0 688.5,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="703.1,979.0 753.5,979.0 763.5,984.0 753.5,989.0 703.1,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="764.3,984.0 774.3,979.0 801.9,979.0 801.9,989.0 774.3,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="800.6,984.0 810.6,979.0 834.6,979.0 834.6,989.0 810.6,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="834.7,984.0 844.7,979.0 878.4,979.0 878.4,989.0 844.7,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="878.7,984.0 888.2,979.0 901.4,979.0 901.4,989.0 888.2,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="901.3,984.0 903.4,979.0 904.1,979.0 904.1,989.0 903.4,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="904.8,984.0 913.1,979.0 924.5,979.0 924.5,989.0 913.1,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="925.2,984.0 935.2,979.0 983.8,979.0 983.8,989.0 935.2,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="987.9,984.0 997.9,979.0 1059.3,979.0 1059.3,989.0 997.9,989.0" fill="#2166AC" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1059.6,984.0 1066.1,979.0 1075.2,979.0 1075.2,989.0 1066.1,989.0" fill="#F58518" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1075.6,984.0 1085.6,979.0 1106.3,979.0 1106.3,989.0 1085.6,989.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1106.8,984.0 1116.8,979.0 1136.6,979.0 1136.6,989.0 1116.8,989.0" fill="#2CA25F" stroke="#111827" stroke-width="0.45"/>
+<polygon points="1140.5,984.0 1150.5,979.0 1200.8,979.0 1200.8,989.0 1150.5,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1201.1,984.0 1211.1,979.0 1231.5,979.0 1231.5,989.0 1211.1,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1231.5,984.0 1241.5,979.0 1278.3,979.0 1278.3,989.0 1241.5,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1278.6,984.0 1280.7,979.0 1282.0,979.0 1282.0,989.0 1280.7,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1288.8,984.0 1292.2,979.0 1296.8,979.0 1296.8,989.0 1292.2,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1302.0,979.0 1313.8,979.0 1322.4,984.0 1313.8,989.0 1302.0,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<polygon points="1322.2,979.0 1338.3,979.0 1348.3,984.0 1338.3,989.0 1322.2,989.0" fill="#D7DCE2" stroke="#94A3B8" stroke-width="0.45"/>
+<text x="1438" y="987.3" font-family="Arial, Helvetica, sans-serif" font-size="9.2" fill="#146C43">IdrA-PP gene island: strong</text>
+<text x="32" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#64748B">A = focal AioA/IdrA-related molybdopterin oxidoreductase; B = IdrB/AioB-related small subunit; P-like = two P-like CDSs identified by joint reference search.</text>
+</svg>

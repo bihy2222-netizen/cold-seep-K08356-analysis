@@ -1,0 +1,186 @@
+label	habitat	family	is_mag	bin_id	sample_id	is_target	is_sister	is_key	display_label
+IS|SY365BB-0-4_bin24-k141_346659_3	ISSY365BB-0-4_bin24-k141_346659_3	Group derep MAG K08356	TRUE	SY365BB-0-4_bin24	SY365BB-0-4	FALSE	FALSE	FALSE	IS|SY365BB-0-4_bin24-k141_346659_3
+IS|SY365BB-8-12_bin10-k141_688982_32	ISSY365BB-8-12_bin10-k141_688982_32	Group derep MAG K08356	TRUE	SY365BB-8-12_bin10	SY365BB-8-12	FALSE	FALSE	FALSE	IS|SY365BB-8-12_bin10-k141_688982_32
+IS|SY366YW-8-12_bin2-k141_497241_22	ISSY366YW-8-12_bin2-k141_497241_22	Group derep MAG K08356	TRUE	SY366YW-8-12_bin2	SY366YW-8-12	FALSE	FALSE	FALSE	IS|SY366YW-8-12_bin2-k141_497241_22
+IS|SY456YB-8-12_bin27-k141_1029503_28	ISSY456YB-8-12_bin27-k141_1029503_28	Group derep MAG K08356	TRUE	SY456YB-8-12_bin27	SY456YB-8-12	FALSE	FALSE	FALSE	IS|SY456YB-8-12_bin27-k141_1029503_28
+IS|SY365BB-8-12_bin26-k141_1297159_20	ISSY365BB-8-12_bin26-k141_1297159_20	Group derep MAG K08356	TRUE	SY365BB-8-12_bin26	SY365BB-8-12	FALSE	FALSE	FALSE	IS|SY365BB-8-12_bin26-k141_1297159_20
+IS|SY456YB-0-4_bin8-k141_492248_42	ISSY456YB-0-4_bin8-k141_492248_42	Group derep MAG K08356	TRUE	SY456YB-0-4_bin8	SY456YB-0-4	FALSE	FALSE	FALSE	IS|SY456YB-0-4_bin8-k141_492248_42
+IS|SY457BB-8-12_bin16-k141_1142550_1	ISSY457BB-8-12_bin16-k141_1142550_1	Group derep MAG K08356	TRUE	SY457BB-8-12_bin16	SY457BB-8-12	FALSE	FALSE	FALSE	IS|SY457BB-8-12_bin16-k141_1142550_1
+IS|SY457BB-8-12_bin15-k141_1498167_38	ISSY457BB-8-12_bin15-k141_1498167_38	Group derep MAG K08356	TRUE	SY457BB-8-12_bin15	SY457BB-8-12	FALSE	FALSE	FALSE	IS|SY457BB-8-12_bin15-k141_1498167_38
+IS|SY457BB-4-8_bin29-k141_12975_7	ISSY457BB-4-8_bin29-k141_12975_7	Group derep MAG K08356	TRUE	SY457BB-4-8_bin29	SY457BB-4-8	FALSE	FALSE	FALSE	IS|SY457BB-4-8_bin29-k141_12975_7
+IS|SY457BB-8-12_bin4-k141_1432391_5	ISSY457BB-8-12_bin4-k141_1432391_5	Group derep MAG K08356	TRUE	SY457BB-8-12_bin4	SY457BB-8-12	FALSE	FALSE	FALSE	IS|SY457BB-8-12_bin4-k141_1432391_5
+IS|SY457BB-8-12_bin25-k141_129537_12	ISSY457BB-8-12_bin25-k141_129537_12	Group derep MAG K08356	TRUE	SY457BB-8-12_bin25	SY457BB-8-12	FALSE	FALSE	FALSE	IS|SY457BB-8-12_bin25-k141_129537_12
+IS|SY368YW-8-12_bin33-k141_1103131_193	ISSY368YW-8-12_bin33-k141_1103131_193	Group derep MAG K08356	TRUE	SY368YW-8-12_bin33	SY368YW-8-12	FALSE	FALSE	FALSE	IS|SY368YW-8-12_bin33-k141_1103131_193
+IS|SY456YB-8-12_bin34-k141_963697_76	ISSY456YB-8-12_bin34-k141_963697_76	Group derep MAG K08356	TRUE	SY456YB-8-12_bin34	SY456YB-8-12	FALSE	FALSE	FALSE	IS|SY456YB-8-12_bin34-k141_963697_76
+IS|SY459WG-8-12_bin2-k141_281775_92	ISSY459WG-8-12_bin2-k141_281775_92	Group derep MAG K08356	TRUE	SY459WG-8-12_bin2	SY459WG-8-12	FALSE	FALSE	FALSE	IS|SY459WG-8-12_bin2-k141_281775_92
+IS|SY365BB-8-12_bin8-k141_832694_5	ISSY365BB-8-12_bin8-k141_832694_5	Group derep MAG K08356	TRUE	SY365BB-8-12_bin8	SY365BB-8-12	FALSE	FALSE	FALSE	IS|SY365BB-8-12_bin8-k141_832694_5
+IS|SY366YB-0-4_bin5-k141_98994_2	ISSY366YB-0-4_bin5-k141_98994_2	Group derep MAG K08356	TRUE	SY366YB-0-4_bin5	SY366YB-0-4	FALSE	FALSE	FALSE	IS|SY366YB-0-4_bin5-k141_98994_2
+IS|SY459WG-0-4_bin37-k141_569169_31	ISSY459WG-0-4_bin37-k141_569169_31	Group derep MAG K08356	TRUE	SY459WG-0-4_bin37	SY459WG-0-4	FALSE	FALSE	FALSE	IS|SY459WG-0-4_bin37-k141_569169_31
+IS|SY457BB-8-12_bin10-k141_377897_3	ISSY457BB-8-12_bin10-k141_377897_3	Group derep MAG K08356	TRUE	SY457BB-8-12_bin10	SY457BB-8-12	FALSE	FALSE	FALSE	IS|SY457BB-8-12_bin10-k141_377897_3
+IS|SY456YB-8-12_bin4-k141_708485_189	ISSY456YB-8-12_bin4-k141_708485_189	Group derep MAG K08356	TRUE	SY456YB-8-12_bin4	SY456YB-8-12	FALSE	FALSE	FALSE	IS|SY456YB-8-12_bin4-k141_708485_189
+IS|SY459WG-8-12_bin19-k141_364478_5	ISSY459WG-8-12_bin19-k141_364478_5	Group derep MAG K08356	TRUE	SY459WG-8-12_bin19	SY459WG-8-12	FALSE	FALSE	FALSE	IS|SY459WG-8-12_bin19-k141_364478_5
+IS|SY366YW-0-4_bin9-k141_1360848_3	ISSY366YW-0-4_bin9-k141_1360848_3	Group derep MAG K08356	TRUE	SY366YW-0-4_bin9	SY366YW-0-4	FALSE	FALSE	FALSE	IS|SY366YW-0-4_bin9-k141_1360848_3
+IS|SY456YB-8-12_bin5-k141_222164_2	ISSY456YB-8-12_bin5-k141_222164_2	Group derep MAG K08356	TRUE	SY456YB-8-12_bin5	SY456YB-8-12	FALSE	FALSE	FALSE	IS|SY456YB-8-12_bin5-k141_222164_2
+IS|SY457BB-4-8_bin33-k141_110702_26	ISSY457BB-4-8_bin33-k141_110702_26	Group derep MAG K08356	TRUE	SY457BB-4-8_bin33	SY457BB-4-8	FALSE	FALSE	FALSE	IS|SY457BB-4-8_bin33-k141_110702_26
+IS|SY457BB-0-4_bin6-k141_196093_82	ISSY457BB-0-4_bin6-k141_196093_82	Group derep MAG K08356	TRUE	SY457BB-0-4_bin6	SY457BB-0-4	FALSE	FALSE	FALSE	IS|SY457BB-0-4_bin6-k141_196093_82
+IS|SY366YW-0-4_bin34-k141_1276861_15	ISSY366YW-0-4_bin34-k141_1276861_15	Group derep MAG K08356	TRUE	SY366YW-0-4_bin34	SY366YW-0-4	FALSE	FALSE	FALSE	IS|SY366YW-0-4_bin34-k141_1276861_15
+IS|SY366YB-0-4_bin3-k141_281514_2	ISSY366YB-0-4_bin3-k141_281514_2	Group derep MAG K08356	TRUE	SY366YB-0-4_bin3	SY366YB-0-4	FALSE	FALSE	FALSE	IS|SY366YB-0-4_bin3-k141_281514_2
+LabrenalbaIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	LabrenalbaIdrA
+PseudoviaxineIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PseudoviaxineIdrA
+LitoreiascidiIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	LitoreiascidiIdrA
+RoseobaclitorIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RoseobaclitorIdrA
+OricolacelluIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	OricolacelluIdrA
+LitoritaeaneIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	LitoritaeaneIdrA
+PelagimonvariaIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PelagimonvariaIdrA
+IS|SY457BB-0-4_bin35-k141_455312_8	ISSY457BB-0-4_bin35-k141_455312_8	Group derep MAG K08356	TRUE	SY457BB-0-4_bin35	SY457BB-0-4	FALSE	FALSE	FALSE	IS|SY457BB-0-4_bin35-k141_455312_8
+RuegerhaloIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RuegerhaloIdrA
+RuegerinterIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RuegerinterIdrA
+CohaesibacgelatiIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	CohaesibacgelatiIdrA
+IS|SY366YW-0-4_bin2-k141_1353278_2	ISSY366YW-0-4_bin2-k141_1353278_2	Group derep MAG K08356	TRUE	SY366YW-0-4_bin2	SY366YW-0-4	FALSE	FALSE	FALSE	IS|SY366YW-0-4_bin2-k141_1353278_2
+AS|SQ_58_0-4_bin4-k141_1629246_3	ASSQ_58_0-4_bin4-k141_1629246_3	Group derep MAG K08356	TRUE	SQ_58_0-4_bin4	SQ_58_0-4	FALSE	FALSE	FALSE	AS|SQ_58_0-4_bin4-k141_1629246_3
+IS|SY459WG-0-4_bin26-k141_460220_2	ISSY459WG-0-4_bin26-k141_460220_2	Group derep MAG K08356	TRUE	SY459WG-0-4_bin26	SY459WG-0-4	FALSE	FALSE	FALSE	IS|SY459WG-0-4_bin26-k141_460220_2
+IS|SY368YW-8-12_bin16-k141_314641_4	ISSY368YW-8-12_bin16-k141_314641_4	Group derep MAG K08356	TRUE	SY368YW-8-12_bin16	SY368YW-8-12	FALSE	TRUE	TRUE	SY368YW-8-12 bin16-k141_314641_4
+NS|R2111_N500_0-10_bin13-k141_4404301_3	NSR2111_N500_0-10_bin13-k141_4404301_3	Group derep MAG K08356	TRUE	R2111_N500_0-10_bin13	R2111_N500_0-10	TRUE	FALSE	TRUE	R2111_N500_0-10 bin13-k141_4404301_3
+IS|SY459WG-4-8_bin39-k141_681176_50	ISSY459WG-4-8_bin39-k141_681176_50	Group derep MAG K08356	TRUE	SY459WG-4-8_bin39	SY459WG-4-8	FALSE	FALSE	FALSE	IS|SY459WG-4-8_bin39-k141_681176_50
+IS|SY368YW-8-12_bin14-k141_222555_4	ISSY368YW-8-12_bin14-k141_222555_4	Group derep MAG K08356	TRUE	SY368YW-8-12_bin14	SY368YW-8-12	FALSE	FALSE	FALSE	IS|SY368YW-8-12_bin14-k141_222555_4
+IS|SY366YW-4-8_bin7-k141_14765_13	ISSY366YW-4-8_bin7-k141_14765_13	Group derep MAG K08356	TRUE	SY366YW-4-8_bin7	SY366YW-4-8	FALSE	FALSE	FALSE	IS|SY366YW-4-8_bin7-k141_14765_13
+HalomonbolivieAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HalomonbolivieAioA
+HalomonaestAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HalomonaestAioA
+Pseudomonstutz1AioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	Pseudomonstutz1AioA
+MarinobacsantoriAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MarinobacsantoriAioA
+AS|S1_9-12_bin1-k141_637215_2	ASS1_9-12_bin1-k141_637215_2	Group derep MAG K08356	TRUE	S1_9-12_bin1	S1_9-12	FALSE	FALSE	FALSE	AS|S1_9-12_bin1-k141_637215_2
+AmphriatlanAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AmphriatlanAioA
+ThiocapmarinaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThiocapmarinaAioA
+AchromarsenAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AchromarsenAioA
+EoetcaeniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	EoetcaeniAioA
+Alcalfaec1AioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	Alcalfaec1AioA
+CabaljiangAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	CabaljiangAioA
+CabalperedAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	CabalperedAioA
+ParaburkphenaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ParaburkphenaAioA
+PandorpnomAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PandorpnomAioA
+ParaburkarmonaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ParaburkarmonaAioA
+HerbaspchloroAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HerbaspchloroAioA
+HerminarseniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HerminarseniAioA
+ThiomonarseniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThiomonarseniAioA
+ThiomoninterAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThiomoninterAioA
+RhodoferferriAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RhodoferferriAioA
+VermineaporAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	VermineaporAioA
+TibetisediAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	TibetisediAioA
+BurkmultiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	BurkmultiAioA
+BurkvietAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	BurkvietAioA
+BurkpseudoAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	BurkpseudoAioA
+CupriabasilAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	CupriabasilAioA
+RalstonsolanaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RalstonsolanaAioA
+PseudomonarseniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PseudomonarseniAioA
+PseudomonputdiaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PseudomonputdiaAioA
+PseudomonbenzeniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PseudomonbenzeniAioA
+BurkoklaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	BurkoklaAioA
+AgrobacalbertiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AgrobacalbertiAioA
+RhizobiumAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RhizobiumAioA
+AgrobactumeAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AgrobactumeAioA
+MongoliterreAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MongoliterreAioA
+TistliconsotAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	TistliconsotAioA
+RoseifermentAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RoseifermentAioA
+AlbidoinexpecAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AlbidoinexpecAioA
+AntarctohelioAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AntarctohelioAioA
+ParacocseriniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ParacocseriniAioA
+RoseibcalidiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RoseibcalidiAioA
+OceanicelactiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	OceanicelactiAioA
+HalocynthiarctiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HalocynthiarctiAioA
+PelagicolalitoriAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PelagicolalitoriAioA
+RoseovagaetAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RoseovagaetAioA
+PseudorueglutiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PseudorueglutiAioA
+ThalassobigelatiniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThalassobigelatiniAioA
+PolymorphgilvumAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PolymorphgilvumAioA
+AminoaminovorAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AminoaminovorAioA
+DefluvialbaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	DefluvialbaAioA
+RhodobaccapsulAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RhodobaccapsulAioA
+RhodobacviriAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RhodobacviriAioA
+OceanicolalitorAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	OceanicolalitorAioA
+RoseiviisopAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RoseiviisopAioA
+RubrimoncliftAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RubrimoncliftAioA
+ParacocsaliAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ParacocsaliAioA
+CiceribacliviAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	CiceribacliviAioA
+MesorhizometaliAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MesorhizometaliAioA
+AmorphcoralAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AmorphcoralAioA
+DichotothermAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	DichotothermAioA
+FodinifengAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	FodinifengAioA
+CaulobacsegnisAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	CaulobacsegnisAioA
+ConsosalsiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ConsosalsiAioA
+ChelatodaegAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ChelatodaegAioA
+StarknovelAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	StarknovelAioA
+XanthobacautoAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	XanthobacautoAioA
+TardirobiniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	TardirobiniAioA
+MesorhizoalhagiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MesorhizoalhagiAioA
+MicrovirguangAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MicrovirguangAioA
+MicrovirossetAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MicrovirossetAioA
+NitrobachamburgAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	NitrobachamburgAioA
+OceanibacindicumAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	OceanibacindicumAioA
+MesorhizosoliAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MesorhizosoliAioA
+SinorhizameriAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	SinorhizameriAioA
+HumiroseaAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HumiroseaAioA
+RoseocerviAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RoseocerviAioA
+AzospirhaloAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AzospirhaloAioA
+AzospirlipoAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AzospirlipoAioA
+AzosporyzAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AzosporyzAioA
+SulfurosparsenAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	SulfurosparsenAioA
+SulfurospmultiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	SulfurospmultiAioA
+SulfurospbarnAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	SulfurospbarnAioA
+MoorthermAOR	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MoorthermAOR
+PyrococfurioAOR	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PyrococfurioAOR
+PyrococfurioFOR	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PyrococfurioFOR
+ThermococclitorFOR	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThermococclitorFOR
+MethanococmaripaGAPOR	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MethanococmaripaGAPOR
+PyrococfurioGAPOR	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PyrococfurioGAPOR
+PyroaerGAPOR	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PyroaerGAPOR
+NS|R2111_S300_0-10_bin19-k141_825759_6	NSR2111_S300_0-10_bin19-k141_825759_6	Group derep MAG K08356	TRUE	R2111_S300_0-10_bin19	R2111_S300_0-10	FALSE	FALSE	FALSE	NS|R2111_S300_0-10_bin19-k141_825759_6
+ChloroflexauraAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ChloroflexauraAioA
+MeiocerbAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MeiocerbAioA
+MeiotimidusAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MeiotimidusAioA
+ThermuscaldAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThermuscaldAioA
+ThermusscotAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThermusscotAioA
+ThermusfiliAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThermusfiliAioA
+ThermusthermAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThermusthermAioA
+ChloroflexaggreAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ChloroflexaggreAioA
+AcidimultiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AcidimultiAioA
+ChloroblimniAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ChloroblimniAioA
+ChlorobphaeAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ChlorobphaeAioA
+HydrogenicaldiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HydrogenicaldiAioA
+ThermocrinruberAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ThermocrinruberAioA
+AeropycamiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AeropycamiAioA
+PyrocalidiAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PyrocalidiAioA
+PyroferriAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PyroferriAioA
+PyroogunAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PyroogunAioA
+BaciloryziAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	BaciloryziAioA
+HalobilaciAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HalobilaciAioA
+ISMEJFig5|Unknown_clade|WP_007141861.1|Halobiforma_lacisalsi	Reference	Other DMSOR reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ISMEJFig5|Unknown_clade|WP_007141861.1|Halobiforma_lacisalsi
+HalorutebenAioA	Reference	AioA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	HalorutebenAioA
+ISMEJFig5|Unknown_clade|MBT97654.1|Dehalococcoidia_bacterium	Reference	Unknown reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ISMEJFig5|Unknown_clade|MBT97654.1|Dehalococcoidia_bacterium
+ISMEJFig5|Unknown_clade|HAX46043.1|Nitrospina_sp	Reference	Unknown reference	FALSE	NA	NA	FALSE	FALSE	FALSE	ISMEJFig5|Unknown_clade|HAX46043.1|Nitrospina_sp
+IS|SY368YW-4-8_bin24-k141_617455_9	ISSY368YW-4-8_bin24-k141_617455_9	Group derep MAG K08356	TRUE	SY368YW-4-8_bin24	SY368YW-4-8	FALSE	FALSE	FALSE	IS|SY368YW-4-8_bin24-k141_617455_9
+DefluviaquaeIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	DefluviaquaeIdrA
+AlliiroseosediminiIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	AlliiroseosediminiIdrA
+RoseovaazorenIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RoseovaazorenIdrA
+RhodophyporphyIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	RhodophyporphyIdrA
+ES|S13_0-2_bin3-k141_1059512_3	ESS13_0-2_bin3-k141_1059512_3	Group derep MAG K08356	TRUE	S13_0-2_bin3	S13_0-2	FALSE	FALSE	FALSE	ES|S13_0-2_bin3-k141_1059512_3
+Notoacmemari1IdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	Notoacmemari1IdrA
+PseudomonSCTIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	PseudomonSCTIdrA
+SulfuriverfontisIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	SulfuriverfontisIdrA
+ES|C2_12-18_bin17-k141_1448372_1	ESC2_12-18_bin17-k141_1448372_1	Group derep MAG K08356	TRUE	C2_12-18_bin17	C2_12-18	FALSE	FALSE	FALSE	ES|C2_12-18_bin17-k141_1448372_1
+ES|C2_12-18_bin11-k141_1404867_2	ESC2_12-18_bin11-k141_1404867_2	Group derep MAG K08356	TRUE	C2_12-18_bin11	C2_12-18	FALSE	FALSE	FALSE	ES|C2_12-18_bin11-k141_1404867_2
+IS|SY456YB-4-8_bin24-k141_314185_12	ISSY456YB-4-8_bin24-k141_314185_12	Group derep MAG K08356	TRUE	SY456YB-4-8_bin24	SY456YB-4-8	FALSE	FALSE	FALSE	IS|SY456YB-4-8_bin24-k141_314185_12
+IS|SY457BB-0-4_bin2-k141_509701_9	ISSY457BB-0-4_bin2-k141_509701_9	Group derep MAG K08356	TRUE	SY457BB-0-4_bin2	SY457BB-0-4	FALSE	FALSE	FALSE	IS|SY457BB-0-4_bin2-k141_509701_9
+IS|SY459WG-4-8_bin8-k141_320908_36	ISSY459WG-4-8_bin8-k141_320908_36	Group derep MAG K08356	TRUE	SY459WG-4-8_bin8	SY459WG-4-8	FALSE	FALSE	FALSE	IS|SY459WG-4-8_bin8-k141_320908_36
+ES|C1_12-18_bin24-k141_2459344_2	ESC1_12-18_bin24-k141_2459344_2	Group derep MAG K08356	TRUE	C1_12-18_bin24	C1_12-18	FALSE	FALSE	FALSE	ES|C1_12-18_bin24-k141_2459344_2
+ES|C1_12-18_bin19-k141_2550623_11	ESC1_12-18_bin19-k141_2550623_11	Group derep MAG K08356	TRUE	C1_12-18_bin19	C1_12-18	FALSE	FALSE	FALSE	ES|C1_12-18_bin19-k141_2550623_11
+ES|S15_8-10_bin20-k141_2063280_11	ESS15_8-10_bin20-k141_2063280_11	Group derep MAG K08356	TRUE	S15_8-10_bin20	S15_8-10	FALSE	FALSE	FALSE	ES|S15_8-10_bin20-k141_2063280_11
+AS|S1_9-12_bin1-k141_675749_2	ASS1_9-12_bin1-k141_675749_2	Group derep MAG K08356	TRUE	S1_9-12_bin1	S1_9-12	FALSE	FALSE	FALSE	AS|S1_9-12_bin1-k141_675749_2
+IS|SY365BB-8-12_bin7-k141_1337394_7	ISSY365BB-8-12_bin7-k141_1337394_7	Group derep MAG K08356	TRUE	SY365BB-8-12_bin7	SY365BB-8-12	FALSE	FALSE	FALSE	IS|SY365BB-8-12_bin7-k141_1337394_7
+MoriteldasaIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MoriteldasaIdrA
+MoritelviscoIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MoritelviscoIdrA
+MoritelyayanIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MoritelyayanIdrA
+VibriatlanIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	VibriatlanIdrA
+VibrisplenIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	VibrisplenIdrA
+VibrisonorIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	VibrisonorIdrA
+VibritapetIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	VibritapetIdrA
+MarinobacpsychroIdrA	Reference	IdrA/IriA reference	FALSE	NA	NA	FALSE	FALSE	FALSE	MarinobacpsychroIdrA

@@ -185,3 +185,17 @@ IdrA、dmdA 等 KO 覆盖不足或需要专用模型的基因，可以使用 HMM
 ```
 
 最终功能判断仍需联合系统发育位置、HMM 证据和基因邻域。
+
+## 小树 49 条的 640 阈值和基因岛补充流程
+
+本仓库另整理了小树 `tree_small_AioA_IdrA_Unknown_group_derep49_refs136` 的标准化补充模块：
+
+```text
+01_metagenomic_workflow/02_phylogeny/small_tree_derep49_standardized_workflow
+```
+
+该模块包含 2026-08-01 在服务器 `/home/ps/ps1/data/bihongyu/cold_seep` 下重跑的 HMM `-T 640` 结果、按 iTOL SVG 顺序整理的基因岛箭头图、以及 IdrA-PP/gene-island 预测表。复跑本地图表：
+
+```bash
+bash 01_metagenomic_workflow/02_phylogeny/small_tree_derep49_standardized_workflow/run_workflow.sh
+```

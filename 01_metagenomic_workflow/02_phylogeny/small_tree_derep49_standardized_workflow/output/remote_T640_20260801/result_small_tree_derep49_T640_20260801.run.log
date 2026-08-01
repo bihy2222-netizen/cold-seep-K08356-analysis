@@ -1,0 +1,15 @@
+[Sat Aug  1 09:45:13 CST 2026] input counts
+48_candidates 49
+all_MAG_proteins 129785
+[Sat Aug  1 09:45:15 CST 2026] hmmsearch combined 48
+[Sat Aug  1 09:45:15 CST 2026] hmmsearch idrA 48
+[Sat Aug  1 09:45:16 CST 2026] hmmsearch aioA 48
+[Sat Aug  1 09:45:17 CST 2026] hmmsearch all MAG combined -T 640
+[Sat Aug  1 09:45:17 CST 2026] merge tables
+input_48_candidates	49
+combined_48_hits	49
+idrA_48_hits	49
+aioA_48_hits	49
+all_MAG_T640_hits	48
+new_T640_hits_not_in_48_by_normalized_id	0
+[Sat Aug  1 09:45:18 CST 2026] done

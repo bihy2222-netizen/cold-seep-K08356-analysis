@@ -1,0 +1,6 @@
+input_48_candidates	49
+combined_48_hits	49
+idrA_48_hits	49
+aioA_48_hits	49
+all_MAG_T640_hits	48
+new_T640_hits_not_in_48_by_normalized_id	0
