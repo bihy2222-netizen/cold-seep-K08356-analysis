@@ -1,0 +1,30 @@
+research_category	feature_name	source_type
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage
+Nitrogen	Urea cycle	KEGG module-step coverage
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence

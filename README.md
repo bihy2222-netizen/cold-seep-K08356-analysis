@@ -77,6 +77,7 @@ docs/05_STANDARD_METABOLIC_WORKFLOW.md
 ├── 07_host_taxonomy/
 ├── 08_environment_association/
 ├── 09_networks/
+├── 10_k08356_metabolism/
 └── 99_archive_and_debug/
 ```
 
