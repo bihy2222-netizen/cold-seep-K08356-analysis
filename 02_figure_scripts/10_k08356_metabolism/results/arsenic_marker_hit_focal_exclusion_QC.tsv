@@ -1,37 +1,37 @@
 feature_name	MAG	marker	marker_component	hmm_file	gene_id	is_focal_K08356_sequence	retained_after_focal_exclusion
-Arsenate reduction	SY365BB-0-4_bin24	arrA	dissimilatory arsenate reductase	arrA.hmm	SY365BB-0-4_bin24-k141_1439499_3	FALSE	TRUE
-Arsenate reduction	SY366YW-0-4_bin34	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin34-k141_671955_23	FALSE	TRUE
-Arsenate reduction	SY366YW-0-4_bin34	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin34-k141_911262_25	FALSE	TRUE
-Arsenate reduction	SY366YW-0-4_bin9	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin9-k141_440325_48	FALSE	TRUE
-Arsenate reduction	SY366YW-0-4_bin9	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin9-k141_1374921_3	FALSE	TRUE
-Arsenate reduction	SY366YW-0-4_bin9	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin9-k141_730109_55	FALSE	TRUE
-Arsenate reduction	C1_12-18_bin19	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	C1_12-18_bin19-k141_2417652_2	FALSE	TRUE
-Arsenate reduction	S13_0-2_bin3	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	S13_0-2_bin3-k141_24996_7	FALSE	TRUE
-Arsenate reduction	S15_8-10_bin20	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	S15_8-10_bin20-k141_2006427_2	FALSE	TRUE
-Arsenate reduction	SY365BB-8-12_bin10	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY365BB-8-12_bin10-k141_574951_59	FALSE	TRUE
-Arsenate reduction	SY365BB-8-12_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY365BB-8-12_bin8-k141_498542_5	FALSE	TRUE
-Arsenate reduction	SY365BB-8-12_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY365BB-8-12_bin8-k141_310358_4	FALSE	TRUE
-Arsenate reduction	SY366YW-0-4_bin34	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY366YW-0-4_bin34-k141_258012_20	FALSE	TRUE
-Arsenate reduction	SY366YW-0-4_bin9	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY366YW-0-4_bin9-k141_867502_28	FALSE	TRUE
-Arsenate reduction	SY366YW-8-12_bin2	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY366YW-8-12_bin2-k141_358647_70	FALSE	TRUE
-Arsenate reduction	SY368YW-4-8_bin24	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY368YW-4-8_bin24-k141_711792_4	FALSE	TRUE
-Arsenate reduction	SY368YW-8-12_bin33	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY368YW-8-12_bin33-k141_541919_17	FALSE	TRUE
-Arsenate reduction	SY456YB-0-4_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-0-4_bin8-k141_329712_4	FALSE	TRUE
-Arsenate reduction	SY456YB-4-8_bin24	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-4-8_bin24-k141_335065_3	FALSE	TRUE
-Arsenate reduction	SY456YB-8-12_bin27	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-8-12_bin27-k141_91760_4	FALSE	TRUE
-Arsenate reduction	SY456YB-8-12_bin34	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-8-12_bin34-k141_1098581_16	FALSE	TRUE
-Arsenate reduction	SY456YB-8-12_bin4	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-8-12_bin4-k141_1051382_125	FALSE	TRUE
-Arsenate reduction	SY457BB-0-4_bin2	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-0-4_bin2-k141_855312_8	FALSE	TRUE
-Arsenate reduction	SY457BB-4-8_bin29	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-4-8_bin29-k141_1406157_3	FALSE	TRUE
-Arsenate reduction	SY457BB-4-8_bin33	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-4-8_bin33-k141_1298571_197	FALSE	TRUE
-Arsenate reduction	SY457BB-8-12_bin10	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin10-k141_757287_8	FALSE	TRUE
-Arsenate reduction	SY457BB-8-12_bin15	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin15-k141_633653_31	FALSE	TRUE
-Arsenate reduction	SY457BB-8-12_bin16	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin16-k141_57632_39	FALSE	TRUE
-Arsenate reduction	SY457BB-8-12_bin25	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin25-k141_1214782_10	FALSE	TRUE
-Arsenate reduction	SY457BB-8-12_bin4	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin4-k141_149787_4	FALSE	TRUE
-Arsenate reduction	SY459WG-0-4_bin37	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-0-4_bin37-k141_794804_152	FALSE	TRUE
-Arsenate reduction	SY459WG-4-8_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-4-8_bin8-k141_3540_45	FALSE	TRUE
-Arsenate reduction	SY459WG-8-12_bin19	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-8-12_bin19-k141_410325_10	FALSE	TRUE
-Arsenate reduction	SY459WG-8-12_bin2	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-8-12_bin2-k141_415007_25	FALSE	TRUE
-Arsenite oxidation	S1_9-12_bin1	aioA	arsenite oxidase large subunit	aioA.hmm	S1_9-12_bin1-k141_637215_2	TRUE	FALSE
-Arsenite oxidation	SY366YW-4-8_bin7	aioA	arsenite oxidase large subunit	aioA.hmm	SY366YW-4-8_bin7-k141_14765_13	TRUE	FALSE
+Arsenate-reduction marker carriage	SY365BB-0-4_bin24	arrA	dissimilatory arsenate reductase	arrA.hmm	SY365BB-0-4_bin24-k141_1439499_3	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-0-4_bin34	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin34-k141_671955_23	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-0-4_bin34	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin34-k141_911262_25	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-0-4_bin9	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin9-k141_440325_48	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-0-4_bin9	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin9-k141_1374921_3	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-0-4_bin9	arrA	dissimilatory arsenate reductase	arrA.hmm	SY366YW-0-4_bin9-k141_730109_55	FALSE	TRUE
+Arsenate-reduction marker carriage	C1_12-18_bin19	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	C1_12-18_bin19-k141_2417652_2	FALSE	TRUE
+Arsenate-reduction marker carriage	S13_0-2_bin3	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	S13_0-2_bin3-k141_24996_7	FALSE	TRUE
+Arsenate-reduction marker carriage	S15_8-10_bin20	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	S15_8-10_bin20-k141_2006427_2	FALSE	TRUE
+Arsenate-reduction marker carriage	SY365BB-8-12_bin10	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY365BB-8-12_bin10-k141_574951_59	FALSE	TRUE
+Arsenate-reduction marker carriage	SY365BB-8-12_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY365BB-8-12_bin8-k141_498542_5	FALSE	TRUE
+Arsenate-reduction marker carriage	SY365BB-8-12_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY365BB-8-12_bin8-k141_310358_4	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-0-4_bin34	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY366YW-0-4_bin34-k141_258012_20	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-0-4_bin9	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY366YW-0-4_bin9-k141_867502_28	FALSE	TRUE
+Arsenate-reduction marker carriage	SY366YW-8-12_bin2	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY366YW-8-12_bin2-k141_358647_70	FALSE	TRUE
+Arsenate-reduction marker carriage	SY368YW-4-8_bin24	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY368YW-4-8_bin24-k141_711792_4	FALSE	TRUE
+Arsenate-reduction marker carriage	SY368YW-8-12_bin33	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY368YW-8-12_bin33-k141_541919_17	FALSE	TRUE
+Arsenate-reduction marker carriage	SY456YB-0-4_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-0-4_bin8-k141_329712_4	FALSE	TRUE
+Arsenate-reduction marker carriage	SY456YB-4-8_bin24	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-4-8_bin24-k141_335065_3	FALSE	TRUE
+Arsenate-reduction marker carriage	SY456YB-8-12_bin27	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-8-12_bin27-k141_91760_4	FALSE	TRUE
+Arsenate-reduction marker carriage	SY456YB-8-12_bin34	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-8-12_bin34-k141_1098581_16	FALSE	TRUE
+Arsenate-reduction marker carriage	SY456YB-8-12_bin4	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY456YB-8-12_bin4-k141_1051382_125	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-0-4_bin2	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-0-4_bin2-k141_855312_8	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-4-8_bin29	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-4-8_bin29-k141_1406157_3	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-4-8_bin33	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-4-8_bin33-k141_1298571_197	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-8-12_bin10	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin10-k141_757287_8	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-8-12_bin15	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin15-k141_633653_31	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-8-12_bin16	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin16-k141_57632_39	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-8-12_bin25	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin25-k141_1214782_10	FALSE	TRUE
+Arsenate-reduction marker carriage	SY457BB-8-12_bin4	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY457BB-8-12_bin4-k141_149787_4	FALSE	TRUE
+Arsenate-reduction marker carriage	SY459WG-0-4_bin37	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-0-4_bin37-k141_794804_152	FALSE	TRUE
+Arsenate-reduction marker carriage	SY459WG-4-8_bin8	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-4-8_bin8-k141_3540_45	FALSE	TRUE
+Arsenate-reduction marker carriage	SY459WG-8-12_bin19	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-8-12_bin19-k141_410325_10	FALSE	TRUE
+Arsenate-reduction marker carriage	SY459WG-8-12_bin2	arsC (grx)	detoxification arsenate reductase	arsC_glut.hmm	SY459WG-8-12_bin2-k141_415007_25	FALSE	TRUE
+Arsenite-oxidation marker carriage	S1_9-12_bin1	aioA	arsenite oxidase large subunit	aioA.hmm	S1_9-12_bin1-k141_637215_2	TRUE	FALSE
+Arsenite-oxidation marker carriage	SY366YW-4-8_bin7	aioA	arsenite oxidase large subunit	aioA.hmm	SY366YW-4-8_bin7-k141_14765_13	TRUE	FALSE

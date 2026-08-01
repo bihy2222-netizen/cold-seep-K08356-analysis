@@ -164,6 +164,13 @@ gene_set_definitions <- read.delim(
   check.names = FALSE,
   stringsAsFactors = FALSE
 ) %>%
+  mutate(
+    feature_name = if_else(
+      feature_name == "Flagellar Assembly",
+      "Flagellar Assembly (partial 36-KO reconstruction)",
+      feature_name
+    )
+  ) %>%
   distinct(source_sheet, research_category, feature_name, gene_id)
 
 if (nrow(gene_set_definitions) != 510L ||
@@ -247,7 +254,10 @@ if (length(hmm_hit_columns) != 48L) {
        length(hmm_hit_columns), ".")
 }
 
-arsenic_features <- c("Arsenate reduction", "Arsenite oxidation")
+arsenic_features <- c(
+  "Arsenate-reduction marker carriage",
+  "Arsenite-oxidation marker carriage"
+)
 arsenic_hit_qc <- hmm_hit %>%
   filter(
     Category == "As cycling",
@@ -267,8 +277,9 @@ arsenic_hit_qc <- hmm_hit %>%
     gene_hits = as.character(gene_hits),
     feature_name = case_when(
       Gene.abbreviation %in% c("arrA", "arsC (grx)", "arsC (trx)") ~
-        "Arsenate reduction",
-      Gene.abbreviation %in% c("arxA", "aioA") ~ "Arsenite oxidation",
+        "Arsenate-reduction marker carriage",
+      Gene.abbreviation %in% c("arxA", "aioA") ~
+        "Arsenite-oxidation marker carriage",
       TRUE ~ NA_character_
     ),
     marker_component = case_when(
@@ -302,26 +313,22 @@ arsenic_nonfocal_counts <- arsenic_hit_qc %>%
     .groups = "drop"
   )
 
-arsenic_component_catalog <- tibble(
-  feature_name = arsenic_features,
-  feature_component_count = c(2L, 1L)
-)
 arsenic_scores <- tidyr::crossing(
   MAG = unique(mapping$MAG),
-  arsenic_component_catalog
+  feature_name = arsenic_features
 ) %>%
   left_join(arsenic_nonfocal_counts, by = c("MAG", "feature_name")) %>%
   mutate(
-    components_detected = replace_na(components_detected, 0L),
     nonfocal_marker_hit_count = replace_na(nonfocal_marker_hit_count, 0L),
-    reconstruction_score_pct = 100 * components_detected /
-      feature_component_count
+    feature_component_count = 1L,
+    components_detected = as.integer(nonfocal_marker_hit_count > 0),
+    reconstruction_score_pct = 100 * components_detected
   ) %>%
   transmute(
     MAG,
     research_category = "Arsenic",
     feature_name,
-    source_type = "Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded",
+    source_type = "Independent non-focal arsenic HMM-marker carriage",
     feature_component_count,
     components_detected,
     reconstruction_score_pct
@@ -354,6 +361,11 @@ mag_clade_scores <- membership_scores %>%
     score_ge_75 = any(score_ge_75),
     .groups = "drop"
   )
+if (anyDuplicated(
+  mag_clade_scores[c("feature_name", "habitat", "final_clade", "MAG")]
+)) {
+  stop("A MAG was counted more than once within a feature/habitat/clade cell.")
+}
 
 group_summary <- mag_clade_scores %>%
   group_by(research_category, feature_name, source_type, habitat,
@@ -383,7 +395,7 @@ cell_counts <- mapping %>%
   ) %>%
   mutate(
     cell_label = case_when(
-      n_unique_MAG == 0 ~ "No members",
+      n_unique_MAG == 0 ~ "NA: no members",
       n_unique_MAG == 1 ~ paste0("n=", n_sequence_memberships,
                                 " seq / ", n_unique_MAG, " MAG*"),
       TRUE ~ paste0("n=", n_sequence_memberships,
@@ -448,7 +460,9 @@ make_plot <- function(threshold) {
   prevalence_column <- paste0("prevalence_score_ge_", threshold, "_pct")
   caption_text <- paste(
     "Previous algorithm: each MAG's gene-set coverage is the percentage of distinct predefined genes detected; gene copy number does not increase coverage.",
-    "Arsenic HMM components are scored separately after excluding all 49 focal K08356 sequences.",
+    "For multi-gene rows, fill is mean gene-set coverage and size is the fraction of MAGs passing the threshold.",
+    "For arsenic rows, each MAG is binary after excluding all 49 focal K08356 sequences, so both fill and size represent independent non-focal HMM-marker carriage (%).",
+    "Flagellar Assembly denotes partial 36-KO gene-set reconstruction, not complete motility.",
     paste0("Bubble size is true MAG prevalence at gene-set coverage >=", threshold,
            "%; fill is mean MAG gene-set coverage."),
     "Tiny open circles indicate members are present but the score is zero; gray hatched columns indicate no clade members.",
@@ -503,7 +517,7 @@ make_plot <- function(threshold) {
     ) +
     geom_text(
       data = absent_cells,
-      aes(x = x_numeric, y = n_plot_features + 1.05, label = "No members"),
+      aes(x = x_numeric, y = n_plot_features + 1.05, label = "NA: no members"),
       inherit.aes = FALSE,
       vjust = 1.25,
       size = 2.25,
@@ -670,7 +684,7 @@ write.table(
     tibble(
       research_category = "Arsenic",
       feature_name = arsenic_features,
-      source_type = "Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded"
+      source_type = "Independent non-focal arsenic HMM-marker carriage"
     )
   ),
   file.path(out_dir, "selected_metabolic_features.tsv"),
@@ -685,10 +699,12 @@ cat("Clade counts:", paste(as.integer(observed_clade_counts), collapse = "/"), "
 cat("Classification habitat corrections:",
     sum(!mapping$classification_habitat_match), "\n")
 cat("Focal arsenite-oxidation markers excluded:",
-    sum(arsenic_hit_qc$feature_name == "Arsenite oxidation" &
+    sum(arsenic_hit_qc$feature_name == "Arsenite-oxidation marker carriage" &
         arsenic_hit_qc$is_focal_K08356_sequence), "\n")
 cat("Non-focal arsenite-oxidation markers retained:",
-    sum(arsenic_hit_qc$feature_name == "Arsenite oxidation" &
+    sum(arsenic_hit_qc$feature_name == "Arsenite-oxidation marker carriage" &
         arsenic_hit_qc$retained_after_focal_exclusion), "\n")
+cat("Previous gene sets validated:",
+    n_distinct(gene_set_definitions$feature_name), "\n")
 cat("Selected metabolic features:", n_distinct(host_scores$feature_name), "\n")
 cat("Output directory:", out_dir, "\n")

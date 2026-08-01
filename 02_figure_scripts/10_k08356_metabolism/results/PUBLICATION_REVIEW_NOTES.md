@@ -5,21 +5,23 @@
 1. The canonical count is explicitly fixed at 49 K08356 sequences from 48
    unique MAGs, with clade counts 3/7/19/20. Older mappings are audited and
    marked superseded.
-2. Focal K08356 IDs are excluded from arsenite-oxidation marker scoring. This
-   removes two circular `aioA` hits; no non-focal arxA/aioA marker remains.
+2. Focal K08356 IDs are excluded from binary per-MAG arsenic HMM-marker
+   carriage. This removes two circular `aioA` hits; no non-focal arxA/aioA
+   marker remains. Arsenic rows are not labelled as multi-gene coverage.
 3. Bubble prevalence is calculated after deduplicating host MAGs within each
    habitat-clade-feature cell.
 4. Each panel shows sequence and unique-MAG sample sizes. One-MAG cells are
    marked as descriptive only.
-5. Gray hatching denotes no clade member; hollow zero points denote members with
-   no reconstructed feature.
+5. Gray hatching and `NA: no members` denote no clade member; hollow zero points
+   denote members with no reconstructed feature.
 6. S13 and S15 are assigned to ES using both the original sample metadata and
    the group-derep input manifest. Two stale classification labels are logged.
 7. A 75% gene-set-coverage sensitivity figure accompanies the 50% main figure.
 8. The calculation has been restored to the previous distinct-gene set
    algorithm documented in `MAG和Contig结果核验.pdf`; it does not use METABOLIC
    module-step coverage.
-9. Flagellar Assembly is included as the previous 36-KO gene set.
+9. Flagellar Assembly is labelled as partial 36-KO reconstruction and is not
+   interpreted as complete motility.
 10. Output names distinguish 49 focal sequences from 48 host MAGs.
 11. Captions limit interpretation to genomic potential and state that gene sets
     can overlap and are not independent.

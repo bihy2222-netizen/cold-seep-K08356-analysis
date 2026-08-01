@@ -6,12 +6,12 @@ IS	Clade 4	20	20	n=20 seq / 20 MAGs	1
 AS	Clade 1	1	1	n=1 seq / 1 MAG*	2
 AS	Clade 2	1	1	n=1 seq / 1 MAG*	2
 AS	Clade 3	1	1	n=1 seq / 1 MAG*	2
-AS	Clade 4	0	0	No members	2
-ES	Clade 1	0	0	No members	3
-ES	Clade 2	0	0	No members	3
+AS	Clade 4	0	0	NA: no members	2
+ES	Clade 1	0	0	NA: no members	3
+ES	Clade 2	0	0	NA: no members	3
 ES	Clade 3	6	6	n=6 seq / 6 MAGs	3
-ES	Clade 4	0	0	No members	3
+ES	Clade 4	0	0	NA: no members	3
 NS	Clade 1	1	1	n=1 seq / 1 MAG*	4
 NS	Clade 2	1	1	n=1 seq / 1 MAG*	4
-NS	Clade 3	0	0	No members	4
-NS	Clade 4	0	0	No members	4
+NS	Clade 3	0	0	NA: no members	4
+NS	Clade 4	0	0	NA: no members	4

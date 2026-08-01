@@ -15,14 +15,12 @@ Canonical AioA sequence and one IdrA phylogenetic sequence.
 
 ## Inputs
 
-- Completed METABOLIC-G result workbook supplied through
-  `METABOLIC_RESULT_XLSX`.
-- `01_metagenomic_workflow/04_metabolism/METABOLIC_group_derep49/manifests/MAG49_input_manifest.tsv`:
-  authoritative MAG input list and checksums.
-- `input/four_clade_classification_49.tsv`: sequence-level clade assignment.
+- `METABOLIC_group_derep49_result.xlsx`: completed METABOLIC-G result workbook.
+- `MAG49_input_manifest.tsv`: authoritative MAG input list and checksums.
+- `../four_clade_classification_49.tsv`: sequence-level clade assignment.
 - `sample_group_corrected.csv`: original sample-to-habitat metadata.
-- Per-MAG `KEGG_identifier_result/*.cds.result.txt` files supplied through
-  `KEGG_IDENTIFIER_DIR` for the previous distinct-gene coverage algorithm.
+- `KEGG_identifier_result/*.cds.result.txt`: per-MAG KO calls used for the
+  previous distinct-gene coverage algorithm.
 - `gene_set_definitions_previous_algorithm.tsv`: the 510 distinct
   source-sheet/module/gene rows underlying the previous 38 gene sets.
 - `quality/raw_stats/*.stats`: source metaWRAP quality tables for the 48 MAGs.
@@ -44,29 +42,25 @@ the two corrections in `results/habitat_assignment_QC.tsv`.
 - Bubble size is true MAG prevalence, not sequence-membership prevalence.
 - The main plot uses a 50% gene-set-coverage threshold; a 75% sensitivity
   plot is generated in parallel.
-- Arsenate reduction and arsenite oxidation use METABOLIC arsenic HMM hits.
-  All 49 focal K08356 sequence IDs are excluded before scoring to avoid circular
-  evidence. Two focal `aioA` hits are excluded and no non-focal arxA/aioA hit
-  remains in this run.
+- Arsenate reduction and arsenite oxidation use binary per-MAG METABOLIC HMM
+  marker carriage, not multi-gene coverage. All 49 focal K08356 sequence IDs
+  are excluded before scoring to avoid circular evidence. Two focal `aioA` hits
+  are excluded and no non-focal arxA/aioA hit remains in this run. For arsenic
+  rows, both fill and bubble size therefore represent non-focal marker carriage.
 - Gray hatching means that a habitat has no member of that clade. A small hollow
   point means clade members are present but the feature score is zero.
 - Every habitat-clade panel reports both sequence and unique MAG counts. Cells
   with one MAG are marked as descriptive only.
-- Flagellar Assembly is one of the previous gene sets and contains 36 KOs.
+- Flagellar Assembly is a partial 36-KO gene-set reconstruction and does not by
+  itself establish complete motility.
 - The figure describes genomic potential only. It does not establish activity,
   transcript abundance, metabolic flux, or ecological coupling.
 
 ## Run
 
 ```bash
-export METABOLIC_RESULT_XLSX=/path/to/METABOLIC_result.xlsx
-export KEGG_IDENTIFIER_DIR=/path/to/KEGG_identifier_result
-export K08356_CLADE_TSV="$PWD/02_figure_scripts/10_k08356_metabolism/input/four_clade_classification_49.tsv"
-export MAG49_MANIFEST_TSV="$PWD/01_metagenomic_workflow/04_metabolism/METABOLIC_group_derep49/manifests/MAG49_input_manifest.tsv"
-export METABOLIC_PLOT_OUT_DIR="$PWD/02_figure_scripts/10_k08356_metabolism/results"
-
-Rscript 02_figure_scripts/10_k08356_metabolism/plot_K08356seq49_MAG48_metabolism_four_habitats.R
-Rscript 02_figure_scripts/10_k08356_metabolism/audit_MAG48_quality.R
+Rscript plot_K08356seq49_MAG48_metabolism_four_habitats.R
+Rscript audit_MAG48_quality.R
 ```
 
 The plotting script validates 49 sequence memberships, 48 unique MAGs, clade
@@ -75,10 +69,6 @@ gene sets, and exact agreement among the MAG sets before writing output. The
 38-set catalog contains one legacy arsenate set; the figure replaces it with
 separate arsenate-reduction and arsenite-oxidation HMM-component scores, so 39
 features are displayed.
-
-The METABOLIC workbook and per-MAG KO result files are not committed; they are
-server-side/generated inputs. The fixed gene-set definitions, metaWRAP quality
-source tables, editable SVGs, and plot-level source tables are committed.
 
 ## Main outputs
 

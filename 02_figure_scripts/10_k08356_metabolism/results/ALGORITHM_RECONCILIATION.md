@@ -25,11 +25,15 @@ unchanged, but all values are recalculated from the current 48-MAG KO calls.
   reported 100% MAG prevalence and 78.1% mean coverage. The current run gives
   100% and 79.375%, respectively.
 - Clade 4-IS, arsenate reduction: the PDF example reported approximately 80%
-  prevalence and 40% mean coverage. Current HMM-component scoring gives 85%
-  and 47.5%.
+  prevalence and 40% mean coverage from a two-EC gene set. The revised figure
+  treats arsenic separately as binary independent HMM-marker carriage, yielding
+  85% carriage for both fill and size. Its color is not interpreted as
+  multi-gene coverage.
 - Arsenite oxidation is scored only after excluding all focal K08356 IDs. Two
   focal `aioA` hits are excluded; no non-focal arxA/aioA hit remains, so the
   current arsenite-oxidation score is zero.
 
-The small numerical differences are annotation/version effects, not a change
-to the MAG-level averaging or prevalence formulas.
+The B12 difference is an annotation/version effect, not a change to the
+MAG-level averaging or prevalence formulas. The arsenic difference also
+reflects the explicit switch from a multi-gene color interpretation to binary
+independent-marker carriage.

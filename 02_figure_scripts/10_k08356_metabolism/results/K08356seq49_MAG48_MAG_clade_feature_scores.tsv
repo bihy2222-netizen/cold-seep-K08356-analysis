@@ -1,102 +1,102 @@
 research_category	feature_name	source_type	habitat	final_clade	final_clade_name	MAG	n_sequence_memberships	reconstruction_score_pct	score_ge_50	score_ge_75
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin16	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-0-4_bin26	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-4-8_bin39	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-0-4_bin24	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-8-12_bin7	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin3	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin5	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY368YW-4-8_bin24	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-4-8_bin24	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-8-12_bin5	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-0-4_bin2	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin10	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin16	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-4-8_bin8	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-8-12_bin19	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin10	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin26	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin8	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin34	1	100	TRUE	TRUE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin9	1	100	TRUE	TRUE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-8-12_bin2	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY368YW-8-12_bin33	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-0-4_bin8	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin27	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin34	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin4	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin35	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin6	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin29	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin33	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin15	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin25	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin4	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-0-4_bin37	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-8-12_bin2	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 1	Canonical AioA-associated	S1_9-12_bin1	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 2	Unknown/uncertain DMSOR	SQ_58_0-4_bin4	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	S1_9-12_bin1	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin19	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin24	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin11	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin17	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S13_0-2_bin3	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S15_8-10_bin20	1	50	TRUE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 1	Canonical AioA-associated	R2111_S300_0-10_bin19	1	0	FALSE	FALSE
-Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 2	Unknown/uncertain DMSOR	R2111_N500_0-10_bin13	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin16	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-0-4_bin26	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-4-8_bin39	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-0-4_bin24	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-8-12_bin7	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin3	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin5	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY368YW-4-8_bin24	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-4-8_bin24	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-8-12_bin5	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-0-4_bin2	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin10	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin16	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-4-8_bin8	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-8-12_bin19	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin10	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin26	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin8	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin34	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin9	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-8-12_bin2	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY368YW-8-12_bin33	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-0-4_bin8	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin27	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin34	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin4	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin35	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin6	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin29	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin33	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin15	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin25	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin4	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-0-4_bin37	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-8-12_bin2	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 1	Canonical AioA-associated	S1_9-12_bin1	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 2	Unknown/uncertain DMSOR	SQ_58_0-4_bin4	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	S1_9-12_bin1	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin19	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin24	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin11	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin17	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S13_0-2_bin3	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S15_8-10_bin20	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 1	Canonical AioA-associated	R2111_S300_0-10_bin19	1	0	FALSE	FALSE
-Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 2	Unknown/uncertain DMSOR	R2111_N500_0-10_bin13	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin16	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-0-4_bin26	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-4-8_bin39	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-0-4_bin24	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-8-12_bin7	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin3	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin5	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY368YW-4-8_bin24	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-4-8_bin24	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-8-12_bin5	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-0-4_bin2	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin10	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin16	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-4-8_bin8	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-8-12_bin19	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin10	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin26	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin8	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin34	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin9	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-8-12_bin2	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY368YW-8-12_bin33	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-0-4_bin8	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin27	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin34	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin4	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin35	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin6	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin29	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin33	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin15	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin25	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin4	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-0-4_bin37	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-8-12_bin2	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 1	Canonical AioA-associated	S1_9-12_bin1	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 2	Unknown/uncertain DMSOR	SQ_58_0-4_bin4	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	S1_9-12_bin1	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin19	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin24	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin11	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin17	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S13_0-2_bin3	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S15_8-10_bin20	1	100	TRUE	TRUE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 1	Canonical AioA-associated	R2111_S300_0-10_bin19	1	0	FALSE	FALSE
+Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 2	Unknown/uncertain DMSOR	R2111_N500_0-10_bin13	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin16	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-0-4_bin26	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-4-8_bin39	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-0-4_bin24	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-8-12_bin7	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin3	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin5	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY368YW-4-8_bin24	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-4-8_bin24	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-8-12_bin5	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-0-4_bin2	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin10	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin16	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-4-8_bin8	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-8-12_bin19	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin10	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin26	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin8	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin34	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin9	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-8-12_bin2	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY368YW-8-12_bin33	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-0-4_bin8	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin27	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin34	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin4	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin35	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin6	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin29	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin33	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin15	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin25	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin4	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-0-4_bin37	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-8-12_bin2	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 1	Canonical AioA-associated	S1_9-12_bin1	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 2	Unknown/uncertain DMSOR	SQ_58_0-4_bin4	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	S1_9-12_bin1	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin19	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin24	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin11	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin17	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S13_0-2_bin3	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S15_8-10_bin20	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 1	Canonical AioA-associated	R2111_S300_0-10_bin19	1	0	FALSE	FALSE
+Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 2	Unknown/uncertain DMSOR	R2111_N500_0-10_bin13	1	0	FALSE	FALSE
 Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	0	FALSE	FALSE
 Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
 Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
@@ -930,55 +930,55 @@ Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	ES	Clad
 Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S15_8-10_bin20	1	0	FALSE	FALSE
 Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	R2111_S300_0-10_bin19	1	0	FALSE	FALSE
 Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	R2111_N500_0-10_bin13	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	91.6666666666667	TRUE	TRUE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin16	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-0-4_bin26	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-4-8_bin39	1	63.8888888888889	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-0-4_bin24	1	66.6666666666667	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-8-12_bin7	1	77.7777777777778	TRUE	TRUE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin3	1	2.77777777777778	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin5	1	58.3333333333333	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY368YW-4-8_bin24	1	44.4444444444444	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-4-8_bin24	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-8-12_bin5	1	47.2222222222222	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-0-4_bin2	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin10	1	30.5555555555556	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin16	1	36.1111111111111	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-4-8_bin8	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-8-12_bin19	1	47.2222222222222	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin10	1	58.3333333333333	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin26	1	63.8888888888889	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin8	1	61.1111111111111	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin34	1	72.2222222222222	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin9	1	69.4444444444444	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-8-12_bin2	1	58.3333333333333	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY368YW-8-12_bin33	1	8.33333333333333	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-0-4_bin8	1	52.7777777777778	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin27	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin34	1	27.7777777777778	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin4	1	61.1111111111111	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin35	1	36.1111111111111	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin6	1	63.8888888888889	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin29	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin33	1	2.77777777777778	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin15	1	61.1111111111111	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin25	1	13.8888888888889	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin4	1	50	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-0-4_bin37	1	58.3333333333333	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-8-12_bin2	1	61.1111111111111	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	S1_9-12_bin1	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	SQ_58_0-4_bin4	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	S1_9-12_bin1	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin19	1	63.8888888888889	TRUE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin24	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin11	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin17	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S13_0-2_bin3	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S15_8-10_bin20	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	R2111_S300_0-10_bin19	1	0	FALSE	FALSE
-Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	R2111_N500_0-10_bin13	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	91.6666666666667	TRUE	TRUE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin16	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-0-4_bin26	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY459WG-4-8_bin39	1	63.8888888888889	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-0-4_bin24	1	66.6666666666667	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY365BB-8-12_bin7	1	77.7777777777778	TRUE	TRUE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin3	1	2.77777777777778	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY366YB-0-4_bin5	1	58.3333333333333	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY368YW-4-8_bin24	1	44.4444444444444	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-4-8_bin24	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY456YB-8-12_bin5	1	47.2222222222222	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-0-4_bin2	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin10	1	30.5555555555556	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY457BB-8-12_bin16	1	36.1111111111111	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-4-8_bin8	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	SY459WG-8-12_bin19	1	47.2222222222222	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin10	1	58.3333333333333	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin26	1	63.8888888888889	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY365BB-8-12_bin8	1	61.1111111111111	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin34	1	72.2222222222222	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-0-4_bin9	1	69.4444444444444	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY366YW-8-12_bin2	1	58.3333333333333	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY368YW-8-12_bin33	1	8.33333333333333	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-0-4_bin8	1	52.7777777777778	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin27	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin34	1	27.7777777777778	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY456YB-8-12_bin4	1	61.1111111111111	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin35	1	36.1111111111111	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-0-4_bin6	1	63.8888888888889	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin29	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-4-8_bin33	1	2.77777777777778	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin15	1	61.1111111111111	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin25	1	13.8888888888889	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY457BB-8-12_bin4	1	50	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-0-4_bin37	1	58.3333333333333	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	SY459WG-8-12_bin2	1	61.1111111111111	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	S1_9-12_bin1	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	SQ_58_0-4_bin4	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	S1_9-12_bin1	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin19	1	63.8888888888889	TRUE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C1_12-18_bin24	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin11	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	C2_12-18_bin17	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S13_0-2_bin3	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	S15_8-10_bin20	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	R2111_S300_0-10_bin19	1	0	FALSE	FALSE
+Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	R2111_N500_0-10_bin13	1	0	FALSE	FALSE
 Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	SY366YW-4-8_bin7	1	16.6666666666667	FALSE	FALSE
 Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY366YW-0-4_bin2	1	0	FALSE	FALSE
 Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	SY368YW-8-12_bin14	1	0	FALSE	FALSE
