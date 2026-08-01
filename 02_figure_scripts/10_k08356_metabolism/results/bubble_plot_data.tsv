@@ -1,0 +1,411 @@
+research_category	feature_name	source_type	habitat	final_clade	final_clade_name	n_sequence_memberships	n_unique_MAG	mean_reconstruction_score_pct	prevalence_score_ge_50_pct	inference_allowed	plot_label
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	TRUE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	10	10	TRUE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenate reduction
+Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenate reduction
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	AS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	100	100	FALSE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenite oxidation
+Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenite oxidation
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	52.5	40	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	60.4166666666667	83.3333333333333	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	68.125	95	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	25	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	37.5	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	25	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	41.6666666666667	50	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	75	100	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	37.5	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	46.6666666666667	40	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	58.3333333333333	58.3333333333333	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	61.6666666666667	80	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	27.7777777777778	33.3333333333333	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	66.6666666666667	100	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	66.6666666666667	100	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	56	40	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	61.6666666666667	75	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	72	90	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	40	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	40	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	50	33.3333333333333	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	80	100	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	20	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	82.2222222222222	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	76.8518518518518	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	80.5555555555556	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	88.8888888888889	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	44.4444444444444	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	88.8888888888889	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	74.0740740740741	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	77.7777777777778	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	44.4444444444444	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	88	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	86.6666666666667	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	95	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	80	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	60	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	80	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	80	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	20	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	20	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	20.2380952380952	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	31.4285714285714	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	19.047619047619	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	2.5	5	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	12.5	0	TRUE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	12.5	0	FALSE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	4.16666666666667	0	TRUE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	8	0	TRUE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	15	0	TRUE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	19	0	TRUE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	20	0	TRUE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	5.55555555555556	0	TRUE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	4.16666666666667	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	8.57142857142857	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	36.9047619047619	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	41.4285714285714	5	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	26.1904761904762	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	14.2857142857143	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	14.2857142857143	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	60	100	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	54	80	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	52.5	58.3333333333333	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	60.5	85	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	10	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	10	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	40	33.3333333333333	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	12.5	25	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	20	35	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	50	100	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	8.33333333333333	16.6666666666667	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	33.3333333333333	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	20	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	11.1111111111111	8.33333333333333	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	10	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	11.1111111111111	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	75	100	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	35	60	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	60.4166666666667	66.6666666666667	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	65	75	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	75	100	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	25	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	75	100	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	37.5	50	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	25	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	30	60	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	41.6666666666667	66.6666666666667	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	40	70	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	100	100	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	16.6666666666667	16.6666666666667	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	TRUE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	16.6666666666667	33.3333333333333	TRUE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
+Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	60	100	FALSE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	44	40	TRUE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	55	66.6666666666667	TRUE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	63	85	TRUE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	60	100	FALSE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	60	100	FALSE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	56.6666666666667	66.6666666666667	TRUE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	80	100	FALSE	Nitrogen | Urea cycle
+Nitrogen	Urea cycle	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Urea cycle
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	6.66666666666667	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	16.6666666666667	16.6666666666667	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	28.3333333333333	15	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	11.1111111111111	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	6.66666666666667	0	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	52.7777777777778	50	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	53.3333333333333	65	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	33.3333333333333	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	33.3333333333333	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	44.4444444444444	33.3333333333333	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	33.3333333333333	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	50	50	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	65	65	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	100	100	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	1.81818181818182	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	47.7272727272727	50	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	72.7272727272727	85	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	19.6969696969697	16.6666666666667	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	9.09090909090909	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
+=> precorrin 2 => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	1.81818181818182	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	54.5454545454545	50	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	85.9090909090909	90	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	22.7272727272727	16.6666666666667	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	9.09090909090909	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
+III => sirohydrochlorin => cobyrinate a,c-diamide
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	25	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	79.1666666666667	83.3333333333333	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	97.5	100	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	25	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	25	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	25	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	25	16.6666666666667	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin
+Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
+cobalamin

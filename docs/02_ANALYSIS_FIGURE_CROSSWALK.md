@@ -11,6 +11,7 @@
 | Fig.07 | MAG 分类表、功能基因宿主表 | 宿主门/纲/目组成 | `02_figure_scripts/07_host_taxonomy/` | 优先“清洗数据加柱状图无黑线”版 |
 | Fig.08 | 环境因子 + gene/MAG TPM | Spearman/Mantel 倒三角热图 | `02_figure_scripts/08_environment_association/` | 旧模板含示例数据，需换成真实 IS 数据 |
 | Fig.09 | C/N/S/As TPM 或 MAG 模块 | 生境嵌套网络、MAG 网络 | `02_figure_scripts/09_networks/` | 可输出 SVG |
+| Fig.10 | 48 个分组 derep K08356 MAG 的 METABOLIC-G 结果 | 四生境 × 四 clade 代谢气泡图 | `02_figure_scripts/10_k08356_metabolism/` | 已按 49 条序列/48 个 MAG 更新并验证 |
 
 ## K08356 专题图的对应关系
 
@@ -20,7 +21,7 @@
 | 四分支宿主 MAG TPM | 四生境 × 四分支丰度图 | 未找到 `make_contig_MAG_TPM_combo_figure.R` 的当前版 |
 | DMSOR 系统发育树 | AioA/IdrA/unknown/DIRM-like clade 树 | 含建树 Shell，未含最终树注释绘图脚本 |
 | 严格 QC 邻域证据表 | 基因箭头图 | 未找到最终箭头图绘图脚本 |
-| MAG gene-set coverage/prevalence | 分支 × 代谢模块气泡热图 | 当前压缩包未含最近 MAG metabolism 绘图脚本 |
+| MAG module/function reconstruction score and prevalence | 四生境 × 四 clade 代谢气泡图 | 已补入 METABOLIC-G v4.0 新结果、脚本、SVG 和绘图数据 |
 | IS 营养盐数据 | Spearman/Mantel 图 | 含早期 Mantel 模板，未确认是否为最终 21 样品版 |
 
 上述缺失并不表示分析不存在，只表示这些最近使用的脚本不在本次 `Rstudio.zip` 内。后续应将最新版本补入相应目录，而不是用旧模板覆盖。
@@ -32,4 +33,3 @@
 - 气泡大小若表示原始平均 TPM，应在图例中明确，不能称为标准化丰度。
 - `mean gene-set coverage` 与 `MAG prevalence` 是两个指标，需要分别说明。
 - 未经转录组或酶学验证时，使用“丰度”“潜力”“associated”，不使用“活跃”“主导反应”。
-
