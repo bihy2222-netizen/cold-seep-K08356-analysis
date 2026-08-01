@@ -1,0 +1,9 @@
+bin	completeness	contamination	GC	lineage	N50	size	binner
+bin.4	94.67	6.164	0.505	Deltaproteobacteria	7916	3350097	binsAB
+bin.1	89.04	2.336	0.433	Betaproteobacteria	10271	1572234	binsAB
+bin.6	83.62	7.585	0.506	Bacteria	7550	2271152	binsABC
+bin.2	71.94	6.457	0.623	Gammaproteobacteria	4185	2962289	binsAB
+bin.7	67.22	8.302	0.542	Bacteria	2244	2258404	binsB
+bin.3	60.57	3.830	0.658	Alphaproteobacteria	4628	2045121	binsAC
+bin.8	57.92	7.429	0.571	Gammaproteobacteria	5279	1220190	binsABC
+bin.5	50.16	7.928	0.340	Archaea	6787	672682	binsBC

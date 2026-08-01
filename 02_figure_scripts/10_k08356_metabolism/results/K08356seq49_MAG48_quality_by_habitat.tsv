@@ -1,0 +1,5 @@
+Habitat	n_MAG	completeness_min	completeness_median	completeness_max	contamination_min	contamination_median	contamination_max
+AS	2	51.44	60.79	70.14	5.64	7.21	8.78
+ES	6	54.44	71.22	89.59	2.12	5.48	9.12
+IS	38	52.68	88.25	98.7	0	2.33	8.62
+NS	2	78.27	79.02	79.77	2.44	6.13	9.83

@@ -1,0 +1,5 @@
+clade_display	n_MAG	completeness_min	completeness_median	completeness_max	contamination_min	contamination_median	contamination_max
+Canonical AioA	3	70.14	78.27	98.59	2.44	2.6	8.78
+DIRM-synteny IdrA	20	55.32	95.11	98.7	0.43	2.44	8.62
+IdrA phylogenetic	19	54.24	73.18	96.75	0	2.39	9.12
+Uncertain DMSOR	7	51.44	65.87	98.11	2.14	5.64	9.83

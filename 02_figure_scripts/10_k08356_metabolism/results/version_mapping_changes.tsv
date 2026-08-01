@@ -1,0 +1,9 @@
+Sequence_ID	MAG_ID	initial_clade	canonical_clade	change_basis
+C2_12-18_bin11-k141_1404867_2	C2_12-18_bin11	Clade 4	Clade 3	updated 2026-07-23 tree-to-clade boundary
+SY366YB-0-4_bin3-k141_281514_2	SY366YB-0-4_bin3	Clade 4	Clade 3	updated 2026-07-23 tree-to-clade boundary
+SY366YB-0-4_bin5-k141_98994_2	SY366YB-0-4_bin5	Clade 4	Clade 3	updated 2026-07-23 tree-to-clade boundary
+SY456YB-8-12_bin5-k141_222164_2	SY456YB-8-12_bin5	Clade 4	Clade 3	updated 2026-07-23 tree-to-clade boundary
+SY457BB-0-4_bin35-k141_455312_8	SY457BB-0-4_bin35	Clade 3	Clade 4	updated 2026-07-23 tree-to-clade boundary
+SY457BB-8-12_bin10-k141_377897_3	SY457BB-8-12_bin10	Clade 4	Clade 3	updated 2026-07-23 tree-to-clade boundary
+SY459WG-8-12_bin19-k141_364478_5	SY459WG-8-12_bin19	Clade 4	Clade 3	updated 2026-07-23 tree-to-clade boundary
+R2111_N500_0-10_bin13-k141_4404301_3	R2111_N500_0-10_bin13	not present	Clade 2	added in 2026-08-01 joint reference search

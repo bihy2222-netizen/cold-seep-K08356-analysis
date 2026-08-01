@@ -1,411 +1,481 @@
-research_category	feature_name	source_type	habitat	final_clade	final_clade_name	n_sequence_memberships	n_unique_MAG	mean_reconstruction_score_pct	prevalence_score_ge_50_pct	inference_allowed	plot_label
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	TRUE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	10	10	TRUE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenate reduction
-Arsenic	Arsenate reduction	METABOLIC FunctionHit presence	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenate reduction
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	AS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	100	100	FALSE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Arsenic | Arsenite oxidation
-Arsenic	Arsenite oxidation	METABOLIC FunctionHit presence	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Arsenic | Arsenite oxidation
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	52.5	40	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	60.4166666666667	83.3333333333333	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	68.125	95	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	25	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	37.5	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	25	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	41.6666666666667	50	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	75	100	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle (TCA cycle, Krebs cycle)	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	37.5	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	46.6666666666667	40	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	58.3333333333333	58.3333333333333	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	61.6666666666667	80	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	27.7777777777778	33.3333333333333	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	66.6666666666667	100	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	66.6666666666667	100	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
-2-oxoglutarate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	56	40	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	61.6666666666667	75	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	72	90	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	40	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	40	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	50	33.3333333333333	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	80	100	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	20	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
-=> oxaloacetate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	82.2222222222222	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	76.8518518518518	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	80.5555555555556	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	88.8888888888889	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	44.4444444444444	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	88.8888888888889	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	74.0740740740741	100	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	77.7777777777778	100	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	44.4444444444444	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
-pyruvate
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	88	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	86.6666666666667	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	95	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	80	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	60	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	80	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	80	100	TRUE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Glycolysis, core module involving three-carbon compounds	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	20	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
-compounds
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	20	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	20.2380952380952	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	31.4285714285714	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	19.047619047619	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
-oxoglutarate
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	2.5	5	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methane oxidation, methanotroph, methane => formaldehyde	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
-formaldehyde
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	12.5	0	TRUE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	12.5	0	FALSE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	4.16666666666667	0	TRUE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, CO2 => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	8	0	TRUE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	15	0	TRUE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	19	0	TRUE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	20	0	TRUE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, acetate => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	20	0	FALSE	Carbon | Methanogenesis, acetate => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	5.55555555555556	0	TRUE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methanol => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis, methanol => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	4.16666666666667	0	TRUE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Methanogenesis,
-methylamine/dimethylamine/trimethylamine => methane
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	8.57142857142857	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	36.9047619047619	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	41.4285714285714	5	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	26.1904761904762	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	14.2857142857143	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	14.2857142857143	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	60	100	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	54	80	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	52.5	58.3333333333333	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	60.5	85	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	10	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	10	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	40	33.3333333333333	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	12.5	25	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	20	35	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	50	100	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	8.33333333333333	16.6666666666667	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	33.3333333333333	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	20	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	11.1111111111111	8.33333333333333	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	10	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	11.1111111111111	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
-=> nitrate
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	75	100	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	35	60	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	60.4166666666667	66.6666666666667	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	65	75	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	75	100	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	25	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	75	100	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	37.5	50	TRUE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Denitrification, nitrate => nitrogen	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	25	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	30	60	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	41.6666666666667	66.6666666666667	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	40	70	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	100	100	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	16.6666666666667	16.6666666666667	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	TRUE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	16.6666666666667	33.3333333333333	TRUE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrification, ammonia => nitrite	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Nitrogen fixation, nitrogen => ammonia	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia
-Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	60	100	FALSE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	44	40	TRUE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	55	66.6666666666667	TRUE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	63	85	TRUE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	60	100	FALSE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	40	0	FALSE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	60	100	FALSE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	56.6666666666667	66.6666666666667	TRUE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	80	100	FALSE	Nitrogen | Urea cycle
-Nitrogen	Urea cycle	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Nitrogen | Urea cycle
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	6.66666666666667	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	16.6666666666667	16.6666666666667	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	28.3333333333333	15	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	11.1111111111111	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Assimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	6.66666666666667	0	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	52.7777777777778	50	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	53.3333333333333	65	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	33.3333333333333	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	33.3333333333333	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	44.4444444444444	33.3333333333333	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	33.3333333333333	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	50	50	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	65	65	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	100	100	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
-sulfate
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	1.81818181818182	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	47.7272727272727	50	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	72.7272727272727	85	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	19.6969696969697	16.6666666666667	TRUE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	9.09090909090909	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, aerobic, uroporphyrinogen III
-=> precorrin 2 => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	1.81818181818182	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	54.5454545454545	50	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	85.9090909090909	90	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	18.1818181818182	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	22.7272727272727	16.6666666666667	TRUE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	9.09090909090909	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, anaerobic, uroporphyrinogen
-III => sirohydrochlorin => cobyrinate a,c-diamide
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	25	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	79.1666666666667	83.3333333333333	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	97.5	100	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	AS	Clade 1	Canonical AioA-associated	1	1	25	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	25	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	25	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	25	16.6666666666667	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	NS	Clade 1	Canonical AioA-associated	1	1	50	100	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
-Vitamin B12	Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin	KEGG module-step coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobyrinate a,c-diamide =>
-cobalamin
+research_category	feature_name	source_type	habitat	final_clade	final_clade_name	n_sequence_memberships	n_unique_MAG	mean_reconstruction_score_pct	prevalence_score_ge_50_pct	prevalence_score_ge_75_pct	inference_allowed	plot_label	x_numeric	y_numeric
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Arsenic | Arsenate reduction	1	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Arsenic | Arsenate reduction	1	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	33.3333333333333	66.6666666666667	0	TRUE	Arsenic | Arsenate reduction	1	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	47.5	85	10	TRUE	Arsenic | Arsenate reduction	1	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Arsenic | Arsenate reduction	2	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Arsenic | Arsenate reduction	2	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Arsenic | Arsenate reduction	2	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	25	50	0	TRUE	Arsenic | Arsenate reduction	3	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Arsenic | Arsenate reduction	4	7
+Arsenic	Arsenate reduction	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Arsenic | Arsenate reduction	4	7
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Arsenic | Arsenite oxidation	1	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Arsenic | Arsenite oxidation	1	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Arsenic | Arsenite oxidation	1	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Arsenic | Arsenite oxidation	1	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Arsenic | Arsenite oxidation	2	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Arsenic | Arsenite oxidation	2	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Arsenic | Arsenite oxidation	2	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Arsenic | Arsenite oxidation	3	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Arsenic | Arsenite oxidation	4	6
+Arsenic	Arsenite oxidation	Previous algorithm: arsenic HMM-component coverage; focal K08356 excluded	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Arsenic | Arsenite oxidation	4	6
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	1	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	1	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	1	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	1	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	2	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	2	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	2	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	3	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	4	39
+Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Acetyl-CoA pathway, CO2 => acetyl-CoA	4	39
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	45	0	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	1	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	22	0	0	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	1	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	33.3333333333333	0	0	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	1	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	36.75	5	0	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	1	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	15	0	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	2	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	22.5	0	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	2	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	15	0	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	2	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	27.0833333333333	0	0	TRUE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	3	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	42.5	0	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	4	38
+Carbon	Citrate cycle (TCA cycle, Krebs cycle)	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	10	0	0	FALSE	Carbon | Citrate cycle (TCA cycle, Krebs cycle)	4	38
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	50	100	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	1	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	23.3333333333333	0	0	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	1	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	29.1666666666667	25	0	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	1	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	30.8333333333333	5	0	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	1	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	2	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	16.6666666666667	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	2	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	2	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	13.8888888888889	0	0	TRUE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	3	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	50	100	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	4	37
+Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	0	FALSE	Carbon | Citrate cycle, first carbon oxidation, oxaloacetate =>
+2-oxoglutarate	4	37
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	44.1176470588235	0	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	1	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	21.7647058823529	0	0	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	1	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	34.0686274509804	8.33333333333333	0	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	1	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	37.7941176470588	5	0	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	1	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	17.6470588235294	0	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	2	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	23.5294117647059	0	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	2	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	17.6470588235294	0	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	2	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	29.4117647058824	0	0	TRUE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	3	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	41.1764705882353	0	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	4	36
+Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	5.88235294117647	0	0	FALSE	Carbon | Citrate cycle, second carbon oxidation, 2-oxoglutarate
+=> oxaloacetate	4	36
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	34.4827586206897	0	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	1	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	26.2068965517241	0	0	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	1	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	27.5862068965517	0	0	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	1	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	28.9655172413793	0	0	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	1	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	31.0344827586207	0	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	2	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	17.2413793103448	0	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	2	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	31.0344827586207	0	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	2	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	26.4367816091954	0	0	TRUE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	3	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	24.1379310344828	0	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	4	35
+Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	17.2413793103448	0	0	FALSE	Carbon | Glycolysis (Embden-Meyerhof pathway), glucose =>
+pyruvate	4	35
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	50	100	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds	1	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	45	60	0	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds	1	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	44.4444444444444	41.6666666666667	0	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds	1	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	47.5	75	0	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds	1	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	41.6666666666667	0	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds	2	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds	2	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	41.6666666666667	0	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds	2	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	44.4444444444444	50	0	TRUE	Carbon | Glycolysis, core module involving three-carbon
+compounds	3	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	50	100	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds	4	34
+Carbon	Glycolysis, core module involving three-carbon compounds	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	16.6666666666667	0	0	FALSE	Carbon | Glycolysis, core module involving three-carbon
+compounds	4	34
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	17.6470588235294	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	1	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	20	0	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	1	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	26.9607843137255	16.6666666666667	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	1	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	33.8235294117647	15	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	1	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	2	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	23.5294117647059	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	2	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	2	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	32.3529411764706	0	0	TRUE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	3	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	23.5294117647059	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	4	33
+Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	11.7647058823529	0	0	FALSE	Carbon | Incomplete reductive citrate cycle, acetyl-CoA =>
+oxoglutarate	4	33
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	1	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	1	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	2.77777777777778	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	1	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0.833333333333333	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	1	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	2	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	2	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	2	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	3	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	4	32
+Carbon	Methane oxidation, methanotroph, methane => formaldehyde	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Methane oxidation, methanotroph, methane =>
+formaldehyde	4	32
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane	1	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	5.4054054054054	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane	1	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane	1	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0.675675675675676	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane	1	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane	2	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	2.7027027027027	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane	2	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane	2	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	5.4054054054054	0	0	TRUE	Carbon | Methanogenesis, CO2 => methane	3	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane	4	31
+Carbon	Methanogenesis, CO2 => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	2.7027027027027	0	0	FALSE	Carbon | Methanogenesis, CO2 => methane	4	31
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	3.2258064516129	0	0	FALSE	Carbon | Methanogenesis, acetate => methane	1	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	5.16129032258065	0	0	TRUE	Carbon | Methanogenesis, acetate => methane	1	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	5.3763440860215	0	0	TRUE	Carbon | Methanogenesis, acetate => methane	1	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	5	0	0	TRUE	Carbon | Methanogenesis, acetate => methane	1	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	3.2258064516129	0	0	FALSE	Carbon | Methanogenesis, acetate => methane	2	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Methanogenesis, acetate => methane	2	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	3.2258064516129	0	0	FALSE	Carbon | Methanogenesis, acetate => methane	2	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	9.67741935483871	0	0	TRUE	Carbon | Methanogenesis, acetate => methane	3	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	6.45161290322581	0	0	FALSE	Carbon | Methanogenesis, acetate => methane	4	30
+Carbon	Methanogenesis, acetate => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	9.67741935483871	0	0	FALSE	Carbon | Methanogenesis, acetate => methane	4	30
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanethiol => methane	1	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Carbon | Methanogenesis, methanethiol => methane	1	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Carbon | Methanogenesis, methanethiol => methane	1	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Carbon | Methanogenesis, methanethiol => methane	1	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanethiol => methane	2	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanethiol => methane	2	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanethiol => methane	2	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Carbon | Methanogenesis, methanethiol => methane	3	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanethiol => methane	4	29
+Carbon	Methanogenesis, methanethiol => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanethiol => methane	4	29
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanol => methane	1	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	5.26315789473684	0	0	TRUE	Carbon | Methanogenesis, methanol => methane	1	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Carbon | Methanogenesis, methanol => methane	1	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	1.31578947368421	0	0	TRUE	Carbon | Methanogenesis, methanol => methane	1	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanol => methane	2	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanol => methane	2	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanol => methane	2	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	8.7719298245614	0	0	TRUE	Carbon | Methanogenesis, methanol => methane	3	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis, methanol => methane	4	28
+Carbon	Methanogenesis, methanol => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	5.26315789473684	0	0	FALSE	Carbon | Methanogenesis, methanol => methane	4	28
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	1	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	4.34782608695652	0	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	1	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	3.6231884057971	0	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	1	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	5.21739130434783	0	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	1	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	2	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	2	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	2	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	10.1449275362319	0	0	TRUE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	3	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	4	27
+Carbon	Methanogenesis, methylamine/dimethylamine/trimethylamine => methane	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	4.34782608695652	0	0	FALSE	Carbon | Methanogenesis,
+methylamine/dimethylamine/trimethylamine => methane	4	27
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	27.2727272727273	0	0	FALSE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	1	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	20	0	0	TRUE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	1	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	34.8484848484849	25	0	TRUE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	1	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	41.3636363636364	20	0	TRUE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	1	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	2	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	27.2727272727273	0	0	FALSE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	2	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	2	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	33.3333333333333	16.6666666666667	0	TRUE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	3	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	27.2727272727273	0	0	FALSE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	4	26
+Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	18.1818181818182	0	0	FALSE	Carbon | Pyruvate oxidation, pyruvate => acetyl-CoA	4	26
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	20	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	1	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	6	0	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	1	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	25.8333333333333	0	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	1	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	29	5	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	1	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	2	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	2	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	2	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	20	0	0	TRUE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	3	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	10	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	4	25
+Carbon	Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	10	0	0	FALSE	Carbon | Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)	4	25
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	32.5581395348837	0	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	1	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	24.1860465116279	0	0	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	1	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	30.6201550387597	0	0	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	1	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	31.9767441860465	0	0	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	1	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	9.30232558139535	0	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	2	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	23.2558139534884	0	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	2	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	9.30232558139535	0	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	2	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	29.0697674418605	0	0	TRUE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	3	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	30.2325581395349	0	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	4	24
+Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	13.953488372093	0	0	FALSE	Carbon | Reductive citrate cycle (Arnon-Buchanan cycle)	4	24
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	100	FALSE	Carbon | TCA /Reductive TCA	1	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	20	20	20	TRUE	Carbon | TCA /Reductive TCA	1	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	8.33333333333333	TRUE	Carbon | TCA /Reductive TCA	1	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Carbon | TCA /Reductive TCA	1	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | TCA /Reductive TCA	2	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | TCA /Reductive TCA	2	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Carbon | TCA /Reductive TCA	2	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	33.3333333333333	33.3333333333333	33.3333333333333	TRUE	Carbon | TCA /Reductive TCA	3	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Carbon | TCA /Reductive TCA	4	23
+Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Carbon | TCA /Reductive TCA	4	23
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	91.6666666666667	100	100	FALSE	Motility | Flagellar Assembly	1	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	12.7777777777778	20	0	TRUE	Motility | Flagellar Assembly	1	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	34.2592592592593	25	8.33333333333333	TRUE	Motility | Flagellar Assembly	1	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	44.0277777777778	65	0	TRUE	Motility | Flagellar Assembly	1	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Motility | Flagellar Assembly	2	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Motility | Flagellar Assembly	2	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Motility | Flagellar Assembly	2	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	10.6481481481481	16.6666666666667	0	TRUE	Motility | Flagellar Assembly	3	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Motility | Flagellar Assembly	4	1
+Motility	Flagellar Assembly	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Motility | Flagellar Assembly	4	1
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	16.6666666666667	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	1	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	1	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	1.38888888888889	0	0	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	1	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0.833333333333333	0	0	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	1	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	2	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	2	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	2	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	3	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	4	22
+Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Assimilatory nitrate reduction, nitrate => ammonia	4	22
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	1	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	3.33333333333333	0	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	1	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	5.55555555555556	8.33333333333333	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	1	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	1	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	2	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	2	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	2	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	5.55555555555556	0	0	TRUE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	3	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	4	21
+Nitrogen	Complete nitrification, comammox, ammonia => nitrite => nitrate	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Complete nitrification, comammox, ammonia => nitrite
+=> nitrate	4	21
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	36.3636363636364	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen	1	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	14.5454545454545	0	0	TRUE	Nitrogen | Denitrification, nitrate => nitrogen	1	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	34.0909090909091	41.6666666666667	0	TRUE	Nitrogen | Denitrification, nitrate => nitrogen	1	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	33.6363636363636	15	0	TRUE	Nitrogen | Denitrification, nitrate => nitrogen	1	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	45.4545454545455	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen	2	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	27.2727272727273	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen	2	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	45.4545454545455	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen	2	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	21.2121212121212	0	0	TRUE	Nitrogen | Denitrification, nitrate => nitrogen	3	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen	4	20
+Nitrogen	Denitrification, nitrate => nitrogen	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	9.09090909090909	0	0	FALSE	Nitrogen | Denitrification, nitrate => nitrogen	4	20
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	33.3333333333333	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	1	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	8.88888888888889	0	0	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	1	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	24.0740740740741	8.33333333333333	0	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	1	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	17.2222222222222	0	0	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	1	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	44.4444444444444	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	2	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	22.2222222222222	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	2	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	44.4444444444444	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	2	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	18.5185185185185	16.6666666666667	0	TRUE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	3	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	11.1111111111111	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	4	19
+Nitrogen	Dissimilatory nitrate reduction, nitrate => ammonia	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Dissimilatory nitrate reduction, nitrate => ammonia	4	19
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	100	FALSE	Nitrogen | Nitrate assimilation	1	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	60	60	60	TRUE	Nitrogen | Nitrate assimilation	1	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	33.3333333333333	33.3333333333333	33.3333333333333	TRUE	Nitrogen | Nitrate assimilation	1	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	50	50	50	TRUE	Nitrogen | Nitrate assimilation	1	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	100	100	100	FALSE	Nitrogen | Nitrate assimilation	2	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Nitrate assimilation	2	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	100	100	100	FALSE	Nitrogen | Nitrate assimilation	2	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	16.6666666666667	16.6666666666667	16.6666666666667	TRUE	Nitrogen | Nitrate assimilation	3	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Nitrate assimilation	4	18
+Nitrogen	Nitrate assimilation	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Nitrate assimilation	4	18
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite	1	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite	1	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	4.16666666666667	8.33333333333333	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite	1	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite	1	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite	2	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite	2	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite	2	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	4.16666666666667	0	0	TRUE	Nitrogen | Nitrification, ammonia => nitrite	3	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite	4	17
+Nitrogen	Nitrification, ammonia => nitrite	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Nitrification, ammonia => nitrite	4	17
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	1	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	1	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	1	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	1	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	2	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	2	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	2	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	3	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	4	16
+Nitrogen	Nitrogen fixation, nitrogen => ammonia	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Nitrogen fixation, nitrogen => ammonia	4	16
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	50	100	0	FALSE	Nitrogen | Urea cycle	1	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	36.6666666666667	40	0	TRUE	Nitrogen | Urea cycle	1	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	45.8333333333333	66.6666666666667	0	TRUE	Nitrogen | Urea cycle	1	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	52.5	85	0	TRUE	Nitrogen | Urea cycle	1	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	50	100	0	FALSE	Nitrogen | Urea cycle	2	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	33.3333333333333	0	0	FALSE	Nitrogen | Urea cycle	2	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	50	100	0	FALSE	Nitrogen | Urea cycle	2	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	47.2222222222222	66.6666666666667	0	TRUE	Nitrogen | Urea cycle	3	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	66.6666666666667	100	0	FALSE	Nitrogen | Urea cycle	4	15
+Nitrogen	Urea cycle	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Urea cycle	4	15
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	100	100	100	FALSE	Nitrogen | Urea transport system	1	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Nitrogen | Urea transport system	1	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	11.6666666666667	8.33333333333333	8.33333333333333	TRUE	Nitrogen | Urea transport system	1	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	15	15	15	TRUE	Nitrogen | Urea transport system	1	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Urea transport system	2	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Urea transport system	2	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Nitrogen | Urea transport system	2	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Nitrogen | Urea transport system	3	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | Urea transport system	4	14
+Nitrogen	Urea transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | Urea transport system	4	14
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | nitrite + ammonia => nitrogen	1	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	6.66666666666667	0	0	TRUE	Nitrogen | nitrite + ammonia => nitrogen	1	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	9.25925925925926	0	0	TRUE	Nitrogen | nitrite + ammonia => nitrogen	1	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	9.44444444444444	0	0	TRUE	Nitrogen | nitrite + ammonia => nitrogen	1	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	11.1111111111111	0	0	FALSE	Nitrogen | nitrite + ammonia => nitrogen	2	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	22.2222222222222	0	0	FALSE	Nitrogen | nitrite + ammonia => nitrogen	2	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	11.1111111111111	0	0	FALSE	Nitrogen | nitrite + ammonia => nitrogen	2	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	7.40740740740741	0	0	TRUE	Nitrogen | nitrite + ammonia => nitrogen	3	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Nitrogen | nitrite + ammonia => nitrogen	4	13
+Nitrogen	nitrite + ammonia => nitrogen	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Nitrogen | nitrite + ammonia => nitrogen	4	13
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	30	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	1	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	8	0	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	1	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	19.1666666666667	16.6666666666667	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	1	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	27.5	10	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	1	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	10	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	2	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	2	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	10	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	2	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	11.6666666666667	0	0	TRUE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	3	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	10	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	4	12
+Sulfur	Assimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Assimilatory sulfate reduction, sulfate => H2S	4	12
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	1	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	8.57142857142857	0	0	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	1	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	40.4761904761905	33.3333333333333	0	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	1	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	35.7142857142857	5	0	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	1	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	28.5714285714286	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	2	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	2	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	28.5714285714286	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	2	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	28.5714285714286	16.6666666666667	0	TRUE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	3	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	14.2857142857143	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	4	11
+Sulfur	Dissimilatory sulfate reduction, sulfate => H2S	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Dissimilatory sulfate reduction, sulfate => H2S	4	11
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	80	100	100	FALSE	Sulfur | Sulfate/thiosulfate transport system	1	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Sulfur | Sulfate/thiosulfate transport system	1	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Sulfur | Sulfate/thiosulfate transport system	1	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Sulfur | Sulfate/thiosulfate transport system	1	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Sulfur | Sulfate/thiosulfate transport system	2	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Sulfate/thiosulfate transport system	2	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Sulfur | Sulfate/thiosulfate transport system	2	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Sulfur | Sulfate/thiosulfate transport system	3	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Sulfur | Sulfate/thiosulfate transport system	4	10
+Sulfur	Sulfate/thiosulfate transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Sulfate/thiosulfate transport system	4	10
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Sulfur | Sulfonate transport system	1	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Sulfur | Sulfonate transport system	1	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	11.1111111111111	0	0	TRUE	Sulfur | Sulfonate transport system	1	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	16.6666666666667	5	0	TRUE	Sulfur | Sulfonate transport system	1	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Sulfur | Sulfonate transport system	2	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Sulfonate transport system	2	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Sulfur | Sulfonate transport system	2	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	22.2222222222222	33.3333333333333	0	TRUE	Sulfur | Sulfonate transport system	3	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Sulfur | Sulfonate transport system	4	9
+Sulfur	Sulfonate transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Sulfonate transport system	4	9
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	14.2857142857143	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	1	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	1	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	52.3809523809524	66.6666666666667	16.6666666666667	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	1	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	53.5714285714286	70	30	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	1	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	57.1428571428571	100	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	2	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	2	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	57.1428571428571	100	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	2	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	11.9047619047619	0	0	TRUE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	3	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	42.8571428571429	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	4	8
+Sulfur	Thiosulfate oxidation by SOX complex, thiosulfate => sulfate	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Sulfur | Thiosulfate oxidation by SOX complex, thiosulfate =>
+sulfate	4	8
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	62.5	100	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	1	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	12.5	0	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	1	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	59.375	83.3333333333333	41.6666666666667	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	1	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	79.375	100	90	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	1	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	12.5	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	2	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	12.5	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	2	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	12.5	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	2	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	14.5833333333333	0	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	3	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	25	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	4	5
+Vitamin B12	Cobalamin biosynthesis, cobinamide => cobalamin	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, cobinamide => cobalamin	4	5
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	4	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	1	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	1	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	28.6666666666667	33.3333333333333	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	1	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	48.8	75	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	1	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	8	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	2	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	2	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	8	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	2	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	13.3333333333333	0	0	TRUE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	3	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	4	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	4	4
+Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Vitamin B12 | Cobalamin biosynthesis, precorrin2 => cobinamide	4	4
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	25	0	0	FALSE	Vitamin B12 | Cobalamin salvage	1	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Vitamin B12 | Cobalamin salvage	1	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	6.25	0	0	TRUE	Vitamin B12 | Cobalamin salvage	1	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Vitamin B12 | Cobalamin salvage	1	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Vitamin B12 | Cobalamin salvage	2	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Vitamin B12 | Cobalamin salvage	2	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Vitamin B12 | Cobalamin salvage	2	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	4.16666666666667	0	0	TRUE	Vitamin B12 | Cobalamin salvage	3	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	25	0	0	FALSE	Vitamin B12 | Cobalamin salvage	4	3
+Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Vitamin B12 | Cobalamin salvage	4	3
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Vitamin B12 | Vitamin B12 transport system	1	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE	Vitamin B12 | Vitamin B12 transport system	1	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE	Vitamin B12 | Vitamin B12 transport system	1	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE	Vitamin B12 | Vitamin B12 transport system	1	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Vitamin B12 | Vitamin B12 transport system	2	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Vitamin B12 | Vitamin B12 transport system	2	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE	Vitamin B12 | Vitamin B12 transport system	2	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE	Vitamin B12 | Vitamin B12 transport system	3	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE	Vitamin B12 | Vitamin B12 transport system	4	2
+Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE	Vitamin B12 | Vitamin B12 transport system	4	2

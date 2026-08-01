@@ -1,0 +1,4 @@
+version	status	K08356_sequences	unique_MAGs	clade_1	clade_2	clade_3	clade_4	difference_from_current
+2026-08-01 joint_reference_search_49	canonical	49	48	3	7	19	20	current analysis set
+2026-07-23 latest SVG mapping	superseded	48	47	3	6	19	20	missing R2111_N500_0-10_bin13-k141_4404301_3 in Clade 2
+initial/final_clade_corrected mapping	superseded	48	47	3	6	13	26	older tree-to-clade boundary; seven assignments differ from 2026-07-23 mapping
