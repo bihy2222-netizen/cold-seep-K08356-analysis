@@ -1,0 +1,13 @@
+key	value
+started_at	2026-08-01T20:45:57+08:00
+input_dir	/home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/METABOLIC_group_derep49_20260801/input_faa
+input_MAG_count	48
+output_dir	/home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/METABOLIC_group_derep49_20260801/output
+threads	100
+module_cutoff	0.75
+kofam_db	full
+conda_env	METABOLIC_v4.0
+metabolic_script	/home/ps/Research/data/working_dir/wangpudi/METABOLIC/METABOLIC-G.pl
+metabolic_version	4.0
+finished_at	2026-08-01T21:21:27+08:00
+status	complete

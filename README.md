@@ -52,6 +52,16 @@ docs/04_STANDARD_PROTEIN_TREE_WORKFLOW.md
 01_metagenomic_workflow/02_phylogeny/06_run_standard_K08356_protein_tree_workflow.sh
 ```
 
+分组 derep K08356 候选 MAG 的 METABOLIC-G 代谢重建流程见：
+
+```text
+docs/05_STANDARD_METABOLIC_WORKFLOW.md
+01_metagenomic_workflow/04_metabolism/METABOLIC_group_derep49/
+```
+
+该数据集包含 49 条 K08356 候选蛋白，但对应 48 个唯一 MAG；METABOLIC-G
+使用每个 MAG 的完整 `*.cds.faa` 蛋白组，因此标准输入为 48 个文件。
+
 ## 第二部分：画图顺序
 
 画图从采样地图开始，随后是群落组成、α/β 多样性、差异类群、共有/特有类群、宿主分类、环境关联和网络图：
