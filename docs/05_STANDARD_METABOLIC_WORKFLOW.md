@@ -20,3 +20,25 @@ MAG inputs.
 The 48-MAG METABOLIC-G v4.0 run completed on 2026-08-01 in 35 minutes 28
 seconds. All cardinality and completion checks passed; see the workflow
 manifest directory for the exact inputs, parameters, and validation summary.
+
+## Publication figure scoring
+
+The four-habitat figure workflow is in
+`02_figure_scripts/10_k08356_metabolism/`. It restores the previous
+distinct-gene-set coverage formula, calculates prevalence from unique MAGs, and
+generates 50% and 75% threshold figures. The displayed matrix contains 48 MAGs
+by 40 features (1920 unique rows): 37 non-arsenic legacy gene sets plus separate
+binary `arrA`, `arsC`, and `arxA/aioA` marker-carriage rows.
+
+Run `audit_submission_closeout.R` after the plot and quality scripts. It asserts
+the canonical 49-sequence/48-MAG set, 3/7/19/20 clade counts, exact ID agreement
+among the current tree, neighborhood, classification, and metabolism artifacts,
+and the 48 x 40 score-matrix uniqueness contract. It deliberately reports the
+abundance artifact as unverified until a current 49-sequence TPM table or figure
+is supplied.
+
+The definition audit preserves all 510 old-algorithm records for reproducibility
+but reports that 30 records (19 distinct KOs) are unavailable in the current KO
+result catalog. Affected coverage values are therefore conservative. MAGs all
+pass the 50/10 quality threshold, but no completeness- or GTDB-family-adjusted
+model is claimed.

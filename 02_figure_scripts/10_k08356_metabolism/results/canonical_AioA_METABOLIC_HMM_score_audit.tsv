@@ -1,0 +1,4 @@
+contig_gene	MAG	habitat	final_clade	final_clade_name	classification_AioA_score	raw_target_id	METABOLIC_aioA_full_sequence_E_value	METABOLIC_aioA_full_sequence_score	METABOLIC_aioA_best_domain_score	METABOLIC_reporting_threshold	METABOLIC_aioA_reported_in_original_tblout	interpretation
+S1_9-12_bin1-k141_637215_2	S1_9-12_bin1	AS	Clade 1	Canonical AioA-associated	1204.3	AS|S1_9-12_bin1-k141_637215_2	0	1177.1	1176.9	800	TRUE	Passed METABOLIC aioA -T 800 threshold; focal hit excluded
+SY366YW-4-8_bin7-k141_14765_13	SY366YW-4-8_bin7	IS	Clade 1	Canonical AioA-associated	1314.7	IS|SY366YW-4-8_bin7-k141_14765_13	0	1192.6	1192.5	800	TRUE	Passed METABOLIC aioA -T 800 threshold; focal hit excluded
+R2111_S300_0-10_bin19-k141_825759_6	R2111_S300_0-10_bin19	NS	Clade 1	Canonical AioA-associated	1006.4	NS|R2111_S300_0-10_bin19-k141_825759_6	1e-232	762	761.8	800	FALSE	Detected by the same aioA HMM but score was below -T 800; not an ID mismatch

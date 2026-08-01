@@ -42,11 +42,14 @@ the two corrections in `results/habitat_assignment_QC.tsv`.
 - Bubble size is true MAG prevalence, not sequence-membership prevalence.
 - The main plot uses a 50% gene-set-coverage threshold; a 75% sensitivity
   plot is generated in parallel.
-- Arsenate reduction and arsenite oxidation use binary per-MAG METABOLIC HMM
-  marker carriage, not multi-gene coverage. All 49 focal K08356 sequence IDs
-  are excluded before scoring to avoid circular evidence. Two focal `aioA` hits
-  are excluded and no non-focal arxA/aioA hit remains in this run. For arsenic
-  rows, both fill and bubble size therefore represent non-focal marker carriage.
+- Arsenic is split into three binary per-MAG METABOLIC HMM-marker rows:
+  respiratory arsenate reduction (`arrA`), arsenate detoxification/resistance
+  (`arsC`), and arsenite oxidation (`arxA`/`aioA`). These are not multi-gene
+  coverage scores. All 49 focal K08356 sequence IDs are excluded before scoring
+  to avoid circular evidence.
+- The three canonical sequences score 1192.6, 1177.1, and 762.0 against the same
+  METABOLIC `aioA.hmm`. The original run used `-T 800`, so only the first two
+  appeared in its `tblout`; the third is a below-threshold hit, not an ID mismatch.
 - Gray hatching means that a habitat has no member of that clade. A small hollow
   point means clade members are present but the feature score is zero.
 - Every habitat-clade panel reports both sequence and unique MAG counts. Cells
@@ -59,16 +62,29 @@ the two corrections in `results/habitat_assignment_QC.tsv`.
 ## Run
 
 ```bash
+export METABOLIC_RESULT_XLSX=/path/to/METABOLIC_group_derep49_result.xlsx
+export KEGG_IDENTIFIER_DIR=/path/to/KEGG_identifier_result
 Rscript plot_K08356seq49_MAG48_metabolism_four_habitats.R
 Rscript audit_MAG48_quality.R
+Rscript audit_submission_closeout.R
 ```
 
 The plotting script validates 49 sequence memberships, 48 unique MAGs, clade
 counts of 3/7/19/20, 48 KO result files, 510 gene-definition rows, 38 previous
-gene sets, and exact agreement among the MAG sets before writing output. The
-38-set catalog contains one legacy arsenate set; the figure replaces it with
-separate arsenate-reduction and arsenite-oxidation HMM-component scores, so 39
-features are displayed.
+gene sets, 48 x 40 = 1920 unique MAG-feature rows, and exact agreement among the
+MAG sets before writing output. The 38-set catalog contains one legacy arsenate
+set; the figure replaces it with three biologically distinct HMM-marker rows, so
+40 features are displayed.
+
+The 510 definition records comprise 508 KO records and two legacy EC identifiers:
+`EC:1.20.4.1` is ArsC-type detoxification/resistance, whereas `EC:1.20.99.1`
+corresponds to donor-dependent respiratory ArrA activity. Thirty definition
+records representing 19 distinct KOs are absent from the current per-MAG KO
+result catalog. They remain
+in the denominator to reproduce the previous algorithm exactly, making affected
+gene-set coverage values conservative. The affected sets and maximum attainable
+coverage are listed in
+`results/gene_set_unavailable_definition_denominator_impact.tsv`.
 
 ## Main outputs
 
@@ -77,6 +93,11 @@ features are displayed.
 - `results/K08356seq49_MAG48_MAG_clade_feature_scores.tsv`
 - `results/K08356seq49_MAG48_quality_audit.tsv`
 - `results/arsenic_marker_hit_focal_exclusion_QC.tsv`
+- `results/canonical_AioA_METABOLIC_HMM_score_audit.tsv`
+- `results/gene_set_definition_ID_audit_summary.tsv`
+- `results/gene_set_non_KO_and_unmatched_definitions.tsv`
+- `results/artifact_49_sequence_sync_audit.tsv`
+- `results/confounding_adjustment_status.tsv`
 - `results/PUBLICATION_REVIEW_NOTES.md`
 
 The metaWRAP audit supplies completeness and contamination for all 48 MAGs.

@@ -15,6 +15,10 @@ script_dir <- if (length(script_arg)) {
 } else {
   getwd()
 }
+first_existing <- function(paths) {
+  hit <- paths[file.exists(paths)]
+  if (!length(hit)) paths[1] else hit[1]
+}
 font_cache <- file.path(tempdir(), "fontconfig-cache")
 dir.create(font_cache, recursive = TRUE, showWarnings = FALSE)
 Sys.setenv(XDG_CACHE_HOME = font_cache)
@@ -25,11 +29,20 @@ input_xlsx <- Sys.getenv(
 )
 classification_tsv <- Sys.getenv(
   "K08356_CLADE_TSV",
-  file.path(dirname(script_dir), "four_clade_classification_49.tsv")
+  first_existing(c(
+    file.path(script_dir, "input", "four_clade_classification_49.tsv"),
+    file.path(dirname(script_dir), "four_clade_classification_49.tsv")
+  ))
 )
 manifest_tsv <- Sys.getenv(
   "MAG49_MANIFEST_TSV",
-  file.path(script_dir, "MAG49_input_manifest.tsv")
+  first_existing(c(
+    file.path(script_dir, "MAG49_input_manifest.tsv"),
+    file.path(script_dir, "input", "MAG49_input_manifest.tsv"),
+    file.path(dirname(dirname(script_dir)), "01_metagenomic_workflow",
+              "04_metabolism", "METABOLIC_group_derep49", "manifests",
+              "MAG49_input_manifest.tsv")
+  ))
 )
 sample_group_csv <- Sys.getenv(
   "SAMPLE_GROUP_CSV",
@@ -43,6 +56,16 @@ gene_set_definition_tsv <- Sys.getenv(
   "GENE_SET_DEFINITION_TSV",
   file.path(script_dir, "gene_set_definitions_previous_algorithm.tsv")
 )
+canonical_aioa_tblout <- Sys.getenv(
+  "CANONICAL_AIOA_TBLOUT",
+  file.path(script_dir, "quality", "raw_hmm",
+            "canonical3_aioA_no_threshold.tblout")
+)
+metabolic_aioa_tblout <- Sys.getenv(
+  "METABOLIC_AIOA_TBLOUT",
+  file.path(script_dir, "quality", "raw_hmm",
+            "aioA.hmm.total.hmmsearch_result.txt")
+)
 out_dir <- Sys.getenv(
   "METABOLIC_PLOT_OUT_DIR",
   file.path(script_dir, "results")
@@ -54,7 +77,9 @@ required_files <- c(
   classification_tsv,
   manifest_tsv,
   sample_group_csv,
-  gene_set_definition_tsv
+  gene_set_definition_tsv,
+  canonical_aioa_tblout,
+  metabolic_aioa_tblout
 )
 missing_files <- required_files[!file.exists(required_files)]
 if (length(missing_files)) {
@@ -205,6 +230,92 @@ ko_hits <- bind_rows(lapply(kegg_result_files, function(path) {
     )
 }))
 
+definition_id_detail <- gene_set_definitions %>%
+  mutate(
+    identifier_type = if_else(
+      str_detect(gene_id, "^K[0-9]{5}$"), "KO", "non-KO"
+    ),
+    represented_in_KO_result_catalog = gene_id %in% unique(ko_hits$gene_id),
+    denominator_treatment = case_when(
+      research_category == "Arsenic" ~
+        "Legacy arsenic set excluded; replaced by independent HMM-marker rows",
+      identifier_type == "KO" ~ "Included in predefined gene-set denominator",
+      TRUE ~ "Invalid outside arsenic set"
+    ),
+    annotation_source = case_when(
+      identifier_type == "KO" & represented_in_KO_result_catalog ~
+        "METABOLIC KEGG identifier result catalog",
+      identifier_type == "KO" & !represented_in_KO_result_catalog ~
+        "Legacy predefined gene-set table; absent from current KO result catalog",
+      gene_id == "EC:1.20.4.1" ~
+        "IUBMB/ENZYME: ArsC-type arsenate reductase (glutathione/glutaredoxin); detoxification",
+      gene_id == "EC:1.20.99.1" ~
+        "IUBMB/ENZYME: ArrA-type arsenate reductase (donor); respiratory marker",
+      TRUE ~ "Unresolved non-KO identifier"
+    ),
+    annotation_reference = case_when(
+      gene_id == "EC:1.20.4.1" ~
+        "https://enzyme.expasy.org/EC/1.20.4.1",
+      gene_id == "EC:1.20.99.1" ~
+        "https://enzyme.expasy.org/EC/1.20.99.1",
+      TRUE ~ NA_character_
+    )
+  )
+
+definition_id_summary <- bind_rows(
+  tibble(
+    metric = c(
+      "definition_records_total",
+      "definition_records_KO",
+      "definition_records_non_KO",
+      "unique_KO_identifiers",
+      "unique_non_KO_identifiers",
+      "KO_records_absent_from_KO_result_catalog",
+      "non_KO_records_absent_from_KO_result_catalog"
+    ),
+    value = c(
+      nrow(definition_id_detail),
+      sum(definition_id_detail$identifier_type == "KO"),
+      sum(definition_id_detail$identifier_type == "non-KO"),
+      n_distinct(definition_id_detail$gene_id[
+        definition_id_detail$identifier_type == "KO"
+      ]),
+      n_distinct(definition_id_detail$gene_id[
+        definition_id_detail$identifier_type == "non-KO"
+      ]),
+      sum(definition_id_detail$identifier_type == "KO" &
+            !definition_id_detail$represented_in_KO_result_catalog),
+      sum(definition_id_detail$identifier_type == "non-KO" &
+            !definition_id_detail$represented_in_KO_result_catalog)
+    )
+  )
+)
+if (sum(definition_id_detail$identifier_type == "KO") != 508L ||
+    sum(definition_id_detail$identifier_type == "non-KO") != 2L) {
+  stop("Expected 508 KO records and two legacy non-KO arsenic records.")
+}
+
+definition_denominator_impact <- definition_id_detail %>%
+  group_by(source_sheet, research_category, feature_name) %>%
+  summarise(
+    definition_records = n(),
+    records_represented_in_KO_result_catalog =
+      sum(represented_in_KO_result_catalog),
+    unavailable_definition_records =
+      sum(!represented_in_KO_result_catalog),
+    distinct_unavailable_identifiers = n_distinct(
+      gene_id[!represented_in_KO_result_catalog]
+    ),
+    maximum_attainable_coverage_pct_in_current_KO_catalog =
+      100 * records_represented_in_KO_result_catalog / definition_records,
+    unavailable_identifiers = paste(
+      sort(unique(gene_id[!represented_in_KO_result_catalog])),
+      collapse = ";"
+    ),
+    .groups = "drop"
+  ) %>%
+  filter(unavailable_definition_records > 0)
+
 selected_modules <- gene_set_definitions %>%
   filter(research_category != "Arsenic") %>%
   distinct(source_sheet, research_category, feature_name)
@@ -255,8 +366,9 @@ if (length(hmm_hit_columns) != 48L) {
 }
 
 arsenic_features <- c(
-  "Arsenate-reduction marker carriage",
-  "Arsenite-oxidation marker carriage"
+  "Respiratory arsenate reduction (arrA) marker carriage",
+  "Arsenate detoxification/resistance (arsC) marker carriage",
+  "Arsenite oxidation (arxA/aioA) marker carriage"
 )
 arsenic_hit_qc <- hmm_hit %>%
   filter(
@@ -276,10 +388,12 @@ arsenic_hit_qc <- hmm_hit %>%
     MAG = normalize_metabolic_mag(metabolic_column, hmm_hit_suffix),
     gene_hits = as.character(gene_hits),
     feature_name = case_when(
-      Gene.abbreviation %in% c("arrA", "arsC (grx)", "arsC (trx)") ~
-        "Arsenate-reduction marker carriage",
+      Gene.abbreviation == "arrA" ~
+        "Respiratory arsenate reduction (arrA) marker carriage",
+      Gene.abbreviation %in% c("arsC (grx)", "arsC (trx)") ~
+        "Arsenate detoxification/resistance (arsC) marker carriage",
       Gene.abbreviation %in% c("arxA", "aioA") ~
-        "Arsenite-oxidation marker carriage",
+        "Arsenite oxidation (arxA/aioA) marker carriage",
       TRUE ~ NA_character_
     ),
     marker_component = case_when(
@@ -341,6 +455,55 @@ host_scores <- bind_rows(gene_set_scores, arsenic_scores) %>%
   )
 if (!setequal(unique(host_scores$MAG), unique(mapping$MAG))) {
   stop("METABOLIC workbook MAG names do not match the clade classification.")
+}
+if (nrow(host_scores) != 48L * 40L ||
+    n_distinct(host_scores$feature_name) != 40L ||
+    anyDuplicated(host_scores[c("MAG", "feature_name")])) {
+  stop("Expected 48 MAG x 40 displayed features = 1920 unique rows.")
+}
+
+canonical_aioa_raw <- read.table(
+  canonical_aioa_tblout,
+  comment.char = "#",
+  header = FALSE,
+  fill = TRUE,
+  quote = "",
+  stringsAsFactors = FALSE
+) %>%
+  transmute(
+    raw_target_id = V1,
+    contig_gene = str_remove(V1, "^[A-Z]{2}\\|"),
+    METABOLIC_aioA_full_sequence_E_value = V5,
+    METABOLIC_aioA_full_sequence_score = as.numeric(V6),
+    METABOLIC_aioA_best_domain_score = as.numeric(V9)
+  )
+metabolic_aioa_lines <- readLines(metabolic_aioa_tblout, warn = FALSE)
+if (!any(str_detect(metabolic_aioa_lines, fixed("-T 800")))) {
+  stop("The archived METABOLIC aioA output does not document -T 800.")
+}
+canonical_aioa_audit <- mapping %>%
+  filter(final_clade == "Clade 1") %>%
+  select(contig_gene, MAG, habitat, final_clade, final_clade_name) %>%
+  left_join(
+    classification %>%
+      select(Sequence_ID, classification_AioA_score = AioA_score),
+    by = c("contig_gene" = "Sequence_ID")
+  ) %>%
+  left_join(canonical_aioa_raw, by = "contig_gene") %>%
+  mutate(
+    METABOLIC_reporting_threshold = 800,
+    METABOLIC_aioA_reported_in_original_tblout =
+      METABOLIC_aioA_full_sequence_score >= METABOLIC_reporting_threshold,
+    interpretation = if_else(
+      METABOLIC_aioA_reported_in_original_tblout,
+      "Passed METABOLIC aioA -T 800 threshold; focal hit excluded",
+      "Detected by the same aioA HMM but score was below -T 800; not an ID mismatch"
+    )
+  )
+if (nrow(canonical_aioa_audit) != 3L ||
+    sum(canonical_aioa_audit$METABOLIC_aioA_reported_in_original_tblout) != 2L ||
+    any(is.na(canonical_aioa_audit$METABOLIC_aioA_full_sequence_score))) {
+  stop("Expected three canonical sequences with two METABOLIC aioA scores >=800.")
 }
 
 membership_scores <- host_scores %>%
@@ -461,7 +624,8 @@ make_plot <- function(threshold) {
   caption_text <- paste(
     "Previous algorithm: each MAG's gene-set coverage is the percentage of distinct predefined genes detected; gene copy number does not increase coverage.",
     "For multi-gene rows, fill is mean gene-set coverage and size is the fraction of MAGs passing the threshold.",
-    "For arsenic rows, each MAG is binary after excluding all 49 focal K08356 sequences, so both fill and size represent independent non-focal HMM-marker carriage (%).",
+    "For the three arsenic rows, each MAG is binary after excluding all 49 focal K08356 sequences: arrA denotes respiratory arsenate reduction, arsC detoxification/resistance, and arxA/aioA arsenite oxidation.",
+    "The legacy denominator is retained exactly; 19 distinct KO identifiers are absent from the current KO result catalog and conservatively depress affected rows (see definition audit).",
     "Flagellar Assembly denotes partial 36-KO gene-set reconstruction, not complete motility.",
     paste0("Bubble size is true MAG prevalence at gene-set coverage >=", threshold,
            "%; fill is mean MAG gene-set coverage."),
@@ -585,7 +749,7 @@ save_plot <- function(plot, file_stem) {
     file.path(out_dir, paste0(file_stem, ".png")),
     plot,
     width = 17,
-    height = 16.4,
+    height = 16.8,
     dpi = 360,
     bg = "white"
   )
@@ -593,7 +757,7 @@ save_plot <- function(plot, file_stem) {
     file.path(out_dir, paste0(file_stem, ".pdf")),
     plot,
     width = 17,
-    height = 16.4,
+    height = 16.8,
     device = cairo_pdf,
     bg = "white"
   )
@@ -601,7 +765,7 @@ save_plot <- function(plot, file_stem) {
     file.path(out_dir, paste0(file_stem, ".svg")),
     plot,
     width = 17,
-    height = 16.4,
+    height = 16.8,
     device = grDevices::svg,
     bg = "white"
   )
@@ -671,6 +835,36 @@ write.table(
   row.names = FALSE
 )
 write.table(
+  canonical_aioa_audit,
+  file.path(out_dir, "canonical_AioA_METABOLIC_HMM_score_audit.tsv"),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
+  definition_id_summary,
+  file.path(out_dir, "gene_set_definition_ID_audit_summary.tsv"),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
+  definition_id_detail %>%
+    filter(identifier_type == "non-KO" |
+             !represented_in_KO_result_catalog),
+  file.path(out_dir, "gene_set_non_KO_and_unmatched_definitions.tsv"),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
+  definition_denominator_impact,
+  file.path(out_dir, "gene_set_unavailable_definition_denominator_impact.tsv"),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
   plot_data,
   file.path(out_dir, "bubble_plot_data.tsv"),
   sep = "\t",
@@ -699,10 +893,12 @@ cat("Clade counts:", paste(as.integer(observed_clade_counts), collapse = "/"), "
 cat("Classification habitat corrections:",
     sum(!mapping$classification_habitat_match), "\n")
 cat("Focal arsenite-oxidation markers excluded:",
-    sum(arsenic_hit_qc$feature_name == "Arsenite-oxidation marker carriage" &
+    sum(arsenic_hit_qc$feature_name ==
+          "Arsenite oxidation (arxA/aioA) marker carriage" &
         arsenic_hit_qc$is_focal_K08356_sequence), "\n")
 cat("Non-focal arsenite-oxidation markers retained:",
-    sum(arsenic_hit_qc$feature_name == "Arsenite-oxidation marker carriage" &
+    sum(arsenic_hit_qc$feature_name ==
+          "Arsenite oxidation (arxA/aioA) marker carriage" &
         arsenic_hit_qc$retained_after_focal_exclusion), "\n")
 cat("Previous gene sets validated:",
     n_distinct(gene_set_definitions$feature_name), "\n")

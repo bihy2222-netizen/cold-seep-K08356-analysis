@@ -36,5 +36,6 @@ MISC	Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	Previous algor
 Transporters	Vitamin B12	Cobalamin salvage	Previous algorithm: distinct-gene set coverage
 Transporters	Vitamin B12	Vitamin B12 transport system	Previous algorithm: distinct-gene set coverage
 MISC	Motility	Flagellar Assembly (partial 36-KO reconstruction)	Previous algorithm: distinct-gene set coverage
-NA	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage
-NA	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage
+NA	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage
+NA	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage
+NA	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage

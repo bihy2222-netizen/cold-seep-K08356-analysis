@@ -1,0 +1,8 @@
+metric	value
+definition_records_total	510
+definition_records_KO	508
+definition_records_non_KO	2
+unique_KO_identifiers	323
+unique_non_KO_identifiers	2
+KO_records_absent_from_KO_result_catalog	30
+non_KO_records_absent_from_KO_result_catalog	2

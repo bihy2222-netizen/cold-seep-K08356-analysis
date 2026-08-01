@@ -1,0 +1,6 @@
+artifact	path	sequence_IDs_expected	sequence_IDs_found	missing_IDs	extra_IDs	status	note
+Canonical classification	../four_clade_classification_49.tsv	49	49	0	0	verified	Authoritative 49-sequence table; clade counts 3/7/19/20
+Four-clade tree and gene-island SVG	../figures/small_tree_MAG49_four_clade_with_gene_islands.svg	49	49	0	0	verified	Every canonical Sequence_ID occurs in the SVG text
+Gene-neighborhood summary	../gene_neighborhood_49_summary.tsv	49	49	0	0	verified	Exact target_id set matches the canonical classification
+Metabolism clade-habitat mapping	K08356seq49_MAG48_clade_habitat_mapping.tsv	49	49	0	0	verified	Exact contig_gene set matches the canonical classification
+Abundance figure/table	not found in joint_reference_search_49_update_20260801	49	NA	NA	NA	not verified	No abundance/TPM artifact is present in this current 49-sequence folder; do not claim synchronization until regenerated or supplied

@@ -7,14 +7,27 @@ script_dir <- if (length(file_arg)) {
 } else {
   getwd()
 }
+first_existing <- function(paths) {
+  hit <- paths[file.exists(paths)]
+  if (!length(hit)) paths[1] else hit[1]
+}
 
 manifest_path <- Sys.getenv(
   "MAG49_MANIFEST_TSV",
-  file.path(script_dir, "MAG49_input_manifest.tsv")
+  first_existing(c(
+    file.path(script_dir, "MAG49_input_manifest.tsv"),
+    file.path(script_dir, "input", "MAG49_input_manifest.tsv"),
+    file.path(dirname(dirname(script_dir)), "01_metagenomic_workflow",
+              "04_metabolism", "METABOLIC_group_derep49", "manifests",
+              "MAG49_input_manifest.tsv")
+  ))
 )
 classification_path <- Sys.getenv(
   "K08356_CLADE_TSV",
-  file.path(script_dir, "..", "four_clade_classification_49.tsv")
+  first_existing(c(
+    file.path(script_dir, "input", "four_clade_classification_49.tsv"),
+    file.path(script_dir, "..", "four_clade_classification_49.tsv")
+  ))
 )
 stats_dir <- Sys.getenv(
   "QUALITY_STATS_DIR",

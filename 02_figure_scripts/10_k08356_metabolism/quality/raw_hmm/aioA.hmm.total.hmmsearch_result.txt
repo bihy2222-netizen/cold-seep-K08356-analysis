@@ -1,0 +1,15 @@
+#                                                                         --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                  accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#          ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SY366YW-4-8_bin7-k141_14765_13 -          aioA                 -                  0 1192.6   5.0         0 1192.5   5.0   1.0   1   0   0   1   1   1   1 # 14352 # 16832 # 1 # ID=7_13;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.516
+S1_9-12_bin1-k141_637215_2     -          aioA                 -                  0 1177.1   8.3         0 1176.9   8.3   1.0   1   0   0   1   1   1   1 # 1613 # 4084 # 1 # ID=95_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.474
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/ps/Research/data/working_dir/wangpudi/METABOLIC/METABOLIC_hmm_db/aioA.hmm
+# Target file:     /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/METABOLIC_group_derep49_20260801/input_faa/total.faa
+# Option settings: hmmsearch --tblout /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/METABOLIC_group_derep49_20260801/output/intermediate_files/Hmmsearch_Outputs/aioA.hmm.total.hmmsearch_result.txt -T 800 --cpu 1 /home/ps/Research/data/working_dir/wangpudi/METABOLIC/METABOLIC_hmm_db/aioA.hmm /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/METABOLIC_group_derep49_20260801/input_faa/total.faa
+# Current dir:     /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/METABOLIC_group_derep49_20260801
+# Date:            Sat Aug  1 20:52:05 2026
+# [ok]

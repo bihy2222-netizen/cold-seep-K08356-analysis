@@ -1,24 +1,34 @@
 research_category	feature_name	source_type	habitat	final_clade	final_clade_name	n_sequence_memberships	n_unique_MAG	mean_reconstruction_score_pct	prevalence_score_ge_50_pct	prevalence_score_ge_75_pct	inference_allowed
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	66.6666666666667	66.6666666666667	66.6666666666667	TRUE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	85	85	85	TRUE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	50	50	50	TRUE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
-Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
-Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	58.3333333333333	58.3333333333333	58.3333333333333	TRUE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	85	85	85	TRUE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	50	50	50	TRUE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	0	0	0	TRUE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	8.33333333333333	8.33333333333333	8.33333333333333	TRUE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	IS	Clade 4	IdrA-associated with DIRM-like synteny	20	20	10	10	10	TRUE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	AS	Clade 3	IdrA-associated without complete DIRM-like synteny	1	1	0	0	0	FALSE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	ES	Clade 3	IdrA-associated without complete DIRM-like synteny	6	6	0	0	0	TRUE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
+Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	NS	Clade 2	Unknown/uncertain DMSOR	1	1	0	0	0	FALSE
 Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 1	Canonical AioA-associated	1	1	0	0	0	FALSE
 Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 2	Unknown/uncertain DMSOR	5	5	0	0	0	TRUE
 Carbon	Acetyl-CoA pathway, CO2 => acetyl-CoA	Previous algorithm: distinct-gene set coverage	IS	Clade 3	IdrA-associated without complete DIRM-like synteny	12	12	0	0	0	TRUE

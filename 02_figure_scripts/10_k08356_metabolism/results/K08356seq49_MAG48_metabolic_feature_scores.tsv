@@ -1775,99 +1775,147 @@ SY459WG-8-12_bin2	Carbon	Glycolysis, core module involving three-carbon compound
 SY459WG-8-12_bin2	Carbon	Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate	Previous algorithm: distinct-gene set coverage	17	3	17.6470588235294	FALSE	FALSE
 SY459WG-8-12_bin2	Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	Previous algorithm: distinct-gene set coverage	11	5	45.4545454545455	FALSE	FALSE
 SY459WG-8-12_bin2	Carbon	TCA /Reductive TCA	Previous algorithm: distinct-gene set coverage	1	0	0	FALSE	FALSE
-C1_12-18_bin19	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-C1_12-18_bin19	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-C1_12-18_bin24	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-C1_12-18_bin24	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-C2_12-18_bin11	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-C2_12-18_bin11	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-C2_12-18_bin17	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-C2_12-18_bin17	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-R2111_N500_0-10_bin13	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-R2111_N500_0-10_bin13	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-R2111_S300_0-10_bin19	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-R2111_S300_0-10_bin19	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-S1_9-12_bin1	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-S1_9-12_bin1	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-S13_0-2_bin3	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-S13_0-2_bin3	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-S15_8-10_bin20	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-S15_8-10_bin20	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SQ_58_0-4_bin4	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SQ_58_0-4_bin4	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY365BB-0-4_bin24	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY365BB-0-4_bin24	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY365BB-8-12_bin10	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY365BB-8-12_bin10	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY365BB-8-12_bin26	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY365BB-8-12_bin26	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY365BB-8-12_bin7	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY365BB-8-12_bin7	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY365BB-8-12_bin8	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY365BB-8-12_bin8	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YB-0-4_bin3	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YB-0-4_bin3	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YB-0-4_bin5	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YB-0-4_bin5	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YW-0-4_bin2	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YW-0-4_bin2	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YW-0-4_bin34	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY366YW-0-4_bin34	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YW-0-4_bin9	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY366YW-0-4_bin9	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YW-4-8_bin7	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YW-4-8_bin7	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY366YW-8-12_bin2	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY366YW-8-12_bin2	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY368YW-4-8_bin24	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY368YW-4-8_bin24	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY368YW-8-12_bin14	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY368YW-8-12_bin14	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY368YW-8-12_bin16	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY368YW-8-12_bin16	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY368YW-8-12_bin33	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY368YW-8-12_bin33	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY456YB-0-4_bin8	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY456YB-0-4_bin8	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY456YB-4-8_bin24	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY456YB-4-8_bin24	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY456YB-8-12_bin27	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY456YB-8-12_bin27	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY456YB-8-12_bin34	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY456YB-8-12_bin34	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY456YB-8-12_bin4	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY456YB-8-12_bin4	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY456YB-8-12_bin5	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY456YB-8-12_bin5	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-0-4_bin2	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-0-4_bin2	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-0-4_bin35	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-0-4_bin35	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-0-4_bin6	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-0-4_bin6	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-4-8_bin29	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-4-8_bin29	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-4-8_bin33	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-4-8_bin33	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-8-12_bin10	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-8-12_bin10	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-8-12_bin15	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-8-12_bin15	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-8-12_bin16	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-8-12_bin16	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-8-12_bin25	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-8-12_bin25	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY457BB-8-12_bin4	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY457BB-8-12_bin4	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-0-4_bin26	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-0-4_bin26	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-0-4_bin37	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY459WG-0-4_bin37	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-4-8_bin39	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-4-8_bin39	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-4-8_bin8	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY459WG-4-8_bin8	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-8-12_bin19	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY459WG-8-12_bin19	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
-SY459WG-8-12_bin2	Arsenic	Arsenate-reduction marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
-SY459WG-8-12_bin2	Arsenic	Arsenite-oxidation marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C1_12-18_bin19	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+C1_12-18_bin19	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C1_12-18_bin19	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C1_12-18_bin24	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C1_12-18_bin24	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C1_12-18_bin24	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C2_12-18_bin11	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C2_12-18_bin11	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C2_12-18_bin11	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C2_12-18_bin17	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C2_12-18_bin17	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+C2_12-18_bin17	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+R2111_N500_0-10_bin13	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+R2111_N500_0-10_bin13	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+R2111_N500_0-10_bin13	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+R2111_S300_0-10_bin19	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+R2111_S300_0-10_bin19	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+R2111_S300_0-10_bin19	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+S1_9-12_bin1	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+S1_9-12_bin1	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+S1_9-12_bin1	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+S13_0-2_bin3	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+S13_0-2_bin3	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+S13_0-2_bin3	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+S15_8-10_bin20	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+S15_8-10_bin20	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+S15_8-10_bin20	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SQ_58_0-4_bin4	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SQ_58_0-4_bin4	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SQ_58_0-4_bin4	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-0-4_bin24	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-0-4_bin24	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-0-4_bin24	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY365BB-8-12_bin10	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY365BB-8-12_bin10	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin10	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin26	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin26	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin26	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin7	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin7	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin7	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin8	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY365BB-8-12_bin8	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY365BB-8-12_bin8	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YB-0-4_bin3	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YB-0-4_bin3	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YB-0-4_bin3	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YB-0-4_bin5	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YB-0-4_bin5	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YB-0-4_bin5	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-0-4_bin2	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-0-4_bin2	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-0-4_bin2	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-0-4_bin34	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY366YW-0-4_bin34	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-0-4_bin34	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY366YW-0-4_bin9	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY366YW-0-4_bin9	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-0-4_bin9	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY366YW-4-8_bin7	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-4-8_bin7	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-4-8_bin7	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-8-12_bin2	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY366YW-8-12_bin2	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY366YW-8-12_bin2	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-4-8_bin24	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY368YW-4-8_bin24	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-4-8_bin24	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin14	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin14	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin14	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin16	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin16	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin16	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin33	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY368YW-8-12_bin33	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY368YW-8-12_bin33	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-0-4_bin8	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY456YB-0-4_bin8	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-0-4_bin8	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-4-8_bin24	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY456YB-4-8_bin24	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-4-8_bin24	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin27	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY456YB-8-12_bin27	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin27	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin34	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY456YB-8-12_bin34	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin34	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin4	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY456YB-8-12_bin4	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin4	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin5	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin5	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY456YB-8-12_bin5	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin2	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-0-4_bin2	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin2	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin35	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin35	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin35	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin6	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin6	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-0-4_bin6	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-4-8_bin29	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-4-8_bin29	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-4-8_bin29	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-4-8_bin33	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-4-8_bin33	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-4-8_bin33	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin10	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-8-12_bin10	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin10	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin15	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-8-12_bin15	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin15	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin16	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-8-12_bin16	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin16	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin25	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-8-12_bin25	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin25	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin4	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY457BB-8-12_bin4	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY457BB-8-12_bin4	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-0-4_bin26	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-0-4_bin26	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-0-4_bin26	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-0-4_bin37	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY459WG-0-4_bin37	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-0-4_bin37	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-4-8_bin39	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-4-8_bin39	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-4-8_bin39	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-4-8_bin8	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY459WG-4-8_bin8	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-4-8_bin8	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-8-12_bin19	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY459WG-8-12_bin19	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-8-12_bin19	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-8-12_bin2	Arsenic	Arsenate detoxification/resistance (arsC) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	1	100	TRUE	TRUE
+SY459WG-8-12_bin2	Arsenic	Arsenite oxidation (arxA/aioA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
+SY459WG-8-12_bin2	Arsenic	Respiratory arsenate reduction (arrA) marker carriage	Independent non-focal arsenic HMM-marker carriage	1	0	0	FALSE	FALSE
