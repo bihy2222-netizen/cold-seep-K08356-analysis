@@ -53,11 +53,32 @@ denominator_sensitivity_path <- file.path(
 dual_copy_summary_path <- file.path(
   out_dir, "dual_copy_MAG_exclusion_sensitivity_summary.tsv"
 )
+completeness_sensitivity_path <- file.path(
+  out_dir, "completeness_adjustment_sensitivity_by_feature.tsv"
+)
+locked_completeness_path <- file.path(
+  out_dir, "Clade4_IS_completeness_sensitivity.tsv"
+)
+gtdb_taxonomy_path <- file.path(
+  out_dir, "K08356_MAG48_GTDB_r226_taxonomy.tsv"
+)
+family_confounding_path <- file.path(
+  out_dir, "GTDB_family_confounding_audit.tsv"
+)
+family_estimability_path <- file.path(
+  out_dir, "GTDB_family_model_estimability.tsv"
+)
+rhodo_comparison_path <- file.path(
+  out_dir, "Rhodobacteraceae_IS_Clade3_vs_Clade4_locked_features.tsv"
+)
 
 required <- c(
   classification_path, neighborhood_path, tree_svg_path, mapping_path,
   quality_path, score_path, group_summary_path, canonical_hmm_path,
-  denominator_sensitivity_path, dual_copy_summary_path
+  denominator_sensitivity_path, dual_copy_summary_path,
+  completeness_sensitivity_path, locked_completeness_path,
+  gtdb_taxonomy_path, family_confounding_path, family_estimability_path,
+  rhodo_comparison_path
 )
 if (any(!file.exists(required))) {
   stop("Missing closeout-audit input: ", paste(required[!file.exists(required)], collapse = ", "))
@@ -216,15 +237,56 @@ if (nrow(quality) != 48L ||
   stop("MAG quality audit failed the expected 48-MAG 50/10 threshold.")
 }
 
+completeness_sensitivity <- read.delim(
+  completeness_sensitivity_path, check.names = FALSE
+)
+locked_completeness <- read.delim(
+  locked_completeness_path, check.names = FALSE
+)
+if (nrow(completeness_sensitivity) != 40L ||
+    sum(completeness_sensitivity$n_MAG_threshold_flip_50) != 83L ||
+    sum(completeness_sensitivity$n_MAG_threshold_flip_75) != 35L ||
+    nrow(locked_completeness) != 4L ||
+    any(
+      locked_completeness$raw_prevalence_ge_50_pct !=
+        locked_completeness$adjusted_prevalence_ge_50_pct
+    )) {
+  stop("Completeness sensitivity no longer matches the audited result.")
+}
+
+gtdb_taxonomy <- read.delim(gtdb_taxonomy_path, check.names = FALSE)
+family_confounding <- read.delim(
+  family_confounding_path, check.names = FALSE
+)
+family_estimability <- read.delim(
+  family_estimability_path, check.names = FALSE
+)
+rhodo_comparison <- read.delim(rhodo_comparison_path, check.names = FALSE)
+if (nrow(gtdb_taxonomy) != 48L ||
+    anyDuplicated(gtdb_taxonomy$MAG) ||
+    !setequal(gtdb_taxonomy$MAG, unique(mapping$MAG)) ||
+    nrow(family_estimability) != 4L ||
+    nrow(rhodo_comparison) != 4L) {
+  stop("GTDB family audit does not match the exact 48-MAG analysis set.")
+}
+
+n_multihabitat_families <- sum(family_confounding$n_habitats > 1L)
+family_habitat_df <- family_estimability$independently_estimable_df[
+  family_estimability$term == "habitat"
+]
+family_clade_df <- family_estimability$independently_estimable_df[
+  family_estimability$term == "final_clade"
+]
+
 confounding_status <- tibble(
   item = c(
     "MAG quality threshold", "Completeness balance",
-    "Completeness-adjusted model", "GTDB family-level host table",
+    "Completeness sensitivity", "GTDB family-level host table",
     "Family/habitat/completeness-adjusted model"
   ),
   status = c(
-    "complete", "imbalanced", "not performed", "unavailable",
-    "not estimable in current package"
+    "complete", "imbalanced", "complete as sensitivity", "complete",
+    "partially estimable; strongly confounded"
   ),
   evidence = c(
     "48/48 MAGs pass completeness >=50% and contamination <=10%",
@@ -233,16 +295,30 @@ confounding_status <- tibble(
       max(quality$completeness),
       "%; habitat medians AS 60.79%, ES 71.22%, IS 88.25%, NS 79.02%"
     ),
-    "No regression or completeness-normalized gene-set model is included",
-    "No validated family table matched to the exact 48 MAG IDs was found in inspected inputs",
-    "Validated family covariate is absent and habitat/clade cells are strongly unbalanced"
+    paste0(
+      "Random-gene-loss scaling yields ",
+      sum(completeness_sensitivity$n_MAG_threshold_flip_50),
+      " flips at 50% and ",
+      sum(completeness_sensitivity$n_MAG_threshold_flip_75),
+      " at 75%; locked Clade 4-IS 50% prevalences are unchanged"
+    ),
+    paste0(
+      "GTDB-Tk r226 classification matches 48/48 MAGs; ",
+      n_distinct(gtdb_taxonomy$family, na.rm = TRUE),
+      " assigned families"
+    ),
+    paste0(
+      n_multihabitat_families,
+      " families span more than one habitat; independent model df: habitat ",
+      family_habitat_df, ", clade ", family_clade_df
+    )
   ),
   allowed_interpretation = c(
     "All analyzed MAGs meet the stated inclusion threshold",
     "Passing 50/10 does not eliminate completeness confounding",
-    "Do not state that completeness effects were excluded",
-    "Do not substitute CheckM lineage for GTDB family",
-    "Describe patterns as unadjusted genomic-potential associations only"
+    "Use adjusted scores only as a sensitivity analysis under random gene loss",
+    "Use GTDB family for host taxonomy; do not substitute CheckM lineage",
+    "Report estimable within-family sensitivities, but do not claim that host or habitat confounding was eliminated"
   )
 )
 
@@ -250,13 +326,18 @@ final_lock_status <- tibble(
   analysis_component = c(
     "Metabolic-potential figure",
     "Abundance/TPM figure",
-    "Completeness and GTDB-family adjustment"
+    "Completeness sensitivity",
+    "GTDB-family sensitivity"
   ),
-  status = c("verified", "not verified", "not completed"),
+  status = c(
+    "verified", "not verified", "verified as sensitivity",
+    "verified; residual confounding remains"
+  ),
   permitted_statement = c(
     "Unadjusted genomic metabolic-potential association",
     "No abundance conclusion until the 56-sample TPM artifact is recovered and audited",
-    "Do not claim host- or quality-adjusted habitat/clade effects"
+    "Locked Clade 4-IS result is stable at 50%; broad pathway patterns remain completeness-sensitive",
+    "Exact family taxonomy is available, but sparse and nested family-habitat structure prevents a claim of fully adjusted habitat/clade effects"
   )
 )
 
@@ -283,4 +364,6 @@ cat("Abundance artifact: not found / not verified\n")
 cat("Metabolic matrix: 48 MAG x 40 features = 1920 unique rows\n")
 cat("Unavailable-KO threshold flips: 41 at 50%; 10 at 75%\n")
 cat("Dual-copy MAG exclusion: two n=1 AS cells become empty; Clade 4-IS unchanged\n")
-cat("Quality: 48/48 MAGs pass 50/10; confounding adjustment not performed\n")
+cat("Completeness sensitivity: 83 flips at 50%; 35 at 75%; locked Clade 4-IS 50% result unchanged\n")
+cat("GTDB taxonomy: exact 48/48 MAG match; family-adjusted model rank audited\n")
+cat("Quality/host sensitivity is complete, but residual confounding remains\n")

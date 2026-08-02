@@ -1,0 +1,5 @@
+term	full_design_columns	full_design_rank	reduced_design_rank	independently_estimable_df	n_MAG	residual_df	interpretation
+completeness	27	25	24	1	47	22	Only the reported degrees of freedom are separable from the other covariates
+habitat	27	25	22	3	47	22	Only the reported degrees of freedom are separable from the other covariates
+final_clade	27	25	24	1	47	22	Only the reported degrees of freedom are separable from the other covariates
+family_model	27	25	8	17	47	22	Some family structure is estimable, but sparse families limit inference

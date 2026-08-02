@@ -39,11 +39,15 @@ Contig-level K08356/AioA 追溯树脚本按顺序保存在：
 01_metagenomic_workflow/02_phylogeny/05_extract_MAG_proteins_by_hmmsearch.sh
 ```
 
-分组 derep MAG 丰度脚本保存在：
+统一参考的 K08356-bearing MAG 丰度脚本保存在：
 
 ```text
-01_metagenomic_workflow/03_abundance/01_run_group_derep_coverm_tpm.sh
+01_metagenomic_workflow/03_abundance/02_run_unified_MAG48_coverm_tpm.sh
+01_metagenomic_workflow/03_abundance/03_audit_unified_MAG48_tpm.R
 ```
+
+四个生境的 56 个样本必须全部映射到同一套 48-MAG 参考。旧的分生境
+derep 目录结果不能直接横向比较；旧脚本名仅保留为统一流程的兼容入口。
 
 后续 K08356/AioA 蛋白树主流程见：
 
@@ -89,8 +93,10 @@ docs/05_STANDARD_METABOLIC_WORKFLOW.md
 2. K08356、AioA 和 IdrA 的功能分类必须联合 HMM、系统发育和基因邻域证据；不能只凭 KOfam 或单一 HMM 命中定义功能。
 3. `MAG TPM` 表示 reads 回贴得到的宿主 MAG 丰度，不等同于分箱来源数量。
 4. 宏基因组 TPM 表示基因组层面的功能潜力，不代表转录活性。
-5. 多数旧 R 脚本保留了原电脑的 `setwd()`。正式运行前需改为项目路径；这些脚本已按用途归档，但没有假设用户本地数据布局并强行改写。
-6. 原压缩包中的服务器地址和疑似登录口令已经脱敏。不要把密码、Token 或服务器登录信息写入 Git 仓库。
+5. 四生境丰度比较以 56 个样本为统计重复，并使用同一 48-MAG 参考；48 个
+   MAG 不是环境重复。
+6. 多数旧 R 脚本保留了原电脑的 `setwd()`。正式运行前需改为项目路径；这些脚本已按用途归档，但没有假设用户本地数据布局并强行改写。
+7. 原压缩包中的服务器地址和疑似登录口令已经脱敏。不要把密码、Token 或服务器登录信息写入 Git 仓库。
 
 ## 未纳入仓库的内容
 

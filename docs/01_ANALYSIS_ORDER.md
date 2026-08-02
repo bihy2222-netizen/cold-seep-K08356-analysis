@@ -79,6 +79,18 @@ DRY_RUN=0 bash .../metagenome_pipeline_v4.sh kofam
 
 输出：KOfamScan 注释及 K08356 初始候选。C/N/S/As 功能基因丰度需要按“样品 × 基因”汇总后再进行四生境统计。
 
+K08356-bearing MAG 的四生境丰度比较必须将全部 56 个样本映射到同一套
+48-MAG 参考，不能直接合并四个生境各自 derep 目录产生的 TPM。统一流程为：
+
+```bash
+RUN_COVERM=0 bash 01_metagenomic_workflow/03_abundance/02_run_unified_MAG48_coverm_tpm.sh
+RUN_COVERM=1 bash 01_metagenomic_workflow/03_abundance/02_run_unified_MAG48_coverm_tpm.sh
+```
+
+完成后由 `03_audit_unified_MAG48_tpm.R` 断言 56 x 48 矩阵。统计重复为
+56 个样本，不是 48 个 MAG；双分支宿主 `S1_9-12_bin1` 需同时报告非互斥、
+独立 multi-clade 类别和排除该 MAG 的敏感性结果。
+
 ## 7. K08356/AioA/IdrA 参考整合与候选筛选
 
 ```bash

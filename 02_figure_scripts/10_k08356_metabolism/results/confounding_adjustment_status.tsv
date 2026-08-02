@@ -1,6 +1,6 @@
 item	status	evidence	allowed_interpretation
 MAG quality threshold	complete	48/48 MAGs pass completeness >=50% and contamination <=10%	All analyzed MAGs meet the stated inclusion threshold
 Completeness balance	imbalanced	Completeness range 51.44%-98.7%; habitat medians AS 60.79%, ES 71.22%, IS 88.25%, NS 79.02%	Passing 50/10 does not eliminate completeness confounding
-Completeness-adjusted model	not performed	No regression or completeness-normalized gene-set model is included	Do not state that completeness effects were excluded
-GTDB family-level host table	unavailable	No validated family table matched to the exact 48 MAG IDs was found in inspected inputs	Do not substitute CheckM lineage for GTDB family
-Family/habitat/completeness-adjusted model	not estimable in current package	Validated family covariate is absent and habitat/clade cells are strongly unbalanced	Describe patterns as unadjusted genomic-potential associations only
+Completeness sensitivity	complete as sensitivity	Random-gene-loss scaling yields 83 flips at 50% and 35 at 75%; locked Clade 4-IS 50% prevalences are unchanged	Use adjusted scores only as a sensitivity analysis under random gene loss
+GTDB family-level host table	complete	GTDB-Tk r226 classification matches 48/48 MAGs; 21 assigned families	Use GTDB family for host taxonomy; do not substitute CheckM lineage
+Family/habitat/completeness-adjusted model	partially estimable; strongly confounded	3 families span more than one habitat; independent model df: habitat 3, clade 1	Report estimable within-family sensitivities, but do not claim that host or habitat confounding was eliminated

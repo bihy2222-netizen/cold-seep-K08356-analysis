@@ -40,6 +40,14 @@
 14. The locked Clade 4-IS result is `arsC` 17/20, `arrA` 2/20, independent
     `arxA`/`aioA` 0/20, and cobinamide-to-cobalamin B12 partial reconstruction
     >=50% in 20/20 with 79.375% mean coverage.
+15. Completeness sensitivity is complete. Random-gene-loss scaling produces 83
+    threshold flips at 50% and 35 at 75%; the locked Clade 4-IS 50% result is
+    unchanged.
+16. GTDB-Tk r226 taxonomy is matched to the exact 48 MAG IDs. The added
+    `R2111_N500_0-10_bin13` is classified as family ZC4RG35 using GTDB-Tk 2.4.1
+    and the same r226 database.
+17. Family-aware design-rank and within-Rhodobacteraceae sensitivities are
+    reported. They diagnose strong host-family confounding but do not remove it.
 
 ## Remaining limitation
 
@@ -57,11 +65,21 @@ claims.
 
 Completeness and contamination are available and audited for all 48 MAGs from
 the source metaWRAP tables. Completeness is uneven by habitat and clade, so the
-50/10 filter alone does not eliminate this confounding. A validated family-level GTDB taxonomy table was not
-found in the inspected group-dRep or METABOLIC paths. Therefore, a family- and
-completeness-adjusted clade model is not reported. It should only be added after
-the exact 48 MAG IDs are matched to a GTDB family table; CheckM lineage is too
-coarse to substitute for that analysis.
+50/10 filter alone does not eliminate this confounding. Ten of 40 raw feature
+scores remain associated with completeness after BH correction in descriptive
+models containing habitat and clade.
 
-The two remaining pre-submission hard tasks are recovery and audit of the
-56-sample TPM result, and completeness plus validated GTDB-family adjustment.
+The exact GTDB table contains 21 assigned families, but 15 are singletons, only
+three cross habitats, and only two cross clades. The full completeness + habitat
++ clade + family design has rank 25/27; only one clade degree of freedom is
+independent of the other covariates. Rhodobacteraceae is especially entangled:
+all 22 representatives are from IS, with five in Clade 3 and 17 in Clade 4.
+Within that family and habitat, the locked features do not differ significantly,
+but the five-MAG Clade 3 group limits power. These results permit a family-aware
+sensitivity statement, not a claim that host background has been controlled
+away.
+
+The remaining pre-submission hard task is recovery and audit of the 56-sample
+TPM result against one common 48-MAG derep reference. Habitat enrichment, IS
+hotspot, spatial heterogeneity, activity, and element-cycle coupling remain
+unresolved until that abundance analysis is complete.

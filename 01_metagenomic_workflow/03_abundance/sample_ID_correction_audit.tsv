@@ -1,0 +1,9 @@
+old_sample_ID	current_sample_ID	habitat	evidence	action
+SQ_58_-8-12	SQ_58_8-12	AS	CoverM command and FASTQ path use SQ_58_8-12	Correct metadata ID; habitat unchanged
+SQ_81_-8-12	SQ_81_8-12	AS	CoverM command and FASTQ path use SQ_81_8-12	Correct metadata ID; habitat unchanged
+SY457YW-0-4	SY457BB-0-4	IS	CoverM command FASTQ path and MAG IDs use SY457BB	Correct metadata ID; habitat unchanged
+SY457YW-4-8	SY457BB-4-8	IS	CoverM command FASTQ path and MAG IDs use SY457BB	Correct metadata ID; habitat unchanged
+SY457YW-8-12	SY457BB-8-12	IS	CoverM command FASTQ path and MAG IDs use SY457BB	Correct metadata ID; habitat unchanged
+SY459YW-0-4	SY459WG-0-4	IS	CoverM command FASTQ path and MAG IDs use SY459WG	Correct metadata ID; habitat unchanged
+SY459YW-4-8	SY459WG-4-8	IS	CoverM command FASTQ path and MAG IDs use SY459WG	Correct metadata ID; habitat unchanged
+SY459YW-8-12	SY459WG-8-12	IS	CoverM command FASTQ path and MAG IDs use SY459WG	Correct metadata ID; habitat unchanged

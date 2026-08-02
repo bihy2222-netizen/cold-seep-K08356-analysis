@@ -1,0 +1,11 @@
+parameter	value
+reference_MAG_count	48
+sample_count	56
+method	tpm
+min_covered_fraction	0.1
+min_read_percent_identity	95
+min_read_aligned_percent	75
+trim_min	0.1
+trim_max	0.9
+threads	100
+reference_directory	/home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/unified_MAG48_coverm_tpm_20260802/reference_MAG48

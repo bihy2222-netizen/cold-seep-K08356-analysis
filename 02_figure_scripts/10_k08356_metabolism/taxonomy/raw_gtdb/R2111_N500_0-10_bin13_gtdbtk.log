@@ -1,0 +1,42 @@
+[2026-08-02 09:57:49] INFO: GTDB-Tk v2.4.1
+[2026-08-02 09:57:49] INFO: gtdbtk classify_wf --skip_ani_screen --genome_dir /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/GTDB_MAG48_taxonomy_20260802/input_new_MAG --extension fasta --out_dir /home/ps/ps1/data/bihongyu/cold_seep/illu/binning/K08356_four_group_annotation/GTDB_MAG48_taxonomy_20260802/output --cpus 32 --pplacer_cpus 32
+[2026-08-02 09:57:49] INFO: Using GTDB-Tk reference data version r226: /home/ps/Research/databases/other_database/gtdbtk_226/release226
+[2026-08-02 09:57:50] INFO: Identifying markers in 1 genomes with 32 threads.
+[2026-08-02 09:57:50] TASK: Running Prodigal V2.6.3 to identify genes.
+[2026-08-02 09:58:02] INFO: Completed 1 genome in 12.11 seconds (12.11 seconds/genome).
+[2026-08-02 09:58:02] TASK: Identifying TIGRFAM protein families.
+[2026-08-02 09:58:07] INFO: Completed 1 genome in 5.18 seconds (5.18 seconds/genome).
+[2026-08-02 09:58:07] TASK: Identifying Pfam protein families.
+[2026-08-02 09:58:08] INFO: Completed 1 genome in 0.41 seconds (2.45 genomes/second).
+[2026-08-02 09:58:08] INFO: Annotations done using HMMER 3.4 (Aug 2023).
+[2026-08-02 09:58:08] TASK: Summarising identified marker genes.
+[2026-08-02 09:58:08] INFO: Completed 1 genome in 0.01 seconds (73.54 genomes/second).
+[2026-08-02 09:58:08] INFO: Done.
+[2026-08-02 09:58:10] INFO: Aligning markers in 1 genomes with 32 CPUs.
+[2026-08-02 09:58:10] INFO: Processing 1 genomes identified as bacterial.
+[2026-08-02 09:58:38] INFO: Read concatenated alignment for 136,646 GTDB genomes.
+[2026-08-02 09:58:38] TASK: Generating concatenated alignment for each marker.
+[2026-08-02 09:58:43] INFO: Completed 1 genome in 0.02 seconds (50.44 genomes/second).
+[2026-08-02 09:58:43] TASK: Aligning 93 identified markers using hmmalign 3.4 (Aug 2023).
+[2026-08-02 09:58:48] INFO: Completed 93 markers in 0.36 seconds (256.88 markers/second).
+[2026-08-02 09:58:48] TASK: Masking columns of bacterial multiple sequence alignment using canonical mask.
+[2026-08-02 10:02:22] INFO: Completed 136,647 sequences in 3.55 minutes (38,449.83 sequences/minute).
+[2026-08-02 10:02:22] INFO: Masked bacterial alignment from 41,084 to 5,036 AAs.
+[2026-08-02 10:02:22] INFO: 0 bacterial user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2026-08-02 10:02:22] INFO: Creating concatenated alignment for 136,647 bacterial GTDB and user genomes.
+[2026-08-02 10:03:00] INFO: Creating concatenated alignment for 1 bacterial user genomes.
+[2026-08-02 10:03:01] INFO: Done.
+[2026-08-02 10:03:02] TASK: Placing 1 bacterial genomes into backbone reference tree with pplacer using 32 CPUs (be patient).
+[2026-08-02 10:03:02] INFO: pplacer version: v1.1.alpha19-0-g807f6f3
+[2026-08-02 10:05:02] INFO: Calculating RED values based on reference tree.
+[2026-08-02 10:05:02] INFO: 1 out of 1 have an class assignments. Those genomes will be reclassified.
+[2026-08-02 10:05:02] TASK: Placing 1 bacterial genomes into class-level reference tree 5 (1/1) with pplacer using 32 CPUs (be patient).
+[2026-08-02 10:12:22] INFO: Calculating RED values based on reference tree.
+[2026-08-02 10:12:24] TASK: Traversing tree to determine classification method.
+[2026-08-02 10:12:24] INFO: Completed 1 genome in 0.00 seconds (2,372.34 genomes/second).
+[2026-08-02 10:12:24] INFO: 0 genome(s) have been classified using skani and pplacer.
+[2026-08-02 10:12:24] INFO: Note that Tk classification mode is insufficient for publication of new taxonomic designations. New designations should be based on one or more de novo trees, an example of which can be produced by Tk in de novo mode.
+[2026-08-02 10:12:24] INFO: Done.
+[2026-08-02 10:12:24] INFO: Removing intermediate files.
+[2026-08-02 10:12:24] INFO: Intermediate files removed.
+[2026-08-02 10:12:24] INFO: Done.

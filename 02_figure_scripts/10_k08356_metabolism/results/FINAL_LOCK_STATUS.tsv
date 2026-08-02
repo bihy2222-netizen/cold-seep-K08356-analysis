@@ -1,4 +1,5 @@
 analysis_component	status	permitted_statement
 Metabolic-potential figure	verified	Unadjusted genomic metabolic-potential association
 Abundance/TPM figure	not verified	No abundance conclusion until the 56-sample TPM artifact is recovered and audited
-Completeness and GTDB-family adjustment	not completed	Do not claim host- or quality-adjusted habitat/clade effects
+Completeness sensitivity	verified as sensitivity	Locked Clade 4-IS result is stable at 50%; broad pathway patterns remain completeness-sensitive
+GTDB-family sensitivity	verified; residual confounding remains	Exact family taxonomy is available, but sparse and nested family-habitat structure prevents a claim of fully adjusted habitat/clade effects

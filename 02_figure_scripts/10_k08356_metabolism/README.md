@@ -18,7 +18,9 @@ Canonical AioA sequence and one IdrA phylogenetic sequence.
 - Metabolic-potential figure: verified.
 - Abundance/TPM figure: not verified; the current 49-sequence folder contains no
   recoverable 56-sample TPM artifact.
-- Completeness and GTDB-family adjustment: not completed.
+- Completeness sensitivity: completed. It does not replace the raw score matrix.
+- GTDB-family sensitivity: completed for the exact 48-MAG set; sparse and nested
+  family structure leaves residual confounding.
 
 Accordingly, this figure supports unadjusted genomic metabolic-potential
 associations only, not activity, element-cycle coupling, or habitat-driven effects.
@@ -81,6 +83,8 @@ export METABOLIC_RESULT_XLSX=/path/to/METABOLIC_group_derep49_result.xlsx
 export KEGG_IDENTIFIER_DIR=/path/to/KEGG_identifier_result
 Rscript plot_K08356seq49_MAG48_metabolism_four_habitats.R
 Rscript audit_MAG48_quality.R
+Rscript audit_completeness_adjustment.R
+Rscript audit_GTDB_family_adjustment.R
 Rscript audit_submission_closeout.R
 ```
 
@@ -109,6 +113,33 @@ unchanged.
 this dual-copy MAG makes the two original n=1 Clade 1-AS and Clade 3-AS cells
 empty; Clade 4-IS and all other populated cells are unchanged.
 
+The completeness sensitivity divides multi-gene scores by the MAG completeness
+fraction and caps values at 100%. This is an explicit random-gene-loss
+assumption, not an unbiased recovery of missing genes. It produces 83 MAG-feature
+threshold flips at 50% and 35 at 75%. In descriptive models that also include
+habitat and clade, 10 of 40 features retain a completeness association after BH
+correction. The main figure therefore continues to use raw legacy scores, with
+the adjusted values reported only as a supplement. For Clade 4-IS, all three
+arsenic-marker prevalences and B12 prevalence at 50% are unchanged; B12
+prevalence at 75% changes from 90% to 95%.
+
+GTDB-Tk r226 taxonomy matches all 48 current MAG IDs and contains 21 assigned
+families. The design is strongly sparse: 15 families contain one MAG, only three
+families span more than one habitat, and only two span more than one clade. After
+excluding the dual-clade host, the full completeness + habitat + clade + family
+design has rank 25/27 and 22 residual degrees of freedom. Habitat contributes
+three independently estimable degrees of freedom, but clade contributes only
+one. The family-adjusted all-feature tests are therefore exploratory rather than
+evidence that host background has been eliminated.
+
+Rhodobacteraceae contains 22 IS MAGs: five in Clade 3 and 17 in Clade 4. In this
+within-family, within-habitat sensitivity, `arsC` carriage is 60.0% versus 82.35%
+(Fisher p=0.548), independent `arrA` and `arxA/aioA` are absent in both groups,
+and mean cobinamide-to-cobalamin reconstruction is 72.5% versus 78.68%
+(Wilcoxon p=0.533). No locked feature shows a supported Clade 3/Clade 4
+difference after completeness adjustment, but power is limited by five Clade 3
+MAGs.
+
 ## Locked biological result
 
 Among 20 Clade 4-IS MAGs, `arsC` occurs in 17/20 (85%), `arrA` in 2/20
@@ -132,6 +163,16 @@ widespread arsenic respiration or independent arsenite oxidation.
 - `results/gene_set_unavailable_KO_MAG_threshold_flips.tsv`
 - `results/dual_copy_MAG_exclusion_sensitivity.tsv`
 - `results/dual_copy_MAG_exclusion_sensitivity_summary.tsv`
+- `results/completeness_adjustment_sensitivity_by_feature.tsv`
+- `results/completeness_model_diagnostics.tsv`
+- `results/Clade4_IS_completeness_sensitivity.tsv`
+- `results/COMPLETENESS_SENSITIVITY_INTERPRETATION.md`
+- `results/K08356_MAG48_GTDB_r226_taxonomy.tsv`
+- `results/GTDB_family_confounding_audit.tsv`
+- `results/GTDB_family_model_estimability.tsv`
+- `results/GTDB_family_adjusted_feature_tests.tsv`
+- `results/Rhodobacteraceae_IS_Clade3_vs_Clade4_locked_features.tsv`
+- `results/GTDB_FAMILY_ADJUSTMENT_INTERPRETATION.md`
 - `results/Clade4_IS_locked_arsenic_B12_results.tsv`
 - `results/FINAL_LOCK_STATUS.tsv`
 - `results/MANUSCRIPT_LOCKED_WORDING.md`
@@ -143,7 +184,8 @@ The metaWRAP audit supplies completeness and contamination for all 48 MAGs.
 Completeness is imbalanced across habitats (median AS 60.79%, ES 71.22%, IS
 88.25%, NS 79.02%) and clades, so passing the 50/10 filter does not remove
 quality confounding.
-No validated GTDB family-level host table was found in the inspected group-dRep
-or METABOLIC paths, so a model such as `module ~ clade + family + habitat +
-completeness` is not reported. CheckM lineage is retained as coarse QC metadata,
-not substituted for family-level taxonomy.
+An existing GTDB-Tk r226 table supplies 47 exact MAG IDs. The added
+`R2111_N500_0-10_bin13` was classified separately with GTDB-Tk 2.4.1 and the
+same r226 database, then merged by exact ID. It is assigned to
+`f__ZC4RG35` within Actinomycetota/Acidimicrobiia. CheckM lineage remains coarse
+QC metadata and is not substituted for GTDB family.
