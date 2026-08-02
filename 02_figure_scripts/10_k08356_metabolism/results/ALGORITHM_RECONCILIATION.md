@@ -33,6 +33,8 @@ unchanged, but all values are recalculated from the current 48-MAG KO calls.
 - The third canonical sequence is present in the scoring audit and returns a
   raw METABOLIC `aioA.hmm` score of 762.0. It was omitted from the original
   `tblout` because the run used `-T 800`; this is not an identifier mismatch.
+  Its independent joint-screen `Combined_score` is 969.5 and exceeds the
+  separate >=640 threshold.
 
 The B12 difference is an annotation/version effect, not a change to the
 MAG-level averaging or prevalence formulas. The arsenic difference also
@@ -49,3 +51,15 @@ figure by explicit HMM-marker rows. Thirty KO definition records (19 distinct
 KOs) do not occur in the current per-MAG KO result catalog. The main figure keeps
 them in the denominator for exact old-algorithm reproduction; affected coverage
 values are conservative and the impact is enumerated in the output audit table.
+A catalog-compatible denominator sensitivity analysis identifies 41 MAG-feature
+threshold flips at 50% and 10 at 75%. They are restricted to TCA, second-stage
+TCA, pyruvate oxidation, reductive TCA, denitrification, and urea-cycle rows.
+Neither the arsenic-marker rows nor the locked Clade 4-IS
+cobinamide-to-cobalamin B12 result changes.
+
+## Dual-copy MAG sensitivity
+
+`S1_9-12_bin1` carries K08356 sequences assigned to Clade 1 and Clade 3. After
+excluding this MAG, the Clade 1-AS and Clade 3-AS cells become empty because each
+was originally n=1 and descriptive only. Clade 4-IS and all other populated
+feature-clade-habitat cells are unchanged.

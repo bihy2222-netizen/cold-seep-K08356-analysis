@@ -1,0 +1,4 @@
+analysis_component	status	permitted_statement
+Metabolic-potential figure	verified	Unadjusted genomic metabolic-potential association
+Abundance/TPM figure	not verified	No abundance conclusion until the 56-sample TPM artifact is recovered and audited
+Completeness and GTDB-family adjustment	not completed	Do not claim host- or quality-adjusted habitat/clade effects

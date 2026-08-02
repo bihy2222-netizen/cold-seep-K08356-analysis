@@ -1,0 +1,5 @@
+habitat	final_clade	feature_name	n_unique_MAG	n_MAG_ge_50	prevalence_ge_50_pct	prevalence_ge_75_pct	mean_score_or_binary_carriage_pct	interpretation
+IS	Clade 4	Arsenate detoxification/resistance (arsC) marker carriage	20	17	85	85	85	Widespread arsenic detoxification/resistance marker carriage
+IS	Clade 4	Arsenite oxidation (arxA/aioA) marker carriage	20	0	0	0	0	No independent arsenite-oxidation marker remained after focal exclusion
+IS	Clade 4	Respiratory arsenate reduction (arrA) marker carriage	20	2	10	10	10	Respiratory arsenate reduction marker was uncommon
+IS	Clade 4	Cobalamin biosynthesis, cobinamide => cobalamin	20	20	100	90	79.375	All MAGs exceeded the legacy 50% partial-reconstruction threshold; not evidence of a complete pathway

@@ -1,0 +1,13 @@
+source_sheet	research_category	feature_name	definition_KO_total	unavailable_KO_count	unavailable_KO_pct	unavailable_KO_IDs	n_MAG_evaluated	n_MAG_score_changed	n_MAG_legacy_ge_50	n_MAG_catalog_compatible_ge_50	n_MAG_threshold_flip_50	n_MAG_legacy_ge_75	n_MAG_catalog_compatible_ge_75	n_MAG_threshold_flip_75	maximum_score_increase_pct
+MISC	Vitamin B12	Cobalamin biosynthesis, precorrin2 => cobinamide	25	1	4	K02304	48	39	19	19	0	0	0	0	2.33333333333334
+N	Carbon	Methane oxidation, methanotroph, methane => formaldehyde	12	1	8.33333333333333	K17066	48	3	0	0	0	0	0	0	3.03030303030303
+N	Carbon	Reductive citrate cycle (Arnon-Buchanan cycle)	43	1	2.32558139534884	K01681	48	48	0	1	1	0	0	0	1.16279069767442
+N	Nitrogen	Assimilatory nitrate reduction, nitrate => ammonia	6	2	33.3333333333333	K10534;K17877	48	3	0	0	0	0	0	0	8.33333333333333
+N	Nitrogen	Denitrification, nitrate => nitrogen	11	1	9.09090909090909	K15877	48	47	8	15	7	0	0	0	6.36363636363637
+Organic Nitrogen	Nitrogen	Urea cycle	6	1	16.6666666666667	K01948	48	47	34	34	0	0	10	10	13.3333333333333
+carbon utilization	Carbon	Citrate cycle (TCA cycle, Krebs cycle)	40	9	22.5	K00025;K00026;K00234;K00235;K00236;K00237;K01681;K01899;K01900	48	48	1	13	12	0	0	0	14.5161290322581
+carbon utilization	Carbon	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate	6	1	16.6666666666667	K01681	48	43	6	6	0	0	0	0	10
+carbon utilization	Carbon	Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate	34	8	23.5294117647059	K00025;K00026;K00234;K00235;K00236;K00237;K01899;K01900	48	48	2	17	15	0	0	0	16.289592760181
+carbon utilization	Carbon	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate	29	3	10.3448275862069	K08074;K12406;K12407	48	48	0	0	0	0	0	0	4.37665782493369
+carbon utilization	Carbon	Glycolysis, core module involving three-carbon compounds	12	1	8.33333333333333	K12406	48	48	28	28	0	0	0	0	5.3030303030303
+carbon utilization	Carbon	Pyruvate oxidation, pyruvate => acetyl-CoA	11	1	9.09090909090909	K13997	48	46	8	14	6	0	0	0	6.36363636363637

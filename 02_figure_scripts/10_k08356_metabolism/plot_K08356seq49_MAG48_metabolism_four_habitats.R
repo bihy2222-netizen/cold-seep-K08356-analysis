@@ -329,7 +329,7 @@ if (length(non_ko_gene_ids)) {
        paste(non_ko_gene_ids, collapse = ", "))
 }
 
-gene_set_scores <- tidyr::crossing(
+gene_set_scores_detailed <- tidyr::crossing(
   MAG = unique(mapping$MAG),
   gene_set_definitions %>% filter(research_category != "Arsenic")
 ) %>%
@@ -342,7 +342,9 @@ gene_set_scores <- tidyr::crossing(
     reconstruction_score_pct = 100 * components_detected /
       feature_component_count,
     .groups = "drop"
-  ) %>%
+  )
+
+gene_set_scores <- gene_set_scores_detailed %>%
   transmute(
     MAG,
     research_category,
@@ -352,6 +354,87 @@ gene_set_scores <- tidyr::crossing(
     components_detected,
     reconstruction_score_pct
   )
+
+catalog_compatible_gene_set_scores <- tidyr::crossing(
+  MAG = unique(mapping$MAG),
+  definition_id_detail %>%
+    filter(
+      research_category != "Arsenic",
+      represented_in_KO_result_catalog
+    ) %>%
+    select(source_sheet, research_category, feature_name, gene_id)
+) %>%
+  left_join(ko_hits, by = c("MAG", "gene_id")) %>%
+  mutate(gene_count = replace_na(gene_count, 0)) %>%
+  group_by(MAG, source_sheet, research_category, feature_name) %>%
+  summarise(
+    catalog_compatible_component_count = n_distinct(gene_id),
+    catalog_compatible_components_detected =
+      n_distinct(gene_id[gene_count > 0]),
+    catalog_compatible_score_pct =
+      100 * catalog_compatible_components_detected /
+      catalog_compatible_component_count,
+    .groups = "drop"
+  )
+
+affected_definition_features <- definition_denominator_impact %>%
+  filter(research_category != "Arsenic") %>%
+  select(
+    source_sheet, research_category, feature_name,
+    definition_records, unavailable_definition_records,
+    distinct_unavailable_identifiers, unavailable_identifiers
+  )
+
+gene_set_denominator_sensitivity_MAG <- gene_set_scores_detailed %>%
+  inner_join(
+    affected_definition_features,
+    by = c("source_sheet", "research_category", "feature_name")
+  ) %>%
+  rename(
+    legacy_component_count = feature_component_count,
+    legacy_components_detected = components_detected,
+    legacy_score_pct = reconstruction_score_pct
+  ) %>%
+  left_join(
+    catalog_compatible_gene_set_scores,
+    by = c("MAG", "source_sheet", "research_category", "feature_name")
+  ) %>%
+  mutate(
+    unavailable_definition_pct =
+      100 * unavailable_definition_records / definition_records,
+    score_delta_pct = catalog_compatible_score_pct - legacy_score_pct,
+    score_changed = abs(score_delta_pct) > 1e-10,
+    legacy_ge_50 = legacy_score_pct >= 50,
+    catalog_compatible_ge_50 = catalog_compatible_score_pct >= 50,
+    threshold_flip_50 = legacy_ge_50 != catalog_compatible_ge_50,
+    legacy_ge_75 = legacy_score_pct >= 75,
+    catalog_compatible_ge_75 = catalog_compatible_score_pct >= 75,
+    threshold_flip_75 = legacy_ge_75 != catalog_compatible_ge_75
+  )
+
+gene_set_denominator_sensitivity_feature <-
+  gene_set_denominator_sensitivity_MAG %>%
+  group_by(source_sheet, research_category, feature_name) %>%
+  summarise(
+    definition_KO_total = first(definition_records),
+    unavailable_KO_count = first(unavailable_definition_records),
+    unavailable_KO_pct = first(unavailable_definition_pct),
+    unavailable_KO_IDs = first(unavailable_identifiers),
+    n_MAG_evaluated = n_distinct(MAG),
+    n_MAG_score_changed = sum(score_changed),
+    n_MAG_legacy_ge_50 = sum(legacy_ge_50),
+    n_MAG_catalog_compatible_ge_50 = sum(catalog_compatible_ge_50),
+    n_MAG_threshold_flip_50 = sum(threshold_flip_50),
+    n_MAG_legacy_ge_75 = sum(legacy_ge_75),
+    n_MAG_catalog_compatible_ge_75 = sum(catalog_compatible_ge_75),
+    n_MAG_threshold_flip_75 = sum(threshold_flip_75),
+    maximum_score_increase_pct = max(score_delta_pct),
+    .groups = "drop"
+  )
+
+gene_set_denominator_threshold_flips <-
+  gene_set_denominator_sensitivity_MAG %>%
+  filter(threshold_flip_50 | threshold_flip_75)
 
 hmm_hit <- read_excel(
   input_xlsx,
@@ -486,24 +569,35 @@ canonical_aioa_audit <- mapping %>%
   select(contig_gene, MAG, habitat, final_clade, final_clade_name) %>%
   left_join(
     classification %>%
-      select(Sequence_ID, classification_AioA_score = AioA_score),
+      select(
+        Sequence_ID,
+        joint_screen_Combined_score = Combined_score,
+        classification_AioA_score = AioA_score
+      ),
     by = c("contig_gene" = "Sequence_ID")
   ) %>%
   left_join(canonical_aioa_raw, by = "contig_gene") %>%
   mutate(
     METABOLIC_reporting_threshold = 800,
+    joint_screen_reporting_threshold = 640,
+    joint_screen_Combined_640_pass =
+      joint_screen_Combined_score >= joint_screen_reporting_threshold,
     METABOLIC_aioA_reported_in_original_tblout =
       METABOLIC_aioA_full_sequence_score >= METABOLIC_reporting_threshold,
-    interpretation = if_else(
-      METABOLIC_aioA_reported_in_original_tblout,
-      "Passed METABOLIC aioA -T 800 threshold; focal hit excluded",
-      "Detected by the same aioA HMM but score was below -T 800; not an ID mismatch"
+    interpretation = case_when(
+      METABOLIC_aioA_reported_in_original_tblout ~
+        "Passed METABOLIC aioA -T 800; canonical placement independently supported by the joint screen and phylogeny",
+      joint_screen_Combined_640_pass ~
+        "Below METABOLIC aioA -T 800; retained by independent joint-screen score >=640 and phylogenetic placement, not by METABOLIC detection",
+      TRUE ~
+        "Below both reporting thresholds; requires independent phylogenetic support"
     )
   )
 if (nrow(canonical_aioa_audit) != 3L ||
     sum(canonical_aioa_audit$METABOLIC_aioA_reported_in_original_tblout) != 2L ||
+    sum(canonical_aioa_audit$joint_screen_Combined_640_pass) != 3L ||
     any(is.na(canonical_aioa_audit$METABOLIC_aioA_full_sequence_score))) {
-  stop("Expected three canonical sequences with two METABOLIC aioA scores >=800.")
+  stop("Expected three joint-screen/phylogenetic canonical sequences and two METABOLIC aioA scores >=800.")
 }
 
 membership_scores <- host_scores %>%
@@ -541,6 +635,89 @@ group_summary <- mag_clade_scores %>%
     prevalence_score_ge_75_pct = 100 * mean(score_ge_75),
     inference_allowed = n_distinct(MAG) > 1,
     .groups = "drop"
+  )
+
+dual_copy_MAG <- "S1_9-12_bin1"
+group_summary_excluding_dual_copy_MAG <- mag_clade_scores %>%
+  filter(MAG != dual_copy_MAG) %>%
+  group_by(research_category, feature_name, source_type, habitat,
+           final_clade, final_clade_name) %>%
+  summarise(
+    n_unique_MAG_excluding_dual_copy = n_distinct(MAG),
+    mean_score_pct_excluding_dual_copy = mean(reconstruction_score_pct),
+    prevalence_ge_50_pct_excluding_dual_copy = 100 * mean(score_ge_50),
+    prevalence_ge_75_pct_excluding_dual_copy = 100 * mean(score_ge_75),
+    .groups = "drop"
+  )
+
+dual_copy_MAG_exclusion_sensitivity <- group_summary %>%
+  select(
+    research_category, feature_name, source_type, habitat, final_clade,
+    final_clade_name, n_unique_MAG_all = n_unique_MAG,
+    mean_score_pct_all = mean_reconstruction_score_pct,
+    prevalence_ge_50_pct_all = prevalence_score_ge_50_pct,
+    prevalence_ge_75_pct_all = prevalence_score_ge_75_pct
+  ) %>%
+  left_join(
+    group_summary_excluding_dual_copy_MAG,
+    by = c(
+      "research_category", "feature_name", "source_type", "habitat",
+      "final_clade", "final_clade_name"
+    )
+  ) %>%
+  mutate(
+    n_unique_MAG_excluding_dual_copy = replace_na(
+      n_unique_MAG_excluding_dual_copy, 0L
+    ),
+    mean_score_delta_pct =
+      mean_score_pct_excluding_dual_copy - mean_score_pct_all,
+    prevalence_ge_50_delta_pct =
+      prevalence_ge_50_pct_excluding_dual_copy - prevalence_ge_50_pct_all,
+    prevalence_ge_75_delta_pct =
+      prevalence_ge_75_pct_excluding_dual_copy - prevalence_ge_75_pct_all,
+    exclusion_effect = case_when(
+      n_unique_MAG_excluding_dual_copy == 0L ~
+        "cell becomes empty; original n=1 was descriptive only",
+      n_unique_MAG_excluding_dual_copy < n_unique_MAG_all ~
+        "cell recalculated after dual-copy MAG exclusion",
+      TRUE ~ "unchanged; dual-copy MAG absent from this cell"
+    )
+  )
+
+dual_copy_MAG_exclusion_summary <-
+  dual_copy_MAG_exclusion_sensitivity %>%
+  summarise(
+    excluded_MAG = dual_copy_MAG,
+    excluded_sequence_memberships = sum(mapping$MAG == dual_copy_MAG),
+    clades_occupied_by_excluded_MAG = paste(
+      sort(unique(as.character(mapping$final_clade[mapping$MAG == dual_copy_MAG]))),
+      collapse = ";"
+    ),
+    excluded_habitat = paste(
+      sort(unique(as.character(mapping$habitat[mapping$MAG == dual_copy_MAG]))),
+      collapse = ";"
+    ),
+    feature_clade_habitat_cells_evaluated = n(),
+    cells_with_MAG_removed = sum(
+      n_unique_MAG_excluding_dual_copy < n_unique_MAG_all
+    ),
+    cells_becoming_empty = sum(n_unique_MAG_excluding_dual_copy == 0L),
+    populated_cells_with_numeric_change = sum(
+      n_unique_MAG_excluding_dual_copy > 0L &
+        (
+          abs(replace_na(mean_score_delta_pct, 0)) > 1e-10 |
+          abs(replace_na(prevalence_ge_50_delta_pct, 0)) > 1e-10 |
+          abs(replace_na(prevalence_ge_75_delta_pct, 0)) > 1e-10
+        )
+    ),
+    Clade4_IS_affected = any(
+      final_clade == "Clade 4" & habitat == "IS" &
+        n_unique_MAG_excluding_dual_copy < n_unique_MAG_all
+    ),
+    interpretation = paste(
+      "The dual-copy MAG occupies Clade 1-AS and Clade 3-AS only.",
+      "Those n=1 descriptive cells become empty; Clade 4-IS and all other cells are unchanged."
+    )
   )
 
 cell_counts <- mapping %>%
@@ -626,6 +803,8 @@ make_plot <- function(threshold) {
     "For multi-gene rows, fill is mean gene-set coverage and size is the fraction of MAGs passing the threshold.",
     "For the three arsenic rows, each MAG is binary after excluding all 49 focal K08356 sequences: arrA denotes respiratory arsenate reduction, arsC detoxification/resistance, and arxA/aioA arsenite oxidation.",
     "The legacy denominator is retained exactly; 19 distinct KO identifiers are absent from the current KO result catalog and conservatively depress affected rows (see definition audit).",
+    "The >=50% main display is a pre-specified partial gene-set reconstruction threshold; >=75% is a sensitivity analysis, and neither threshold alone establishes a complete pathway or mechanism.",
+    "Canonical AioA placement is phylogenetic: 2/3 sequences exceeded METABOLIC aioA -T 800; the third scored 762.0 but passed the independent joint screen (969.5 >=640).",
     "Flagellar Assembly denotes partial 36-KO gene-set reconstruction, not complete motility.",
     paste0("Bubble size is true MAG prevalence at gene-set coverage >=", threshold,
            "%; fill is mean MAG gene-set coverage."),
@@ -865,6 +1044,40 @@ write.table(
   row.names = FALSE
 )
 write.table(
+  gene_set_denominator_sensitivity_feature,
+  file.path(
+    out_dir,
+    "gene_set_unavailable_KO_threshold_sensitivity_by_feature.tsv"
+  ),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
+  gene_set_denominator_threshold_flips,
+  file.path(
+    out_dir,
+    "gene_set_unavailable_KO_MAG_threshold_flips.tsv"
+  ),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
+  dual_copy_MAG_exclusion_sensitivity,
+  file.path(out_dir, "dual_copy_MAG_exclusion_sensitivity.tsv"),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
+  dual_copy_MAG_exclusion_summary,
+  file.path(out_dir, "dual_copy_MAG_exclusion_sensitivity_summary.tsv"),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE
+)
+write.table(
   plot_data,
   file.path(out_dir, "bubble_plot_data.tsv"),
   sep = "\t",
@@ -903,4 +1116,10 @@ cat("Non-focal arsenite-oxidation markers retained:",
 cat("Previous gene sets validated:",
     n_distinct(gene_set_definitions$feature_name), "\n")
 cat("Selected metabolic features:", n_distinct(host_scores$feature_name), "\n")
+cat("Unavailable-KO threshold flips at 50%:",
+    sum(gene_set_denominator_sensitivity_feature$n_MAG_threshold_flip_50), "\n")
+cat("Unavailable-KO threshold flips at 75%:",
+    sum(gene_set_denominator_sensitivity_feature$n_MAG_threshold_flip_75), "\n")
+cat("Clade 4-IS affected by dual-copy MAG exclusion:",
+    dual_copy_MAG_exclusion_summary$Clade4_IS_affected, "\n")
 cat("Output directory:", out_dir, "\n")

@@ -1,0 +1,2 @@
+excluded_MAG	excluded_sequence_memberships	clades_occupied_by_excluded_MAG	excluded_habitat	feature_clade_habitat_cells_evaluated	cells_with_MAG_removed	cells_becoming_empty	populated_cells_with_numeric_change	Clade4_IS_affected	interpretation
+S1_9-12_bin1	2	Clade 1;Clade 3	AS	400	80	80	0	FALSE	The dual-copy MAG occupies Clade 1-AS and Clade 3-AS only. Those n=1 descriptive cells become empty; Clade 4-IS and all other cells are unchanged.

@@ -13,6 +13,16 @@ Canonical AioA sequence and one IdrA phylogenetic sequence.
 - This version supersedes the older 48-sequence/47-MAG mappings. The exact
   history is recorded in `results/version_count_audit.tsv`.
 
+## Locked status
+
+- Metabolic-potential figure: verified.
+- Abundance/TPM figure: not verified; the current 49-sequence folder contains no
+  recoverable 56-sample TPM artifact.
+- Completeness and GTDB-family adjustment: not completed.
+
+Accordingly, this figure supports unadjusted genomic metabolic-potential
+associations only, not activity, element-cycle coupling, or habitat-driven effects.
+
 ## Inputs
 
 - `METABOLIC_group_derep49_result.xlsx`: completed METABOLIC-G result workbook.
@@ -40,8 +50,10 @@ the two corrections in `results/habitat_assignment_QC.tsv`.
   habitat-clade cell. Gene sets overlap and are not independent biological
   observations.
 - Bubble size is true MAG prevalence, not sequence-membership prevalence.
-- The main plot uses a 50% gene-set-coverage threshold; a 75% sensitivity
-  plot is generated in parallel.
+- For continuity with the pre-specified legacy algorithm, the main plot uses a
+  >=50% partial gene-set-reconstruction threshold. A >=75% threshold is generated
+  as a sensitivity analysis. Neither threshold alone establishes complete pathway
+  presence, and no mechanistic inference relies solely on the 50% cutoff.
 - Arsenic is split into three binary per-MAG METABOLIC HMM-marker rows:
   respiratory arsenate reduction (`arrA`), arsenate detoxification/resistance
   (`arsC`), and arsenite oxidation (`arxA`/`aioA`). These are not multi-gene
@@ -49,7 +61,10 @@ the two corrections in `results/habitat_assignment_QC.tsv`.
   to avoid circular evidence.
 - The three canonical sequences score 1192.6, 1177.1, and 762.0 against the same
   METABOLIC `aioA.hmm`. The original run used `-T 800`, so only the first two
-  appeared in its `tblout`; the third is a below-threshold hit, not an ID mismatch.
+  appeared in its `tblout`. The third is retained by independent sequence/tree
+  evidence and the joint-screen `Combined_score` of 969.5 (>=640), not by
+  METABOLIC `aioA.hmm` detection. Phylogenetic placement and METABOLIC detection
+  are separate evidence systems.
 - Gray hatching means that a habitat has no member of that clade. A small hollow
   point means clade members are present but the feature score is zero.
 - Every habitat-clade panel reports both sequence and unique MAG counts. Cells
@@ -82,9 +97,26 @@ corresponds to donor-dependent respiratory ArrA activity. Thirty definition
 records representing 19 distinct KOs are absent from the current per-MAG KO
 result catalog. They remain
 in the denominator to reproduce the previous algorithm exactly, making affected
-gene-set coverage values conservative. The affected sets and maximum attainable
-coverage are listed in
-`results/gene_set_unavailable_definition_denominator_impact.tsv`.
+gene-set coverage values conservative but not uniformly so. A catalog-compatible
+denominator sensitivity analysis produces 41 MAG-feature threshold flips at 50%
+and 10 at 75%, concentrated in TCA, second-stage TCA, pyruvate oxidation,
+reductive TCA, denitrification, and urea-cycle rows. These rows must not be used
+for threshold-dependent mechanistic claims without the sensitivity table. The
+Clade 4-IS arsenic-marker rows and target cobinamide-to-cobalamin B12 row are
+unchanged.
+
+`S1_9-12_bin1` contributes one sequence to Clade 1 and one to Clade 3. Excluding
+this dual-copy MAG makes the two original n=1 Clade 1-AS and Clade 3-AS cells
+empty; Clade 4-IS and all other populated cells are unchanged.
+
+## Locked biological result
+
+Among 20 Clade 4-IS MAGs, `arsC` occurs in 17/20 (85%), `arrA` in 2/20
+(10%), and no independent `arxA`/`aioA` marker remains after focal K08356
+exclusion. All 20/20 exceed the legacy 50% partial-reconstruction threshold for
+`Cobalamin biosynthesis, cobinamide => cobalamin`, with 79.375% mean coverage.
+This supports a widespread arsenic detoxification/resistance background, not
+widespread arsenic respiration or independent arsenite oxidation.
 
 ## Main outputs
 
@@ -96,6 +128,13 @@ coverage are listed in
 - `results/canonical_AioA_METABOLIC_HMM_score_audit.tsv`
 - `results/gene_set_definition_ID_audit_summary.tsv`
 - `results/gene_set_non_KO_and_unmatched_definitions.tsv`
+- `results/gene_set_unavailable_KO_threshold_sensitivity_by_feature.tsv`
+- `results/gene_set_unavailable_KO_MAG_threshold_flips.tsv`
+- `results/dual_copy_MAG_exclusion_sensitivity.tsv`
+- `results/dual_copy_MAG_exclusion_sensitivity_summary.tsv`
+- `results/Clade4_IS_locked_arsenic_B12_results.tsv`
+- `results/FINAL_LOCK_STATUS.tsv`
+- `results/MANUSCRIPT_LOCKED_WORDING.md`
 - `results/artifact_49_sequence_sync_audit.tsv`
 - `results/confounding_adjustment_status.tsv`
 - `results/PUBLICATION_REVIEW_NOTES.md`

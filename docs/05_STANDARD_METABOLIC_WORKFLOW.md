@@ -42,3 +42,15 @@ but reports that 30 records (19 distinct KOs) are unavailable in the current KO
 result catalog. Affected coverage values are therefore conservative. MAGs all
 pass the 50/10 quality threshold, but no completeness- or GTDB-family-adjusted
 model is claimed.
+
+The catalog-compatible denominator sensitivity analysis must accompany the
+legacy figure: 41 MAG-feature calls flip at the 50% threshold and 10 at 75%,
+restricted to TCA, second-stage TCA, pyruvate oxidation, reductive TCA,
+denitrification, and urea-cycle rows. The locked Clade 4-IS arsenic-marker and
+cobinamide-to-cobalamin B12 results are unaffected.
+
+`S1_9-12_bin1` is the only MAG represented in two clades. Its exclusion makes
+the descriptive n=1 Clade 1-AS and Clade 3-AS cells empty; Clade 4-IS and all
+other populated cells remain unchanged. See `MANUSCRIPT_LOCKED_WORDING.md` and
+the supplementary sensitivity tables in the figure workflow's `results/`
+directory.
