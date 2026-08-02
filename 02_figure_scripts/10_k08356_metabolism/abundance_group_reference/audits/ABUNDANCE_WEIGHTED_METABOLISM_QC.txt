@@ -1,0 +1,14 @@
+analysis_status	descriptive_group_specific_reference_TPM
+input_rows_all_MAGs	47656
+validated_target_rows	2688
+samples	56
+target_MAGs	48
+K08356_sequence_memberships	49
+clade_sequence_counts	3/7/19/20
+group_reference_sizes	IS:315;AS:128;ES:252;NS:156
+same_target_MAG_set_across_samples	TRUE
+same_background_reference_across_source_groups	FALSE
+dual_clade_host	S1_9-12_bin1
+reference_consistent_clade	Clade 4
+permitted_interpretation	descriptive abundance-weighted genomic potential; provisional Clade 4 sample-level habitat association
+prohibited_interpretation	fully adjusted habitat mechanism or spatial heterogeneity

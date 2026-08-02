@@ -66,6 +66,16 @@ docs/05_STANDARD_METABOLIC_WORKFLOW.md
 该数据集包含 49 条 K08356 候选蛋白，但对应 48 个唯一 MAG；METABOLIC-G
 使用每个 MAG 的完整 `*.cds.faa` 蛋白组，因此标准输入为 48 个文件。
 
+分组参考TPM与锁定代谢矩阵的丰度加权整合见：
+
+```text
+02_figure_scripts/10_k08356_metabolism/abundance_group_reference/
+```
+
+该分析严格核验56样本×48目标MAG，但IS/AS/ES/NS使用的背景参考分别含
+315/128/252/156个MAG。Clade 1–3混合参考，只作描述性展示；Clade 4的20个
+MAG全部来自同一IS参考，可进行同参考的样本生境比较，但仍需站位/深度校正。
+
 ## 第二部分：画图顺序
 
 画图从采样地图开始，随后是群落组成、α/β 多样性、差异类群、共有/特有类群、宿主分类、环境关联和网络图：

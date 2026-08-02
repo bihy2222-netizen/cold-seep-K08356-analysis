@@ -1,0 +1,5 @@
+final_clade	n_unique_MAG	n_reference_groups	reference_groups	reference_consistent_for_cross_sample_habitat_comparison
+Clade 1	3	3	AS;IS;NS	FALSE
+Clade 2	7	3	AS;IS;NS	FALSE
+Clade 3	19	3	AS;ES;IS	FALSE
+Clade 4	20	1	IS	TRUE

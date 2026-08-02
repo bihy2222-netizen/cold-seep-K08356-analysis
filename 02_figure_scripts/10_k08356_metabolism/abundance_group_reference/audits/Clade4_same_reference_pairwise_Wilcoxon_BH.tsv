@@ -1,0 +1,7 @@
+habitat_1	habitat_2	Wilcoxon_p	test_note	Wilcoxon_BH
+IS	AS	1.31792606783421e-06	Two-sided Wilcoxon rank-sum test	5.87619446168475e-06
+IS	ES	1.95873148722825e-06	Two-sided Wilcoxon rank-sum test	5.87619446168475e-06
+IS	NS	8.22204880777111e-05	Two-sided Wilcoxon rank-sum test	0.000164440976155422
+AS	ES	0.373734863712646	Two-sided Wilcoxon rank-sum test	0.560602295568969
+AS	NS	0.508331573552145	Two-sided Wilcoxon rank-sum test	0.609997888262575
+ES	NS	1	Both groups have identical values; p set to 1	1

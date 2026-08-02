@@ -1,0 +1,2 @@
+test	statistic	df	p_value	scope
+Kruskal-Wallis on log10(TPM+1)	46.3500387496771	3	4.77821837084665e-10	20 Clade 4 MAGs; all samples mapped against the same IS group reference; station/depth dependence not modeled
