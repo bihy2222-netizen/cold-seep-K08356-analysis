@@ -13,27 +13,25 @@ The merged source contains four separate group references: IS 315 MAGs, AS 128,
 ES 252, and NS 156. Each reference was profiled against all 56 samples. Every
 target MAG occurs in one source reference and has one TPM value in every sample.
 
-## Run
-
-```bash
-export GROUP_TPM_LONG=/path/to/IS_AS_ES_NS_MAG_TPM_long.tsv
-export GROUP_TPM_SUMMARY=/path/to/IS_AS_ES_NS_MAG_TPM_summary.tsv
-export SAMPLE_METADATA_CSV=/path/to/sample_metadata_used.csv
-Rscript plot_abundance_weighted_metabolism_group_derep49.R
-```
-
-`METABOLIC_SCORE_TSV`, `K08356_MAPPING_TSV`, and
-`ABUNDANCE_METABOLISM_OUT_DIR` can also override their repository-relative
-defaults. The long TPM input is not committed.
-
 ## Main figure semantics
 
 `group_derep49_MAG48_abundance_weighted_metabolism` uses:
 
-- fill: TPM-weighted mean metabolic score;
-- size: percentage of samples in a habitat with TPM >0 for at least one host
-  MAG passing the legacy >=50% partial-reconstruction threshold;
-- hollow point: no sample-level detection of a >=50% functional host.
+- fill: the mean of within-sample TPM-weighted metabolic scores. For sample
+  `s` and feature `m`, `W_sm = sum(TPM_si * Score_im) / sum(TPM_si)` across
+  detected host MAGs, followed by an equal-weight mean across detected samples
+  in each habitat;
+- size: sample detection prevalence of host MAGs with >=50% partial
+  reconstruction;
+- blank/hollow point: no host detection in that habitat-feature cell. These
+  samples are `NA` for the fill calculation rather than metabolic score zero.
+
+The exact bubble-size legend is: `Sample detection prevalence of host MAGs with
+>=50% partial reconstruction (%)`.
+
+Host detection is defined as TPM >0 after CoverM filtering with >=10% covered
+fraction, >=95% read identity, >=75% aligned-read fraction, and 0.1/0.9 read-end
+trimming. Thus TPM >0 is not an unfiltered single-read criterion.
 
 The unweighted locked 50% figure is copied beside it with an explicit
 `unweighted` filename.
@@ -57,9 +55,17 @@ samples, and 0/8 NS samples. The sample-level Kruskal-Wallis test on
 correction supported IS versus AS, ES, and NS, while AS/ES/NS contrasts were not
 significant.
 
-This supports a provisional, reference-consistent concentration of Clade 4 host
-abundance in IS samples. It does not yet establish habitat causality, spatial
-heterogeneity independent of station/depth, activity, or elemental-cycle flux.
+For detection versus nondetection, Clade 4 occurred in 20/21 IS samples (95.2%)
+and 1/35 non-IS samples (2.9%). Fisher's exact test gave p=5.465e-13, with a
+conditional odds ratio of 415.5 and an exact 95% confidence interval of
+32.7-28,834.5.
+
+This identifies Clade 4 as strongly IS-associated, not IS-exclusive. Because all
+20 host genomes were initially assembled from IS, the strict interpretation is
+that populations matching these IS-derived Clade 4 genomes are enriched in IS.
+The analysis cannot exclude more divergent Clade 4 populations in AS, ES, or NS.
+It also does not establish habitat causality, spatial heterogeneity independent
+of station/core/depth, metabolic activity, or elemental-cycle flux.
 
 ## Outputs
 
@@ -68,5 +74,8 @@ heterogeneity independent of station/depth, activity, or elemental-cycle flux.
 - `results/abundance_weighted_clade_habitat_feature_summary.tsv`
 - `results/Clade4_same_reference_Kruskal_Wallis.tsv`
 - `results/Clade4_same_reference_pairwise_Wilcoxon_BH.tsv`
+- `results/Clade4_detection_prevalence_by_habitat.tsv`
+- `results/Clade4_IS_vs_nonIS_Fisher_exact.tsv`
 - `results/clade_reference_consistency_audit.tsv`
 - `results/ABUNDANCE_WEIGHTED_METABOLISM_QC.txt`
+- `results/MANUSCRIPT_RESULT_CLADE4_IS_ASSOCIATION.md`

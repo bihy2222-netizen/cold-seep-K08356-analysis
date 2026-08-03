@@ -8,7 +8,8 @@ suppressPackageStartupMessages({
 args <- commandArgs(trailingOnly = FALSE)
 script_arg <- args[grepl("^--file=", args)]
 script_dir <- if (length(script_arg)) {
-  dirname(normalizePath(sub("^--file=", "", script_arg[1])))
+  script_path <- gsub("~\\+~", " ", sub("^--file=", "", script_arg[1]))
+  dirname(normalizePath(script_path))
 } else {
   getwd()
 }
@@ -192,6 +193,13 @@ calculate_summary <- function(exclude_dual_MAG = FALSE) {
       any_host_detected = total_host_TPM > 0,
       functional_host_detected_50 = functional_host_TPM_50 > 0,
       .groups = "drop"
+    ) %>%
+    mutate(
+      sample_TPM_weighted_score_pct = if_else(
+        any_host_detected,
+        score_TPM_numerator / total_host_TPM,
+        NA_real_
+      )
     )
 
   habitat_summary <- sample_feature %>%
@@ -206,13 +214,14 @@ calculate_summary <- function(exclude_dual_MAG = FALSE) {
       mean_total_host_TPM_per_sample = mean(total_host_TPM),
       median_total_host_TPM_per_sample = median(total_host_TPM),
       mean_functional_host_TPM_50_per_sample = mean(functional_host_TPM_50),
+      n_samples_host_detected = sum(any_host_detected),
       sample_host_detection_prevalence_pct = 100 * mean(any_host_detected),
       sample_functional_detection_prevalence_50_pct =
         100 * mean(functional_host_detected_50),
       abundance_weighted_score_pct = if_else(
-        sum(total_host_TPM) > 0,
-        sum(score_TPM_numerator) / sum(total_host_TPM),
-        0
+        any(any_host_detected),
+        mean(sample_TPM_weighted_score_pct, na.rm = TRUE),
+        NA_real_
       ),
       .groups = "drop"
     ) %>%
@@ -221,6 +230,11 @@ calculate_summary <- function(exclude_dual_MAG = FALSE) {
       reference_bias_note = paste(
         "Descriptive only: target MAGs were quantified within four different",
         "background references (IS 315, AS 128, ES 252, NS 156 MAGs)"
+      ),
+      score_aggregation_note = paste(
+        "Each sample is equally weighted: calculate sum(TPM*score)/sum(TPM)",
+        "within detected hosts per sample, then average non-missing sample scores",
+        "within habitat; host-nondetection samples are NA for fill"
       )
     )
 
@@ -339,6 +353,108 @@ clade4_stats <- tibble(
   )
 )
 
+clade4_detection_by_habitat <- clade4_sample_abundance %>%
+  mutate(detected = Clade4_host_MAG_TPM > 0) %>%
+  group_by(sample_habitat) %>%
+  summarise(
+    n_samples = n(),
+    n_detected = sum(detected),
+    n_not_detected = sum(!detected),
+    detection_prevalence_pct = 100 * mean(detected),
+    .groups = "drop"
+  )
+
+clade4_IS_nonIS <- clade4_sample_abundance %>%
+  mutate(
+    habitat_binary = if_else(sample_habitat == "IS", "IS", "non-IS"),
+    detected = Clade4_host_MAG_TPM > 0
+  ) %>%
+  count(habitat_binary, detected) %>%
+  complete(
+    habitat_binary = c("IS", "non-IS"),
+    detected = c(FALSE, TRUE),
+    fill = list(n = 0L)
+  )
+
+count_value <- function(habitat, detected_value) {
+  clade4_IS_nonIS$n[
+    clade4_IS_nonIS$habitat_binary == habitat &
+      clade4_IS_nonIS$detected == detected_value
+  ]
+}
+fisher_matrix <- matrix(
+  c(
+    count_value("IS", TRUE), count_value("IS", FALSE),
+    count_value("non-IS", TRUE), count_value("non-IS", FALSE)
+  ),
+  nrow = 2,
+  byrow = TRUE,
+  dimnames = list(
+    habitat = c("IS", "non-IS"),
+    status = c("detected", "not_detected")
+  )
+)
+if (!identical(as.integer(fisher_matrix), c(20L, 1L, 1L, 34L))) {
+  stop("Unexpected Clade 4 IS/non-IS detection table.")
+}
+fisher_p <- fisher.test(fisher_matrix)$p.value
+
+# Conditional maximum-likelihood odds ratio and central exact interval.
+conditional_support <- seq.int(
+  max(0, sum(fisher_matrix[1, ]) - sum(fisher_matrix[, 2])),
+  min(sum(fisher_matrix[1, ]), sum(fisher_matrix[, 1]))
+)
+conditional_log_base <-
+  lchoose(sum(fisher_matrix[, 1]), conditional_support) +
+  lchoose(
+    sum(fisher_matrix[, 2]),
+    sum(fisher_matrix[1, ]) - conditional_support
+  )
+conditional_probabilities <- function(log_theta) {
+  log_weight <- conditional_log_base + conditional_support * log_theta
+  weight <- exp(log_weight - max(log_weight))
+  weight / sum(weight)
+}
+conditional_mean <- function(log_theta) {
+  sum(conditional_support * conditional_probabilities(log_theta))
+}
+solve_increasing <- function(fn, target) {
+  exp(uniroot(function(log_theta) fn(log_theta) - target,
+              interval = c(-50, 50))$root)
+}
+observed_a <- fisher_matrix["IS", "detected"]
+conditional_OR <- solve_increasing(conditional_mean, observed_a)
+conditional_CI_lower <- solve_increasing(
+  function(log_theta) {
+    probabilities <- conditional_probabilities(log_theta)
+    sum(probabilities[conditional_support >= observed_a])
+  },
+  0.025
+)
+conditional_CI_upper <- solve_increasing(
+  function(log_theta) {
+    probabilities <- conditional_probabilities(log_theta)
+    sum(probabilities[conditional_support > observed_a])
+  },
+  0.975
+)
+
+clade4_fisher <- tibble(
+  IS_detected = fisher_matrix["IS", "detected"],
+  IS_not_detected = fisher_matrix["IS", "not_detected"],
+  nonIS_detected = fisher_matrix["non-IS", "detected"],
+  nonIS_not_detected = fisher_matrix["non-IS", "not_detected"],
+  fisher_exact_two_sided_p = fisher_p,
+  conditional_odds_ratio = conditional_OR,
+  conditional_OR_95CI_lower = conditional_CI_lower,
+  conditional_OR_95CI_upper = conditional_CI_upper,
+  interpretation = paste(
+    "Strongly IS-associated, not IS-exclusive; MAG detection is TPM >0 after",
+    "CoverM filters (>=10% covered fraction, >=95% read identity,",
+    ">=75% aligned-read fraction)"
+  )
+)
+
 feature_order <- scores %>%
   distinct(research_category, feature_name) %>%
   mutate(
@@ -385,13 +501,13 @@ plot_data <- full$habitat_summary %>%
       sep = " | "
     ),
     plot_label = factor(plot_label, levels = rev(feature_order)),
-    zero_functional_detection =
-      sample_functional_detection_prevalence_50_pct == 0
+    zero_host_detection = sample_host_detection_prevalence_pct == 0
   )
 
 caption_text <- paste(
-  "Fill: TPM-weighted mean metabolic score across detected host MAG abundance.",
-  "Size: percentage of samples in a habitat with TPM >0 for at least one host MAG passing the legacy >=50% partial-reconstruction threshold.",
+  "Fill: first calculate sum(TPM*score)/sum(TPM) within each sample, then equally average detected-host samples within habitat; host-nondetection samples are NA/blank.",
+  "Size: sample detection prevalence of host MAGs with >=50% partial reconstruction.",
+  "Host detection is TPM >0 after CoverM filters: >=10% covered fraction, >=95% read identity, >=75% aligned-read fraction, and 0.1/0.9 end trimming.",
   "Arsenic rows use independent non-focal binary markers; other rows use the predefined legacy gene-set coverage.",
   "S1_9-12_bin1 contributes to Clades 1 and 3, so clade categories are non-exclusive; an exclusion sensitivity table is provided.",
   "Important: Clades 1-3 mix target MAGs quantified in different background references (315/128/252/156 MAGs) and are descriptive.",
@@ -416,7 +532,7 @@ p <- ggplot(
     alpha = 0.94
   ) +
   geom_point(
-    data = plot_data %>% filter(zero_functional_detection),
+    data = plot_data %>% filter(zero_host_detection),
     shape = 21,
     size = 1.25,
     fill = "white",
@@ -437,13 +553,17 @@ p <- ggplot(
     colours = c("#f7fbff", "#c6dbef", "#6baed6", "#2171b5", "#08306b"),
     limits = c(0, 100),
     breaks = c(0, 25, 50, 75, 100),
-    name = "TPM-weighted\nmetabolic score (%)"
+    na.value = "white",
+    name = "Mean within-sample\nTPM-weighted score (%)"
   ) +
-  scale_size_area(
-    max_size = 6.2,
+  scale_size_continuous(
+    range = c(1.2, 6.2),
     limits = c(0, 100),
     breaks = c(0, 25, 50, 75, 100),
-    name = "Sample detection\nprevalence at >=50% (%)"
+    name = paste0(
+      "Sample detection prevalence\nof host MAGs with ",
+      "\u226550% partial reconstruction (%)"
+    )
   ) +
   labs(
     title = "Abundance-weighted metabolic potential of group-dereplicated K08356 MAGs",
@@ -510,7 +630,12 @@ p_clade4 <- ggplot(
       "Kruskal-Wallis p ",
       if_else(clade4_KW$p.value < 0.001, "< 0.001",
               paste0("= ", formatC(clade4_KW$p.value, digits = 3,
-                                    format = "f")))
+                                    format = "f"))),
+      "\nIS vs non-IS Fisher p = ",
+      format(fisher_p, scientific = TRUE, digits = 3),
+      "\nConditional OR = ", formatC(conditional_OR, digits = 1, format = "f"),
+      " (95% CI ", formatC(conditional_CI_lower, digits = 1, format = "f"),
+      "-", formatC(conditional_CI_upper, digits = 1, format = "f"), ")"
     ),
     hjust = 1, vjust = 1.3, size = 3.2, fill = "white"
   ) +
@@ -522,16 +647,20 @@ p_clade4 <- ggplot(
     ),
     x = "Sample habitat",
     y = expression(log[10]("summed host-MAG TPM" + 1)),
-    caption = paste(
-      "Points are samples. This is a sample-level association, not evidence of activity or causality.",
-      "Station/core and depth are not adjusted in this provisional nonparametric test."
+    caption = str_wrap(
+      paste(
+        "Points are samples. This is a sample-level association, not evidence of activity or causality.",
+        "Detection is TPM >0 after >=10% covered fraction, >=95% read identity and >=75% aligned-read fraction.",
+        "Station/core and depth are not adjusted in this provisional nonparametric test."
+      ),
+      width = 118
     )
   ) +
   theme_classic(base_family = "Arial", base_size = 10) +
   theme(
     plot.title = element_text(face = "bold", size = 13),
     plot.subtitle = element_text(size = 9, color = "#455a64"),
-    plot.caption = element_text(size = 7, hjust = 0),
+    plot.caption = element_text(size = 7, lineheight = 1.05, hjust = 0),
     axis.text.x = element_text(face = "bold"),
     legend.position = "none",
     plot.margin = margin(10, 14, 10, 10)
@@ -539,16 +668,16 @@ p_clade4 <- ggplot(
 
 ggsave(
   file.path(out_dir, "Clade4_same_reference_host_MAG_TPM_by_habitat.png"),
-  p_clade4, width = 8.2, height = 5.4, units = "in", dpi = 320, bg = "white"
+  p_clade4, width = 8.6, height = 5.7, units = "in", dpi = 320, bg = "white"
 )
 ggsave(
   file.path(out_dir, "Clade4_same_reference_host_MAG_TPM_by_habitat.pdf"),
-  p_clade4, width = 8.2, height = 5.4, units = "in", device = cairo_pdf,
+  p_clade4, width = 8.6, height = 5.7, units = "in", device = cairo_pdf,
   bg = "white"
 )
 ggsave(
   file.path(out_dir, "Clade4_same_reference_host_MAG_TPM_by_habitat.svg"),
-  p_clade4, width = 8.2, height = 5.4, units = "in", device = svg,
+  p_clade4, width = 8.6, height = 5.7, units = "in", device = svg,
   bg = "white"
 )
 ggsave(
@@ -602,6 +731,16 @@ write.table(
   file.path(out_dir, "Clade4_same_reference_pairwise_Wilcoxon_BH.tsv"),
   sep = "\t", quote = FALSE, row.names = FALSE
 )
+write.table(
+  clade4_detection_by_habitat,
+  file.path(out_dir, "Clade4_detection_prevalence_by_habitat.tsv"),
+  sep = "\t", quote = FALSE, row.names = FALSE
+)
+write.table(
+  clade4_fisher,
+  file.path(out_dir, "Clade4_IS_vs_nonIS_Fisher_exact.tsv"),
+  sep = "\t", quote = FALSE, row.names = FALSE
+)
 
 qc <- c(
   "analysis_status\tdescriptive_group_specific_reference_TPM",
@@ -620,6 +759,10 @@ qc <- c(
   "same_background_reference_across_source_groups\tFALSE",
   "dual_clade_host\tS1_9-12_bin1",
   "reference_consistent_clade\tClade 4",
+  "host_detection_rule\tTPM >0 after CoverM >=10% covered fraction, >=95% read identity, >=75% aligned-read fraction, trim 0.1/0.9",
+  paste0("Clade4_IS_vs_nonIS_Fisher_p\t", fisher_p),
+  paste0("Clade4_conditional_OR\t", conditional_OR),
+  paste0("Clade4_conditional_OR_95CI\t", conditional_CI_lower, ";", conditional_CI_upper),
   "permitted_interpretation\tdescriptive abundance-weighted genomic potential; provisional Clade 4 sample-level habitat association",
   "prohibited_interpretation\tfully adjusted habitat mechanism or spatial heterogeneity"
 )

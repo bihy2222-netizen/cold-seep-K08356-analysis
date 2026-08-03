@@ -1,0 +1,2 @@
+IS_detected	IS_not_detected	nonIS_detected	nonIS_not_detected	fisher_exact_two_sided_p	conditional_odds_ratio	conditional_OR_95CI_lower	conditional_OR_95CI_upper	interpretation
+20	1	1	34	5.46494299501439e-13	415.541805341888	32.6615156091902	28834.4556729716	Strongly IS-associated, not IS-exclusive; MAG detection is TPM >0 after CoverM filters (>=10% covered fraction, >=95% read identity, >=75% aligned-read fraction)

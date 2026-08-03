@@ -1,0 +1,5 @@
+sample_habitat	n_samples	n_detected	n_not_detected	detection_prevalence_pct
+IS	21	20	1	95.2380952380952
+AS	14	1	13	7.14285714285714
+ES	13	0	13	0
+NS	8	0	8	0

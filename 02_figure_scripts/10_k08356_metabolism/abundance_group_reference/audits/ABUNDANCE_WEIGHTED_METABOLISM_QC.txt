@@ -10,5 +10,9 @@ same_target_MAG_set_across_samples	TRUE
 same_background_reference_across_source_groups	FALSE
 dual_clade_host	S1_9-12_bin1
 reference_consistent_clade	Clade 4
+host_detection_rule	TPM >0 after CoverM >=10% covered fraction, >=95% read identity, >=75% aligned-read fraction, trim 0.1/0.9
+Clade4_IS_vs_nonIS_Fisher_p	5.46494299501439e-13
+Clade4_conditional_OR	415.541805341888
+Clade4_conditional_OR_95CI	32.6615156091902;28834.4556729716
 permitted_interpretation	descriptive abundance-weighted genomic potential; provisional Clade 4 sample-level habitat association
 prohibited_interpretation	fully adjusted habitat mechanism or spatial heterogeneity
