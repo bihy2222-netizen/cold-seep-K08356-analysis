@@ -23,8 +23,15 @@ target MAG occurs in one source reference and has one TPM value in every sample.
   in each habitat;
 - size: sample detection prevalence of host MAGs with >=50% partial
   reconstruction;
-- blank/hollow point: no host detection in that habitat-feature cell. These
-  samples are `NA` for the fill calculation rather than metabolic score zero.
+- blank cell: no sample detected a host MAG reaching the >=50% threshold for
+  that feature. Its plotting prevalence and weighted score are both `NA`, and
+  no point is drawn. Blank cells do not demonstrate functional absence from
+  the habitat.
+
+Only the 116 of 640 clade x habitat x feature combinations with positive
+qualifying-host prevalence are sent to `geom_point()`. `scale_size_area()` maps
+area from prevalence and omits the zero break, so a true low-frequency signal
+(for example, 1/14 = 7.14%) remains visible while zero detection remains blank.
 
 The exact bubble-size legend is: `Sample detection prevalence of host MAGs with
 >=50% partial reconstruction (%)`.
@@ -76,6 +83,7 @@ of station/core/depth, metabolic activity, or elemental-cycle flux.
 - `results/Clade4_same_reference_pairwise_Wilcoxon_BH.tsv`
 - `results/Clade4_detection_prevalence_by_habitat.tsv`
 - `results/Clade4_IS_vs_nonIS_Fisher_exact.tsv`
+- `results/figure_plotting_cells_positive_prevalence.tsv`
 - `results/clade_reference_consistency_audit.tsv`
 - `results/ABUNDANCE_WEIGHTED_METABOLISM_QC.txt`
 - `results/MANUSCRIPT_RESULT_CLADE4_IS_ASSOCIATION.md`

@@ -40,6 +40,9 @@ detected host MAGs. Habitat-level colors are equal-weight means of `W_sm` across
 samples in which at least one host was detected. Samples without host detection
 are treated as missing (`NA`), not as a metabolic score of zero. Bubble size is
 the sample detection prevalence of host MAGs with >=50% partial reconstruction.
+Only habitat-feature combinations with prevalence >0 are plotted. Blank cells
+indicate that no qualifying host MAG was detected; they do not demonstrate
+functional absence from the habitat.
 
 Host detection required TPM >0 after CoverM filtering with >=10% covered
 fraction, >=95% read identity, >=75% aligned-read fraction, and 0.1/0.9 read-end

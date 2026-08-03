@@ -501,12 +501,34 @@ plot_data <- full$habitat_summary %>%
       sep = " | "
     ),
     plot_label = factor(plot_label, levels = rev(feature_order)),
-    zero_host_detection = sample_host_detection_prevalence_pct == 0
+    prevalence_plot = if_else(
+      sample_functional_detection_prevalence_50_pct > 0,
+      sample_functional_detection_prevalence_50_pct,
+      NA_real_
+    ),
+    weighted_score_plot = if_else(
+      sample_functional_detection_prevalence_50_pct > 0,
+      abundance_weighted_score_pct,
+      NA_real_
+    )
   )
 
+plot_data_detected <- plot_data %>%
+  filter(!is.na(prevalence_plot), !is.na(weighted_score_plot))
+
+if (nrow(plot_data) != 640L ||
+    any(!is.na(plot_data$prevalence_plot[
+      plot_data$sample_functional_detection_prevalence_50_pct == 0
+    ])) ||
+    any(plot_data_detected$prevalence_plot <= 0) ||
+    any(is.na(plot_data_detected$weighted_score_plot))) {
+  stop("Plotting data must leave zero functional detections blank.")
+}
+
 caption_text <- paste(
-  "Fill: first calculate sum(TPM*score)/sum(TPM) within each sample, then equally average detected-host samples within habitat; host-nondetection samples are NA/blank.",
+  "Fill: first calculate sum(TPM*score)/sum(TPM) within each sample, then equally average detected-host samples within habitat.",
   "Size: sample detection prevalence of host MAGs with >=50% partial reconstruction.",
+  "Blank cells indicate that no qualifying host MAG was detected; they are not metabolic scores of zero and do not demonstrate functional absence from the habitat.",
   "Host detection is TPM >0 after CoverM filters: >=10% covered fraction, >=95% read identity, >=75% aligned-read fraction, and 0.1/0.9 end trimming.",
   "Arsenic rows use independent non-focal binary markers; other rows use the predefined legacy gene-set coverage.",
   "S1_9-12_bin1 contributes to Clades 1 and 3, so clade categories are non-exclusive; an exclusion sensitivity table is provided.",
@@ -517,12 +539,12 @@ caption_text <- paste(
 )
 
 p <- ggplot(
-  plot_data,
+  plot_data_detected,
   aes(
     x = sample_habitat,
     y = plot_label,
-    size = sample_functional_detection_prevalence_50_pct,
-    fill = abundance_weighted_score_pct
+    size = prevalence_plot,
+    fill = weighted_score_plot
   )
 ) +
   geom_point(
@@ -530,16 +552,6 @@ p <- ggplot(
     color = "#263238",
     stroke = 0.28,
     alpha = 0.94
-  ) +
-  geom_point(
-    data = plot_data %>% filter(zero_host_detection),
-    shape = 21,
-    size = 1.25,
-    fill = "white",
-    color = "#8a8a8a",
-    stroke = 0.35,
-    inherit.aes = FALSE,
-    aes(x = sample_habitat, y = plot_label)
   ) +
   facet_grid(
     . ~ final_clade,
@@ -556,10 +568,10 @@ p <- ggplot(
     na.value = "white",
     name = "Mean within-sample\nTPM-weighted score (%)"
   ) +
-  scale_size_continuous(
-    range = c(1.2, 6.2),
+  scale_size_area(
+    max_size = 6.2,
     limits = c(0, 100),
-    breaks = c(0, 25, 50, 75, 100),
+    breaks = c(25, 50, 75, 100),
     name = paste0(
       "Sample detection prevalence\nof host MAGs with ",
       "\u226550% partial reconstruction (%)"
@@ -741,6 +753,16 @@ write.table(
   file.path(out_dir, "Clade4_IS_vs_nonIS_Fisher_exact.tsv"),
   sep = "\t", quote = FALSE, row.names = FALSE
 )
+write.table(
+  plot_data_detected %>%
+    mutate(
+      sample_habitat = as.character(sample_habitat),
+      final_clade = as.character(final_clade),
+      plot_label = str_replace_all(as.character(plot_label), "\\n", " ")
+    ),
+  file.path(out_dir, "figure_plotting_cells_positive_prevalence.tsv"),
+  sep = "\t", quote = FALSE, row.names = FALSE
+)
 
 qc <- c(
   "analysis_status\tdescriptive_group_specific_reference_TPM",
@@ -760,6 +782,8 @@ qc <- c(
   "dual_clade_host\tS1_9-12_bin1",
   "reference_consistent_clade\tClade 4",
   "host_detection_rule\tTPM >0 after CoverM >=10% covered fraction, >=95% read identity, >=75% aligned-read fraction, trim 0.1/0.9",
+  "plot_zero_functional_prevalence\tNA and blank; no point drawn",
+  paste0("plot_cells_drawn_positive_prevalence\t", nrow(plot_data_detected)),
   paste0("Clade4_IS_vs_nonIS_Fisher_p\t", fisher_p),
   paste0("Clade4_conditional_OR\t", conditional_OR),
   paste0("Clade4_conditional_OR_95CI\t", conditional_CI_lower, ";", conditional_CI_upper),
