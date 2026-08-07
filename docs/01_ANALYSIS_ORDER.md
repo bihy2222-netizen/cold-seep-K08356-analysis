@@ -121,6 +121,22 @@ bash 01_metagenomic_workflow/02_phylogeny/06_run_standard_K08356_protein_tree_wo
 这一路线适合 dmdA、IdrA 这类需要专用模型追踪的基因，但最终仍建议和
 KOfam、系统发育、邻域证据交叉比较。
 
+为排除 K08356 预筛偏倚，应在系统树定名前对全部 derepMAG 完整蛋白组
+进行独立补筛：
+
+```bash
+bash 01_metagenomic_workflow/04_hmm_screen/01_run_808MAG_IdrA_HMM_screen.sh \
+  /path/to/dereplicated_MAG_faa \
+  /path/to/Neighborhood_Analyses/hmm \
+  /path/to/hmm_screen_output \
+  32 808 0
+```
+
+主筛采用作者公开仓库 README 明确给出的
+`combined_iriA_aioA.hmm + T640`。`iriA_new.hmm` 与 `aioA.hmm` 的 T640
+结果分开标记为探索性敏感度/对照分析；所有新增命中仍需进入系统树和
+基因邻域复核。
+
 ## 9. 基因邻域与最终证据表
 
 ```bash
