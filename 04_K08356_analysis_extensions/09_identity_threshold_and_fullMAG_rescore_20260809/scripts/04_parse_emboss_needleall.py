@@ -25,6 +25,12 @@ PAIR_ORDER = (
     [(group, group) for group in GROUP_ORDER]
     + list(itertools.combinations(GROUP_ORDER, 2))
 )
+PLOT_GROUP_LABELS = {
+    "canonical AioA-associated": "Canonical AioA",
+    "synteny-supported strict DIRM-like IdrA": "Strict DIRM-like IdrA",
+    "partial IdrA-associated": "Partial IdrA-associated",
+    "AioA-like or unresolved DMSOR": "AioA-like/unresolved",
+}
 
 
 def args():
@@ -246,6 +252,46 @@ def main() -> None:
             "端点之间的过渡性与内部异质性。通用功能阈值仍需外部实验验证参考、系统树、"
             "HMM 竞争分值和基因邻域共同验证。\n"
         )
+
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import seaborn as sns
+
+    figure_dir = options.outdir.parent / "07_figures"
+    figure_dir.mkdir(parents=True, exist_ok=True)
+    plot_order_full = [f"{group1} vs {group2}" for group1, group2 in PAIR_ORDER]
+    plot_labels = {
+        f"{group1} vs {group2}": (
+            f"{PLOT_GROUP_LABELS[group1]}\nwithin"
+            if group1 == group2
+            else f"{PLOT_GROUP_LABELS[group1]} vs\n{PLOT_GROUP_LABELS[group2]}"
+        )
+        for group1, group2 in PAIR_ORDER
+    }
+    plot_df = pd.DataFrame(rows)
+    plot_df["plot_category"] = plot_df.comparison_category.map(plot_labels)
+    sns.set_theme(style="white", font="Times New Roman")
+    fig, ax = plt.subplots(figsize=(11.5, 8.5))
+    plot_order = [plot_labels[category] for category in plot_order_full]
+    sns.boxplot(
+        data=plot_df, x="plot_category", y="needle_identity_pct",
+        order=plot_order, color="#D9D9D9", fliersize=0, ax=ax,
+    )
+    sns.stripplot(
+        data=plot_df, x="plot_category", y="needle_identity_pct",
+        order=plot_order, color="#222222", alpha=0.45, size=2.4,
+        jitter=0.25, ax=ax,
+    )
+    ax.set_xlabel("")
+    ax.set_ylabel("EMBOSS Needle global amino-acid identity (%)")
+    ax.tick_params(axis="x", rotation=28, labelsize=8.5)
+    ax.set_title("Within- and between-clade identity of 49 curated proteins")
+    sns.despine(ax=ax)
+    fig.tight_layout()
+    stem = figure_dir / "core49_four_clade_EMBOSS_Needle_identity_10_comparisons"
+    for extension in ("png", "pdf", "svg"):
+        fig.savefig(stem.with_suffix(f".{extension}"), dpi=350, bbox_inches="tight")
+    plt.close(fig)
 
     with options.biopython.open() as handle:
         biopython = {
