@@ -7,6 +7,7 @@
 - `01_metagenomic_workflow/`：先运行的宏基因组主流程，包括质控、组装、MetaPhlAn、分箱、MAG 质控、基因丰度、KOfam、K08356/AioA/IdrA 证据链和系统发育。
 - `02_figure_scripts/`：分析结束后运行的画图脚本，按论文结果顺序整理。
 - `03_metadata_examples/`：压缩包中附带的小型分组与样品信息示例。
+- `04_K08356_analysis_extensions/`：K08356 双证据、HMM、基因邻域、机器学习、营养盐、宿主分类及代谢模块分析脚本快照。
 - `docs/`：完整执行顺序、分析—作图对应关系及脚本审计记录。
 
 ## 第一部分：宏基因组分析顺序
@@ -52,6 +53,13 @@ docs/04_STANDARD_PROTEIN_TREE_WORKFLOW.md
 01_metagenomic_workflow/02_phylogeny/06_run_standard_K08356_protein_tree_workflow.sh
 ```
 
+对全部 derepMAG 蛋白进行独立 HMM 补筛见：
+
+```text
+01_metagenomic_workflow/04_hmm_screen/README.md
+01_metagenomic_workflow/04_hmm_screen/01_run_808MAG_IdrA_HMM_screen.sh
+```
+
 ## 第二部分：画图顺序
 
 画图从采样地图开始，随后是群落组成、α/β 多样性、差异类群、共有/特有类群、宿主分类、环境关联和网络图：
@@ -80,6 +88,7 @@ docs/04_STANDARD_PROTEIN_TREE_WORKFLOW.md
 4. 宏基因组 TPM 表示基因组层面的功能潜力，不代表转录活性。
 5. 多数旧 R 脚本保留了原电脑的 `setwd()`。正式运行前需改为项目路径；这些脚本已按用途归档，但没有假设用户本地数据布局并强行改写。
 6. 原压缩包中的服务器地址和疑似登录口令已经脱敏。不要把密码、Token 或服务器登录信息写入 Git 仓库。
+7. 作者公开仓库把 `combined_iriA_aioA.hmm` 与 640 分阈值关联；`iriA_new.hmm` 和 `aioA.hmm` 的 640 分结果仅作为探索性对照，不能混写为已校准阈值。
 
 ## 未纳入仓库的内容
 

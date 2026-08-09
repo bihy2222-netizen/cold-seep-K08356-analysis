@@ -4,6 +4,7 @@ __MACOSX/
 .Rhistory
 .Rproj.user/
 R_libs/
+Rlib/
 renv/library/
 config.env
 
@@ -26,4 +27,3 @@ output/
 logs/
 *.log
 *.pid
-
