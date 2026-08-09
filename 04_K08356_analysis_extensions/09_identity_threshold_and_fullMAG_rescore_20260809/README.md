@@ -40,6 +40,8 @@ until phylogenetic and gene-neighborhood validation is complete.
 - `01_compute_core49_pairwise_identity.py`: QC and global/local pairwise tables.
 - `02_integrate_mafft_mmseqs_identity.py`: MAFFT and MMseqs2 integration.
 - `03_summarize_integrated_identity_metrics.py`: clade summaries and outliers.
+- `04_parse_emboss_needleall.py`: canonical Needle identity tables and an
+  implementation-level comparison against the Biopython global alignment.
 - `04_run_full808_two_stage_HMM_rescore.sh`: T100 discovery and exact rescoring.
 - `01_summarize_union58_rescore.py`: urgent T640-union score/coverage matrix.
 - `02_summarize_T100_union_rescore.py`: 720-candidate union and K08356 overlap.

@@ -118,7 +118,7 @@ def main():
             source = "T640_new_blind_candidate"
             group = "blind_unclassified"
         else:
-            source = "T100_to_below640_new_candidate"
+            source = "T100_discovery_new_candidate"
             group = "blind_unclassified"
         row = {
             "prefixed_target_ID": target, "protein_ID": protein, "MAG_ID": mag,
