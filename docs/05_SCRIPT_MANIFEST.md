@@ -1,6 +1,6 @@
 # Script manifest and reproducibility status
 
-The repository currently contains 135 shell, Python, and R scripts. The
+The repository currently contains 151 shell, Python, and R scripts. The
 machine-generated SHA-256 inventory is stored in
 `docs/05_SCRIPT_MANIFEST_SHA256.tsv`.
 
@@ -10,7 +10,7 @@ machine-generated SHA-256 inventory is stored in
   use command-line arguments or environment variables and should be preferred.
 - `02_figure_scripts/`: original community-level figure scripts, retained in
   their established manuscript order.
-- `04_K08356_analysis_extensions/`: 66 K08356-specific scripts added from the
+- `04_K08356_analysis_extensions/`: 100 K08356-specific scripts added from the
   analysis workspace. These include both current scripts and exact historical
   analysis snapshots.
 
@@ -29,8 +29,8 @@ reads, R libraries, and cache directories remain excluded by `.gitignore`.
 
 ## Syntax validation
 
-- All 16 shell scripts passed `bash -n`.
-- All 25 Python scripts compiled successfully with Python 3.
+- All 22 shell scripts passed `bash -n`.
+- All 35 Python scripts compiled successfully with Python 3.
 - 89 of 94 R scripts parsed successfully.
 - Five pre-existing legacy/archive R files did not parse: three contain pasted
   shell-session commands and two contain embedded NUL characters. They remain
