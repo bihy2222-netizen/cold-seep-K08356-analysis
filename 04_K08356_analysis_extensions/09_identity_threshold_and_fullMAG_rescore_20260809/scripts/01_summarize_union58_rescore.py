@@ -14,6 +14,12 @@ import seaborn as sns
 
 
 MODELS = ("IdrA", "AioA", "combined")
+GROUP_NAMES = {
+    "Canonical AioA": "canonical AioA-associated",
+    "DIRM-synteny IdrA": "synteny-supported strict DIRM-like IdrA",
+    "IdrA phylogenetic": "partial IdrA-associated",
+    "Uncertain DMSOR": "AioA-like or unresolved DMSOR",
+}
 
 
 def parse_args():
@@ -122,7 +128,7 @@ def main():
         mag_id, protein_id = target.split("|", 1)
         if protein_id in core:
             source_class = "core49_T640_intersection"
-            group = core[protein_id]["clade_display"]
+            group = GROUP_NAMES[core[protein_id]["clade_display"]]
         elif protein_id in new:
             source_class = "T640_new_blind_candidate"
             group = "blind_unclassified"
@@ -186,8 +192,9 @@ def main():
 
     fig, ax = plt.subplots(figsize=(8.2, 5.8))
     order = [
-        "Canonical AioA", "DIRM-synteny IdrA", "IdrA phylogenetic",
-        "Uncertain DMSOR", "blind_unclassified"
+        "canonical AioA-associated", "synteny-supported strict DIRM-like IdrA",
+        "partial IdrA-associated", "AioA-like or unresolved DMSOR",
+        "blind_unclassified"
     ]
     sns.boxplot(
         data=df, x="curated_or_blind_group", y="IdrA_minus_AioA_bitscore",

@@ -11,9 +11,11 @@ conventional-annotation comparator for later recall and mixed-function audits.
 
 ## Curated-core analysis
 
-The fixed local groups contain 3 canonical AioA-associated proteins, 20
-synteny-supported DIRM-like IdrA proteins, 19 partial IdrA-associated proteins,
-and 7 unresolved proteins. The primary identity is EMBOSS Needle full-global
+The fixed local groups are named `canonical AioA-associated` (n=3),
+`synteny-supported strict DIRM-like IdrA` (n=20), `partial IdrA-associated`
+(n=19), and `AioA-like or unresolved DMSOR` (n=7). The last two are analytical
+categories rather than experimentally validated enzyme assignments. The primary
+identity is EMBOSS Needle full-global
 identity including one-sided gaps. Untrimmed MAFFT and MMseqs2 local identity
 with bidirectional coverage provide independent sensitivity analyses.
 
