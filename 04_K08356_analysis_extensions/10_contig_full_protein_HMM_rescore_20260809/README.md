@@ -25,3 +25,16 @@ are included in the actual scan.
 Broad T100 hits are DMSOR-related discovery candidates, not IdrA assignments.
 Functional classification requires a reference phylogeny and gene-neighborhood
 validation.
+
+## NCBI pause point
+
+`04_prepare_ncbiblast_and_tree_inputs.py` combines the completed MAG and contig
+score tables only for audited candidate preparation. Priority NCBI files use
+the conservative criterion that at least one exact IdrA, AioA, or combined
+full-sequence score is at least 640, followed by 100% amino-acid sequence
+dereplication. Every original source remains in the membership tables.
+
+The script also copies the exact 136-reference FASTA used by the previous small
+tree and records its SHA-256. It does not run alignment, phylogeny, functional
+naming, or gene-neighborhood analysis. Those steps remain paused until the MAG
+and contig NCBI Protein BLAST HitTable files are returned.
