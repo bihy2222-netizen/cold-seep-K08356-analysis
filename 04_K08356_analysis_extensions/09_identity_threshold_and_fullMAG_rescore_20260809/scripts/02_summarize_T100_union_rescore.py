@@ -13,6 +13,12 @@ from Bio import SeqIO
 
 
 MODELS = ("IdrA", "AioA", "combined")
+GROUP_NAMES = {
+    "Canonical AioA": "canonical AioA-associated",
+    "DIRM-synteny IdrA": "synteny-supported strict DIRM-like IdrA",
+    "IdrA phylogenetic": "partial IdrA-associated",
+    "Uncertain DMSOR": "AioA-like or unresolved DMSOR",
+}
 BINS = [
     (640, float("inf"), ">=640"),
     (500, 640, "500-<640"),
@@ -113,7 +119,7 @@ def main():
         mag, protein = target.split("|", 1)
         if protein in core:
             source = "core49_T640_intersection"
-            group = core[protein]["clade_display"]
+            group = GROUP_NAMES[core[protein]["clade_display"]]
         elif protein in new10:
             source = "T640_new_blind_candidate"
             group = "blind_unclassified"

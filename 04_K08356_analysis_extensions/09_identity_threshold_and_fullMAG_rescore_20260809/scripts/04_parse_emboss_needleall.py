@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import itertools
 import math
 import re
 import statistics
@@ -13,6 +14,17 @@ from pathlib import Path
 
 FIELD_RE = re.compile(r"^#\s+([^:]+):\s*(.*)$")
 COUNT_RE = re.compile(r"(\d+)\s*/\s*(\d+)\s*\(\s*([0-9.]+)%\)")
+GROUP_NAMES = {
+    "Canonical AioA": "canonical AioA-associated",
+    "DIRM-synteny IdrA": "synteny-supported strict DIRM-like IdrA",
+    "IdrA phylogenetic": "partial IdrA-associated",
+    "Uncertain DMSOR": "AioA-like or unresolved DMSOR",
+}
+GROUP_ORDER = list(GROUP_NAMES.values())
+PAIR_ORDER = (
+    [(group, group) for group in GROUP_ORDER]
+    + list(itertools.combinations(GROUP_ORDER, 2))
+)
 
 
 def args():
@@ -111,7 +123,7 @@ def main() -> None:
     options.outdir.mkdir(parents=True, exist_ok=True)
     with options.metadata.open() as handle:
         metadata = {
-            row["Sequence_ID"]: row["clade_display"]
+            row["Sequence_ID"]: GROUP_NAMES[row["clade_display"]]
             for row in csv.DictReader(handle, delimiter="\t")
         }
 
@@ -136,7 +148,10 @@ def main() -> None:
             continue
         row["group1"] = metadata[str(row["seq1"])]
         row["group2"] = metadata[str(row["seq2"])]
-        row["comparison_category"] = " vs ".join(sorted((str(row["group1"]), str(row["group2"]))))
+        ordered_groups = sorted(
+            (str(row["group1"]), str(row["group2"]),), key=GROUP_ORDER.index
+        )
+        row["comparison_category"] = " vs ".join(ordered_groups)
         row["reverse_needle_identity_pct"] = math.nan
         row["directional_identity_difference_pct_points"] = math.nan
         seen[key] = row
@@ -169,8 +184,11 @@ def main() -> None:
     for row in rows:
         grouped.setdefault(str(row["comparison_category"]), []).append(float(row["needle_identity_pct"]))
     summary = []
-    for category, values in sorted(grouped.items()):
+    for group1, group2 in PAIR_ORDER:
+        category = f"{group1} vs {group2}"
+        values = grouped[category]
         summary.append({
+            "comparison_type": "within-clade" if group1 == group2 else "between-clade",
             "comparison_category": category,
             "n_pairs": len(values),
             "minimum": min(values),
@@ -187,6 +205,47 @@ def main() -> None:
         writer = csv.DictWriter(handle, list(summary[0]), delimiter="\t")
         writer.writeheader()
         writer.writerows(summary)
+
+    report_dir = options.outdir.parent / "09_report"
+    report_dir.mkdir(parents=True, exist_ok=True)
+    report_table = report_dir / "four_clade_complete_EMBOSS_Needle_identity_10_comparisons.tsv"
+    with report_table.open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, list(summary[0]), delimiter="\t")
+        writer.writeheader()
+        writer.writerows(summary)
+
+    lookup = {row["comparison_category"]: row for row in summary}
+    canonical = GROUP_ORDER[0]
+    strict = GROUP_ORDER[1]
+    strict_within = lookup[f"{strict} vs {strict}"]
+    canonical_strict = lookup[f"{canonical} vs {strict}"]
+    nonoverlap = float(strict_within["minimum"]) - float(canonical_strict["maximum"])
+    with (report_dir / "README_four_clade_identity_final_CN.md").open("w") as handle:
+        handle.write("# 49 条核心蛋白四 clade 全局 identity 最终结果\n\n")
+        handle.write("49 条核心蛋白已依据系统树和基因邻域分为四个 clade；")
+        handle.write("本分析不是重新分组。720 条 T100 宽松 HMM 候选不纳入本表。\n\n")
+        handle.write("## 固定名称与规模\n\n")
+        for group, count in zip(GROUP_ORDER, (3, 20, 19, 7)):
+            handle.write(f"- `{group}`: {count}\n")
+        handle.write("\n后两组为分析类别，并非实验验证的酶功能分类。\n\n")
+        handle.write("## 完整 10 类比较\n\n")
+        handle.write("| 类型 | 比较 | n | minimum | Q1 | median | Q3 | maximum | mean | SD |\n")
+        handle.write("|---|---|---:|---:|---:|---:|---:|---:|---:|---:|\n")
+        for row in summary:
+            handle.write(
+                f"| {row['comparison_type']} | {row['comparison_category']} | {row['n_pairs']} | "
+                f"{row['minimum']:.2f}% | {row['Q1']:.2f}% | {row['median']:.2f}% | "
+                f"{row['Q3']:.2f}% | {row['maximum']:.2f}% | {row['mean']:.2f}% | {row['SD']:.2f} |\n"
+            )
+        handle.write("\n## 解释边界\n\n")
+        handle.write(
+            f"strict IdrA 组内最低 identity（{strict_within['minimum']:.2f}%）与 "
+            f"AioA-strict IdrA 组间最高 identity（{canonical_strict['maximum']:.2f}%）之间"
+            f"存在 {nonoverlap:.2f} 个百分点的无重叠间隔。该数值描述两个分布边界的距离，"
+            "不是分类阈值区间。partial 和 unresolved clade 的完整分布用于评估两个主要"
+            "端点之间的过渡性与内部异质性。通用功能阈值仍需外部实验验证参考、系统树、"
+            "HMM 竞争分值和基因邻域共同验证。\n"
+        )
 
     with options.biopython.open() as handle:
         biopython = {

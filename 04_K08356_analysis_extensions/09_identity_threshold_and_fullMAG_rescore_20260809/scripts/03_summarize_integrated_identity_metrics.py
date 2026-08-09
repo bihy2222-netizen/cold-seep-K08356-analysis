@@ -83,14 +83,14 @@ def main():
     outliers["low_within_group_similarity_flag"] = np.where(outliers.within_group_median_percentile <= 10, "yes", "no")
     outliers.to_csv(work / "06_statistics/sequence_within_group_identity_outlier_audit.tsv", sep="\t", index=False)
 
-    strict_within = df[df.comparison_category == "strict_DIRM_like_IdrA vs strict_DIRM_like_IdrA"].global_identity_with_gaps
-    aio_strict = df[df.comparison_category == "canonical_AioA vs strict_DIRM_like_IdrA"].global_identity_with_gaps
+    strict_within = df[df.comparison_category == "synteny-supported strict DIRM-like IdrA vs synteny-supported strict DIRM-like IdrA"].global_identity_with_gaps
+    aio_strict = df[df.comparison_category == "canonical AioA-associated vs synteny-supported strict DIRM-like IdrA"].global_identity_with_gaps
     gap = strict_within.min() - aio_strict.max()
     decision = pd.DataFrame([{
         "dataset": "local_curated_core49_only",
-        "max_canonical_AioA_vs_strict_IdrA": aio_strict.max(),
-        "min_strict_IdrA_within_group": strict_within.min(),
-        "nonoverlap_gap_percentage_points": gap,
+        "max_canonical_AioA_associated_vs_synteny_supported_strict_DIRM_like_IdrA": aio_strict.max(),
+        "min_synteny_supported_strict_DIRM_like_IdrA_within_clade": strict_within.min(),
+        "identity_nonoverlap_gap_percentage_points": gap,
         "local_empirical_nonoverlap": "yes" if gap > 0 else "no",
         "universal_threshold_recommended": "no_pending_external_validated_references",
     }])

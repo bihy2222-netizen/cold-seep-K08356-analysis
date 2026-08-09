@@ -20,17 +20,27 @@ from Bio.Align import substitution_matrices
 
 
 GROUP_MAP = {
-    "Canonical AioA": "canonical_AioA",
-    "DIRM-synteny IdrA": "strict_DIRM_like_IdrA",
-    "IdrA phylogenetic": "partial_IdrA_associated",
-    "Uncertain DMSOR": "Aio_like_or_unresolved",
+    "Canonical AioA": "canonical AioA-associated",
+    "DIRM-synteny IdrA": "synteny-supported strict DIRM-like IdrA",
+    "IdrA phylogenetic": "partial IdrA-associated",
+    "Uncertain DMSOR": "AioA-like or unresolved DMSOR",
 }
 GROUP_ORDER = list(GROUP_MAP.values())
+PAIR_ORDER = (
+    [(group, group) for group in GROUP_ORDER]
+    + list(itertools.combinations(GROUP_ORDER, 2))
+)
+PLOT_GROUP_LABELS = {
+    "canonical AioA-associated": "Canonical AioA",
+    "synteny-supported strict DIRM-like IdrA": "Strict DIRM-like IdrA",
+    "partial IdrA-associated": "Partial IdrA-associated",
+    "AioA-like or unresolved DMSOR": "AioA-like/unresolved",
+}
 GROUP_COLORS = {
-    "canonical_AioA": "#D55E00",
-    "strict_DIRM_like_IdrA": "#0072B2",
-    "partial_IdrA_associated": "#009E73",
-    "Aio_like_or_unresolved": "#CC79A7",
+    "canonical AioA-associated": "#D55E00",
+    "synteny-supported strict DIRM-like IdrA": "#0072B2",
+    "partial IdrA-associated": "#009E73",
+    "AioA-like or unresolved DMSOR": "#CC79A7",
 }
 
 
@@ -227,8 +237,8 @@ def main() -> None:
             "final_function_group": row.final_function_group,
             "neighbor_category": row.neighborhood_class,
             "strict_training_label": (
-                "AioA_negative_anchor" if row.final_function_group == "canonical_AioA"
-                else "IdrA_internal_sensitivity" if row.final_function_group == "strict_DIRM_like_IdrA"
+                "AioA_negative_anchor" if row.final_function_group == "canonical AioA-associated"
+                else "IdrA_internal_sensitivity" if row.final_function_group == "synteny-supported strict DIRM-like IdrA"
                 else "blind_test_only"
             ),
             "notes": "MAG contains two candidates" if host_counts[row.MAG_ID] > 1 else "",
@@ -311,9 +321,9 @@ def main() -> None:
     pairs.to_csv(work / "06_statistics/clade_pairwise_identity_all_values.tsv", sep="\t", index=False)
 
     priority_categories = [
-        "strict_DIRM_like_IdrA vs strict_DIRM_like_IdrA",
-        "canonical_AioA vs canonical_AioA",
-        "canonical_AioA vs strict_DIRM_like_IdrA",
+        "synteny-supported strict DIRM-like IdrA vs synteny-supported strict DIRM-like IdrA",
+        "canonical AioA-associated vs canonical AioA-associated",
+        "canonical AioA-associated vs synteny-supported strict DIRM-like IdrA",
     ]
     priority = summary.loc[
         (summary.metric == "global_identity_with_gaps")
@@ -341,22 +351,28 @@ def main() -> None:
         save_fig(fig, work / f"07_figures/{stem}")
 
     plot_df = pairs.copy()
-    category_order = []
-    for i, g1 in enumerate(GROUP_ORDER):
-        for g2 in GROUP_ORDER[i:]:
-            category_order.append(f"{g1} vs {g2}")
-    fig, ax = plt.subplots(figsize=(12, 7.5))
+    category_order = [f"{g1} vs {g2}" for g1, g2 in PAIR_ORDER]
+    category_labels = {
+        f"{g1} vs {g2}": (
+            f"{PLOT_GROUP_LABELS[g1]}\nwithin"
+            if g1 == g2 else f"{PLOT_GROUP_LABELS[g1]} vs\n{PLOT_GROUP_LABELS[g2]}"
+        )
+        for g1, g2 in PAIR_ORDER
+    }
+    plot_df["plot_category"] = plot_df.comparison_category.map(category_labels)
+    plot_order = [category_labels[category] for category in category_order]
+    fig, ax = plt.subplots(figsize=(11.5, 8.5))
     sns.boxplot(
-        data=plot_df, x="comparison_category", y="global_identity_with_gaps",
-        order=category_order, color="#D9D9D9", fliersize=0, ax=ax
+        data=plot_df, x="plot_category", y="global_identity_with_gaps",
+        order=plot_order, color="#D9D9D9", fliersize=0, ax=ax
     )
     sns.stripplot(
-        data=plot_df, x="comparison_category", y="global_identity_with_gaps",
-        order=category_order, color="#222222", alpha=0.45, size=2.4, jitter=0.25, ax=ax
+        data=plot_df, x="plot_category", y="global_identity_with_gaps",
+        order=plot_order, color="#222222", alpha=0.45, size=2.4, jitter=0.25, ax=ax
     )
     ax.set_xlabel("")
     ax.set_ylabel("Global amino-acid identity (%)")
-    ax.tick_params(axis="x", rotation=42)
+    ax.tick_params(axis="x", rotation=28, labelsize=8.5)
     ax.set_title("Within- and between-clade global identity of 49 curated K08356 proteins")
     save_fig(fig, work / "07_figures/core49_clade_pairwise_global_identity")
 
