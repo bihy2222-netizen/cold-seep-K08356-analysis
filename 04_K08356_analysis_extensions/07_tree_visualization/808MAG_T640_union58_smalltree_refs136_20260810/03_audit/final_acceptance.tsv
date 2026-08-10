@@ -1,0 +1,14 @@
+check	status	detail
+workflow_exit	PASS	PID 3537302 exited; workflow completed 2026-08-10T11:39:33+08:00
+candidate_count	PASS	58 proteins
+candidate_MAG_count	PASS	56 MAGs
+reference_count	PASS	136 proteins
+combined_count	PASS	194 proteins
+unique_fasta_ids	PASS	duplicate_first_token_ids.tsv is empty
+treefile	PASS	194 tips; SH-aLRT/UFBoot node labels
+contree	PASS	194 tips; consensus from 1000 bootstrap trees
+iqtree_report	PASS	LG+R6 selected by BIC
+SH_aLRT	PASS	1000 replicates completed
+UFBoot	PASS	1000 replicates completed
+local_input_sha256	PASS	all three hashes match server audit
+functional_interpretation	CAUTION	phylogenetic placement alone is not final function; gene-neighborhood validation required
