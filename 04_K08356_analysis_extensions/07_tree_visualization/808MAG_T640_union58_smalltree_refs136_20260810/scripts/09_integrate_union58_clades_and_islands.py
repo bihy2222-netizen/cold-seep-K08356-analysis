@@ -74,6 +74,25 @@ old_orf = {}
 with OLD_ORFS.open(newline="") as handle:
     for row in csv.DictReader(handle):
         old_orf[(row["target_gene_id"], row["neighbor_orf_id"])] = row
+        # The new extraction keeps the MAG prefix on ORF IDs, whereas the
+        # retained strict-QC table stores bare k141_* neighbor identifiers.
+        prefixed_neighbor = f'{row["MAG_id"]}-{row["neighbor_orf_id"]}'
+        old_orf[(row["target_gene_id"], prefixed_neighbor)] = row
+
+
+def protein_subfamily(old, is_target=False):
+    """Return a conservative display family supported by current evidence."""
+    if is_target:
+        return "Molybdopterin oxidoreductase"
+    function_class = old.get("function_class", "")
+    return {
+        "Cytochrome/peroxidase": "Cytochrome c / peroxidase",
+        "Redox/oxidoreductase": "Redox / oxidoreductase",
+        "Transporter": "Transporter",
+        "Arsenic resistance": "Arsenic resistance protein",
+        "Sox/sulfur oxidation": "Sulfur oxidation protein",
+        "Annotated other": "Other annotated protein",
+    }.get(function_class, "Non-conserved protein")
 
 best_hits = {}
 with HITS.open(newline="") as handle:
@@ -178,15 +197,13 @@ for target_id, genes in rows_by_target.items():
         gene_id = gene["neighbor_raw_id"]
         old = old_orf.get((target_id, gene_id), {})
         if int(gene["relative_position"]) == 0:
-            plot_label = "AioA/IdrA-related A"
+            plot_label = "Molybdopterin oxidoreductase"
         elif (gene_id, "IdrB_related") in best_hits or (gene_id, "canonical_AioB") in best_hits:
-            plot_label = "B-related small subunit"
+            plot_label = "Rieske [2Fe-2S] small subunit"
         elif (gene_id, "P_like") in best_hits:
-            plot_label = "P-like"
-        elif old.get("KO") or old.get("product"):
-            plot_label = "other annotated CDS"
+            plot_label = "IdrP-like accessory protein"
         else:
-            plot_label = "function unknown"
+            plot_label = protein_subfamily(old)
         manifest.append({
             "tree_label": next(row["prefixed_target_ID"] for row in evidence_rows if row["protein_ID"] == target_id),
             "candidate_id": target_id,

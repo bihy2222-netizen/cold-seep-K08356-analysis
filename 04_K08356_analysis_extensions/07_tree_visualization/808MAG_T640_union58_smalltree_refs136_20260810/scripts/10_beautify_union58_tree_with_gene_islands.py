@@ -24,11 +24,16 @@ CLASS_COLORS = {
     "IdrA clade": "#7B3294",
 }
 GENE_COLORS = {
-    "AioA/IdrA-related A": "#2166AC",
-    "B-related small subunit": "#F58518",
-    "P-like": "#2CA25F",
-    "other annotated CDS": "#D7DCE2",
-    "function unknown": "#6B7280",
+    "Molybdopterin oxidoreductase": "#C92C2C",
+    "Rieske [2Fe-2S] small subunit": "#D89B18",
+    "IdrP-like accessory protein": "#3A9D4E",
+    "Cytochrome c / peroxidase": "#3E4F8A",
+    "Redox / oxidoreductase": "#A65A2E",
+    "Transporter": "#8E4E9B",
+    "Arsenic resistance protein": "#B87838",
+    "Sulfur oxidation protein": "#2A8F8A",
+    "Other annotated protein": "#D7DCE2",
+    "Non-conserved protein": "#E7E7E4",
 }
 
 
@@ -113,7 +118,6 @@ def sx(value):
 y_values = [pos[1] for pos in positions.values()]
 parts = [
     '<g id="union58-gene-island-panel" font-family="Times New Roman, Times, serif">',
-    '<defs><pattern id="unknown-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#6B7280"/><line x1="0" y1="0" x2="0" y2="6" stroke="#F3F4F6" stroke-width="1.2"/></pattern></defs>',
     f'<line x1="{center_x:.1f}" y1="{min(y_values)-12:.1f}" x2="{center_x:.1f}" y2="{max(y_values)+12:.1f}" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="6,5"/>',
 ]
 
@@ -124,8 +128,8 @@ for label, (x, y) in sorted(positions.items(), key=lambda item: item[1][1]):
     for gene in rows_by_label[label]:
         x1, x2 = sx(gene["relative_bp_start"]), sx(gene["relative_bp_end"])
         plot_label = gene["plot_label"]
-        fill = "url(#unknown-hatch)" if plot_label == "function unknown" else GENE_COLORS[plot_label]
-        stroke = "#334155" if plot_label != "other annotated CDS" else "#94A3B8"
+        fill = GENE_COLORS[plot_label]
+        stroke = "#4B5563" if plot_label != "Non-conserved protein" else "#777777"
         parts.append(f'<polygon data-candidate="{esc(label)}" data-gene="{esc(gene["gene_id"])}" points="{arrow_points(x1,x2,y-1,15,gene["strand"])}" fill="{fill}" stroke="{stroke}" stroke-width="0.7"/>')
 
 scale_width = 5000 / (2 * extent) * panel_width
@@ -145,19 +149,18 @@ for cls in CLASS_ORDER:
     short_cls = {"Canonical AioA clade":"Canonical AioA", "Unknown DMSOR clade":"Unknown DMSOR", "IdrA-associated clade":"IdrA-associated", "IdrA clade":"IdrA"}[cls]
     legend.append(f'<text x="{x+17}" y="36" font-size="10" fill="#1F2937">{esc(short_cls)} (n={counts[cls]})</text>')
     x += 155
-legend.append('<text x="1010" y="18" font-size="14" font-weight="bold" fill="#111827">Gene-island neighborhoods</text>')
-x = 1010
-for label in ["AioA/IdrA-related A", "B-related small subunit", "P-like", "other annotated CDS", "function unknown"]:
-    fill = "#6B7280" if label == "function unknown" else GENE_COLORS[label]
-    legend.append(f'<rect x="{x}" y="27" width="12" height="10" fill="{fill}" stroke="#64748B" stroke-width="0.4"/>')
-    short = {"AioA/IdrA-related A":"A", "B-related small subunit":"B", "P-like":"P-like", "other annotated CDS":"other CDS", "function unknown":"unknown"}[label]
-    legend.append(f'<text x="{x+17}" y="36" font-size="10" fill="#1F2937">{short}</text>')
-    x += 76 if short not in {"other CDS", "unknown"} else 88
+legend.append('<text x="1010" y="13" font-size="14" font-weight="bold" fill="#111827">Protein subfamily</text>')
+legend_order = list(GENE_COLORS)
+for i, label in enumerate(legend_order):
+    col, row = i // 5, i % 5
+    x, y = 1010 + col * 285, 22 + row * 14
+    legend.append(f'<polygon points="{x},{y} {x+9},{y+5} {x},{y+10}" fill="{GENE_COLORS[label]}" stroke="#4B5563" stroke-width="0.45"/>')
+    legend.append(f'<text x="{x+14}" y="{y+8}" font-size="9.5" fill="#1F2937">{esc(label)}</text>')
 legend.extend([
-    '<line x1="1480" y1="32" x2="1570" y2="32" stroke="#111827" stroke-width="1.2"/>',
-    '<line x1="1480" y1="28" x2="1480" y2="36" stroke="#111827" stroke-width="1"/>',
-    '<line x1="1570" y1="28" x2="1570" y2="36" stroke="#111827" stroke-width="1"/>',
-    '<text x="1525" y="24" text-anchor="middle" font-size="9" fill="#111827">5 kb</text>',
+    '<line x1="1510" y1="70" x2="1570" y2="70" stroke="#111827" stroke-width="1.2"/>',
+    '<line x1="1510" y1="66" x2="1510" y2="74" stroke="#111827" stroke-width="1"/>',
+    '<line x1="1570" y1="66" x2="1570" y2="74" stroke="#111827" stroke-width="1"/>',
+    '<text x="1540" y="63" text-anchor="middle" font-size="9" fill="#111827">5 kb</text>',
 ])
 legend.append('</g>')
 svg = svg.replace('</svg>', "\n".join(legend) + '\n</svg>')

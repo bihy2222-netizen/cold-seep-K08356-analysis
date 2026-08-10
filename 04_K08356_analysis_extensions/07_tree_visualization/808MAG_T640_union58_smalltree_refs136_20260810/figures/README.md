@@ -11,13 +11,20 @@
 
 其中48条与旧严格QC证据表重叠，沿用旧表分类；10条新T640候选中，8条根据IdrA参考落点且缺少完整B+2P邻域证据暂列为IdrA-associated，2条根据Unknown-clade参考落点暂列为Unknown DMSOR。新10条分类均是保守工作分类，不是最终功能确认。
 
-## 基因岛颜色
+## Protein subfamily 图例
 
-- A：候选AioA/IdrA-related大亚基，蓝色
-- B：IdrB/AioB-related小亚基，橙色
-- P-like：绿色
-- other CDS：浅灰色
-- unknown：深灰斜线
+- Molybdopterin oxidoreductase：目标AioA/IdrA-related大亚基
+- Rieske [2Fe-2S] small subunit：IdrB/AioB-related小亚基
+- IdrP-like accessory protein
+- Cytochrome c / peroxidase
+- Redox / oxidoreductase
+- Transporter
+- Arsenic resistance protein
+- Sulfur oxidation protein
+- Other annotated protein
+- Non-conserved protein
+
+命名和配色参考蛋白亚家族式基因岛图，但只使用当前证据能够支持的类别。旧严格QC邻域中的KO/product分类得到保留；缺少可靠注释的ORF统一标为`Non-conserved protein`，不按图形位置推测具体功能。
 
 基因邻域来自每个MAG的Prodigal蛋白文件，提取目标基因上下游各10个CDS；B/P-like标注由既有IdrB/AioB与IdrP-like联合参考库的DIAMOND搜索支持。图中基因位置和方向来自Prodigal坐标。
 
