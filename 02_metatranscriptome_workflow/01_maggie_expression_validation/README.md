@@ -40,6 +40,26 @@ python3 scripts/build_maggie_refs.py \
   --outdir "$ROOT"
 ```
 
+
+## Add external tree-reference DMSOR CDS
+
+The broad DMSOR tree may contain NapA, ArrA, and DmsA protein references. For
+competitive RNA read mapping, recover their nucleotide CDS through NCBI
+`fasta_cds_na` and keep only records that translate exactly back to the tree
+protein reference.
+
+```bash
+BROAD=/home/ps/ps1/data/bihongyu/cold_seep/ASproteintree/aioA-like_tree_results_20260629_final/aioA-like-contigstree-5/broad_idra_dmsor_refs.large_subunit.filtered.faa
+ARR=/home/ps/ps1/data/bihongyu/cold_seep/ASproteintree/aioA-like_tree_results_20260629_final/aioA-like-contigstree-5/ColdSeep_K08356_plus_Fig5_plus_broad_DMSOR_refs_refDedup_shortLabels_allNonstandardToX.faa
+
+python3 scripts/fetch_tree_dmsor_cds.py   --broad-faa "$BROAD"   --arr-faa "$ARR"   --outdir "$ROOT"   --per-class 6
+```
+
+In the 2026-08-12 run, this recovered exact-translation nucleotide references
+for NapA (6), ArrA (4), and DmsA (6). These were merged with the MAG-derived
+DMSOR CDS to create `competitive_DMSOR_plus_treeRefs_CDS.fna` for the accepted
+Maggie competitive mapping pilot.
+
 ## Expected outputs
 
 - `high_confidence_IdrA_CDS.fna`
