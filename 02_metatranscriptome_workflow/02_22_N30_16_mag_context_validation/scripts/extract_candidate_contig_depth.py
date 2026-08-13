@@ -23,8 +23,9 @@ def main():
         refs.append(cross[contig][0])
     with gzip.open(args.out,"wt") as output:
         for ref in refs:
-            process=subprocess.run(["samtools","depth","-aa","-r",ref,args.bam],text=True,stdout=output)
-            if process.returncode:raise SystemExit(f"samtools depth failed for {ref}")
+            process=subprocess.Popen(["samtools","depth","-aa","-r",ref,args.bam],text=True,stdout=subprocess.PIPE)
+            for line in process.stdout: output.write(line)
+            if process.wait():raise SystemExit(f"samtools depth failed for {ref}")
 
 
 if __name__=="__main__":main()
