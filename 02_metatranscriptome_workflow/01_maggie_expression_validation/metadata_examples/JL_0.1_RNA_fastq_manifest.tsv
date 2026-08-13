@@ -1,0 +1,3 @@
+sample	depth_cm	BioProject	BioSample	Run	read_end	FASTQ_URL	official_bytes	official_md5	LibraryStrategy	LibrarySource	LibraryLayout	Instrument
+JL_0.1	8-10	PRJNA831433	SAMN27753712	SRR19238834	R1	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR192/034/SRR19238834/SRR19238834_1.fastq.gz	533274148	0fda5686a6b68aebb10fff290568798d	OTHER	METATRANSCRIPTOMIC	PAIRED	Illumina MiSeq
+JL_0.1	8-10	PRJNA831433	SAMN27753712	SRR19238834	R2	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR192/034/SRR19238834/SRR19238834_2.fastq.gz	600860868	bca0b0545725ea287a441bdde2caf546	OTHER	METATRANSCRIPTOMIC	PAIRED	Illumina MiSeq
