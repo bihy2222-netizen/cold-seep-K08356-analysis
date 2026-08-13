@@ -145,6 +145,28 @@ The corrected crosswalk, RNA FASTQ manifest, and metadata audit are retained in
 `metadata_examples/`. Raw NCBI/ENA responses remain in the analysis audit
 directory on the server and are not committed to this repository.
 
+### Paired-DNA branch and personalized reference
+
+`download_and_screen_SRR19020591_JL_0.1_DNA_AFTER_CONFIRMATION.sh` downloads
+the paired metagenome only when `CONFIRM_JL_DNA_DOWNLOAD=YES` is set. It then
+runs fastp, single-sample MEGAHIT, Prodigal in metagenomic mode, and the
+combined/`iriA_new`/`aioA` HMM searches. DNA and RNA downloads are intentionally
+separate so a slow RNA transfer does not share temporary files or accidentally
+launch DNA analysis.
+
+The combined-model `T640` result is a high-scoring K08356/DMSOR candidate set,
+not an automatic IdrA functional assignment. `prepare_JL_DNA_candidate_review.py`
+creates a review table and candidate FASTA files. Tree placement and gene
+neighborhood evidence must then be filled in. Only candidates explicitly marked
+as `strict_IdrA_associated`, `complete_DIRM_like`, and accepted may be extracted
+by `build_personalized_idra_reference.py`. This curated CDS library can then be
+used as a third, sample-specific RNA mapping reference alongside strict20 and
+competitive63. `run_JL_personalized_RNA_mapping_AFTER_REVIEW.sh` builds the
+approved reference and maps JL RNA both to the personalized-only library and to
+the personalized-plus-competitive63 library.
+
+The finalized two-sample QDN negative result is recorded under `reports/`.
+
 ## Repository contents
 
 ```text
@@ -153,12 +175,20 @@ directory on the server and are not committed to this repository.
 ├── DIAMOND_BLASTX_METHODS.md
 ├── metadata_examples/
 │   ├── JL_0.1_DNA_RNA_crosswalk.tsv
+│   ├── JL_0.1_DNA_fastq_manifest.tsv
 │   ├── JL_0.1_METADATA_AUDIT.md
 │   └── JL_0.1_RNA_fastq_manifest.tsv
+├── reports/
+│   ├── QDN_FINAL_EXPRESSION_VALIDATION.md
+│   └── QDN_final_competitive_validation.tsv
 └── scripts/
     ├── build_maggie_refs.py
-    ├── download_and_run_SRR19238834_JL_0.1_RNA.sh
-    ├── fetch_tree_dmsor_cds.py
+    ├── build_personalized_idra_reference.py
+    ├── download_and_screen_SRR19020591_JL_0.1_DNA_AFTER_CONFIRMATION.sh
+    ├── download_and_run_SRR19238834_JL_0.1_RNA.sh
+    ├── fetch_tree_dmsor_cds.py
+    ├── prepare_JL_DNA_candidate_review.py
+    ├── run_JL_personalized_RNA_mapping_AFTER_REVIEW.sh
     ├── run_maggie_diamond_blastx.sh
     ├── run_maggie_mapping_pilot.py
     ├── run_SRR19238834_JL_0.1_diamond_blastx.sh

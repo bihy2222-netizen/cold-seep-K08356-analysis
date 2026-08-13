@@ -133,7 +133,8 @@ def write_summary(out_path, sample, mode, idxstats, depths, bam_filters, flagsta
         if mapped == 0:
             classification = "no transcriptional support"
         elif breadth >= 0.50 and mean_depth >= 1 and d.get("coverage_uniformity_5_3", 0) >= 0.20:
-            classification = "robust IdrA-supported" if "IdrA_HC" in ref else "non-IdrA DMSOR-supported"
+            is_idra = "IdrA_HC" in ref or "personalized_strict_IdrA" in ref
+            classification = "robust IdrA-supported" if is_idra else "non-IdrA DMSOR-supported"
         elif breadth < 0.20:
             classification = "ambiguous DMSOR cross-mapping"
         else:
@@ -173,6 +174,8 @@ def main():
     ap.add_argument("--r2", required=True)
     ap.add_argument("--primary-ref", required=True)
     ap.add_argument("--competitive-ref", required=True)
+    ap.add_argument("--primary-mode", default="primary_strict20")
+    ap.add_argument("--competitive-mode", default="competitive_63")
     ap.add_argument("--threads", type=int, default=16)
     args = ap.parse_args()
 
@@ -192,8 +195,8 @@ def main():
     log = logs / "maggie_mapping_pilot.log"
 
     modes = [
-        ("primary_strict20", Path(args.primary_ref)),
-        ("competitive_63", Path(args.competitive_ref)),
+        (args.primary_mode, Path(args.primary_ref)),
+        (args.competitive_mode, Path(args.competitive_ref)),
     ]
     all_rows = []
     for mode, ref in modes:
@@ -248,8 +251,10 @@ def main():
     report = out / f"{args.sample}.maggie_mapping_pilot_report.md"
     with open(report, "w") as fh:
         fh.write(f"# Maggie mapping pilot: {args.sample}\n\n")
-        fh.write("- Primary reference: strict synteny-supported IdrA CDS, 20 records.\n")
-        fh.write("- Competitive reference: DMSOR plus tree refs, 63 records.\n")
+        primary_count = len(parse_fasta_lengths(args.primary_ref))
+        competitive_count = len(parse_fasta_lengths(args.competitive_ref))
+        fh.write(f"- Primary reference: {args.primary_mode}, {primary_count} records.\n")
+        fh.write(f"- Competitive reference: {args.competitive_mode}, {competitive_count} records.\n")
         fh.write("- Mapping: Bowtie2 very-sensitive-local, paired only, no mixed/no discordant, k=10.\n")
         fh.write("- Tables are in `tables/`; IGV BAM/BAI/reference files are in `IGV_files/`.\n")
 

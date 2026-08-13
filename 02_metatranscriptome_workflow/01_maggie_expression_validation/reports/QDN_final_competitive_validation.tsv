@@ -1,0 +1,3 @@
+sample	bowtie2_result	diamond_strict_reads	strict_pair_support	strict_reference_breadth_percent	competitive_dominant_families	final_classification
+SRR16610255_QDN-W01B-1949	strict20=0; localized DmsA-like mapping	4	0	3.4-4.9	DmsA;NapA	reassigned to another DMSOR family
+SRR16610253_QDN-W04B-4900	strict20=0; localized DmsA/NapA-like mapping	2	0	3.4-5.3	DmsA;NapA	ambiguous DMSOR-family hit
