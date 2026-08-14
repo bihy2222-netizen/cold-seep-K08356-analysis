@@ -76,8 +76,15 @@ def main():
     sample_end_hit_ids = defaultdict(set)
     per_reference = defaultdict(lambda: {"reads": set(), "pairs": set(), "alignments": 0,
                                          "intervals": [], "slen": 0, "bitscores": [], "identities": []})
+    hit_name_pattern = re.compile(
+        r"^(?P<sample>.+)\.(?P<mate>R[12])\.competitive63\.blastx\.tsv\.gz$"
+    )
     for path in sorted(args.hits_dir.glob("*.blastx.tsv.gz")):
-        sample, mate = path.name.split(".", 2)[:2]
+        match = hit_name_pattern.match(path.name)
+        if not match:
+            raise ValueError(f"Unexpected DIAMOND hit filename: {path.name}")
+        sample = match.group("sample")
+        mate = match.group("mate")
         with gzip.open(path, "rt") as handle:
             for values in csv.reader(handle, delimiter="\t"):
                 if len(values) != len(FIELDS):

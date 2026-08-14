@@ -167,6 +167,26 @@ the personalized-plus-competitive63 library.
 
 The finalized two-sample QDN negative result is recorded under `reports/`.
 
+## Three-sample competitive evidence figure
+
+`plot_competitive_metatranscriptome_evidence.py` reads the competitive63
+per-CDS tables for the two QDN samples and `JL_0.1`, plus the JL per-base depth
+and DIAMOND summary tables. It produces an editable three-panel SVG/PDF/PNG and
+the exact source-data TSV files used for each panel:
+
+```bash
+python3 scripts/plot_competitive_metatranscriptome_evidence.py \
+  --root /path/to/maggie_expression_validation_20260812 \
+  --outdir /path/to/three_sample_competitive_expression
+```
+
+Panel A reports Bowtie2 mapped read ends by competing DMSOR family. Panel B
+shows nucleotide-level depth for the two JL partial IdrA references with
+nonzero competitive mappings. Panel C keeps strict reads, partial reads,
+protein-level evidence, breadth, paired support, and final interpretation
+separate. The plot never combines strict and partial IdrA or treats sparse
+partial coverage as strict IdrA expression.
+
 ## Repository contents
 
 ```text
@@ -192,5 +212,6 @@ The finalized two-sample QDN negative result is recorded under `reports/`.
     ├── run_maggie_diamond_blastx.sh
     ├── run_maggie_mapping_pilot.py
     ├── run_SRR19238834_JL_0.1_diamond_blastx.sh
+    ├── plot_competitive_metatranscriptome_evidence.py
     └── summarize_maggie_diamond_blastx.py
 ```
