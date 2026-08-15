@@ -31,6 +31,7 @@ bash run_background255_gtdbtk_r226.sh
 bash run_background255_drep_ani95.sh
 bash run_background_stats_after_gtdb.sh
 bash run_ani95_stats_after_gtdb.sh
+bash run_final_background_figures_after_stats.sh
 ```
 
 The second command reuses the existing indexed whole-assembly BAM. It reports
