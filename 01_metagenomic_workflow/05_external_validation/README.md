@@ -27,6 +27,7 @@ reviewable and are not silently promoted to strict IdrA.
 ```bash
 bash run_external82_terminal_classification.sh
 bash run_22_N30_16_dna_presence_control.sh
+bash run_background255_gtdbtk_r226.sh
 ```
 
 The second command reuses the existing indexed whole-assembly BAM. It reports
