@@ -12,6 +12,7 @@ OUT="$ROOT/maggie_expression_validation_20260812/paired_DNA_screening/SRR1902059
 LOG="$ROOT/logs/SRR19020591_JL_0.1_DNA"
 HMM_DIR=/home/ps/ps1/data/bihongyu/cold_seep/Neighborhood_Analyses/hmm
 THREADS=${THREADS:-16}
+export PATH="/home/ps/anaconda3/envs/megahit/bin:/home/ps/anaconda3/bin:$PATH"
 mkdir -p "$RAW" "$OUT" "$LOG"
 
 for tool in curl md5sum gzip fastp megahit prodigal hmmsearch; do
@@ -119,4 +120,3 @@ Review candidate proteins in the broad DMSOR tree and annotate their gene neighb
 Only rows with final_class=strict_IdrA_associated, neighborhood_support=complete_DIRM_like,
 and accept_for_personalized_reference=yes may be passed to build_personalized_idra_reference.py.
 EOF
-
