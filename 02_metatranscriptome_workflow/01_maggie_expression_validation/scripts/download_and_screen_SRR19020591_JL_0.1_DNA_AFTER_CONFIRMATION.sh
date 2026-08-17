@@ -69,7 +69,7 @@ download_one R2 \
   https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/091/SRR19020591/SRR19020591_2.fastq.gz \
   4110594514 5ae44ea383f74179a3a2bb6578bf55fe "$RAW/SRR19020591_2.fastq.gz"
 
-mkdir -p "$OUT/01_fastp" "$OUT/02_megahit" "$OUT/03_prodigal" "$OUT/04_hmm"
+mkdir -p "$OUT/01_fastp" "$OUT/03_prodigal" "$OUT/04_hmm"
 fastp \
   -i "$RAW/SRR19020591_1.fastq.gz" -I "$RAW/SRR19020591_2.fastq.gz" \
   -o "$OUT/01_fastp/SRR19020591.clean.R1.fastq.gz" \
