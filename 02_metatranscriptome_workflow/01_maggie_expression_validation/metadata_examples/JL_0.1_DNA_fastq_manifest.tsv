@@ -1,0 +1,3 @@
+sample	depth_cm	BioProject	BioSample	Run	read_end	FASTQ_URL	official_bytes	official_md5	LibraryStrategy	LibrarySource	LibraryLayout	Instrument
+JL_0.1	8-10	PRJNA831433	SAMN27753712	SRR19020591	R1	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/091/SRR19020591/SRR19020591_1.fastq.gz	3811089081	bf934f629bca29cea51ead709123dc35	OTHER	METAGENOMIC	PAIRED	Illumina HiSeq 2500
+JL_0.1	8-10	PRJNA831433	SAMN27753712	SRR19020591	R2	https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/091/SRR19020591/SRR19020591_2.fastq.gz	4110594514	5ae44ea383f74179a3a2bb6578bf55fe	OTHER	METAGENOMIC	PAIRED	Illumina HiSeq 2500

@@ -1,0 +1,3 @@
+sample	sediment_depth_cm	BioProject	BioSample	SRA_sample	data_type	Run	Experiment	LibraryStrategy	LibrarySource	LibraryLayout	Instrument	molecule_type_evidence
+JL_0.1	8-10	PRJNA831433	SAMN27753712	SRS12837947	DNA_metagenome	SRR19020591	SRX15092418	OTHER	METAGENOMIC	PAIRED	Illumina HiSeq 2500	NCBI title metagenome of Jiaolong seep sediment; ENA and NCBI LibrarySource METAGENOMIC
+JL_0.1	8-10	PRJNA831433	SAMN27753712	SRS12837947	RNA_metatranscriptome	SRR19238834	SRX15299616	OTHER	METATRANSCRIPTOMIC	PAIRED	Illumina MiSeq	NCBI title metatranscriptome of Jiaolong seep sediment; ENA and NCBI LibrarySource METATRANSCRIPTOMIC
