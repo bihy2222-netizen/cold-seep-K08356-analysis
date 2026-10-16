@@ -9,6 +9,7 @@
 - `03_metadata_examples/`：压缩包中附带的小型分组与样品信息示例。
 - `04_K08356_analysis_extensions/`：K08356 双证据、HMM、基因邻域、机器学习、营养盐、宿主分类及代谢模块分析脚本快照。
 - `docs/`：完整执行顺序、分析—作图对应关系及脚本审计记录。
+- [`05_methane_metabolism/`](05_methane_metabolism/README.md)：冷泉甲烷循环的代谢分析，包含23个功能KO的MAG携带、门类注释、四生境丰度与无树热图。
 
 ## 第一部分：宏基因组分析顺序
 
@@ -96,7 +97,7 @@ docs/04_STANDARD_PROTEIN_TREE_WORKFLOW.md
 
 - 本机 `R_libs/` 包目录；
 - `.RData`、`.Rhistory`、`.DS_Store` 和 `__MACOSX`；
-- 已生成的 PNG、临时结果和 Word 文档；
+- 一般流程的批量 PNG、临时结果和 Word 文档；经整理的甲烷循环分析快照在 `05_methane_metabolism/` 中保留最终图件、统计表和 Excel，以便复核；
 - 大型原始 reads、组装结果、数据库和 MAG 文件。
 
 这些文件应通过 Conda、renv 或独立数据存储管理，不应提交到 Git。

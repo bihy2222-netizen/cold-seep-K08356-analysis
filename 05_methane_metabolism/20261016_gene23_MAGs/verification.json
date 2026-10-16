@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "MAG_records": 347,
+  "independent_dRep_clusters": 344,
+  "mcrA_positive_representatives": 16,
+  "target_KOs": 23,
+  "samples": 56,
+  "protein_KO_records": 1876
+}

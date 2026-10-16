@@ -1,0 +1,17 @@
+dRep_cluster	selected_positive_MAG	clade	McrA_protein_count	global_representative_MAG	abundance_status	positive_raw_MAGs_in_cluster	positive_raw_MAG_IDs
+168_1	C3_6-12_bin29	ANME-2c	1	C3_6-12_bin29	direct_MAG_TPM	1	C3_6-12_bin29
+168_3	S1_0-3_bin8	ANME-2c	1	S1_0-3_bin8	direct_MAG_TPM	1	S1_0-3_bin8
+263_2	C3_6-12_bin45	ANME-1	1	C3_6-12_bin45	direct_MAG_TPM	1	C3_6-12_bin45
+263_3	ES_2_0-6_bin3	unresolved	1	ES_2_0-6_bin3	direct_MAG_TPM	1	ES_2_0-6_bin3
+264_1	S1_0-3_bin7	ANME-1	1	C2_6-12_bin16	unquantified_selected_MAG	1	S1_0-3_bin7
+265_1	C3_12-18_bin22	unresolved	1	S15_8-10_bin18	unquantified_selected_MAG	1	C3_12-18_bin22
+265_2	C2_0-6_bin3	unresolved	1	C2_0-6_bin3	direct_MAG_TPM	6	C1_6-12_bin22;C2_0-6_bin3;ES_2_0-6_bin1;S1_0-3_bin21;S1_9-12_bin7;S2_0-3_bin3
+282_1	SY457BB-8-12_bin2	methanogen_related_unresolved	1	SY457BB-8-12_bin2	direct_MAG_TPM	1	SY457BB-8-12_bin2
+283_1	SY368YW-0-4_bin3	unresolved	1	SY368YW-0-4_bin3	direct_MAG_TPM	3	SY366YW-0-4_bin4;SY366YW-8-12_bin21;SY368YW-0-4_bin3
+283_2	SY368YW-8-12_bin21	unresolved	1	SY366YB-0-4_bin17	unquantified_selected_MAG	1	SY368YW-8-12_bin21
+283_4	SY457BB-0-4_bin11	unresolved	1	SY457BB-0-4_bin11	direct_MAG_TPM	1	SY457BB-0-4_bin11
+284_1	SY456YB-4-8_bin18	unresolved	1	SY456YB-4-8_bin18	direct_MAG_TPM	2	SY456YB-4-8_bin18;SY456YB-8-12_bin45
+284_2	SY368YW-0-4_bin30	unresolved	1	SY368YW-0-4_bin30	direct_MAG_TPM	9	SY365BB-0-4_bin19;SY365BB-8-12_bin34;SY366YB-0-4_bin6;SY366YW-0-4_bin17;SY366YW-8-12_bin14;SY368YW-0-4_bin30;SY368YW-4-8_bin22;SY368YW-8-12_bin7;SY457BB-0-4_bin21
+285_1	C3_6-12_bin5	methanogen_related_unresolved	1	C3_6-12_bin5	direct_MAG_TPM	3	C2_0-6_bin7;C3_6-12_bin5;S2_12-15_bin2
+288_1	SQ_81_8-12_bin7	ANME-2a	1	SQ_81_8-12_bin7	direct_MAG_TPM	4	S14_4-6_bin14;S15_8-10_bin34;SQ_81_4-8_bin17;SQ_81_8-12_bin7
+288_2	S2_12-15_bin1	ANME-2a	1	S2_12-15_bin1	direct_MAG_TPM	2	S2_12-15_bin1;S2_3-6_bin3
