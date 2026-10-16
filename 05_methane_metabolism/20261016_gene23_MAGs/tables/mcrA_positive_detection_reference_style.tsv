@@ -1,0 +1,17 @@
+MAG_ID	clade	phylum	completeness_percent	mcrA	mcrG	mcrB	mtrH	mtrG	mtrF	mtrA	mtrB	mtrC	mtrD	mtrE	mer	mtd	mch	ftr	fwdC/fmdC	fwdA/fmdA	fwdB/fmdB	fwdD/fmdD	fwdF/fmdF	hdrA2	hdrB2	hdrC2
+C3_6-12_bin29	ANME-2c	Halobacteriota	79.19	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1
+S1_0-3_bin8	ANME-2c	Halobacteriota	49.64	1	1	1	0	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	0	0	1
+S2_12-15_bin1	ANME-2a	Halobacteriota	71.58	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	1	1	1	0	0	1
+SQ_81_8-12_bin7	ANME-2a	Halobacteriota	95.77	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+C3_6-12_bin45	ANME-1	Halobacteriota	66.9	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+S1_0-3_bin7	ANME-1	Halobacteriota	NA	1	0	1	1	0	1	1	1	0	1	1	0	1	0	1	0	0	1	0	0	1	0	1
+C2_0-6_bin3	unresolved	Halobacteriota	75.9	1	1	1	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	1	0	1	1	1
+C3_12-18_bin22	unresolved	Halobacteriota	NA	1	1	1	0	0	0	1	1	0	1	1	0	1	1	1	0	0	0	1	0	1	1	1
+ES_2_0-6_bin3	unresolved	Halobacteriota	81.4	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	1	1
+SY368YW-0-4_bin3	unresolved	Halobacteriota	93.13	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1
+SY368YW-0-4_bin30	unresolved	Halobacteriota	99.98	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SY368YW-8-12_bin21	unresolved	Halobacteriota	NA	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1	0	1	0	1	1
+SY456YB-4-8_bin18	unresolved	Halobacteriota	89.64	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1
+SY457BB-0-4_bin11	unresolved	Halobacteriota	67.47	1	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0
+C3_6-12_bin5	methanogen_related_unresolved	Halobacteriota	74.32	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1
+SY457BB-8-12_bin2	methanogen_related_unresolved	Halobacteriota	81.38	1	0	1	0	0	0	1	1	0	0	0	1	1	0	0	0	0	1	1	1	1	0	1

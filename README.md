@@ -9,6 +9,7 @@
 - `03_metadata_examples/`：压缩包中附带的小型分组与样品信息示例。
 - `04_K08356_analysis_extensions/`：K08356 双证据、HMM、基因邻域、机器学习、营养盐、宿主分类及代谢模块分析脚本快照。
 - `docs/`：完整执行顺序、分析—作图对应关系及脚本审计记录。
+- [`05_methane_metabolism/`](05_methane_metabolism/README.md)：冷泉甲烷循环的代谢分析，包含23个功能KO的MAG携带、门类注释、四生境丰度与无树热图。
 
 ## 第一部分：宏基因组分析顺序
 

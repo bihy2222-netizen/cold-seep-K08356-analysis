@@ -1,0 +1,11 @@
+{
+  "target_KOs": 23,
+  "original_MAGs_screened": 808,
+  "original_MAG_carriers": 344,
+  "supplement_MAG_carriers": 3,
+  "carrier_records_total": 347,
+  "unique_carrier_dRep_clusters": 344,
+  "mcrA_positive_representatives": 16,
+  "taxonomic_phyla": 43,
+  "protein_KO_records": 1876
+}

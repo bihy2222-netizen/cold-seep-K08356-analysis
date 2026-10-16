@@ -1,0 +1,348 @@
+MAG_ID	bin_filename	cohort	dRep_cluster	mcrA_positive_selected	target_gene_types	gene_names	KO_list	protein_records	abundance_status
+R2111_N300_0-10_bin1	R2111_N300_0-10_bin1.fasta	原808全局代表	142_0	0	1	mtrA	K00577	1	直接MAG TPM可用
+R2111_N300_0-10_bin36	R2111_N300_0-10_bin36.fasta	原808全局代表	144_0	0	1	mtrA	K00577	1	直接MAG TPM可用
+R2111_N500_0-10_bin12	R2111_N500_0-10_bin12.fasta	原808全局代表	210_0	0	10	mtrA; mer; ftr; fwdA/fmdA; fwdB/fmdB; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00577; K00320; K00672; K00200; K00201; K00203; K00205; K03388; K03389; K03390	21	直接MAG TPM可用
+C3_6-12_bin33	C3_6-12_bin33.fasta	原808全局代表	213_0	0	9	mtrH; mer; mtd; mch; ftr; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00584; K00320; K00319; K01499; K00672; K00205; K03388; K03389; K03390	18	直接MAG TPM可用
+C3_6-12_bin42	C3_6-12_bin42.fasta	原808全局代表	271_0	0	9	mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; hdrA2; hdrB2; hdrC2	K00319; K01499; K00672; K00200; K00201; K00202; K03388; K03389; K03390	17	直接MAG TPM可用
+R2111_N300_0-10_bin28	R2111_N300_0-10_bin28.fasta	原808全局代表	209_0	0	9	mtrA; mtrH; mer; mtd; mch; fwdB/fmdB; hdrA2; hdrB2; hdrC2	K00577; K00584; K00320; K00319; K01499; K00201; K03388; K03389; K03390	16	直接MAG TPM可用
+C2_6-12_bin43	C2_6-12_bin43.fasta	原808全局代表	208_0	0	8	mtrA; mtd; mch; fwdB/fmdB; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00577; K00319; K01499; K00201; K00205; K03388; K03389; K03390	11	直接MAG TPM可用
+C3_6-12_bin28	C3_6-12_bin28.fasta	原808全局代表	55_0	0	7	mtd; mch; ftr; fwdB/fmdB; hdrA2; hdrB2; hdrC2	K00319; K01499; K00672; K00201; K03388; K03389; K03390	15	直接MAG TPM可用
+S14_4-6_bin23	S14_4-6_bin23.fasta	原808全局代表	212_2	0	5	mer; mch; hdrA2; hdrB2; hdrC2	K00320; K01499; K03388; K03389; K03390	12	直接MAG TPM可用
+C2_6-12_bin53	C2_6-12_bin53.fasta	原808全局代表	212_3	0	4	mch; hdrA2; hdrB2; hdrC2	K01499; K03388; K03389; K03390	13	直接MAG TPM可用
+C3_12-18_bin9	C3_12-18_bin9.fasta	原808全局代表	212_1	0	4	mch; hdrA2; hdrB2; hdrC2	K01499; K03388; K03389; K03390	10	直接MAG TPM可用
+SQ_81_4-8_bin12	SQ_81_4-8_bin12.fasta	原808全局代表	211_1	0	4	mer; hdrA2; hdrB2; hdrC2	K00320; K03388; K03389; K03390	6	直接MAG TPM可用
+SQ_81_8-12_bin14	SQ_81_8-12_bin14.fasta	原808全局代表	211_2	0	4	mer; hdrA2; hdrB2; hdrC2	K00320; K03388; K03389; K03390	11	直接MAG TPM可用
+C3_12-18_bin11	C3_12-18_bin11.fasta	原808全局代表	214_0	0	3	mtrA; mch; hdrC2	K00577; K01499; K03390	3	直接MAG TPM可用
+C1_0-6_bin3	C1_0-6_bin3.fasta	原808全局代表	52_0	0	2	hdrA2; hdrC2	K03388; K03390	3	直接MAG TPM可用
+C2_6-12_bin4	C2_6-12_bin4.fasta	原808全局代表	53_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+R2111_N300_0-10_bin5	R2111_N300_0-10_bin5.fasta	原808全局代表	276_0	0	11	mtrH; mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2	K00584; K00320; K00319; K01499; K00672; K00200; K00201; K00202; K00203; K03388; K03389	17	直接MAG TPM可用
+SQ_81_8-12_bin7	SQ_81_8-12_bin7.fasta	原808全局代表	288_1	1	23	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K00319; K01499; K00672; K00200; K00201; K00202; K00203; K00205; K03388; K03389; K03390	35	直接MAG TPM可用
+SY368YW-0-4_bin30	SY368YW-0-4_bin30.fasta	原808全局代表	284_2	1	23	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K00319; K01499; K00672; K00200; K00201; K00202; K00203; K00205; K03388; K03389; K03390	32	直接MAG TPM可用
+C3_6-12_bin5	C3_6-12_bin5.fasta	原808全局代表	285_1	1	22	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mtd; mch; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K00319; K01499; K00200; K00201; K00202; K00203; K00205; K03388; K03389; K03390	28	直接MAG TPM可用
+SY368YW-0-4_bin3	SY368YW-0-4_bin3.fasta	原808全局代表	283_1	1	22	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K01499; K00672; K00200; K00201; K00202; K00203; K00205; K03388; K03389; K03390	32	直接MAG TPM可用
+SY456YB-4-8_bin18	SY456YB-4-8_bin18.fasta	原808全局代表	284_1	1	22	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K00319; K01499; K00672; K00200; K00201; K00203; K00205; K03388; K03389; K03390	30	直接MAG TPM可用
+S1_0-3_bin20	S1_0-3_bin20.fasta	原808全局代表	289_0	0	20	mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K00319; K01499; K00672; K00200; K00201; K00202; K00203; K00205; K03388; K03389; K03390	32	直接MAG TPM可用
+C3_6-12_bin29	C3_6-12_bin29.fasta	原808全局代表	168_1	1	19	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00320; K00319; K01499; K00672; K00200; K00201; K00203; K00205; K03388; K03389; K03390	27	直接MAG TPM可用
+SY368YW-8-12_bin21	SY368YW-8-12_bin21.fasta	补选mcrA阳性代表	283_2	1	19	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mtd; mch; ftr; fwdB/fmdB; fwdF/fmdF; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K00319; K01499; K00672; K00201; K00205; K03389; K03390	28	直接MAG TPM缺失
+S1_0-3_bin8	S1_0-3_bin8.fasta	原808全局代表	168_3	1	18	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mer; mch; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00320; K01499; K00200; K00201; K00202; K00203; K00205; K03390	25	直接MAG TPM可用
+S2_12-15_bin1	S2_12-15_bin1.fasta	原808全局代表	288_2	1	18	mcrA; mcrB; mcrG; mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mtd; mch; fwdB/fmdB; fwdD/fmdD; fwdF/fmdF; hdrC2	K00399; K00401; K00402; K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K00319; K01499; K00201; K00203; K00205; K03390	21	直接MAG TPM可用
+SY366YB-0-4_bin17	SY366YB-0-4_bin17.fasta	原808全局代表	283_2	0	18	mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mer; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrB2; hdrC2	K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K00320; K01499; K00672; K00200; K00201; K00202; K00203; K00205; K03389; K03390	23	直接MAG TPM可用
+C3_12-18_bin15	C3_12-18_bin15.fasta	原808全局代表	286_1	0	16	mcrB; mtrA; mtrB; mtrC; mtrF; mtrG; mtrH; mer; mch; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; fwdF/fmdF; hdrB2; hdrC2	K00401; K00577; K00578; K00579; K00582; K00583; K00584; K00320; K01499; K00200; K00201; K00202; K00203; K00205; K03389; K03390	23	直接MAG TPM可用
+C2_6-12_bin16	C2_6-12_bin16.fasta	原808全局代表	264_1	0	14	mtrA; mtrB; mtrD; mtrE; mtrF; mtrH; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00577; K00578; K00580; K00581; K00582; K00584; K00672; K00200; K00201; K00202; K00203; K03388; K03389; K03390	18	直接MAG TPM可用
+C3_12-18_bin22	C3_12-18_bin22.fasta	补选mcrA阳性代表	265_1	1	14	mcrA; mcrB; mcrG; mtrA; mtrB; mtrD; mtrE; mtd; mch; ftr; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00577; K00578; K00580; K00581; K00319; K01499; K00672; K00203; K03388; K03389; K03390	18	直接MAG TPM缺失
+SQ_58_4-8_bin25	SQ_58_4-8_bin25.fasta	原808全局代表	281_1	0	14	mtrA; mtrB; mtrC; mtrD; mtrE; mtrF; mtrG; mtrH; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD	K00577; K00578; K00579; K00580; K00581; K00582; K00583; K00584; K01499; K00672; K00200; K00201; K00202; K00203	14	直接MAG TPM可用
+S1_0-3_bin7	S1_0-3_bin7.fasta	补选mcrA阳性代表	264_1	1	13	mcrA; mcrB; mtrA; mtrB; mtrD; mtrE; mtrF; mtrH; mtd; ftr; fwdB/fmdB; hdrA2; hdrC2	K00399; K00401; K00577; K00578; K00580; K00581; K00582; K00584; K00319; K00672; K00201; K03388; K03390	13	直接MAG TPM缺失
+C2_0-6_bin3	C2_0-6_bin3.fasta	原808全局代表	265_2	1	12	mcrA; mcrB; mcrG; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K01499; K00672; K00200; K00201; K00202; K00203; K03388; K03389; K03390	19	直接MAG TPM可用
+S15_8-10_bin18	S15_8-10_bin18.fasta	原808全局代表	265_1	0	12	mtrB; mtrD; mtrE; mtrH; mtd; mch; ftr; fwdB/fmdB; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00578; K00580; K00581; K00584; K00319; K01499; K00672; K00201; K00203; K03388; K03389; K03390	19	直接MAG TPM可用
+SQ_58_8-12_bin7	SQ_58_8-12_bin7.fasta	原808全局代表	281_2	0	12	mcrB; mtrA; mtrB; mtrC; mtrD; mtrF; mtrG; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD	K00401; K00577; K00578; K00579; K00580; K00582; K00583; K00672; K00200; K00201; K00202; K00203	23	直接MAG TPM可用
+C2_0-6_bin15	C2_0-6_bin15.fasta	原808全局代表	287_0	0	11	mcrG; mtrA; mtrB; mtrE; mtrF; mtrG; mtrH; mer; fwdB/fmdB; fwdF/fmdF; hdrB2	K00402; K00577; K00578; K00581; K00582; K00583; K00584; K00320; K00201; K00205; K03389	12	直接MAG TPM可用
+ES_2_0-6_bin3	ES_2_0-6_bin3.fasta	原808全局代表	263_3	1	11	mcrA; mcrB; mcrG; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00399; K00401; K00402; K00672; K00200; K00201; K00202; K00203; K03388; K03389; K03390	13	直接MAG TPM可用
+SY457BB-8-12_bin2	SY457BB-8-12_bin2.fasta	原808全局代表	282_1	1	11	mcrA; mcrB; mtrA; mtrB; mer; mtd; fwdB/fmdB; fwdD/fmdD; fwdF/fmdF; hdrA2; hdrC2	K00399; K00401; K00577; K00578; K00320; K00319; K00201; K00203; K00205; K03388; K03390	13	直接MAG TPM可用
+SQ_58_8-12_bin2	SQ_58_8-12_bin2.fasta	原808全局代表	283_3	0	10	mtrA; mtrB; mtrH; mer; mtd; mch; fwdA/fmdA; fwdC/fmdC; hdrB2; hdrC2	K00577; K00578; K00584; K00320; K00319; K01499; K00200; K00202; K03389; K03390	11	直接MAG TPM可用
+C2_6-12_bin23	C2_6-12_bin23.fasta	原808全局代表	169_0	0	8	mtrD; mtrE; mch; ftr; fwdF/fmdF; hdrA2; hdrB2; hdrC2	K00580; K00581; K01499; K00672; K00205; K03388; K03389; K03390	13	直接MAG TPM可用
+C3_12-18_bin8	C3_12-18_bin8.fasta	原808全局代表	263_1	0	8	mtd; mch; ftr; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrC2	K00319; K01499; K00672; K00201; K00202; K00203; K03388; K03390	11	直接MAG TPM可用
+S2_12-15_bin11	S2_12-15_bin11.fasta	原808全局代表	168_2	0	7	mer; mch; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; hdrA2; hdrC2	K00320; K01499; K00200; K00201; K00202; K03388; K03390	10	直接MAG TPM可用
+SY457BB-0-4_bin11	SY457BB-0-4_bin11.fasta	原808全局代表	283_4	1	6	mcrA; mcrG; mtrA; mtrH; mer; fwdB/fmdB	K00399; K00402; K00577; K00584; K00320; K00201	6	直接MAG TPM可用
+C3_6-12_bin45	C3_6-12_bin45.fasta	原808全局代表	263_2	1	4	mcrA; mcrB; mcrG; mtrH	K00399; K00401; K00402; K00584	4	直接MAG TPM可用
+SQ_81_8-12_bin9	SQ_81_8-12_bin9.fasta	原808全局代表	396_0	0	10	mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00319; K01499; K00672; K00200; K00201; K00202; K00203; K03388; K03389; K03390	11	直接MAG TPM可用
+C3_12-18_bin31	C3_12-18_bin31.fasta	原808全局代表	192_2	0	5	ftr; fwdA/fmdA; hdrA2; hdrB2; hdrC2	K00672; K00200; K03388; K03389; K03390	21	直接MAG TPM可用
+C1_0-6_bin16	C1_0-6_bin16.fasta	原808全局代表	3_1	0	3	mtrA; hdrA2; hdrC2	K00577; K03388; K03390	5	直接MAG TPM可用
+C1_0-6_bin33	C1_0-6_bin33.fasta	原808全局代表	191_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	13	直接MAG TPM可用
+C2_12-18_bin32	C2_12-18_bin32.fasta	原808全局代表	5_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	16	直接MAG TPM可用
+C2_12-18_bin8	C2_12-18_bin8.fasta	原808全局代表	192_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	18	直接MAG TPM可用
+C2_6-12_bin15	C2_6-12_bin15.fasta	原808全局代表	267_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	8	直接MAG TPM可用
+C3_12-18_bin27	C3_12-18_bin27.fasta	原808全局代表	254_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	11	直接MAG TPM可用
+C3_6-12_bin44	C3_6-12_bin44.fasta	原808全局代表	502_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	11	直接MAG TPM可用
+R2111_N300_0-10_bin14	R2111_N300_0-10_bin14.fasta	原808全局代表	502_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	8	直接MAG TPM可用
+S14_4-6_bin19	S14_4-6_bin19.fasta	原808全局代表	267_1	0	3	mtrA; hdrA2; hdrC2	K00577; K03388; K03390	5	直接MAG TPM可用
+S3_9-12_bin11	S3_9-12_bin11.fasta	原808全局代表	541_0	0	3	mcrB; hdrB2; hdrC2	K00401; K03389; K03390	3	直接MAG TPM可用
+C3_6-12_bin13	C3_6-12_bin13.fasta	原808全局代表	266_1	0	2	mtrA; hdrC2	K00577; K03390	4	直接MAG TPM可用
+R2111_N300_0-10_bin27	R2111_N300_0-10_bin27.fasta	原808全局代表	499_0	0	2	hdrA2; hdrC2	K03388; K03390	9	直接MAG TPM可用
+S15_8-10_bin12	S15_8-10_bin12.fasta	原808全局代表	216_0	0	2	hdrA2; hdrC2	K03388; K03390	6	直接MAG TPM可用
+C2_0-6_bin2	C2_0-6_bin2.fasta	原808全局代表	4_1	0	1	hdrC2	K03390	2	直接MAG TPM可用
+S3_6-9_bin13	S3_6-9_bin13.fasta	原808全局代表	540_0	0	1	mcrB	K00401	1	直接MAG TPM可用
+C2_6-12_bin3	C2_6-12_bin3.fasta	原808全局代表	113_1	0	11	mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00320; K00319; K01499; K00672; K00200; K00201; K00202; K00203; K03388; K03389; K03390	15	直接MAG TPM可用
+C3_6-12_bin27	C3_6-12_bin27.fasta	原808全局代表	123_0	0	11	mer; mtd; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00320; K00319; K01499; K00672; K00200; K00201; K00202; K00203; K03388; K03389; K03390	12	直接MAG TPM可用
+C3_6-12_bin46	C3_6-12_bin46.fasta	原808全局代表	369_0	0	10	mer; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrA2; hdrB2; hdrC2	K00320; K01499; K00672; K00200; K00201; K00202; K00203; K03388; K03389; K03390	14	直接MAG TPM可用
+C2_6-12_bin20	C2_6-12_bin20.fasta	原808全局代表	117_2	0	9	mer; mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; hdrA2; hdrB2; hdrC2	K00320; K01499; K00672; K00200; K00201; K00202; K03388; K03389; K03390	9	直接MAG TPM可用
+R2111_N300_0-10_bin31	R2111_N300_0-10_bin31.fasta	原808全局代表	195_0	0	8	mtrH; mer; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD; hdrC2	K00584; K00320; K00672; K00200; K00201; K00202; K00203; K03390	10	直接MAG TPM可用
+C3_0-6_bin20	C3_0-6_bin20.fasta	原808全局代表	119_0	0	6	mer; mtd; mch; ftr; fwdC/fmdC; hdrC2	K00320; K00319; K01499; K00672; K00202; K03390	6	直接MAG TPM可用
+C3_12-18_bin29	C3_12-18_bin29.fasta	原808全局代表	121_1	0	6	mtd; ftr; fwdC/fmdC; hdrA2; hdrB2; hdrC2	K00319; K00672; K00202; K03388; K03389; K03390	6	直接MAG TPM可用
+C2_6-12_bin59	C2_6-12_bin59.fasta	原808全局代表	121_2	0	5	mer; mtd; fwdC/fmdC; hdrB2; hdrC2	K00320; K00319; K00202; K03389; K03390	5	直接MAG TPM可用
+R2111_N500_0-10_bin2	R2111_N500_0-10_bin2.fasta	原808全局代表	201_0	0	5	mer; mch; fwdA/fmdA; fwdB/fmdB; fwdD/fmdD	K00320; K01499; K00200; K00201; K00203	5	直接MAG TPM可用
+SQ_81_8-12_bin15	SQ_81_8-12_bin15.fasta	原808全局代表	196_0	0	5	mer; ftr; fwdB/fmdB; hdrA2; hdrB2	K00320; K00672; K00201; K03388; K03389	6	直接MAG TPM可用
+C3_6-12_bin32	C3_6-12_bin32.fasta	原808全局代表	117_1	0	4	ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+R2111_N500_0-10_bin22	R2111_N500_0-10_bin22.fasta	原808全局代表	120_0	0	4	mer; ftr; fwdB/fmdB; fwdD/fmdD	K00320; K00672; K00201; K00203	4	直接MAG TPM可用
+C3_6-12_bin3	C3_6-12_bin3.fasta	原808全局代表	113_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	11	直接MAG TPM可用
+S15_8-10_bin10	S15_8-10_bin10.fasta	原808全局代表	122_0	0	3	mtd; hdrB2; hdrC2	K00319; K03389; K03390	3	直接MAG TPM可用
+SQ_81_8-12_bin2	SQ_81_8-12_bin2.fasta	原808全局代表	118_1	0	3	mer; mtd; mch	K00320; K00319; K01499	3	直接MAG TPM可用
+C1_12-18_bin15	C1_12-18_bin15.fasta	原808全局代表	14_1	0	1	mtrA	K00577	1	直接MAG TPM可用
+R2111_N300_0-10_bin34	R2111_N300_0-10_bin34.fasta	原808全局代表	15_1	0	1	mtrA	K00577	1	直接MAG TPM可用
+C1_0-6_bin18	C1_0-6_bin18.fasta	原808全局代表	326_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C2_6-12_bin34	C2_6-12_bin34.fasta	原808全局代表	25_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C2_6-12_bin52	C2_6-12_bin52.fasta	原808全局代表	324_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	7	直接MAG TPM可用
+C3_6-12_bin14	C3_6-12_bin14.fasta	原808全局代表	325_3	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+C3_6-12_bin30	C3_6-12_bin30.fasta	原808全局代表	328_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+R2111_N300_0-10_bin7	R2111_N300_0-10_bin7.fasta	原808全局代表	330_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+S15_8-10_bin2	S15_8-10_bin2.fasta	原808全局代表	325_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C1_0-6_bin17	C1_0-6_bin17.fasta	原808全局代表	325_1	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C2_6-12_bin27	C2_6-12_bin27.fasta	原808全局代表	323_1	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C3_6-12_bin43	C3_6-12_bin43.fasta	原808全局代表	327_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+SQ_81_0-4_bin1	SQ_81_0-4_bin1.fasta	原808全局代表	328_4	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C2_6-12_bin1	C2_6-12_bin1.fasta	原808全局代表	116_0	0	1	hdrA2	K03388	2	直接MAG TPM可用
+SY368YW-8-12_bin6	SY368YW-8-12_bin6.fasta	原808全局代表	321_0	0	1	mer	K00320	2	直接MAG TPM可用
+SQ_58_4-8_bin9	SQ_58_4-8_bin9.fasta	原808全局代表	234_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+SQ_58_8-12_bin4	SQ_58_8-12_bin4.fasta	原808全局代表	522_2	0	2	mer; hdrC2	K00320; K03390	2	直接MAG TPM可用
+SY368YW-8-12_bin16	SY368YW-8-12_bin16.fasta	原808全局代表	522_1	0	2	mer; hdrC2	K00320; K03390	2	直接MAG TPM可用
+SY456YB-0-4_bin24	SY456YB-0-4_bin24.fasta	原808全局代表	515_0	0	2	mer; mch	K00320; K01499	6	直接MAG TPM可用
+SY459WG-4-8_bin39	SY459WG-4-8_bin39.fasta	原808全局代表	455_1	0	2	mer; mch	K00320; K01499	7	直接MAG TPM可用
+C3_0-6_bin9	C3_0-6_bin9.fasta	原808全局代表	518_0	0	1	mer	K00320	2	直接MAG TPM可用
+R2111_N500_0-10_bin9	R2111_N500_0-10_bin9.fasta	原808全局代表	523_2	0	1	mer	K00320	2	直接MAG TPM可用
+S1_6-9_bin17	S1_6-9_bin17.fasta	原808全局代表	517_1	0	1	hdrA2	K03388	1	直接MAG TPM可用
+SQ_58_0-4_bin4	SQ_58_0-4_bin4.fasta	原808全局代表	524_1	0	1	mer	K00320	4	直接MAG TPM可用
+SY366YB-0-4_bin2	SY366YB-0-4_bin2.fasta	原808全局代表	523_1	0	1	mer	K00320	4	直接MAG TPM可用
+SY366YB-4-8_bin5	SY366YB-4-8_bin5.fasta	原808全局代表	524_2	0	1	mer	K00320	3	直接MAG TPM可用
+SY366YW-0-4_bin2	SY366YW-0-4_bin2.fasta	原808全局代表	524_3	0	1	mer	K00320	5	直接MAG TPM可用
+SY366YW-4-8_bin15	SY366YW-4-8_bin15.fasta	原808全局代表	542_1	0	1	mer	K00320	1	直接MAG TPM可用
+SY368YW-0-4_bin25	SY368YW-0-4_bin25.fasta	原808全局代表	524_5	0	1	mer	K00320	2	直接MAG TPM可用
+SY368YW-8-12_bin14	SY368YW-8-12_bin14.fasta	原808全局代表	202_0	0	1	mer	K00320	2	直接MAG TPM可用
+SY368YW-8-12_bin23	SY368YW-8-12_bin23.fasta	原808全局代表	521_1	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SY457BB-0-4_bin13	SY457BB-0-4_bin13.fasta	原808全局代表	524_4	0	1	mer	K00320	3	直接MAG TPM可用
+SQ_81_8-12_bin3	SQ_81_8-12_bin3.fasta	原808全局代表	32_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+S3_0-3_bin15	S3_0-3_bin15.fasta	原808全局代表	44_0	0	1	hdrA2	K03388	1	直接MAG TPM可用
+C2_12-18_bin15	C2_12-18_bin15.fasta	原808全局代表	79_0	0	1	hdrA2	K03388	1	直接MAG TPM可用
+C2_6-12_bin62	C2_6-12_bin62.fasta	原808全局代表	333_0	0	1	hdrA2	K03388	1	直接MAG TPM可用
+SY366YW-4-8_bin19	SY366YW-4-8_bin19.fasta	原808全局代表	531_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SY456YB-8-12_bin6	SY456YB-8-12_bin6.fasta	原808全局代表	93_1	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SY459WG-8-12_bin5	SY459WG-8-12_bin5.fasta	原808全局代表	95_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+C2_6-12_bin21	C2_6-12_bin21.fasta	原808全局代表	66_0	0	2	hdrA2; hdrB2	K03388; K03389	3	直接MAG TPM可用
+S15_8-10_bin17	S15_8-10_bin17.fasta	原808全局代表	365_0	0	2	hdrA2; hdrB2	K03388; K03389	3	直接MAG TPM可用
+C2_6-12_bin58	C2_6-12_bin58.fasta	原808全局代表	364_0	0	1	hdrA2	K03388	2	直接MAG TPM可用
+C2_12-18_bin17	C2_12-18_bin17.fasta	原808全局代表	587_0	0	4	mer; hdrA2; hdrB2; hdrC2	K00320; K03388; K03389; K03390	6	直接MAG TPM可用
+C3_6-12_bin25	C3_6-12_bin25.fasta	原808全局代表	584_0	0	4	mer; hdrA2; hdrB2; hdrC2	K00320; K03388; K03389; K03390	5	直接MAG TPM可用
+C3_6-12_bin38	C3_6-12_bin38.fasta	原808全局代表	589_1	0	4	mer; hdrA2; hdrB2; hdrC2	K00320; K03388; K03389; K03390	3	直接MAG TPM可用
+S15_8-10_bin24	S15_8-10_bin24.fasta	原808全局代表	583_0	0	4	mer; hdrA2; hdrB2; hdrC2	K00320; K03388; K03389; K03390	4	直接MAG TPM可用
+SQ_81_4-8_bin26	SQ_81_4-8_bin26.fasta	原808全局代表	588_1	0	4	mer; hdrA2; hdrB2; hdrC2	K00320; K03388; K03389; K03390	6	直接MAG TPM可用
+C1_0-6_bin32	C1_0-6_bin32.fasta	原808全局代表	255_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	10	直接MAG TPM可用
+C2_6-12_bin2	C2_6-12_bin2.fasta	原808全局代表	247_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+C2_6-12_bin38	C2_6-12_bin38.fasta	原808全局代表	246_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	6	直接MAG TPM可用
+C2_6-12_bin47	C2_6-12_bin47.fasta	原808全局代表	244_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+C2_6-12_bin49	C2_6-12_bin49.fasta	原808全局代表	261_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C3_0-6_bin10	C3_0-6_bin10.fasta	原808全局代表	582_1	0	3	mer; hdrB2; hdrC2	K00320; K03389; K03390	4	直接MAG TPM可用
+C3_12-18_bin7	C3_12-18_bin7.fasta	原808全局代表	252_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+C3_6-12_bin17	C3_6-12_bin17.fasta	原808全局代表	507_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+C3_6-12_bin36	C3_6-12_bin36.fasta	原808全局代表	259_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+C3_6-12_bin47	C3_6-12_bin47.fasta	原808全局代表	582_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	6	直接MAG TPM可用
+C3_6-12_bin9	C3_6-12_bin9.fasta	原808全局代表	167_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	2	直接MAG TPM可用
+R2111_N300_0-10_bin13	R2111_N300_0-10_bin13.fasta	原808全局代表	593_0	0	3	mer; hdrA2; hdrB2	K00320; K03388; K03389	4	直接MAG TPM可用
+R2111_N300_0-10_bin23	R2111_N300_0-10_bin23.fasta	原808全局代表	262_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+R2111_N300_0-10_bin29	R2111_N300_0-10_bin29.fasta	原808全局代表	257_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+S15_8-10_bin31	S15_8-10_bin31.fasta	原808全局代表	533_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	6	直接MAG TPM可用
+S2_0-3_bin10	S2_0-3_bin10.fasta	原808全局代表	245_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+SQ_58_4-8_bin15	SQ_58_4-8_bin15.fasta	原808全局代表	586_0	0	3	mer; hdrA2; hdrC2	K00320; K03388; K03390	3	直接MAG TPM可用
+SQ_81_4-8_bin1	SQ_81_4-8_bin1.fasta	原808全局代表	594_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	2	直接MAG TPM可用
+SQ_81_8-12_bin10	SQ_81_8-12_bin10.fasta	原808全局代表	592_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	14	直接MAG TPM可用
+C1_12-18_bin13	C1_12-18_bin13.fasta	原808全局代表	245_1	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C1_6-12_bin35	C1_6-12_bin35.fasta	原808全局代表	258_1	0	2	hdrB2; hdrC2	K03389; K03390	5	直接MAG TPM可用
+C2_12-18_bin24	C2_12-18_bin24.fasta	原808全局代表	388_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C2_6-12_bin19	C2_6-12_bin19.fasta	原808全局代表	240_0	0	2	hdrA2; hdrB2	K03388; K03389	2	直接MAG TPM可用
+C2_6-12_bin67	C2_6-12_bin67.fasta	原808全局代表	252_2	0	2	hdrA2; hdrB2	K03388; K03389	3	直接MAG TPM可用
+C2_6-12_bin8	C2_6-12_bin8.fasta	原808全局代表	256_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C3_12-18_bin26	C3_12-18_bin26.fasta	原808全局代表	258_2	0	2	hdrB2; hdrC2	K03389; K03390	3	直接MAG TPM可用
+C3_6-12_bin12	C3_6-12_bin12.fasta	原808全局代表	249_1	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C3_6-12_bin40	C3_6-12_bin40.fasta	原808全局代表	591_0	0	2	hdrA2; hdrC2	K03388; K03390	6	直接MAG TPM可用
+R2111_N500_0-10_bin18	R2111_N500_0-10_bin18.fasta	原808全局代表	585_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+S15_8-10_bin43	S15_8-10_bin43.fasta	原808全局代表	253_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+S1_9-12_bin13	S1_9-12_bin13.fasta	原808全局代表	595_2	0	2	mer; hdrC2	K00320; K03390	2	直接MAG TPM可用
+SQ_81_8-12_bin20	SQ_81_8-12_bin20.fasta	原808全局代表	243_0	0	2	hdrB2; hdrC2	K03389; K03390	3	直接MAG TPM可用
+C3_6-12_bin54	C3_6-12_bin54.fasta	原808全局代表	322_0	0	1	hdrC2	K03390	2	直接MAG TPM可用
+R2111_N500_0-10_bin19	R2111_N500_0-10_bin19.fasta	原808全局代表	436_0	0	1	hdrB2	K03389	1	直接MAG TPM可用
+R2111_S300_0-10_bin17	R2111_S300_0-10_bin17.fasta	原808全局代表	124_1	0	1	mer	K00320	5	直接MAG TPM可用
+S15_8-10_bin23	S15_8-10_bin23.fasta	原808全局代表	248_1	0	1	hdrA2	K03388	1	直接MAG TPM可用
+S1_0-3_bin22	S1_0-3_bin22.fasta	原808全局代表	435_1	0	1	hdrB2	K03389	1	直接MAG TPM可用
+S1_6-9_bin10	S1_6-9_bin10.fasta	原808全局代表	445_0	0	1	mer	K00320	1	直接MAG TPM可用
+SY366YW-0-4_bin33	SY366YW-0-4_bin33.fasta	原808全局代表	573_0	0	1	mer	K00320	1	直接MAG TPM可用
+SY456YB-4-8_bin20	SY456YB-4-8_bin20.fasta	原808全局代表	572_2	0	1	mer	K00320	1	直接MAG TPM可用
+SY456YB-8-12_bin41	SY456YB-8-12_bin41.fasta	原808全局代表	572_1	0	1	mer	K00320	1	直接MAG TPM可用
+SY457BB-4-8_bin10	SY457BB-4-8_bin10.fasta	原808全局代表	574_0	0	1	mer	K00320	2	直接MAG TPM可用
+SY457BB-8-12_bin1	SY457BB-8-12_bin1.fasta	原808全局代表	607_0	0	1	mer	K00320	1	直接MAG TPM可用
+SY457BB-8-12_bin18	SY457BB-8-12_bin18.fasta	原808全局代表	606_1	0	1	mer	K00320	1	直接MAG TPM可用
+C2_6-12_bin63	C2_6-12_bin63.fasta	原808全局代表	181_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+S14_4-6_bin4	S14_4-6_bin4.fasta	原808全局代表	384_2	0	5	fwdA/fmdA; fwdB/fmdB; hdrA2; hdrB2; hdrC2	K00200; K00201; K03388; K03389; K03390	7	直接MAG TPM可用
+C2_0-6_bin13	C2_0-6_bin13.fasta	原808全局代表	236_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C2_0-6_bin8	C2_0-6_bin8.fasta	原808全局代表	378_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+C2_12-18_bin22	C2_12-18_bin22.fasta	原808全局代表	385_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	14	直接MAG TPM可用
+C2_6-12_bin41	C2_6-12_bin41.fasta	原808全局代表	354_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+C3_0-6_bin6	C3_0-6_bin6.fasta	原808全局代表	360_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	6	直接MAG TPM可用
+C3_12-18_bin34	C3_12-18_bin34.fasta	原808全局代表	358_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	7	直接MAG TPM可用
+C3_6-12_bin10	C3_6-12_bin10.fasta	原808全局代表	356_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+R2111_N300_0-10_bin10	R2111_N300_0-10_bin10.fasta	原808全局代表	387_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+R2111_N300_0-10_bin19	R2111_N300_0-10_bin19.fasta	原808全局代表	389_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+R2111_N300_0-10_bin22	R2111_N300_0-10_bin22.fasta	原808全局代表	361_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	12	直接MAG TPM可用
+R2111_N500_0-10_bin1	R2111_N500_0-10_bin1.fasta	原808全局代表	384_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	7	直接MAG TPM可用
+S14_4-6_bin22	S14_4-6_bin22.fasta	原808全局代表	138_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+S2_0-3_bin2	S2_0-3_bin2.fasta	原808全局代表	383_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	12	直接MAG TPM可用
+S2_12-15_bin9	S2_12-15_bin9.fasta	原808全局代表	380_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+SQ_81_8-12_bin13	SQ_81_8-12_bin13.fasta	原808全局代表	362_3	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	7	直接MAG TPM可用
+SY366YB-8-12_bin5	SY366YB-8-12_bin5.fasta	原808全局代表	348_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	6	直接MAG TPM可用
+SY366YW-0-4_bin28	SY366YW-0-4_bin28.fasta	原808全局代表	346_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+SY457BB-8-12_bin29	SY457BB-8-12_bin29.fasta	原808全局代表	348_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	7	直接MAG TPM可用
+SY459WG-8-12_bin17	SY459WG-8-12_bin17.fasta	原808全局代表	379_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	7	直接MAG TPM可用
+C1_0-6_bin22	C1_0-6_bin22.fasta	原808全局代表	378_1	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C1_0-6_bin26	C1_0-6_bin26.fasta	原808全局代表	354_1	0	2	hdrA2; hdrC2	K03388; K03390	4	直接MAG TPM可用
+C1_12-18_bin10	C1_12-18_bin10.fasta	原808全局代表	358_2	0	2	hdrA2; hdrC2	K03388; K03390	3	直接MAG TPM可用
+C1_6-12_bin24	C1_6-12_bin24.fasta	原808全局代表	358_3	0	2	hdrA2; hdrC2	K03388; K03390	4	直接MAG TPM可用
+C1_6-12_bin25	C1_6-12_bin25.fasta	原808全局代表	382_1	0	2	hdrA2; hdrC2	K03388; K03390	4	直接MAG TPM可用
+C2_6-12_bin35	C2_6-12_bin35.fasta	原808全局代表	363_0	0	2	hdrA2; hdrC2	K03388; K03390	6	直接MAG TPM可用
+C2_6-12_bin44	C2_6-12_bin44.fasta	原808全局代表	197_0	0	2	hdrA2; hdrC2	K03388; K03390	7	直接MAG TPM可用
+C2_6-12_bin60	C2_6-12_bin60.fasta	原808全局代表	375_1	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C3_6-12_bin31	C3_6-12_bin31.fasta	原808全局代表	377_1	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C3_6-12_bin34	C3_6-12_bin34.fasta	原808全局代表	386_0	0	2	hdrA2; hdrC2	K03388; K03390	4	直接MAG TPM可用
+C3_6-12_bin52	C3_6-12_bin52.fasta	原808全局代表	362_2	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+ES_2_0-6_bin4	ES_2_0-6_bin4.fasta	原808全局代表	377_3	0	2	hdrA2; hdrC2	K03388; K03390	6	直接MAG TPM可用
+R2111_N300_0-10_bin16	R2111_N300_0-10_bin16.fasta	原808全局代表	352_0	0	2	hdrA2; hdrB2	K03388; K03389	3	直接MAG TPM可用
+S15_8-10_bin22	S15_8-10_bin22.fasta	原808全局代表	370_1	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+S1_0-3_bin13	S1_0-3_bin13.fasta	原808全局代表	378_3	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+S1_0-3_bin19	S1_0-3_bin19.fasta	原808全局代表	362_1	0	2	hdrA2; hdrB2	K03388; K03389	5	直接MAG TPM可用
+S1_0-3_bin4	S1_0-3_bin4.fasta	原808全局代表	375_3	0	2	hdrA2; hdrC2	K03388; K03390	3	直接MAG TPM可用
+S1_0-3_bin5	S1_0-3_bin5.fasta	原808全局代表	376_0	0	2	hdrA2; hdrC2	K03388; K03390	3	直接MAG TPM可用
+S1_9-12_bin14	S1_9-12_bin14.fasta	原808全局代表	608_1	0	2	hdrA2; hdrC2	K03388; K03390	3	直接MAG TPM可用
+S1_9-12_bin15	S1_9-12_bin15.fasta	原808全局代表	375_2	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+S2_12-15_bin6	S2_12-15_bin6.fasta	原808全局代表	377_2	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+SQ_81_8-12_bin12	SQ_81_8-12_bin12.fasta	原808全局代表	355_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+SY366YW-0-4_bin14	SY366YW-0-4_bin14.fasta	原808全局代表	345_1	0	2	hdrA2; hdrC2	K03388; K03390	6	直接MAG TPM可用
+SY459WG-0-4_bin10	SY459WG-0-4_bin10.fasta	原808全局代表	194_1	0	2	hdrA2; hdrC2	K03388; K03390	4	直接MAG TPM可用
+SY459WG-8-12_bin28	SY459WG-8-12_bin28.fasta	原808全局代表	340_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C1_0-6_bin31	C1_0-6_bin31.fasta	原808全局代表	307_1	0	1	hdrA2	K03388	1	直接MAG TPM可用
+C3_0-6_bin4	C3_0-6_bin4.fasta	原808全局代表	381_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+S14_4-6_bin15	S14_4-6_bin15.fasta	原808全局代表	374_0	0	1	hdrA2	K03388	1	直接MAG TPM可用
+S14_4-6_bin24	S14_4-6_bin24.fasta	原808全局代表	359_0	0	1	hdrA2	K03388	2	直接MAG TPM可用
+S2_0-3_bin12	S2_0-3_bin12.fasta	原808全局代表	380_3	0	1	hdrC2	K03390	1	直接MAG TPM可用
+S2_0-3_bin8	S2_0-3_bin8.fasta	原808全局代表	373_1	0	1	hdrA2	K03388	1	直接MAG TPM可用
+S2_12-15_bin10	S2_12-15_bin10.fasta	原808全局代表	341_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SQ_58_4-8_bin16	SQ_58_4-8_bin16.fasta	原808全局代表	433_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SQ_58_4-8_bin28	SQ_58_4-8_bin28.fasta	原808全局代表	380_2	0	1	hdrA2	K03388	1	直接MAG TPM可用
+SQ_81_4-8_bin10	SQ_81_4-8_bin10.fasta	原808全局代表	343_0	0	1	hdrA2	K03388	3	直接MAG TPM可用
+SQ_81_8-12_bin19	SQ_81_8-12_bin19.fasta	原808全局代表	104_2	0	1	hdrA2	K03388	1	直接MAG TPM可用
+SY365BB-0-4_bin27	SY365BB-0-4_bin27.fasta	原808全局代表	395_1	0	1	hdrB2	K03389	1	直接MAG TPM可用
+SY457BB-4-8_bin34	SY457BB-4-8_bin34.fasta	原808全局代表	395_2	0	1	hdrB2	K03389	1	直接MAG TPM可用
+SY457BB-8-12_bin14	SY457BB-8-12_bin14.fasta	原808全局代表	368_1	0	1	hdrA2	K03388	3	直接MAG TPM可用
+SY459WG-8-12_bin10	SY459WG-8-12_bin10.fasta	原808全局代表	339_0	0	1	mtd	K00319	1	直接MAG TPM可用
+R2111_S500_0-10_bin9	R2111_S500_0-10_bin9.fasta	原808全局代表	495_1	0	1	mer	K00320	1	直接MAG TPM可用
+SY366YW-0-4_bin10	SY366YW-0-4_bin10.fasta	原808全局代表	313_1	0	1	mer	K00320	1	直接MAG TPM可用
+SY368YW-0-4_bin5	SY368YW-0-4_bin5.fasta	原808全局代表	312_1	0	1	mer	K00320	2	直接MAG TPM可用
+SY368YW-8-12_bin43	SY368YW-8-12_bin43.fasta	原808全局代表	611_1	0	1	mer	K00320	3	直接MAG TPM可用
+C3_6-12_bin11	C3_6-12_bin11.fasta	原808全局代表	563_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C1_0-6_bin40	C1_0-6_bin40.fasta	原808全局代表	269_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C3_6-12_bin37	C3_6-12_bin37.fasta	原808全局代表	270_0	0	1	hdrA2	K03388	1	直接MAG TPM可用
+SQ_81_4-8_bin14	SQ_81_4-8_bin14.fasta	原808全局代表	306_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C1_0-6_bin20	C1_0-6_bin20.fasta	原808全局代表	430_0	0	1	mer	K00320	1	直接MAG TPM可用
+S15_8-10_bin40	S15_8-10_bin40.fasta	原808全局代表	534_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+C1_12-18_bin18	C1_12-18_bin18.fasta	原808全局代表	336_1	0	2	hdrB2; hdrC2	K03389; K03390	4	直接MAG TPM可用
+C2_12-18_bin26	C2_12-18_bin26.fasta	原808全局代表	337_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+R2111_N500_0-10_bin27	R2111_N500_0-10_bin27.fasta	原808全局代表	342_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+C1_0-6_bin15	C1_0-6_bin15.fasta	原808全局代表	405_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	7	直接MAG TPM可用
+C1_0-6_bin19	C1_0-6_bin19.fasta	原808全局代表	406_0	0	1	hdrC2	K03390	2	直接MAG TPM可用
+C1_0-6_bin36	C1_0-6_bin36.fasta	原808全局代表	338_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C2_6-12_bin14	C2_6-12_bin14.fasta	原808全局代表	332_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+C1_0-6_bin27	C1_0-6_bin27.fasta	原808全局代表	331_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+SQ_58_4-8_bin3	SQ_58_4-8_bin3.fasta	原808全局代表	581_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C2_0-6_bin9	C2_0-6_bin9.fasta	原808全局代表	59_1	0	1	hdrA2	K03388	1	直接MAG TPM可用
+SY457BB-8-12_bin20	SY457BB-8-12_bin20.fasta	原808全局代表	503_1	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	9	直接MAG TPM可用
+R2111_N300_0-10_bin2	R2111_N300_0-10_bin2.fasta	原808全局代表	504_1	0	2	fwdA/fmdA; fwdB/fmdB	K00200; K00201	3	直接MAG TPM可用
+SY456YB-8-12_bin24	SY456YB-8-12_bin24.fasta	原808全局代表	503_2	0	2	ftr; fwdB/fmdB	K00672; K00201	2	直接MAG TPM可用
+C3_6-12_bin2	C3_6-12_bin2.fasta	原808全局代表	610_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+C2_12-18_bin20	C2_12-18_bin20.fasta	原808全局代表	526_1	0	1	hdrB2	K03389	1	直接MAG TPM可用
+R2111_S500_0-10_bin1	R2111_S500_0-10_bin1.fasta	原808全局代表	510_0	0	1	mer	K00320	1	直接MAG TPM可用
+R2111_S500_0-10_bin4	R2111_S500_0-10_bin4.fasta	原808全局代表	511_0	0	1	mer	K00320	3	直接MAG TPM可用
+SY366YW-0-4_bin18	SY366YW-0-4_bin18.fasta	原808全局代表	509_2	0	1	mer	K00320	1	直接MAG TPM可用
+C1_6-12_bin26	C1_6-12_bin26.fasta	原808全局代表	151_0	0	1	hdrB2	K03389	1	直接MAG TPM可用
+R2111_S300_0-10_bin15	R2111_S300_0-10_bin15.fasta	原808全局代表	63_0	0	1	mer	K00320	1	直接MAG TPM可用
+SQ_58_8-12_bin9	SQ_58_8-12_bin9.fasta	原808全局代表	139_2	0	1	mtrA	K00577	1	直接MAG TPM可用
+SY456YB-8-12_bin26	SY456YB-8-12_bin26.fasta	原808全局代表	56_0	0	1	hdrB2	K03389	1	直接MAG TPM可用
+SY365BB-8-12_bin14	SY365BB-8-12_bin14.fasta	原808全局代表	111_0	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	6	直接MAG TPM可用
+SY365BB-8-12_bin36	SY365BB-8-12_bin36.fasta	原808全局代表	107_0	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	6	直接MAG TPM可用
+SY456YB-8-12_bin19	SY456YB-8-12_bin19.fasta	原808全局代表	112_1	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY365BB-8-12_bin22	SY365BB-8-12_bin22.fasta	原808全局代表	109_0	0	4	mch; ftr; fwdA/fmdA; fwdB/fmdB	K01499; K00672; K00200; K00201	6	直接MAG TPM可用
+SY365BB-8-12_bin3	SY365BB-8-12_bin3.fasta	原808全局代表	110_1	0	4	mch; ftr; fwdA/fmdA; fwdB/fmdB	K01499; K00672; K00200; K00201	5	直接MAG TPM可用
+SY457BB-8-12_bin8	SY457BB-8-12_bin8.fasta	原808全局代表	309_1	0	4	fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; fwdD/fmdD	K00200; K00201; K00202; K00203	4	直接MAG TPM可用
+C1_6-12_bin9	C1_6-12_bin9.fasta	原808全局代表	537_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	4	直接MAG TPM可用
+C2_6-12_bin46	C2_6-12_bin46.fasta	原808全局代表	535_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	8	直接MAG TPM可用
+C3_6-12_bin41	C3_6-12_bin41.fasta	原808全局代表	536_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+R2111_N300_0-10_bin33	R2111_N300_0-10_bin33.fasta	原808全局代表	497_0	0	3	mtrA; hdrB2; hdrC2	K00577; K03389; K03390	3	直接MAG TPM可用
+R2111_N300_0-10_bin37	R2111_N300_0-10_bin37.fasta	原808全局代表	580_0	0	3	mtrA; hdrA2; hdrC2	K00577; K03388; K03390	7	直接MAG TPM可用
+SY368YW-8-12_bin17	SY368YW-8-12_bin17.fasta	原808全局代表	559_0	0	3	mch; ftr; fwdC/fmdC	K01499; K00672; K00202	3	直接MAG TPM可用
+SY459WG-0-4_bin24	SY459WG-0-4_bin24.fasta	原808全局代表	682_1	0	3	mch; ftr; fwdA/fmdA	K01499; K00672; K00200	3	直接MAG TPM可用
+C1_0-6_bin5	C1_0-6_bin5.fasta	原808全局代表	527_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C3_0-6_bin18	C3_0-6_bin18.fasta	原808全局代表	371_1	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C3_6-12_bin6	C3_6-12_bin6.fasta	原808全局代表	537_2	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+R2111_S300_0-10_bin3	R2111_S300_0-10_bin3.fasta	原808全局代表	310_1	0	2	hdrB2; hdrC2	K03389; K03390	3	直接MAG TPM可用
+SQ_58_4-8_bin12	SQ_58_4-8_bin12.fasta	原808全局代表	131_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+SQ_81_4-8_bin28	SQ_81_4-8_bin28.fasta	原808全局代表	372_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C3_12-18_bin10	C3_12-18_bin10.fasta	原808全局代表	532_1	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SY368YW-0-4_bin33	SY368YW-0-4_bin33.fasta	原808全局代表	112_2	0	1	fwdB/fmdB	K00201	1	直接MAG TPM可用
+SY368YW-4-8_bin33	SY368YW-4-8_bin33.fasta	原808全局代表	108_0	0	1	mch	K01499	1	直接MAG TPM可用
+SY368YW-8-12_bin1	SY368YW-8-12_bin1.fasta	原808全局代表	110_2	0	1	fwdB/fmdB	K00201	2	直接MAG TPM可用
+C3_0-6_bin25	C3_0-6_bin25.fasta	原808全局代表	441_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	6	直接MAG TPM可用
+C1_0-6_bin25	C1_0-6_bin25.fasta	原808全局代表	440_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C1_6-12_bin1	C1_6-12_bin1.fasta	原808全局代表	427_0	0	5	ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC; hdrC2	K00672; K00200; K00201; K00202; K03390	5	直接MAG TPM可用
+SQ_58_0-4_bin2	SQ_58_0-4_bin2.fasta	原808全局代表	471_0	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	6	直接MAG TPM可用
+SY365BB-4-8_bin9	SY365BB-4-8_bin9.fasta	原808全局代表	478_0	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY366YW-4-8_bin17	SY366YW-4-8_bin17.fasta	原808全局代表	571_1	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY456YB-0-4_bin23	SY456YB-0-4_bin23.fasta	原808全局代表	475_1	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY457BB-8-12_bin12	SY457BB-8-12_bin12.fasta	原808全局代表	482_1	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY457BB-8-12_bin3	SY457BB-8-12_bin3.fasta	原808全局代表	481_1	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY459WG-0-4_bin1	SY459WG-0-4_bin1.fasta	原808全局代表	477_1	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY459WG-4-8_bin9	SY459WG-4-8_bin9.fasta	原808全局代表	479_0	0	5	mch; ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K01499; K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SQ_58_4-8_bin27	SQ_58_4-8_bin27.fasta	原808全局代表	576_7	0	4	ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K00672; K00200; K00201; K00202	4	直接MAG TPM可用
+SY457BB-0-4_bin45	SY457BB-0-4_bin45.fasta	原808全局代表	576_2	0	4	ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K00672; K00200; K00201; K00202	5	直接MAG TPM可用
+SY459WG-8-12_bin12	SY459WG-8-12_bin12.fasta	原808全局代表	576_4	0	4	ftr; fwdA/fmdA; fwdB/fmdB; fwdC/fmdC	K00672; K00200; K00201; K00202	4	直接MAG TPM可用
+SY365BB-4-8_bin31	SY365BB-4-8_bin31.fasta	原808全局代表	576_3	0	3	ftr; fwdA/fmdA; fwdB/fmdB	K00672; K00200; K00201	3	直接MAG TPM可用
+SY365BB-8-12_bin6	SY365BB-8-12_bin6.fasta	原808全局代表	576_5	0	3	ftr; fwdA/fmdA; fwdC/fmdC	K00672; K00200; K00202	3	直接MAG TPM可用
+SY366YW-0-4_bin26	SY366YW-0-4_bin26.fasta	原808全局代表	623_0	0	3	mer; hdrB2; hdrC2	K00320; K03389; K03390	2	直接MAG TPM可用
+SY457BB-4-8_bin14	SY457BB-4-8_bin14.fasta	原808全局代表	453_0	0	3	ftr; fwdB/fmdB; fwdC/fmdC	K00672; K00201; K00202	3	直接MAG TPM可用
+C1_12-18_bin19	C1_12-18_bin19.fasta	原808全局代表	428_1	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C1_12-18_bin24	C1_12-18_bin24.fasta	原808全局代表	562_0	0	2	hdrB2; hdrC2	K03389; K03390	1	直接MAG TPM可用
+SQ_58_4-8_bin26	SQ_58_4-8_bin26.fasta	原808全局代表	569_1	0	2	hdrB2; hdrC2	K03389; K03390	3	直接MAG TPM可用
+SY366YW-0-4_bin9	SY366YW-0-4_bin9.fasta	原808全局代表	622_1	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
+SY368YW-8-12_bin29	SY368YW-8-12_bin29.fasta	原808全局代表	625_1	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+SY456YB-0-4_bin15	SY456YB-0-4_bin15.fasta	原808全局代表	576_6	0	2	ftr; fwdC/fmdC	K00672; K00202	2	直接MAG TPM可用
+SY456YB-4-8_bin17	SY456YB-4-8_bin17.fasta	原808全局代表	627_1	0	2	hdrB2; hdrC2	K03389; K03390	3	直接MAG TPM可用
+SY456YB-8-12_bin4	SY456YB-8-12_bin4.fasta	原808全局代表	630_0	0	2	hdrB2; hdrC2	K03389; K03390	2	直接MAG TPM可用
+C1_12-18_bin12	C1_12-18_bin12.fasta	原808全局代表	420_1	0	1	hdrC2	K03390	1	直接MAG TPM可用
+C1_12-18_bin5	C1_12-18_bin5.fasta	原808全局代表	426_1	0	1	hdrC2	K03390	1	直接MAG TPM可用
+C3_0-6_bin1	C3_0-6_bin1.fasta	原808全局代表	422_1	0	1	hdrC2	K03390	2	直接MAG TPM可用
+C3_0-6_bin11	C3_0-6_bin11.fasta	原808全局代表	423_1	0	1	hdrC2	K03390	1	直接MAG TPM可用
+C3_0-6_bin7	C3_0-6_bin7.fasta	原808全局代表	679_1	0	1	mer	K00320	1	直接MAG TPM可用
+C3_6-12_bin15	C3_6-12_bin15.fasta	原808全局代表	425_2	0	1	hdrC2	K03390	1	直接MAG TPM可用
+R2111_N500_0-10_bin23	R2111_N500_0-10_bin23.fasta	原808全局代表	176_1	0	1	mer	K00320	3	直接MAG TPM可用
+SQ_81_4-8_bin35	SQ_81_4-8_bin35.fasta	原808全局代表	543_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SY365BB-0-4_bin23	SY365BB-0-4_bin23.fasta	原808全局代表	576_1	0	1	fwdB/fmdB	K00201	1	直接MAG TPM可用
+SY365BB-8-12_bin39	SY365BB-8-12_bin39.fasta	原808全局代表	634_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+SY368YW-0-4_bin7	SY368YW-0-4_bin7.fasta	原808全局代表	680_0	0	1	mer	K00320	1	直接MAG TPM可用
+SY456YB-0-4_bin5	SY456YB-0-4_bin5.fasta	原808全局代表	476_0	0	1	fwdC/fmdC	K00202	2	直接MAG TPM可用
+SY456YB-8-12_bin15	SY456YB-8-12_bin15.fasta	原808全局代表	664_0	0	1	mer	K00320	1	直接MAG TPM可用
+SY456YB-8-12_bin38	SY456YB-8-12_bin38.fasta	原808全局代表	663_1	0	1	mer	K00320	1	直接MAG TPM可用
+SY457BB-0-4_bin9	SY457BB-0-4_bin9.fasta	原808全局代表	452_1	0	1	mch	K01499	1	直接MAG TPM可用
+SY457BB-4-8_bin28	SY457BB-4-8_bin28.fasta	原808全局代表	152_0	0	1	mch	K01499	1	直接MAG TPM可用
+SY459WG-4-8_bin16	SY459WG-4-8_bin16.fasta	原808全局代表	670_1	0	1	mer	K00320	1	直接MAG TPM可用
+C3_6-12_bin4	C3_6-12_bin4.fasta	原808全局代表	205_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	6	直接MAG TPM可用
+R2111_N300_0-10_bin17	R2111_N300_0-10_bin17.fasta	原808全局代表	545_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	9	直接MAG TPM可用
+C2_6-12_bin30	C2_6-12_bin30.fasta	原808全局代表	545_1	0	2	hdrA2; hdrC2	K03388; K03390	3	直接MAG TPM可用
+R2111_N300_0-10_bin21	R2111_N300_0-10_bin21.fasta	原808全局代表	546_0	0	2	hdrA2; hdrC2	K03388; K03390	3	直接MAG TPM可用
+R2111_N300_0-10_bin11	R2111_N300_0-10_bin11.fasta	原808全局代表	498_0	0	1	hdrC2	K03390	2	直接MAG TPM可用
+R2111_N300_0-10_bin26	R2111_N300_0-10_bin26.fasta	原808全局代表	198_0	0	1	mtrA	K00577	1	直接MAG TPM可用
+S3_6-9_bin16	S3_6-9_bin16.fasta	原808全局代表	27_1	0	1	hdrA2	K03388	1	直接MAG TPM可用
+S15_8-10_bin42	S15_8-10_bin42.fasta	原808全局代表	501_0	0	2	hdrB2; hdrC2	K03389; K03390	4	直接MAG TPM可用
+R2111_N500_0-10_bin26	R2111_N500_0-10_bin26.fasta	原808全局代表	164_3	0	1	hdrC2	K03390	1	直接MAG TPM可用
+R2111_S300_0-10_bin6	R2111_S300_0-10_bin6.fasta	原808全局代表	164_1	0	1	mer	K00320	4	直接MAG TPM可用
+R2111_S500_0-10_bin3	R2111_S500_0-10_bin3.fasta	原808全局代表	164_2	0	1	mer	K00320	2	直接MAG TPM可用
+C2_6-12_bin9	C2_6-12_bin9.fasta	原808全局代表	274_2	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	13	直接MAG TPM可用
+R2111_N300_0-10_bin41	R2111_N300_0-10_bin41.fasta	原808全局代表	274_3	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+S15_8-10_bin1	S15_8-10_bin1.fasta	原808全局代表	274_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	5	直接MAG TPM可用
+C2_6-12_bin56	C2_6-12_bin56.fasta	原808全局代表	156_0	0	2	hdrA2; hdrC2	K03388; K03390	4	直接MAG TPM可用
+C2_6-12_bin57	C2_6-12_bin57.fasta	原808全局代表	316_0	0	2	hdrA2; hdrC2	K03388; K03390	4	直接MAG TPM可用
+R2111_N500_0-10_bin4	R2111_N500_0-10_bin4.fasta	原808全局代表	686_0	0	1	hdrC2	K03390	1	直接MAG TPM可用
+C2_6-12_bin33	C2_6-12_bin33.fasta	原808全局代表	314_1	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+C3_6-12_bin19	C3_6-12_bin19.fasta	原808全局代表	237_0	0	3	hdrA2; hdrB2; hdrC2	K03388; K03389; K03390	3	直接MAG TPM可用
+C2_6-12_bin12	C2_6-12_bin12.fasta	原808全局代表	315_0	0	2	hdrA2; hdrC2	K03388; K03390	2	直接MAG TPM可用
